@@ -147,8 +147,6 @@ $${P_{t_{fund}}}\left(\mathrm{dBm}\right)=10log_{10}\left(5000\right)=37\mathrm{
 
 ### 谐波分量发射功率
 
-看老印的意思是需要算3个谐波分量。
-
 $${P_{t_{harmonic}}}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Harmonic\ Level}=37-32=5\mathrm{dBm}$$
 
 ### 发射端噪声底
