@@ -139,17 +139,23 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 <img src="example3_fig1.png">
 </div>
 
-### HF天线的载波发射功率：
+### HF天线的载波发射功率
+
 
 $${P_t}_{fund}\left(\mathrm{dBm}\right)=10log_{10}\left(5000\right)=37\mathrm{dBm}$$
 
-### 谐波分量发射功率：
+
+### 谐波分量发射功率
+
 
 $${P_t}_{harmonic}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Harmonic\ Level}=37-32=5\mathrm{dBm}$$
 
-### 发射端噪声底：
+
+### 发射端噪声底
+
 
 $${P_t}_{noise\ floor}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Sprious\ Level}=37-52=5\mathrm{dBm}$$
+
 
 ### 发射端天线对于各频率分量的增益
 
@@ -218,3 +224,4 @@ A rotating navigation radar is being placed on a mast at the ship deck. A above 
 <div align=center>
 <img src="example4_fig1.png">
 </div>
+
