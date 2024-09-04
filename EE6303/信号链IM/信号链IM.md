@@ -32,13 +32,13 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 <br>
 </div>
 
-##### 概念：一大堆$dB$
+##### 概念：一大堆 $dB$
 
 要记住的是只有 $dBm$ 代表的是绝对功率，其他都是相对的功率，也就说 $dB$ 们的计算必须从 $dBm$ 出发到 $dBm$ 去（这话怎么怪怪的）。 $dBc$ 代表相对于中心频率的差值， $dBi$ 代表天线能够提高的增益，路径损耗直接用了 $dB$ 没有后缀。反正只要记住不带 $m$ 的都是相对值，必须有一个绝对值作为参照才能作为最终的结果。
 
 ##### 尝试理解老印的脑回路：Spurious Level
 
-按照老印的思路，发射与接收的Spurious Level其实是要分开看的。这一块我觉得他是把发射时的噪声底和接收时下变频后的低通滤波器特性（想要知道这个低通滤波器怎么来的得从盘古开天辟地开始说起了）混在一起讲了，在做题的时候需要发射与接收分开考虑。
+按照老印的思路，发射与接收的Spurious Level其实是要分开看的（反正不是对收发机完整的建模就是了）。这一块我觉得他是把发射时的噪声底和接收时下变频后的低通滤波器带外抑制（想要知道这个低通滤波器怎么来的得从盘古开天辟地开始说起了）混在一起讲了，在做题的时候需要发射与接收分开考虑。发射时的Spurious Level并不会衰减谐波分量，然而在接收时会衰减
 
 <div align=center>
 <img src="两个Spurious.png" width=100%>
@@ -60,15 +60,27 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 
 ### 发射端天线增益 $G_t$ 
 
-对于天线增益，老印的建模思路是天线带内的增益不变，带外的增益需要根据频率进行计（估）算。这里我又很想骂人了，到底怎么估的？我打算直接计算。dipole那一章的PPT是有点问题的。
+对于天线增益，老印的建模思路是天线带内的增益不变，带外的增益需要根据频率进行计（估）算。这里我又很想骂人了，到底怎么估的？
 
-老印自己用的dipole公式应该是这个：
+dipole天线可以用公式计算，但是老印给的公式有点问题，他自己用的dipole公式应该是这个：
 
 $$F\left(\theta,\phi\right)=\frac{cos\left(\beta_0 L cos\theta\right)-cos\left(\beta_0 L\right)}{sin\theta\left(1-cos\left(\beta_0 L\right)\right)}$$
 
-而不是：
+而不是前面PPT上出现的：
 
 $$F\left(\theta,\phi\right)=\frac{sin\left(\beta_0 L cos\theta\right)}{\beta_0 L cos\theta}sin\theta$$
+
+对于Example4里的孔径天线，已知 $f_0$ 频率下 $G_{t0}$ 的可以推出另一频率 $f_1$ 下的 $G_{t1}$ 推导过程如下。
+
+$$G_{t1}=10log_{10}\left(\frac{4\pi A_e e}{\lambda_1^2}\right)$$
+
+把 $\lambda$ 用 $\frac{c}{f}$ 替换，得到
+
+$$G_{t1}=10log_{10}\left(\frac{4\pi A_e e f_0^2}{c^2}\times \frac{f_1^2}{f_0^2}\right)$$
+
+从而得到了
+
+$$G_{t1}\left(\mathrm{dB}\right)=G_{t0}\left(\mathrm{dB}\right)+20log_{10}\left(f_1\right)-20log_{10}\left(f_0\right)$$
 
 ## Example4
 
