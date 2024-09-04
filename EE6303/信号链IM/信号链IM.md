@@ -40,21 +40,21 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 
 按照老印的思路，发射与接收的Spurious Level其实是要分开看的。这一块我觉得他是把发射时的噪声底和接收时下变频后的低通滤波器特性（想要知道这个低通滤波器怎么来的得从盘古开天辟地开始说起了）混在一起讲了，在做题的时候需要发射与接收分开考虑。
 
-<center>
+<div align=center>
 <img src="两个Spurious.png" width=100%>
 <br>
 <div>发射与接收的Spurious不同之处（我的理解）</div>
 <br>
-</center>
+</div>
 
 那么在发射端我们就能根据载波发射功率5W进行建模。算一下能知道5W代表 $37dBm$ 。那么就能够根据谐波和杂散两个值画出发射端不含天线增益的频谱。老印对于谐波的建模是所有谐波分量功率均相等，实际上这是不对的。总之按照他的来就对了。
 
-<center>
+<div align=center>
 <img src="发射频谱.png" width=60%>
 <br>
 <div>发射机没有算上天线增益的完整频谱</div>
 <br>
-</center>
+</div>
 
 对于 $-52dBc$ 和 $-32dBc$ ，我的看法是不要过度纠结于他们的符号，有时候你会看到他们前面并没有负号，但这并不影响我们画出频谱图，因为谐波和噪声底的值肯定是小于载波分量的，我们只需要知道这个大小然后做加减法就可以了。
 
