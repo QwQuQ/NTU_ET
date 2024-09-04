@@ -143,7 +143,7 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 
 没啥好说的。
 
-$${P_t}_{fund}\left(\mathrm{dBm}\right)=10log_{10}\left(5000\right)=37\mathrm{dBm}$$
+$${P_{t_{fund}}}\left(\mathrm{dBm}\right)=10log_{10}\left(5000\right)=37\mathrm{dBm}$$
 
 ### 谐波分量发射功率
 
