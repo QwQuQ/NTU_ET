@@ -141,21 +141,21 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 
 ### HF天线的载波发射功率
 
+没啥好说的。
 
 $${P_t}_{fund}\left(\mathrm{dBm}\right)=10log_{10}\left(5000\right)=37\mathrm{dBm}$$
 
-
 ### 谐波分量发射功率
 
+看老印的意思是需要算3个谐波分量。
 
 $${P_t}_{harmonic}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Harmonic\ Level}=37-32=5\mathrm{dBm}$$
 
-
 ### 发射端噪声底
 
+用Spurious Level算发射端噪声底。
 
 $${P_t}_{noise\ floor}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Sprious\ Level}=37-52=5\mathrm{dBm}$$
-
 
 ### 发射端天线对于各频率分量的增益
 
