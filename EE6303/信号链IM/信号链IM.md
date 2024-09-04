@@ -153,7 +153,7 @@ $${P_{t_{harmonic}}}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Harmonic\ Level}=37-
 
 用Spurious Level算发射端噪声底。
 
-$${P_{t_{noise\ floor}}}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Sprious\ Level}=37-52=5\mathrm{dBm}$$
+$${P_{t_{noise\ floor}}}\left(\mathrm{dBm}\right)={P_t}_{fund}-{Sprious\ Level}=37-52=-15\mathrm{dBm}$$
 
 ### 发射端天线对于各频率分量的增益
 
