@@ -8,29 +8,29 @@ A HF transceiver and a VHF transceiver (both $\mathrm{50\Omega}$) are to operate
 
 首先来看一个最简化的发射与接收的信号链路。根据Friss Transfer Function的顺序进行分析
 
-<center>
+<div align=center>
 <img src="信号链路.png">
 <br>
 <div>信号链路图</div>
 <br>
-</center>
+</div>
 
 ### 发射端发射功率 $P_t$
 
 发射端经过本振上变频至射频后滤除多余的频率分量（这边考虑的模型都是零中频的），随后送进功放提高功率送天线进行发射。这就是发射端信号走过的路径。以Example3中HF天线的特性我们来分析一下发射机的特性（暂时不考虑收和发一体的模型，太烦了）。
 
-<center>
+<div align=center>
 <img src="example3_fig1.png">
-</center>
+</div>
 
 首先是2-30MHz，这意味着射频部分的工作带宽。本振能够在2-30MHz调整，滤波器、功放、天线都能够支持2-30MHz的发射。与这个频率范围相对的自然是下面的Bandwidth=25kHz，这一带宽是发射机的实时带宽。也就是说，虽然载波频率能够在2-30MHz范围内调整，但同一时刻的频谱宽度只有25kHz.
 
-<center>
+<div align=center>
 <img src="发射机频谱1.png" width=60%>
 <br>
 <div>发射机频谱</div>
 <br>
-</center>
+</div>
 
 ##### 概念：一大堆$dB$
 
