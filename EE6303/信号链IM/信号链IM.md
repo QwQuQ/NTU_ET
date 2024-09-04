@@ -254,8 +254,6 @@ $$P_{t_{harmonic}}\left(\mathrm{dBm}\right)=70-50=20\left(\mathrm{dBm}\right)$$
 
 $$P_{t_{noise\ floor}}\left(\mathrm{dBm}\right)=70-52=18\left(\mathrm{dBm}\right)$$
 
-（老印这个也不算啊）
-
 ### 雷达在不同频率和角度下的增益
 
 通过解三角形，雷达对VAST天线发射用的是远旁瓣，所以载波增益为
