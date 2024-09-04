@@ -115,21 +115,21 @@ $$PL(dB)=10log_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)=20log_{1
 <br>
 </div>
 
-### 噪声容限
+### 干扰裕度
 
-把发射机产生的所有东西到接收机的功率全部都算出来，对着频率和灵敏度看。只要产生的功率比灵敏度高就意味着会产生干扰。比灵敏度低的话，这个功率与接收机灵敏度的插值就是噪声容限，意味这个频点可以容纳更多的噪声而不会产生干扰。
+把发射机产生的所有东西到接收机的功率全部都算出来，对着频率和灵敏度看。只要产生的功率比灵敏度高就意味着会产生干扰。比灵敏度低的话，这个功率与接收机灵敏度的插值就是干扰裕度，意味这个频点可以容纳更多的噪声而不会产生干扰。
 
 #### 概念：TIM
 
-发射端载波频点在接收端的噪声容限
+发射端载波频点在接收端的干扰裕度
 
 #### 概念：RIM
 
-接收端载波频点在接收端的噪声容限
+接收端载波频点在接收端的干扰裕度
 
 #### 概念：SIM
 
-除了上述两个频点外其他频率分量在接收端的噪声容限。（发射的谐波算在SIM里）
+除了上述两个频点外其他频率分量在接收端的干扰裕度。（发射的谐波算在SIM里）
 
 ## Example3
 
@@ -181,7 +181,7 @@ $$PL_{35MHz}\left(\mathrm{dB}\right)=-43.32\left(\mathrm{dB}\right)$$
 
 $$PL_{40MHz}\left(\mathrm{dB}\right)=-44.48\left(\mathrm{dB}\right)$$
 
-（谐波到底要算几个老印没有说，看这个样子应该是算3个谐波分量？）
+（谐波到底要算几个老印没有说，算了一下应该是要算到刚好没有产生谐波干扰的那一级谐波）
 
 ### 接收端极化损失
 
@@ -191,7 +191,7 @@ $$PML\left(\mathrm{dB}\right)=0\left(\mathrm{dB}\right)$$
 
 ### 接收端天线增益
 
-某种很不严谨的估算方法，老印说你可以估也可以不估。这边他估了一下， ${G_r}_{20MHz}=1.85\left(\mathrm{dBi}\right)$ ${G_r}_{10MHz}=1.8\left(\mathrm{dBi}\right)$
+某种很不严谨的估算方法，老印说你可以估也可以不估。这边他估了一下， ${G_{r_{20MHz}}}=1.85\left(\mathrm{dBi}\right)$ ${G_{r_{10MHz}}}=1.8\left(\mathrm{dBi}\right)$
 
 其他频率就都是带内的增益 ${G_r}=1.9\left(\mathrm{dBi}\right)$
 
@@ -211,17 +211,127 @@ $${P_r}_{35MHz}\left(\mathrm{dBm}\right)=-54.6\left(\mathrm{dBm}\right)$$
 
 $${P_r}_{40MHz}\left(\mathrm{dBm}\right)=-35.7\left(\mathrm{dBm}\right)$$
 
-### 结合接收机的灵敏度特性可以发现
+### 接收机的灵敏度特性
 
-接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，其他地方的噪声容限是接收功率和灵敏度的差值。
+接收机带内（ $35\mathrm{MHz}$ ）的灵敏度为 $-113\mathrm{dBm}$
+
+带外的灵敏度为 $-113+80=-33\mathrm{dBm}$
+
+### 计算干扰和干扰裕度
+
+考虑接收机的灵敏度特性。
+
+接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，其他地方的干扰裕度是接收功率和灵敏度的差值。
 
 ### 反过来也是一样的步骤（好烦啊！！！）
 
 ## Example4
 
-A rotating navigation radar is being placed on a mast at the ship deck. A above band VSAT antenna placed on the deck, away from the navigation radar mast is pointing towards a satellite in the aft direction making an elevation angle of with respect to the horizon. The center of the VSAT antenna is elevated at navigation radar operates at and received at above the deck. The while the VSAT transmits at systems.
+A rotating navigation radar is being placed on a mast at $11m$ above the ship deck. A $Ku$ band VSAT antenna placed on the deck, $5m$ away from the navigation radar mast is pointing towards a satellite in the aft direction making an elevation angle of $85\degree$ with respect to the horizon. The center of the VSAT antenna is elevated at $1m$ above hthe deck. The navigation radar operates at $9.4GHz$ while the VAST transmits at $14.0GHz$ and received at $11.8GHz$. Compute the RFI among the two systems.
 
 <div align=center>
 <img src="example4_fig1.png">
 </div>
 
+把这个该死的图画出来：
+<div align=center>
+<img src="example4_fig2.png" width=80%>
+</div>
+
+解三角形发现两个天线连线角度位于雷达的远旁瓣，VAST的旁瓣处
+
+（我想知道为什么两边的 $El$ 为啥对应的角度范围不一样， $3dB$ 波束宽度是针对原点对称的，然而Far out sidelobe是 两倍的 $El$ 值，这个老印也没讲咋规定的）
+
+### 雷达的载波发射功率
+
+$$P_{t_{fund}}\left(\mathrm{dBm}\right)=70\left(\mathrm{dBm}\right)$$
+
+### 雷达的谐波功率
+
+$$P_{t_{harmonic}}\left(\mathrm{dBm}\right)=70-50=20\left(\mathrm{dBm}\right)$$
+
+（老印他不算谐波功率啊）
+
+### 雷达的噪声底
+
+$$P_{t_{noise\ floor}}\left(\mathrm{dBm}\right)=70-52=18\left(\mathrm{dBm}\right)$$
+
+（老印这个也不算啊）
+
+### 雷达在不同频率和角度下的增益
+
+通过解三角形，雷达对VAST天线发射用的是远旁瓣，所以载波增益为
+
+$$G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)=31-22=9\left(\mathrm{dBi}\right)$$
+
+套公式可以计算得到在谐波频率下的雷达天线增益：
+
+$$G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(18.8GHz\right)=15.02\left(\mathrm{dBi}\right)$$
+
+$$G_{t_{28.2GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(28.2GHz\right)=18.54\left(\mathrm{dBi}\right)$$
+
+$$G_{t_{37.6GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(37.6GHz\right)=21.04\left(\mathrm{dBi}\right)$$
+
+VAST工作频率下的增益：
+
+$$G_{t_{11.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(11.8GHz\right)=10.98\left(\mathrm{dBi}\right)$$
+
+### 路径损耗
+
+距离11.2m，计算载波路径损耗
+
+$$PL_{9.4GHz}\left(\mathrm{dB}\right)=20log_{10}\left(\frac{\lambda}{4 \pi r}\right)=-72.89\left(\mathrm{dB}\right)$$
+
+同理可得谐波和VAST工作频点的：
+
+$$PL_{18.8GHz}\left(\mathrm{dB}\right)=-78.91\left(\mathrm{dB}\right)$$
+
+$$PL_{28.2GHz}\left(\mathrm{dB}\right)=-82.43\left(\mathrm{dB}\right)$$
+
+$$PL_{37.6GHz}\left(\mathrm{dB}\right)=-84.93\left(\mathrm{dB}\right)$$
+
+$$PL_{11.8GHz}\left(\mathrm{dB}\right)=-74.86\left(\mathrm{dB}\right)$$
+
+### 接收端极化损失
+
+发射是线极化，接收是圆极化，需要加上常数 $3\mathrm{dB}$
+
+根据解三角形的结果，电磁波束相对VSAT天线的角度为 $31.6\degree$ 可以计算得到：
+
+$$PML\left(\mathrm{dB}\right)=-3+20log_{10}cos\theta=-4.39\left(\mathrm{dB}\right)$$
+
+极化损失是减小功率的，我在这里取负号（老印的PPT是正号，会让人感到困惑）
+
+### 接收端的增益
+
+VSAT天线使用旁瓣接收，所以其工作频率下的增益为：
+
+$$G_{r_{11.8GHz}}\left(\mathrm{dBi}\right)=38-6=32\left(\mathrm{dBi}\right)$$
+
+计算其他频点下的增益：
+
+$$G_{r_{9.4GHz}}\left(\mathrm{dBi}\right)=30.02\left(\mathrm{dBi}\right)$$
+
+$$G_{r_{18.8GHz}}\left(\mathrm{dBi}\right)=36.04\left(\mathrm{dBi}\right)$$
+
+$$G_{r_{28.2GHz}}\left(\mathrm{dBi}\right)=39.57\left(\mathrm{dBi}\right)$$
+
+$$G_{r_{37.6GHz}}\left(\mathrm{dBi}\right)=42.07\left(\mathrm{dBi}\right)$$
+
+### 接收端各个频率分量的功率
+
+不想算啊不想算啊
+
+<div align=center>
+<img src="example4_fig3.png" width=80%>
+</div>
+
+### VAST接收机的灵敏度
+
+带内 $11.8\mathrm{GHz}$ 的灵敏度是 $-50\mathrm{dBm}$
+
+带外的灵敏度是 $-50+80=30\mathrm{dBm}$
+
+### 综合所有参数计算干扰和干扰裕度
+
+可以发现 $9.4\mathrm{GHz}$ 和 $11.8\mathrm{GHz}$ 处都产生了干扰
