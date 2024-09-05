@@ -238,7 +238,7 @@ $$w > W$$
 
 根据
 
-$$Z_0 \approx \frac{\eta_0}{4\left\{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]\right\}}=50\mathrm{\Omega}$$
+$$Z_0 \approx \frac{\eta_0}{4\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]}=50\mathrm{\Omega}$$
 
 <div align=center>
 <img src="IMG_20240906_013831.jpg" width=50%>
