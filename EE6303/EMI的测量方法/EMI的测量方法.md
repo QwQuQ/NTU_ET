@@ -211,7 +211,7 @@ $$w > W$$
 
 根据这个确定 $b$ 的取值后查表获得 $a/b$ 和 $w/b$ 的取值。
 
-（我有点想根据 $Z_0 \approx \frac{\eta_0}{4\left\{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]\right\}}$ 暴力求解，只需要确定 $a/b$ 就能暴力反推出 $g$ 和 $w$的值）
+（我有点想根据 $Z_0 \approx \frac{\eta_0}{4\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]}$ 暴力求解，只需要确定 $a/b$ 就能暴力反推出 $g$ 和 $w$的值）
 
 然后计算 $f_c$
 
