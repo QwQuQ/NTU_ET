@@ -184,7 +184,7 @@ $$Z_0 \approx \frac{30\pi}{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi 
 
 当TEM CELL中电磁波的模式变为 $TE_{10}$ 模时，此时的频率是其最高工作频率。它在设计上是用来传输 $TEM$ 模的，如果变成 $TE_{10}$ 模就不符合设计要求了，所以是最高工作频率。
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{ab}{\pi b_1 b_2 \operatorname{ln}(\frac{4a}{\pi g}) }}$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{ab}{\pi b_1 b_2 ln\left(\frac{4a}{\pi g}\right) }}$$
 
 如果用当中隔板的相对位置表示，可以代入
 
@@ -197,7 +197,7 @@ $$
 
 得到
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right)\operatorname{ln}(\frac{4a}{\pi g})}}$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}$$
 
 ### TEM CELL的设计方法
 
@@ -251,7 +251,7 @@ $$Z_0 \approx \frac{\eta_0}{4\left\{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\
 
 计算 $f_c$ ：
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right)\operatorname{ln}(\frac{4a}{\pi g})}}=241.67\mathrm{MHz}$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=241.67\mathrm{MHz}$$
 
 ### Example 2
 **PPT上的过程实在是太混沌了，我尝试尽量计算出结果而不是查表第二弹**
@@ -260,7 +260,7 @@ $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right)\operatorname{ln}(\f
 
 根据 $f_c$ 公式
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right)\operatorname{ln}(\frac{4a}{\pi g})}}=400MHz$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=400MHz$$
 
 解得
 
