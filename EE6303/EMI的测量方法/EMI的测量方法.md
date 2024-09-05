@@ -174,9 +174,9 @@ $$
 
 #### 特征阻抗
 
-$$Z_0 \approx \frac{\eta_0}{4\left\{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]\right\}}\ \left(\Omega\right)$$
+$$Z_0 \approx \frac{30\pi}{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]}$$
 
-其中 $\operatorname{sinh}(x)=\frac{1}{2}(e^x-e^{-x})$
+其中 $sinh\left(x\right)=\frac{1}{2}(e^x-e^{-x})$
 
 （推过了，这个式子是对的）
 
