@@ -401,7 +401,7 @@ $$\eta_2 = \sqrt{\frac{j\omega\mu}{\left(\sigma+j\omega\epsilon\right)}}$$
 
 $$\mathrm{Reflection\ Loss}=10log_{10}\left(P_0-P_0\times T^2\right)=-10log_{10}T^2=-10log_{10}\left(\frac{4\eta_1\eta_2}{\left(\eta_1 + \eta_2\right)^2}\right)$$
 
-老印的式子是： $\mathrm{Reflection\ Loss}=-20log_{10}\left(\frac{4\eta_1\eta_2}{\left(\eta_1 + \eta_2\right)^2}\right)$
+老印的式子是： $\mathrm{Reflection\ Loss}=-20log_{10}\left(\frac{4\eta_1\eta_2}{\left(\eta_1 + \eta_2\right)^2}\right)$ 他写的有问题，正确的系数都是10。
 
 对于金属屏蔽罩， $\omega \epsilon \ll \sigma$ 
 
