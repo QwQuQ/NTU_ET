@@ -734,4 +734,4 @@ $$h=0.535m$$
 
 $$f_{110}=\frac{c}{2}\sqrt{\left(\frac{m}{a}\right)^2+\left(\frac{n}{b}\right)^2+\left(\frac{p}{h}\right)^2}=235.339\mathrm{MHz}$$
 
-$$LUF=4f_{110}=941.351MHz$$
+$$LUF=4f_{110}=941.351\mathrm{MHz}$$
