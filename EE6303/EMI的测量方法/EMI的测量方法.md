@@ -704,21 +704,21 @@ $$Q_2=\frac{16 \pi^2 V}{m N \lambda^3}$$
 
 对于测量到的 $Q$ 值，定义如下：
 
-$$Q=\frac{16\pi^2 V <P_R>}{\lambda^3 <P_T>}$$
+$$Q=\frac{16\pi^2 V \left\langle P_R\right\rangle}{\lambda^3 \left\langle P_T\right\rangle}$$
 
-$<P_R>$ 和 $<P_T>$ 分别是接收和发射功率的系统平均值
+$\left\langle P_R\right\rangle$ 和 $\left\langle P_T\right\rangle$ 分别是接收和发射功率的系统平均值
 
 ## 房间增益
 
 定义为：
 
-$$<G>=\frac{<P_R>}{<P_T>}$$
+$$ \left\langle G\right\rangle=\frac{\left\langle P_R\right\rangle}{\left\langle P_T\right\rangle}$$
 
 ## 测量到的电场
 
 定义为：
 
-$$<|E_T|^2>=\frac{8\pi}{\epsilon_0 c \lambda^2}<P_R>=<|E_x|^2>+<|E_y|^2>+<|E_z|^2>$$
+$$\left\langle|E_T|^2\right\rangle=\frac{8\pi}{\epsilon_0 c \lambda^2}\left\langle P_R\right\rangle=\left\langle|E_x|^2\right\rangle+\left\langle|E_y|^2\right\rangle+\left\langle|E_z|^2\right\rangle$$
 
 ## Example
 
