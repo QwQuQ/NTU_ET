@@ -498,7 +498,7 @@ $$R=20log_{10}\left(\frac{E_{r_{Absorb}}}{E_i}\frac{E_i}{E_{r_{PEC}}}\right)$$
 
 ### 吸波材料的种类
 
-#### Dielectric absorber
+#### Dielectric Absorber
 
 轻
 
@@ -560,7 +560,7 @@ $$A=20log_{10}e^{-\alpha z}=-0.0144\mathrm{dB}$$
 
 真空介电常数： $\epsilon_0=8.854 \times 10^{-12}$
 
-##### 电波暗室使用的吸波材料的一些特性
+##### 电波暗室使用的Dielectric Absorber的一些特性
 
 被造成金字塔型
 
@@ -570,7 +570,7 @@ $$A=20log_{10}e^{-\alpha z}=-0.0144\mathrm{dB}$$
 
 工作频率：数百MHz到数GHz
 
-#### Magnetic absorber
+#### Magnetic Absorber
 
 使用含有磁性的材料（铁氧体、碳、镍）
 
@@ -601,4 +601,14 @@ $$\mu=\mu^\prime-j\mu^{\prime\prime}$$
 $$\alpha \approx \frac{\omega}{2}\sqrt{\epsilon_0 \mu^\prime}\frac{\mu^{\prime\prime}}{\mu^\prime}$$
 
 同样地这里也存在磁场的损耗角正切
+
+##### 电波暗室使用的Magnetic Absorber一些特性
+
+薄铁氧体陶瓷瓦片
+
+频率范围30MHz-1GHz
+
+能承受高温和高功率
+
+非常重（每平方米数十kg）
 
