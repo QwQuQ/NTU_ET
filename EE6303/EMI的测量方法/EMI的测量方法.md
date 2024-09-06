@@ -240,14 +240,14 @@ $$w > W$$
 
 $$Z_0 \approx \frac{\eta_0}{4\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]}=50\mathrm{\Omega}$$
 
+解得 $g=0.058m$ , 得到 $w=0.634m$ 大于 $W=0.5m$ 所以这个方案可行。
+
 <div align=center>
 <img src="IMG_20240906_013831.jpg" width=50%>
 <br>
 <div>使用SOLVER求解</div>
 <br>
 </div>
-
-解得 $g=0.058m$ , 得到 $w=0.634m$ 大于 $W=0.5m$ 所以这个方案可行。
 
 计算 $f_c$ ：
 
@@ -266,14 +266,14 @@ $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\
 
 $$g=\frac{4a}{\pi}e^{-\frac{30a}{0.25\pi \left(64a^2-9\right)}}$$
 
+取 $g=0.05m$ 解得 $a=0.5m$ 、 $w=0.4m$
+
 <div align=center>
 <img src="IMG_20240906_021018.jpg" width=50%>
 <br>
 <div>使用SOLVER求解</div>
 <br>
 </div>
-
-取 $g=0.05m$ 解得 $a=0.5m$ 、 $w=0.4m$
 
 ## GTEM CELL
 
@@ -339,8 +339,141 @@ $$g=\frac{4a}{\pi}e^{-\frac{30a}{0.25\pi \left(64a^2-9\right)}}$$
 
 ## 相关公式
 
-### 屏蔽效率
+### Shielding Effectiveness
 
 这玩意指的是入射波的强度和透射波的关系。这个值越高表示透射波衰减越厉害。
 
-#
+$$SE\left(\mathrm{dB}\right)=R\left(\mathrm{dB}\right)+A\left(\mathrm{dB}\right)+B\left(\mathrm{dB}\right)$$
+
+其中 $SE$ 指的是Shielding Effectiveness、 $R$ 是入射波与吸波材料的反射损耗、 $A$ 是吸波材料的吸收、 $B$ 表示吸波材料与透射波交界面处的反射损耗。都是越大越好。
+
+#### 吸收系数A
+
+复传播系数
+
+$$\gamma=\alpha + j \beta=\sqrt{j\omega\mu\left(\sigma+j\omega\epsilon\right)}$$
+
+在复传播系数中，介电常数、电导率和磁导率都是复数。复传播系数的实部表示损耗，虚部表示相移。在这里我们主要考虑 $\alpha$ ，它表示波传播单位长度后振幅衰减 $e^{-\alpha}$ .
+
+所以我们可以得到 
+
+$$A\left(\mathrm{dB}\right)=20log_{10}\left(e^{-ar}\right)$$
+
+为了从振幅转换成功率， $log$ 前面的数字为20
+
+对于理想导体和良导体有 $\sigma \ll \omega\epsilon$ ，可以取近似为 $\alpha \approx \sqrt{\frac{\omega\mu\sigma}{2}}$ ，可以推出良导体中的吸收系数为：
+
+$$A\left(\mathrm{dB}\right)=20log_{10}\left(e^{-ar}\right)=-20log_{10}e\times r\sqrt{\frac{\omega\mu\sigma}{2}}$$
+
+一些其他的变形：
+
+用相对电导率替换电导率、频率替换角频率、材料厚度 $t$ 替换传播距离 $r$ ：
+
+$$A\left(\mathrm{dB}\right)=-20log_{10}e\times t\sqrt{\pi f \mu \sigma_c \sigma_r}$$
+
+用趋肤深度 $\delta=\sqrt{\frac{1}{\pi f \mu \sigma}}$ 替换：
+
+$$A\left(\mathrm{dB}\right)=-20log_{10}e\times \frac{t}{\delta}$$
+
+用相对磁导率和电导率替换（此处 $t$ 的单位是 $\mathrm{cm}$ ）：
+
+$$A\left(\mathrm{dB}\right)=1.314 t \sqrt{f \mu_r \sigma_r}$$
+
+（你是孔乙己吗整这么多没啥卵用的变形，草）
+
+#### 反射损耗
+
+（总觉得这里有点问题，老印多了个平方）
+
+在垂直入射的情况下（非垂直入射的情况我推了一晚上推爆炸了，还不知道对不对，不写了），不同介质之间的关系可以用传输线进行建模，可得透射系数相对于阻抗的关系为：
+
+$$T=\frac{2\sqrt{\eta_1\eta_2}}{\eta_1 + \eta_2}$$
+
+其中 $\eta_1$ 为入射波的特征阻抗， $\eta_2$ 为透射波的特征阻抗。
+
+其中透射波的阻抗可以用下式计算
+
+$$\eta_2 = \sqrt{\frac{j\omega\mu}{\left(\sigma+j\omega\epsilon\right)}}$$
+
+假设入射波功率为 $P_0$ ，则透射波功率为 $P_0\times T^2$
+
+可以知道反射损耗为 
+
+$$\mathrm{Reflection\ Loss}=10log_{10}\left(P_0-P_0\times T^2\right)=-10log_{10}T^2=-10log_{10}\left(\frac{4\eta_1\eta_2}{\left(\eta_1 + \eta_2\right)^2}\right)$$
+
+老印的式子是：$\mathrm{Reflection\ Loss}=-20log_{10}\left(\frac{4\eta_1\eta_2}{\left(\eta_1 + \eta_2\right)^2}\right)$
+
+对于金属屏蔽罩， $\omega \epsilon \ll \sigma$ 
+
+可以得到
+
+$$\left|\eta_2\right| = \left|\sqrt{\frac{j\omega\mu}{\left(\sigma+j\omega\epsilon\right)}}\right| \approx \sqrt{\frac{\omega\mu}{\sigma}}$$
+
+又由于 $\eta_1 \gg \eta_2$ 从而对反射损耗进行近似：
+
+$$R \approx -20(10?)log_{10}\left|\frac{4\eta_2}{\eta_1}\right|$$
+
+##### 材料对平面波的反射损耗：
+
+入射波的特征阻抗为 $120\pi$ 所以可以得到
+
+$$R = -20(10?)log_{10}\left(\frac{4\sqrt{\frac{2\pi f \mu_0 \mu_r}{\sigma_c \sigma_r}}}{120\pi}\right)$$
+
+其中 $\mu_0$ 为真空磁导率， $\sigma_c$ 为铜的电导率。两个下标是 $r$ 的是相对值。
+
+##### 材料对电场的反射损耗：
+
+入射电场的特征阻抗 
+
+$$\eta_1=\frac{\eta_0}{\beta_0 r}$$
+
+代入真空光速 
+
+$$c_0=\frac{1}{\sqrt{\mu_0 \epsilon_0}}$$
+
+代入相位系数
+
+$$\beta_0=\frac{2\pi}{\lambda}=\frac{\omega}{c_0}$$
+
+可以得到
+
+$$\eta_1=\frac{1}{\omega \epsilon_0 r}=\frac{1}{2\pi f \epsilon_0 r}$$
+
+$$R \approx -20(10?)log_{10}\left(8\pi f\epsilon_0 r\sqrt{\frac{2\pi f \mu}{\sigma}}\right)$$
+
+##### 材料对磁场的反射损耗
+
+类似地，可以计算出入射磁场的特征阻抗：
+
+$$\eta_1=\eta_0\beta_0 r=2\pi f\mu_0 r$$
+
+代入可以得到反射损耗约为：
+
+$$R \approx -20(10?)log_{10}\left(\frac{4\sqrt{\frac{2\pi f \mu}{\sigma}}}{2\pi f \mu_0 r}\right)$$
+
+## 电波暗室的土木工程
+
+**略**
+
+## 电波暗室的吸波材料
+
+反射率是描述反射电场强度的指标
+
+吸波材料的反射率是入射角、反射角的函数（我前面在计算反射损耗的时候着重强调了**垂直入射**，就是因为这个）
+
+<div align="center">
+<img src="absorber.png">
+<br>
+<div>吸波材料的反射特性</div>
+<br>
+</div>
+
+$$
+\begin{align}
+    E_{ra}&=E_{r1}+E_{r2}+E_{r3}+... \\
+    E_{r1}&=E_i-E_{t1} \\
+    E_{r2}&=E_{t1}\times A-E_{t2}
+\end{align}
+$$
+
+（这边老印想表达的是功率的关系吧，如果 $E$ 表示的是电场的话还需要分别计算垂直和平行分量然后计算。）
