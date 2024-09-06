@@ -262,15 +262,15 @@ $$G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)=31-22=9\left(\mathrm{dBi}\right)$$
 
 套公式可以计算得到在谐波频率下的雷达天线增益：
 
-$$G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(18.8GHz\right)=15.02\left(\mathrm{dBi}\right)$$
+$$G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(18.8GHz\right)=15.02\left(\mathrm{dBi}\right)$$
 
-$$G_{t_{28.2GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(28.2GHz\right)=18.54\left(\mathrm{dBi}\right)$$
+$$G_{t_{28.2GHz}}\left(\mathrm{dBi}\right)=G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(28.2GHz\right)=18.54\left(\mathrm{dBi}\right)$$
 
-$$G_{t_{37.6GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(37.6GHz\right)=21.04\left(\mathrm{dBi}\right)$$
+$$G_{t_{37.6GHz}}\left(\mathrm{dBi}\right)=G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(37.6GHz\right)=21.04\left(\mathrm{dBi}\right)$$
 
 VAST工作频率下的增益：
 
-$$G_{t_{11.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{18.8GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(11.8GHz\right)=10.98\left(\mathrm{dBi}\right)$$
+$$G_{t_{11.8GHz}}\left(\mathrm{dBi}\right)=G_{t_{9.4GHz}}\left(\mathrm{dBi}\right)-20log_{10}\left(9.4GHz\right)+20log_{10}\left(11.8GHz\right)=10.98\left(\mathrm{dBi}\right)$$
 
 ### 路径损耗
 

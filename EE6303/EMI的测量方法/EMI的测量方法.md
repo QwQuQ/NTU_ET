@@ -89,14 +89,14 @@ $$
 
 如果引入一个辅助值
 
-$$Z^{'}=1-\frac{Z_{in}}{Z_0}$$
+$$Z^{\prime}=1-\frac{Z_{in}}{Z_0}$$
 
 那么可以计算得到
 
 $$
 \begin{cases}
-    R_1=Z_0\sqrt{Z_{'}} \\
-    R_2=\frac{Z_{in}}{\sqrt{Z_{'}}}
+    R_1=Z_0\sqrt{Z_{\prime}} \\
+    R_2=\frac{Z_{in}}{\sqrt{Z_{\prime}}}
 \end{cases}
 $$
 
@@ -132,13 +132,13 @@ $$Z_0 \approx \frac{\eta_0}{\frac{w}{h}+2} = \frac{120\pi}{\frac{1.25}{0.5}+2}=8
 
 $$
 \begin{cases}
-    R_1=Z_0\sqrt{Z_{'}} \\
-    R_2=\frac{Z_{in}}{\sqrt{Z_{'}}} \\
-    Z^{'}=1-\frac{Z_{in}}{Z_0}
+    R_1=Z_0\sqrt{Z_{\prime}} \\
+    R_2=\frac{Z_{in}}{\sqrt{Z_{\prime}}} \\
+    Z^{\prime}=1-\frac{Z_{in}}{Z_0}
 \end{cases}
 $$
 
-直接带进去得到： $Z^{'}=0.40317$ 、 $R_1=53.19\mathrm{\Omega}$ 、 $R_2=78.746$
+直接带进去得到： $Z^{\prime}=0.40317$ 、 $R_1=53.19\mathrm{\Omega}$ 、 $R_2=78.746$
 
 （从这里可以看出老印的计算精度确实让人比较恼火，难怪open ending）
 
@@ -353,7 +353,7 @@ $$SE\left(\mathrm{dB}\right)=R\left(\mathrm{dB}\right)+A\left(\mathrm{dB}\right)
 
 $$\gamma=\alpha + j \beta=\sqrt{j\omega\mu\left(\sigma+j\omega\epsilon\right)}$$
 
-在复传播系数中，介电常数、电导率和磁导率都是复数。复传播系数的实部表示损耗，虚部表示相移。在这里我们主要考虑 $\alpha$ ，它表示波传播单位长度后振幅衰减 $e^{-\alpha}$ .
+在复传播系数中，实部表示损耗，虚部表示相移。在这里我们主要考虑 $\alpha$ ，它表示波传播单位长度后振幅衰减 $e^{-\alpha}$ .
 
 所以我们可以得到 
 
@@ -476,5 +476,129 @@ $$
 \end{align}
 $$
 
-（这边老印想表达的是功率的关系吧，如果 $E$ 表示的是电场的话还需要分别计算垂直和平行分量然后计算，不靠谱刻印象++）
+（这边老印想表达的是功率的关系吧，如果 $E$ 表示的是电场的话还需要分别计算垂直和平行分量然后计算）
+
+### 测量吸波材料的反射率
+
+1、测量入射波到理想导电平面（PEC）的反射
+
+2、计算反射电场强度和入射电场强度的比
+
+$$\frac{E_{r_{PEC}}}{E_i}$$
+
+3、把吸波材料放到PEC上，测量反射场强并计算
+
+$$\frac{E_{r_{Absorb}}}{E_i}$$
+
+4、反射率计算（你看这个公式就是功率的公式，说明确实是需要从功率方面考虑的，而不是前面的场强加减）
+
+$$R=20log_{10}\left(\frac{E_{r_{Absorb}}}{E_i}\frac{E_i}{E_{r_{PEC}}}\right)$$
+
+5、重复不同的入射角计算
+
+### 吸波材料的种类
+
+#### Dielectric absorber
+
+轻
+
+高介电损失（考虑复介电系数 $\epsilon=\epsilon^{\prime}+j\epsilon^{\prime\prime}$ 对于复介电系数，实部的定义与一般的介电系数相同，虚部表示电流在介质中的损耗）
+
+无磁性 $\mu_r=1$
+
+超宽带
+
+厚
+
+##### 相关公式
+
+波在高介电损失材料中的传播：
+
+使用复传播系数解亥姆霍兹方程：
+
+$$E\left(t\right)=E_0\left(t\right)e^{-\gamma z}$$
+
+（我理解了很久，总算明白了PPT上这个公式里的t不是时间，而是厚度thickness……这里直接用正常的亥姆霍兹方程解了）
+
+根据复传播系数定义 单位长度的衰减为 $e^{-\alpha}$
+
+根据高介电损失材料的特性 $\mu=\mu_0$ 、 $\sigma=0$
+
+可以得到：
+
+$$\alpha \approx \frac{\omega}{2}\sqrt{\mu_0 \epsilon^{\prime}}\frac{\epsilon^{\prime\prime}}{\epsilon^{\prime}}$$
+
+定义介电损耗角正切为： 
+
+$$D=\frac{\epsilon^{\prime\prime}}{\epsilon^{\prime}}$$
+
+##### Example
+
+（我超这也有啊）
+
+题干条件：
+
+相对介电系数： $\epsilon_r=2.55$
+
+工作频率： $3\mathrm{GHz}$
+
+损耗角正切： $D=\frac{\epsilon^{\prime\prime}}{\epsilon^{\prime}}=0.00033$
+
+计算复传播系数的实部：
+
+$$
+\alpha\approx \frac{\omega}{2}\sqrt{\mu_0 \epsilon^{\prime}}\frac{\epsilon^{\prime\prime}}{\epsilon^{\prime}} \\
+=\pi f \sqrt{\mu_0 \epsilon_0 \epsilon_r}\frac{\epsilon^{\prime\prime}}{\epsilon^{\prime}}\\
+=0.01657
+$$
+
+如果厚度为 $10\mathrm{cm}$
+
+$$A=20log_{10}e^{-\alpha z}=-0.0144\mathrm{dB}$$
+
+真空磁导率： $\mu_0=4\pi\times 10^{-7}$
+
+真空介电常数： $\epsilon_0=8.854 \times 10^{-12}$
+
+##### 电波暗室使用的吸波材料的一些特性
+
+被造成金字塔型
+
+金字塔的高度决定了对不同频率的吸收率
+
+反射率在30-50dB之间
+
+工作频率：数百MHz到数GHz
+
+#### Magnetic absorber
+
+使用含有磁性的材料（铁氧体、碳、镍）
+
+薄
+
+重
+
+有损耗（不太理解，没损耗还能叫吸波材料么）
+
+窄带
+
+在低频下工作良好
+
+##### 相关公式
+
+仍然使用亥姆霍兹方程的解（真好用）：
+
+$$E\left(t\right)=E_0\left(t\right)e^{-\gamma z}$$
+
+与复介电系数类似，复磁导率的虚部表示介质的损耗。
+
+对于复磁导率
+
+$$\mu=\mu^\prime-j\mu^{\prime\prime}$$
+
+可以计算得到复传播系数的实部:
+
+$$\alpha \approx \frac{\omega}{2}\sqrt{\epsilon_0 \mu^\prime}\frac{\mu^{\prime\prime}}{\mu^\prime}$$
+
+同样地这里也存在磁场的损耗角正切
 
