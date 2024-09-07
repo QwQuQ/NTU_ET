@@ -254,7 +254,7 @@ $$Z_0 \approx \frac{\eta_0}{4\left(\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\f
 $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=241.67\mathrm{MHz}$$
 
 ### Example 2
-**1、数值计算**
+**数值计算，991能做，别怕**
 
 根据DUT高度 $0.1m$ 确定 $b=0.3m$
 
@@ -273,20 +273,6 @@ $$a=0.34127m$$
 从而获得 
 
 $$g=0.029069$$
-
-**2、老印查表法**
-
-首先拍脑袋决定 $\frac{a}{b}=2 \implies a=0.6m$
-
-$$\lim_{g \to 0^+}\left(\frac{150}{0.6}\sqrt{1+\frac{0.6\times 0.3}{\pi\times 0.5^2 \times ln\left(\frac{4\times 0.6}{\pi g}\right)}}\right)=250\mathrm{MHz}$$
-
-$$\lim_{g \to a}\left(\frac{150}{0.6}\sqrt{1+\frac{0.6\times 0.3}{\pi\times 0.5^2 \times ln\left(\frac{4\times 0.6}{\pi g}\right)}}\right)=349\mathrm{MHz}$$
-
-不妥，所以 $\frac{a}{b}<2$
-
-
-
-## GTEM CELL
 
 这玩意是G赫兹TEM小室的简称，图长这样。隔板末端也是有50欧的负载，并且还需要贴有吸波材料防止反射。能够支持 $1\mathrm{GHz}$ 以上的频率。
 
