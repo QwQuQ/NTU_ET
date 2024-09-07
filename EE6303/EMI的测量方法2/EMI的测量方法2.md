@@ -184,13 +184,121 @@ $$
 
 QP检波器的输出收到脉冲宽度和脉冲间隔的影响（PPT上的图还挺详细的，不写了）
 
-## Example 1
+## Example
 
 （哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊，啊啊啊啊啊啊啊啊啊啊）
 
-根据CISPR 16-1-1，Band D的要求是：
 
-$$\frac{\tau_D}{\tau_C}=1.67\times 10^7$$
+# 测试装备
 
-$$\tau_D=RC=17.8s \implies \tau_C=1.07\mu s$$
+## 天线
+
+天线的增益一般描述的是远场特性
+
+<br>
+
+但是EMI的测量一般在近场进行：
+
+空间限制
+
+设备发出的辐射信号较弱
+
+辐射抗扰度测试需要强电磁场
+
+<br>
+
+对于EMI测试，我们一般在电场或者磁场测量接收到的电压，而不是发射和接收功率：
+
+所以有一套全新的描述天线特性的参数：
+
+Antenna Factor (AF)
+
+Transmit Antenna Factor (TAF)
+
+<br>
+
+### Antenna Factor
+
+$$AF=\frac{E}{V_L} m^{-1}= 20log_{10}\frac{E}{V_L}\mathrm{dB}/m$$
+
+这个描述的是电场在**接收**天线的**负载**上产生单位电压的情况。很明显这边假设的是极化与天线是匹配的，并没有考虑极化损耗。天线系数越小，相同电场强度的情况下接收到的电压越高。
+
+#### Rod Antenna
+
+$$AF\mathrm{@20kHz}=75\mathrm{dB}/m$$
+
+$$AF\mathrm{@20MHz}=25\mathrm{dB}/m$$
+
+如果电场强度为 $1V/m$ 的话，天线接收到的电压为：
+
+20kHz:
+
+$$V=\frac{E}{AF}=E\left(\mathrm{dB}\right)-AF\left(\mathrm{dB/m}\right)=\frac{1}{10^{75/20}}=0-75=-75\left(\mathrm{dBV}\right)=0.17mV$$
+
+20MHz:
+
+$$V=\frac{E}{AF}=E\left(\mathrm{dB}\right)-AF\left(\mathrm{dB/m}\right)=\frac{1}{10^{75/20}}=0-25=-25\left(\mathrm{dBV}\right)=56.23mV$$
+
+### Transmit Antenna Factor
+
+$$TAF=\frac{E_{1m}}{V_t} m^{-1}=20log_{10}E_{1m}-20log_{10}V_t \left(\mathrm{dB}/m\right)$$
+
+其中 $E_{1m}$ 是发射天线在1m处测量到的场强， $V_t$ 是发射电压。TAF越大，产生的电场强度越大。
+
+对于同一个天线，AF和TAF不一样
+
+### 对数周期天线
+
+对数周期天线可以在很宽的频率上产生强电场。
+
+ATR 26M6G from ATR worldwide covers from 26MHz to 6GHz.（某种广告）
+
+如果输入功率为10W，频率22MHz，1m处产生的场强为10V/m，可以计算得到：
+
+假设是50欧负载，输入天线的电压为：
+
+$$V=\sqrt{P\times Z_0}=22.360V$$
+
+所以
+
+$$TAF=\frac{10}{22.360}=0.45m^-1$$
+
+用dB做法也可以：
+
+$$22.360V=26.989\mathrm{dB}V=146.989\mathrm{dB}\mu V$$
+
+$$10V/m=20\mathrm{dB}V\cdot m^{-1}=140\mathrm{dB}\mu V\cdot m^{-1}$$
+
+$$TAF=-6.989\mathrm{dB}/m$$
+
+### 环形天线（磁场天线）
+
+感应电压(Induced Voltage)：
+
+$$V_i=-n\frac{\mathrm{d}\Phi}{\mathrm{d}t}=2\pi f n A B$$
+
+$n$ 为线圈匝数， $f$为频率， $A$ 为线圈的截面积， $B$ 为磁感应强度。
+
+### $AF_H$ 和 $AF_B$
+
+$$AF_H=\frac{H}{V_L}S/m=\frac{1}{2\pi f n A \mu_0}$$
+
+$$AF_B=\frac{B}{V_L}=\frac{\mu H}{V_L} Tesla/V$$
+
+$$AF=AF_H\times \eta_0=\frac{H}{V_L}\times \frac{E}{H}=\frac{E}{V_L}$$
+
+$$AF\left(\mathrm{dB}/m\right)=AF_H\left(\mathrm{dB}S/m\right)+20log_{10}\left(\eta_0\right)$$
+
+## Antenna Example 1 作业形式
+
+$$V_{in}=\sqrt{P\times Z_0}=50V=33.9794\left(\mathrm{dB}V\right)$$
+
+$$E_{1m}=TAF\left(\mathrm{dB}/m\right)+V_{in}\left(\mathrm{dB}V\right)\\
+=33.9794-4=29.9794\left(\mathrm{dB}V/m\right)
+$$
+
+$$E_{3m}=E_{1m}\left(\mathrm{dB}V/m\right)-20log_{10}(3m)+20log_{10}(1m)=20.436975\left(\mathrm{dB}V/m\right)
+$$
+
+$$V_L=E_{3m}\left(\mathrm{dB}V/m\right)-AF\left(\mathrm{dB}/m\right)=20.436975-23=-2.5630\left(\mathrm{dB}V\right)=0.74V$$
 
