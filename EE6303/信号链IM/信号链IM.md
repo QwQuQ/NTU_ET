@@ -115,9 +115,9 @@ $$PL(dB)=10log_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)=20log_{1
 <br>
 </div>
 
-### 干扰裕度
+### IM(Interference Margin)
 
-把发射机产生的所有东西到接收机的功率全部都算出来，对着频率和灵敏度看。只要产生的功率比灵敏度高就意味着会产生干扰。比灵敏度低的话，这个功率与接收机灵敏度的插值就是干扰裕度，意味这个频点可以容纳更多的噪声而不会产生干扰。
+把发射机产生的所有东西到接收机的功率全部都算出来，对着频率和灵敏度看。只要产生的功率比灵敏度高就意味着会产生干扰，这个差值就是Interference Margin。
 
 #### 概念：TIM
 
@@ -215,11 +215,11 @@ $${P_r}_{40MHz}\left(\mathrm{dBm}\right)=-35.7\left(\mathrm{dBm}\right)$$
 
 带外的灵敏度为 $-113+80=-33\mathrm{dBm}$
 
-### 计算干扰和干扰裕度
+### 计算干扰和IM
 
 考虑接收机的灵敏度特性。
 
-接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，什么IM就是继续算差值。
+接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，IM就是继续算这边的差值。
 
 ### 反过来也是一样的步骤（好烦啊！！！）
 
@@ -332,6 +332,6 @@ $$G_{r_{37.6GHz}}\left(\mathrm{dBi}\right)=42.07\left(\mathrm{dBi}\right)$$
 
 带外的灵敏度是 $-50+80=30\mathrm{dBm}$
 
-### 综合所有参数计算干扰和干扰裕度
+### 综合所有参数计算干扰和IM
 
 可以发现 $9.4\mathrm{GHz}$ 和 $11.8\mathrm{GHz}$ 处都产生了干扰，算一下差值就是IM。

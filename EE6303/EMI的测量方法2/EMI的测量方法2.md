@@ -192,4 +192,5 @@ QP检波器的输出收到脉冲宽度和脉冲间隔的影响（PPT上的图还
 
 $$\frac{\tau_D}{\tau_C}=1.67\times 10^7$$
 
-$$\tau_D=RC=17.8 \implies \tau_C=$$
+$$\tau_D=RC=17.8s \implies \tau_C=1.07\mu s$$
+
