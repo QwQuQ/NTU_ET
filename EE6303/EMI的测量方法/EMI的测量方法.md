@@ -197,7 +197,7 @@ $$
 
 得到
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}\left(\mathrm{MHz}\right)$$
 
 ### TEM CELL的设计方法
 
@@ -238,7 +238,7 @@ $$w > W$$
 
 根据
 
-$$Z_0 \approx \frac{\eta_0}{4\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]}=50\mathrm{\Omega}$$
+$$Z_0 \approx \frac{\eta_0}{4\left(\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi g}{b}\right)\right]\right)}=50\mathrm{\Omega}$$
 
 解得 $g=0.058m$ , 得到 $w=0.634m$ 大于 $W=0.5m$ 所以这个方案可行。
 
@@ -254,26 +254,37 @@ $$Z_0 \approx \frac{\eta_0}{4\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\p
 $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=241.67\mathrm{MHz}$$
 
 ### Example 2
-**PPT上的过程实在是太混沌了，我尝试尽量计算出结果而不是查表第二弹**
+**1、数值计算**
 
 根据DUT高度 $0.1m$ 确定 $b=0.3m$
 
 根据 $f_c$ 公式
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=400MHz$$
+$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=450MHz$$
 
 解得
 
-$$g=\frac{4a}{\pi}e^{-\frac{30a}{0.25\pi \left(64a^2-9\right)}}$$
+$$g=\frac{4a}{\pi}e^{-\frac{6a}{5\pi \left(9a^2-1\right)}}$$
 
-取 $g=0.05m$ 解得 $a=0.5m$ 、 $w=0.4m$
+将 $g$ 带回特征阻抗方程，解得
 
-<div align=center>
-<img src="IMG_20240906_021018.jpg" width=50%>
-<br>
-<div>使用SOLVER求解</div>
-<br>
-</div>
+$$a=0.34127m$$
+
+从而获得 
+
+$$g=0.029069$$
+
+**2、老印查表法**
+
+首先拍脑袋决定 $\frac{a}{b}=2 \implies a=0.6m$
+
+$$\lim_{g \to 0^+}\left(\frac{150}{0.6}\sqrt{1+\frac{0.6\times 0.3}{\pi\times 0.5^2 \times ln\left(\frac{4\times 0.6}{\pi g}\right)}}\right)=250\mathrm{MHz}$$
+
+$$\lim_{g \to a}\left(\frac{150}{0.6}\sqrt{1+\frac{0.6\times 0.3}{\pi\times 0.5^2 \times ln\left(\frac{4\times 0.6}{\pi g}\right)}}\right)=349\mathrm{MHz}$$
+
+不妥，所以 $\frac{a}{b}<2$
+
+
 
 ## GTEM CELL
 
