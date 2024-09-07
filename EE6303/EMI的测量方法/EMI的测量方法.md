@@ -258,7 +258,7 @@ $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\
 
 根据DUT高度 $0.1m$ 确定 $b=0.3m$
 
-根据 $f_c$ 公式
+根据 $f_c$ 公式，把截止频率提高点免得翻车。
 
 $$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}=450MHz$$
 
