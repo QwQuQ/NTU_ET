@@ -121,15 +121,15 @@ $$PL(dB)=10log_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)=20log_{1
 
 #### 概念：TIM
 
-发射端载波频点在接收端的干扰裕度
+发射端载波频点在接收端产生的干扰量
 
 #### 概念：RIM
 
-接收端载波频点在接收端的干扰裕度
+发射端在接收端载波频点的干扰量
 
 #### 概念：SIM
 
-除了上述两个频点外其他频率分量在接收端的干扰裕度。（发射的谐波算在SIM里）
+除了上述两个频点外其他频率分量在接收端的干扰量。（发射的谐波算在SIM里）
 
 ## Example3
 
@@ -219,7 +219,7 @@ $${P_r}_{40MHz}\left(\mathrm{dBm}\right)=-35.7\left(\mathrm{dBm}\right)$$
 
 考虑接收机的灵敏度特性。
 
-接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，其他地方的干扰裕度是接收功率和灵敏度的差值。
+接收机存在 $10\mathrm{MHz}$ 、 $20\mathrm{MHz}$ 、 $35\mathrm{MHz}$ 的干扰，什么IM就是继续算差值。
 
 ### 反过来也是一样的步骤（好烦啊！！！）
 
@@ -334,4 +334,4 @@ $$G_{r_{37.6GHz}}\left(\mathrm{dBi}\right)=42.07\left(\mathrm{dBi}\right)$$
 
 ### 综合所有参数计算干扰和干扰裕度
 
-可以发现 $9.4\mathrm{GHz}$ 和 $11.8\mathrm{GHz}$ 处都产生了干扰
+可以发现 $9.4\mathrm{GHz}$ 和 $11.8\mathrm{GHz}$ 处都产生了干扰，算一下差值就是IM。
