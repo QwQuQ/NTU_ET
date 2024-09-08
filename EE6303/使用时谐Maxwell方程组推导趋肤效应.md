@@ -56,6 +56,8 @@ $$\mathbf{E}=\mathbf{E_0}e^{-\mathbf{k}\cdot r}$$
 令指数上的 $\mathbf{k}$ 为电磁场的复传播系数，规定其**一般形式**为
 
 $$\gamma=\alpha+j\beta=\sqrt{j\omega\mu\left(\sigma+j\omega\epsilon\right)}$$
+
+其中的 $\alpha$ 为衰减系数， $\beta$ 为相位系数（ $\beta$ 是与波数 $k$ 相关的，在无耗介质（真空、空气）中是老印提到的 $\beta_0=\frac{2\pi}{\lambda}$ ）
 <br>
 
 在导体中，省略介电项，可以得到在导体中的电磁场传播系数为：
