@@ -100,7 +100,7 @@ $$PL(dB)=10log_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)=20log_{1
 
 判断天线极化类型，极化类型相同就用 $PML\left(\mathrm{dB}\right)=20log_{10}\left(cos\theta\right)$ 
 
-极化类型不同额外加上 $3dB$ 极化损失 $PML\left(\mathrm{dB}\right)=3+20log_{10}\left(cos\theta\right)$ 
+极化类型不同额外加上 $3dB$ 极化损失 $PML\left(\mathrm{dB}\right)=-3+20log_{10}\left(cos\theta\right)$ 
 
 ### 接收端灵敏度
 
