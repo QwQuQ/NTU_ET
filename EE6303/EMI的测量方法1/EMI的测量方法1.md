@@ -360,7 +360,7 @@ $$A\left(\mathrm{dB}\right)=20log_{10}\left(e^{-ar}\right)$$
 
 为了从振幅转换成功率， $log$ 前面的数字为20
 
-对于理想导体和良导体有 $\sigma \ll \omega\epsilon$ ，可以取近似为 $\alpha \approx \sqrt{\frac{\omega\mu\sigma}{2}}$ ，可以推出良导体中的吸收系数为：
+对于理想导体和良导体有 $\sigma \gg \omega\epsilon$ ，可以取近似为 $\alpha \approx \sqrt{\frac{\omega\mu\sigma}{2}}$ ，可以推出良导体中的吸收系数为：
 
 $$A\left(\mathrm{dB}\right)=20log_{10}\left(e^{-ar}\right)=-20log_{10}e\times r\sqrt{\frac{\omega\mu\sigma}{2}}$$
 
