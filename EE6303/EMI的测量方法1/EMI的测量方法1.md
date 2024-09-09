@@ -184,7 +184,7 @@ $$Z_0 \approx \frac{30\pi}{\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\frac{\pi 
 
 当TEM CELL中电磁波的模式变为 $TE_{10}$ 模时，此时的频率是其最高工作频率。它在设计上是用来传输 $TEM$ 模的，如果变成 $TE_{10}$ 模就不符合设计要求了，所以是最高工作频率。
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{ab}{\pi b_1 b_2 ln\left(\frac{4a}{\pi g}\right) }}$$
+$$f_c=\frac{150}{a}\sqrt{ 1+\frac{ab}{\pi b_1 b_2 ln\left(\frac{4a}{\pi g}\right) }}$$
 
 如果用当中隔板的相对位置表示，可以代入
 
@@ -197,7 +197,7 @@ $$
 
 得到
 
-$$f_c=\frac{150}{a}\sqrt{1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}\left(\mathrm{MHz}\right)$$
+$$f_c=\frac{150}{a}\sqrt{ 1+\frac{a/b}{\pi x \left(1-x\right) ln\left(\frac{4a}{\pi g}\right)}}\left(\mathrm{MHz}\right)$$
 
 ### TEM CELL的设计方法
 
