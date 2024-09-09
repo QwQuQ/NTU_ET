@@ -13,7 +13,7 @@ EMI接收机用于测量EUT的辐射
 
 <div align="center">
 <img src="image-1.png" width=70%>
-<br>
+<br>    
 <div>EMI接收机的框图</div>
 <br>
 </div>
