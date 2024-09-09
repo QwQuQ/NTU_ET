@@ -468,11 +468,11 @@ $$R \approx -20(10?)log_{10}\left(\frac{4\sqrt{\frac{2\pi f \mu}{\sigma}}}{2\pi 
 </div>
 
 $$
-\begin{align}
+\begin{cases}
     E_{ra}&=E_{r1}+E_{r2}+E_{r3}+... \\
     E_{r1}&=E_i-E_{t1} \\
-    E_{r2}&=E_{t1}\times A-E_{t2}
-\end{align}
+    E_{r2}&=E_{t1}\times A-E_{t2} 
+\end{cases}
 $$
 
 （这边老印想表达的是功率的关系吧，如果 $E$ 表示的是电场的话还需要分别计算垂直和平行分量然后计算）

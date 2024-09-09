@@ -298,7 +298,7 @@ $$PL_{11.8GHz}\left(\mathrm{dB}\right)=-74.86\left(\mathrm{dB}\right)$$
 
 $$PML\left(\mathrm{dB}\right)=-3+20log_{10}cos\theta=-4.39\left(\mathrm{dB}\right)$$
 
-极化损失是减小功率的，我在这里取负号（老印的PPT是正号，会让人感到困惑）
+极化损失是减小功率的，我在这里取负号（老印的Example里用的是正号，前面是负号，让人感到困惑）
 
 （我觉得这里的极化损失只有 $3dB$ 的线极化到圆极化，姑且按照PPT来）
 
