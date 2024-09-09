@@ -368,7 +368,7 @@ $$v_{C1}\left(t\right)=V^\prime\frac{R_2}{R_1+R_2}\left(1-e^{-\frac{t}{\tau_C}}\
 
 计算第1次放电过程， $V^{\prime\prime}=v_{C1}\left(\tau_{PW}\right)=0.3935V_{in}$ ：
 
-$$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.3935V_{in}e^{-\frac{t}{\tau_D}}$$
+$$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.3935V_{in}e^{-\frac{t}{0.56}}$$
 
 放电完成电压为： $v_{D1}\left(\tau_{PRI}-\tau_{PW}\right)=0.3766V_{in}$
 <br>
@@ -382,7 +382,7 @@ $$v_{C1}\left(t\right)\approx 0.3766V_{in}+0.6233V_{in}\left(1-e^{-\frac{t}{1\ti
 
 计算第2次放电过程， $V^{\prime\prime}=v_{C1}\left(\tau_{PW}\right)=0.6218V_{in}$ ：
 
-$$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.6218V_{in}e^{-\frac{t}{\tau_D}}$$
+$$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.6218V_{in}e^{-\frac{t}{0.56}}$$
 
 放电完成电压为： $v_{D2}\left(\tau_{PRI}-\tau_{PW}\right)=0.5958V_{in}$
 <br>
