@@ -256,7 +256,7 @@ $$V_{Ave}=\frac{1}{\sqrt{2}T_{dwell}}\int_0^{T_{dwell}}v_{env}\left(t\right)\mat
 
 $$V_{Ave}\approx \frac{A}{\sqrt{2}}\frac{\tau}{T}$$
 
-但是从这里看，应该是信号瞬时RMS值得平均值，不是很懂老印的绕法。绕来绕去已经糊涂了。
+但是从这里看，应该是信号瞬时RMS值的平均值，不是很懂老印的绕法。绕来绕去已经糊涂了。
 
 对于上述两个检波器，有：
 
