@@ -350,7 +350,13 @@ $$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{\tau_{PRI}-\tau_{PW}}{\tau_D}}=
 
 对充放电流程进行积分：
 
-$$\int_0^{\tau_{PW}}v_{C1}\left(t\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D1}\left(t\right)\mathrm{d}t\approx V_{in}\left(\tau_{PW}-\tau_C\right)+V_{in}\tau_D=V_{in}\left(0.004+0.16\right)=0.116V$$
+$$\int_0^{\tau_{PW}}v_{C1}\left(t\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D1}\left(t\right)\mathrm{d}t\approx V_{in}\left(\tau_{PW}-\tau_C\right)+V_{in}\tau_D=V_{in}\left(0.004+0.16\right)=0.164V_{in}$$
+
+计算输出电压：
+
+$$
+\frac{0.164V_{in}}{\sqrt{2}\times 1s}=0.116V
+$$
 
 ## Detector Example 2 Homework
 
