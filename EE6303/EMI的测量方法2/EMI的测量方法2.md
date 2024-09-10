@@ -454,7 +454,7 @@ $$V=\frac{E}{AF}=E\left(\mathrm{dB}\right)-AF\left(\mathrm{dB/m}\right)=\frac{1}
 
 20MHz:
 
-$$V=\frac{E}{AF}=E\left(\mathrm{dB}\right)-AF\left(\mathrm{dB/m}\right)=\frac{1}{10^{75/20}}=0-25=-25\left(\mathrm{dBV}\right)=56.23mV$$
+$$V=\frac{E}{AF}=E\left(\mathrm{dB}\right)-AF\left(\mathrm{dB/m}\right)=\frac{1}{10^{25/20}}=0-25=-25\left(\mathrm{dBV}\right)=56.23mV$$
 
 ### Transmit Antenna Factor
 
