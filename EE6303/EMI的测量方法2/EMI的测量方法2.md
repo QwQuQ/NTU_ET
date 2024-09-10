@@ -391,8 +391,12 @@ $$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.6218V_{in}e^{-\fr
 
 $$
 \int_0^{\tau_{PW}}\left(V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)+0.3766V_{in}+0.6233V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}\left(0.3935V_{in}e^{-\frac{t}{\tau_D}}+0.6218V_{in}e^{-\frac{t}{\tau_D}}\right)\mathrm{d}t\\
-=0.02467V_{in}=0.05V
+=0.02467V_{in}
 $$
+
+计算EMI接收机的输出电压：
+
+$$\frac{0.02467V_{in}}{\sqrt{2}T_{dwell}}=0.7V$$
 
 # 测试装备
 
