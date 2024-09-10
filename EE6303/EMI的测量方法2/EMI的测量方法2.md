@@ -387,7 +387,7 @@ $$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.6218V_{in}e^{-\fr
 放电完成电压为： $v_{D2}\left(\tau_{PRI}-\tau_{PW}\right)=0.5958V_{in}$
 <br>
 
-由于 $T_{dwell}=2\tau_{PRI}$ 所以算到这里为止。计算整个充电过程的积分：
+由于 $T_{dwell}=2\tau_{PRI}$ 所以算到这里为止。计算整个充放电过程（包含两个PRI）的积分：
 
 $$
 \int_0^{\tau_{PW}}\left(V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)+0.3766V_{in}+0.6233V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}\left(0.3935V_{in}e^{-\frac{t}{\tau_D}}+0.6218V_{in}e^{-\frac{t}{\tau_D}}\right)\mathrm{d}t\\
