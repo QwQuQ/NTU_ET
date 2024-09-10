@@ -186,7 +186,7 @@ $$
 
 $$
 \begin{cases}
-    v_D=V^{\prime\prime}\frac{R_2}{R_1+R_2}\left(1-e^{-\frac{t}{\tau_D}}\right) \\
+    v_D=V^{\prime\prime}e^{-\frac{t}{\tau_D}} \\
     \tau_D=R_2 C \\
     V^{\prime\prime}=v_C\left(\tau_{PW}\right)
 \end{cases}
