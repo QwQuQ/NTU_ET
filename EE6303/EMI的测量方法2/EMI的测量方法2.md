@@ -268,6 +268,8 @@ $$V_{rms} \geq V_{Ave}$$
 
 $$V_{Det}=\frac{1}{\sqrt{2}T_{dwell}}\int_0^{T_{dwell}}v_D\left(t\right)\mathrm{d}t$$
 
+由于峰值或者准峰值检波输出的是信号的峰值或准峰值，所以如果要获得信号的RMS值，需要在分母添加 $\sqrt{2}$
+
 为了达到稳定的输出，需要 $T_{dwell} > PRI$ ，所以积分时长包含数个充放电过程。
 
 $$V_{Det}=\frac{1}{\sqrt{2}T_{dwell}}\left(\int_0^{\tau_{PW}}v_{C1}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D1}\mathrm{d}t+\int_0^{\tau_{PW}}v_{C2}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D2}\mathrm{d}t+\cdots\right)$$
@@ -384,19 +386,19 @@ $$v_{C1}\left(t\right)\approx 0.3766V_{in}+0.6233V_{in}\left(1-e^{-\frac{t}{1\ti
 
 $$v_{D1}\left(t\right)=V^{\prime\prime}e^{-\frac{t}{\tau_D}}=0.6218V_{in}e^{-\frac{t}{0.56}}$$
 
-放电完成电压为： $v_{D2}\left(\tau_{PRI}-\tau_{PW}\right)=0.5958V_{in}$
+放电完成电压为： $v_{D2}\left(\tau_{PRI}-\tau_{PW}\right)=0.5952V_{in}$
 <br>
 
 由于 $T_{dwell}=2\tau_{PRI}$ 所以算到这里为止。计算整个充放电过程（包含两个PRI）的积分：
 
 $$
 \int_0^{\tau_{PW}}\left(V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)+0.3766V_{in}+0.6233V_{in}\left(1-e^{-\frac{t}{1\times 10^{-3}}}\right)\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}\left(0.3935V_{in}e^{-\frac{t}{\tau_D}}+0.6218V_{in}e^{-\frac{t}{\tau_D}}\right)\mathrm{d}t\\
-=0.02467V_{in}
+=0.02470V_{in}
 $$
 
 计算EMI接收机的输出电压：
 
-$$\frac{0.02467V_{in}}{\sqrt{2}T_{dwell}}=0.7V$$
+$$\frac{0.02470V_{in}}{\sqrt{2}T_{dwell}}=0.7V$$
 
 # 测试装备
 
