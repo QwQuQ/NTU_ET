@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "Fermi",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.32053720284038,
+  "lineSizeMultiplier": 2.73380673047237,
+  "collapse-forces": false,
+  "centerStrength": 0.490151281259648,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 285,
+  "scale": 0.69307566500755,
+  "close": false
+}
