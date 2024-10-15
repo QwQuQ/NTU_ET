@@ -77,28 +77,24 @@
             "id": "3fcc719ea0fe5915",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "2a06e86dc13bacac",
+            "id": "627c17fefc5792df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE6341/Power Amplifier/Power Amplifier.md",
+                "file": "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -164,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE6341/Power Amplifier/Power Amplifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE6341/Power Amplifier/Power Amplifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "EE6341/Power Amplifier/Power Amplifier.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -225,19 +217,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "3fcc719ea0fe5915",
   "lastOpenFiles": [
-    "单纯的，知识/Semi-Conductor Physics/Boltzmann Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
-    "单纯的，知识/Semi-Conductor Physics/Carrier Velocity.md",
-    "单纯的，知识/Semi-Conductor Physics/Density of States.md",
-    "单纯的，知识/Semi-Conductor Physics/Effective Density of States.md",
-    "单纯的，知识/Semi-Conductor Physics/Effective Mass.md",
-    "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
-    "单纯的，知识/Semi-Conductor Physics/Fermi Level.md",
     "单纯的，知识/Semi-Conductor Physics/Fermi-Dirac Distribution.md",
+    "单纯的，知识/Semi-Conductor Physics/Boltzmann Distribution.md",
+    "单纯的，知识/Semi-Conductor Physics/Boltzmann’s Relations.md",
+    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Potential.md",
+    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Levels.md",
+    "单纯的，知识/Semi-Conductor Physics/Fermi Potential.md",
+    "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
+    "单纯的，知识/Semi-Conductor Physics/Effective Mass.md",
+    "单纯的，知识/Semi-Conductor Physics/Effective Density of States.md",
+    "单纯的，知识/Semi-Conductor Physics/Fermi Level.md",
+    "单纯的，知识/Semi-Conductor Physics/PN Product.md",
+    "单纯的，知识/Semi-Conductor Physics/Density of States.md",
     "单纯的，知识/Semi-Conductor Physics/Pauli Exclusion Principle.md",
     "单纯的，知识/Semi-Conductor Physics/Thermal Equilibrium.md",
+    "EE6341/Power Amplifier/Power Amplifier.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier Velocity.md",
     "单纯的，知识/PN Junction/Thermal Voltage.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model.png",
@@ -248,11 +246,6 @@
     "单纯的，知识/Semi-Conductor Physics/Fermi Energy.md",
     "有效态密度.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Overdrive Voltage.md",
-    "单纯的，知识/MOSFET/MOSFET Basis/Gate Capacitance.md",
-    "单纯的，知识/BJT/BJT Basis/Collector Current.md",
-    "单纯的，知识/BJT/BJT Basis/Common Base Current Gain.md",
-    "单纯的，知识/BJT/BJT Basis/Common Emitter Current Gain.md",
-    "单纯的，知识/BJT/BJT Large Signal Model.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge.png",
     "EE6341/Power Amplifier/Power Amplifier Fig1.png",
     "单纯的，知识/BJT/BJT Basis",

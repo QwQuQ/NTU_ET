@@ -1,0 +1,2 @@
+如果用本征[[Equilibrium Carrier Concentration|平衡载流子浓度]]$n_i$代入[[Equilibrium Carrier Concentration|热平衡载流子浓度]]公式，可以得到$$n_0=n_i exp\left(\frac{E_F-E_i}{kT}\right)=n_i exp\left(\frac{e\left(\psi_i-\psi_f\right)}{kT}\right)$$
+$$p_0=n_i exp\left(\frac{E_i-E_F}{kT}\right)=n_i exp\left(\frac{e\left(\psi_f-\psi_i\right)}{kT}\right)$$
