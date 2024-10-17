@@ -18,83 +18,31 @@
             }
           },
           {
-            "id": "6875ca0189056125",
+            "id": "9a70020a4fea064d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Thermal Equilibrium.md",
+                "file": "单纯的，知识/BJT/BJT Advance/Non-uniform Majority Carrier Concentration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1030ffa67ca15b96",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "64d40515ddd3d973",
+            "id": "94471a6755c0a42c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Fermi Level.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c44f2416e45522c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfb89412b46eecb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fcc719ea0fe5915",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "627c17fefc5792df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
+                "file": "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base.md"
+              }
             }
           }
         ]
@@ -217,35 +169,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fcc719ea0fe5915",
+  "active": "94471a6755c0a42c",
   "lastOpenFiles": [
+    "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect.md",
+    "单纯的，知识/BJT/BJT Advance/Non-uniform Majority Carrier Concentration.md",
+    "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base.md",
+    "单纯的，知识/BJT/BJT Basis/Common Emitter Current Gain.md",
+    "单纯的，知识/BJT/BJT Basis/Common Base Current Gain.md",
+    "单纯的，知识/BJT/BJT Basis/Common Assumptions.md",
+    "单纯的，知识/BJT/BJT Basis/Collector Current.md",
+    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Potential.md",
+    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Levels.md",
+    "单纯的，知识/Semi-Conductor Physics/Heisenberg Uncertainty Principle.md",
+    "单纯的，知识/Semi-Conductor Physics/Shockley-Hall-Read Recombination.md",
+    "单纯的，知识/PN Junction/PN Junction I-V Relation.md",
+    "单纯的，知识/Semi-Conductor Physics/Surface Recombination.md",
+    "单纯的，知识/MOSFET/MOSFET Advance",
+    "单纯的，知识/BJT/BJT Advance",
+    "单纯的，知识/BJT/Untitled.md",
+    "单纯的，知识/Semi-Conductor Physics/E-k Diagram.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier Recombination.md",
+    "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
+    "单纯的，知识/Semi-Conductor Physics/Einstein's Relation.md",
+    "单纯的，知识/Semi-Conductor Physics/Drift Current Density.md",
+    "单纯的，知识/Semi-Conductor Physics/Diffusion Current Density.md",
+    "单纯的，知识/Semi-Conductor Physics/Density of States.md",
+    "单纯的，知识/Semi-Conductor Physics/Current Density Equations.md",
     "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
     "单纯的，知识/Semi-Conductor Physics/Fermi-Dirac Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Boltzmann Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Boltzmann’s Relations.md",
-    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Potential.md",
-    "单纯的，知识/Semi-Conductor Physics/Quasi-Fermi Levels.md",
-    "单纯的，知识/Semi-Conductor Physics/Fermi Potential.md",
-    "单纯的，知识/Semi-Conductor Physics/Equilibrium Carrier Concentration.md",
-    "单纯的，知识/Semi-Conductor Physics/Effective Mass.md",
-    "单纯的，知识/Semi-Conductor Physics/Effective Density of States.md",
-    "单纯的，知识/Semi-Conductor Physics/Fermi Level.md",
-    "单纯的，知识/Semi-Conductor Physics/PN Product.md",
-    "单纯的，知识/Semi-Conductor Physics/Density of States.md",
-    "单纯的，知识/Semi-Conductor Physics/Pauli Exclusion Principle.md",
-    "单纯的，知识/Semi-Conductor Physics/Thermal Equilibrium.md",
-    "EE6341/Power Amplifier/Power Amplifier.md",
-    "单纯的，知识/Semi-Conductor Physics/Carrier Velocity.md",
-    "单纯的，知识/PN Junction/Thermal Voltage.md",
-    "单纯的，知识/PN Junction/PN Junction Small Signal Model.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model.png",
-    "单纯的，知识/PN Junction/PN Junction Noise Model.md",
-    "单纯的，知识/PN Junction/PN Junction I-V Relation.md",
-    "单纯的，知识/Semi-Conductor Physics/Number of Degeneracy.md",
-    "费米-狄拉克分布.md",
-    "单纯的，知识/Semi-Conductor Physics/Fermi Energy.md",
-    "有效态密度.md",
-    "单纯的，知识/MOSFET/MOSFET Basis/Overdrive Voltage.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge.png",
     "EE6341/Power Amplifier/Power Amplifier Fig1.png",
     "单纯的，知识/BJT/BJT Basis",
@@ -254,14 +208,12 @@
     "单纯的，知识/BJT Power Amplifier/Q Point.png",
     "EE6341",
     "单纯的，知识/Power Amplifier/Q-point.png",
-    "单纯的，知识/BJT Power Amplifier",
+    "单纯的，知识/BJT/BJT Power Amplifier",
     "单纯的，知识/Semi-Conductor Physics",
     "单纯的，知识/MOSFET/MOSFET Basis/Untitled",
     "单纯的，知识/MOSFET/MOSFET Basis",
     "单纯的，知识/MOSFET/MOSFET Linear Region.png",
     "Untitled.canvas",
-    "NTU的课/EE6303",
-    "单纯的，知识/MOSFET/Non-Ideal Behavior",
-    "单纯的，知识/PN Junction"
+    "NTU的课/EE6303"
   ]
 }
