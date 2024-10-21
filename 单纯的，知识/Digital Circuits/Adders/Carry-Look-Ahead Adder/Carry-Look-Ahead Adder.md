@@ -17,5 +17,5 @@ $$C_{o,n}=G_n+P_n\left(G_{n-1}+P_{n-1}\left(\cdots+P_1\left(G_0+P_0C_{i,0}\right
 
 4位超前进位加法器的进位产生等式为：
 $$C_4=G_3+P_3G_2+P_3P_2G_1+P_3P_2P_1G_0+P_3P_2P_1P_0C_0$$
-电路实现为：
+电路实现为（好复杂）：
 ![[Carry-Look-Ahead Adder.png]]
