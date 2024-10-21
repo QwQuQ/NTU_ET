@@ -2,7 +2,7 @@
 aliases:
   - 传输门型加法器
 tags:
-  - Adder
+  - adder
 ---
 全加器可以用多路开关和XOR门设计
 ![[Pasted image 20241021213808.png|500]]

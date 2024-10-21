@@ -3,7 +3,7 @@ aliases:
   - 行波进位加法器
   - 逐位进位加法器
 tags:
-  - Adder
+  - adder
 ---
 N位加法器可以把N个1位的[[Full Adder|全加器]]串联起来。进位必须从最低有效位LSB一直波动到最高有效位MSB
 

@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Shifter
+  - shifter
 ---
 ![[Pastedimage20241021204314.png|100]]
 - For shift with fixed number of bits.

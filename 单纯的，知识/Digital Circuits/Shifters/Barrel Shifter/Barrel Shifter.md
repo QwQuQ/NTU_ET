@@ -2,7 +2,7 @@
 aliases:
   - 桶形移位器
 tags:
-  - Shifter
+  - shifter
 ---
 ![[Pasted image 20241021204249.png|600]]
 - Built from array of transistors

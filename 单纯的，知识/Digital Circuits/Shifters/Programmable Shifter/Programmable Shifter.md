@@ -2,7 +2,7 @@
 aliases:
   - 可编程移位器
 tags:
-  - Shifter
+  - shifter
 ---
 ![[Pasted image 20241021204201.png|300]]
 - 1-bit Left-Right shifter can be used for shifting of 1 bit either left or right or unchanged.

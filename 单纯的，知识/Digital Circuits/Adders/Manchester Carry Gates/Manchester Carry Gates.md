@@ -21,6 +21,7 @@ tags:
 
 # 表达式
 
+[[Full Adder|全加器]]的中间信号：
 carry delete:
 $$D=\overline{A}\cdot\overline{B}$$
 
@@ -35,4 +36,4 @@ $$C_o=G_i+P_iC_i$$
 # 动态逻辑中间信号产生电路
 
 ![[Dynamic Implementation of P and G.png]]
-上图的电路中使用一个Keeper来补偿动态逻辑中由于下拉电路中的漏电导致的电荷损失。
+上图的电路中使用一个[[Bleeder]]来补偿[[Dynamic Logic|动态逻辑]]中由于[[Charge Leakage|电荷泄露]]导致的电荷损失。
