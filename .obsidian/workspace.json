@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Square-Root Carry-Select Adder"
+              "title": "Manchester Carry Gates"
             }
           }
         ],
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Square-Root Carry-Select Adder 的反向链接列表"
+              "title": "Manchester Carry Gates 的反向链接列表"
             }
           },
           {
@@ -125,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单纯的，知识/Heterostructures/Critical Thickness.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Critical Thickness"
+              "title": "Manchester Carry Gates 的出链列表"
             }
           },
           {
@@ -176,12 +176,25 @@
   },
   "active": "8d82fdfb2b64fa4f",
   "lastOpenFiles": [
+    "Pasted image 20241021214332.png",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021214522.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021214211.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213955.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213949.png",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Pasted image 20241021213808.png",
+    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
+    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Pasted image 20241021201112.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
     "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Logical Shift.md",
     "EE6341/Power Amplifier/Power Amplifier.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.md",
     "单纯的，知识/BJT/BJT Noise/BJT Noise Model.md",
-    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
     "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Programmable Shifter.md",
     "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Pasted image 20241021204201.png",
     "单纯的，知识/Digital Circuits/Shifters/Arithmetic Shift/Arithmetic Shift.md",
@@ -192,24 +205,13 @@
     "单纯的，知识/Heterostructures/Lattice-Matched Heterostructures.md",
     "单纯的，知识/Heterostructures/Lattice-Mismatched Heterostructures.md",
     "单纯的，知识/PN Junction/Thermal Voltage.md",
-    "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
     "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.png",
-    "EE6341/Power Amplifier/Power Amplifier Fig1.png",
     "单纯的，知识/Noise/Shot Noise.md",
     "单纯的，知识/PN Junction/PN Junction I-V Relation.md",
     "单纯的，知识/PN Junction/PN Junction Noise Model.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model",
-    "单纯的，知识/PN Junction/未命名.md",
-    "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
-    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Pastedimage20241021204314.png",
-    "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter/Pasted image 20241021204249.png",
-    "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Pasted image 20241021204125.png",
     "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration",
     "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect",
     "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base",
@@ -220,9 +222,6 @@
     "Shifters",
     "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
-    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Pasted image 20241021201112.png",
-    "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge.png",
-    "单纯的，知识/MOSFET/MOSFET Basis/MOSFET Linear Region.png",
     "Untitled.canvas"
   ]
 }
