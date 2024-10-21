@@ -4,6 +4,7 @@ aliases:
 tags:
   - Shifter
 ---
+![[Pasted image 20241021204249.png|600]]
 - Built from array of transistors
 - Number of rows = word length
 - Number of columns = maximum shift width

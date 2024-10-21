@@ -1,0 +1,56 @@
+  
+/* 
+@Author   : 咖啡豆  
+@contact  : https://obsidian.vip/  
+@File     : coffeebean-补充图片对齐语法.css  
+@Software : vscode  
+@Date     : 2023-02-13 17:53:32  
+@upDate   : 2023-02-13 17:53:37  
+@Desc     : 强制增加图片对齐语法  
+            在md文件中，图片的对齐语法是：![[Pasted image 20221125235721.png#pic_center|500]]  
+*/  
+  
+/* 正则匹配，如果图片的链接中包含 #pic_center 的，图片居中显示 */.markdown-preview-view .image-embed[src*="#pic_center"] {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 50%;
+}  
+  
+/* 正则匹配，如果图片的链接中包含 #pic_left 的，图片居左显示 */.markdown-preview-view .image-embed[src*="#pic_left"] {  
+    display: block;  
+    margin-left: 0;  
+    margin-right: auto;  
+    width: 50%;
+}  
+  
+/* 正则匹配，如果图片的链接中包含 #pic_right 的，图片居右显示 */.markdown-preview-view .image-embed[src*="#pic_right"] {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: 0;  
+    width: 50%;  
+}  
+  
+/*实时编辑模式，如果图片的链接中包含 #pic_center 的，图片居中显示*/  
+.markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_center"] {  
+    display: block;  
+    margin-left: auto !important;  
+    margin-right: auto !important;  
+    width: 70%;
+}  
+  
+/*实时编辑模式，如果图片的链接中包含 #pic_left 的，图片居左显示*/  
+.markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_left"] {  
+    display: block;  
+    margin-left: 0 !important;  
+    margin-right: auto !important;  
+    width: 50%;  
+}  
+  
+/*实时编辑模式，如果图片的链接中包含 #pic_right 的，图片居右显示*/  
+.markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_right"] {  
+    display: block;  
+    margin-left: auto !important;  
+    margin-right: 0 !important;  
+    width: 50%;  
+}

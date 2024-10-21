@@ -17,4 +17,5 @@ $$s=a\oplus b \oplus c_i=abc_i+\overline{c_o}(a+b+c_i)$$
 - Sum output requires extra logic (although not critical).
 
 # 改进
-利用加法器的反向特性，我们可以隔一个移除进位链中的反相器。![[Pasted image 20241021201112.png]]
+利用加法器的反向特性，我们可以隔一个移除进位链中的反相器。
+![[Pasted image 20241021201112.png|400]]

@@ -2,7 +2,7 @@
 aliases:
   - PN结小信号模型
 ---
-![[PN Junction Small Signal Model.png]]
+![[PN Junction Small Signal Model.png|200]]
 
 其中 $r_s$ 是实际存在的电阻，它会产生[[Thermal Noise|热噪声]]。 $r_d$ 是二极管的动态电阻，不会产生热噪声。PN结中电子的运动会产生[[Shot Noise|散粒噪声]]和[[Flicker Noise|粉红噪声]]，[[Burst Noise|突发噪声]]与他俩相比可以忽略。
 

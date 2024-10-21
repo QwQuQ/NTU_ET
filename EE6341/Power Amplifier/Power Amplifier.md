@@ -1,6 +1,6 @@
 # Q Point
 在$\beta$比较大时，$I_C \approx I_E$，$V_{CE}=V_{CC}-I_C\left(R_C+R_E\right)$
-![[Power Amplifier Fig1.png]]
+![[Power Amplifier Fig1.png|400]]
 DC Load Line的两个端点分别为：$V_{CE}=0$，$I_C=\frac{V_{CC}}{\left(R_C+R_E\right)}$；$I_C=0$，$V_{CE}=V_{CC}$
 为了让输出摆率取到最大，偏置点需要取在DC Load Line的中点。
 

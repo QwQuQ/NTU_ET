@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9a736e604bd0097",
+        "id": "d2c1456890c67478",
         "type": "tabs",
         "children": [
           {
-            "id": "0acf8e1b3208be80",
+            "id": "ccf6498915580140",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,109 +16,25 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "关系图谱"
             }
           },
           {
-            "id": "a265bde087a68384",
+            "id": "8d82fdfb2b64fa4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Hard-Wired Shifter.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hard-Wired Shifter"
-            }
-          },
-          {
-            "id": "f83ef26129c18a4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/MOSFET/MOSFET Basis/Diffusion Capacitance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diffusion Capacitance"
-            }
-          },
-          {
-            "id": "7d83673b6f48bca5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Digital Circuits Basis/Logic Effort/Logic Effort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logic Effort"
-            }
-          },
-          {
-            "id": "2cd8a0d3e2e53804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transmission–Gate-Based Adder"
-            }
-          },
-          {
-            "id": "d8cab8fdd1d6480d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Full Adder"
-            }
-          },
-          {
-            "id": "a11c73a2608fe5d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration/Non-Uniform Majority Carrier Concentration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Non-Uniform Majority Carrier Concentration"
-            }
-          },
-          {
-            "id": "1c285c8b0a4801da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/BJT/BJT Basis/Ideal BJT Current-Voltage Characteristics/Assumptions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Assumptions"
+              "title": "Square-Root Carry-Select Adder"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +56,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -190,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Heterostructures/Critical Thickness.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Critical Thickness"
+              "title": "Square-Root Carry-Select Adder 的反向链接列表"
             }
           },
           {
@@ -246,67 +162,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "1c285c8b0a4801da",
+  "active": "8d82fdfb2b64fa4f",
   "lastOpenFiles": [
-    "单纯的，知识/BJT/BJT Basis/Ideal BJT Current-Voltage Characteristics/Current Density Equation for Electrons in p-type  Base.md",
-    "单纯的，知识/BJT/BJT Basis/Ideal BJT Current-Voltage Characteristics/Assumptions.md",
-    "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base/Electric Field Within the Base.md",
-    "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration/Non-Uniform Majority Carrier Concentration.md",
-    "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration",
-    "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect/Heavy Doping Effect.md",
-    "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect",
-    "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base",
-    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Programmable Shifter.md",
-    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter",
-    "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Logical Shift.md",
-    "单纯的，知识/Digital Circuits/Shifters/Logical Shift",
-    "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter/Logarithmic Shifter.md",
-    "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter",
-    "Shifters/Logarithmic Shifter",
-    "Shifters",
-    "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter/Barrel Shifter.md",
-    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Hard-Wired Shifter.md",
-    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter",
-    "单纯的，知识/Digital Circuits/shifters/Barrel Shifter/Barrel Shifter.md",
-    "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter",
-    "单纯的，知识/Digital Circuits/Shifters/Arithmetic Shift/Arithmetic Shift.md",
-    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Logic Effort/Logic Effort.md",
-    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Logical Shift.md",
+    "EE6341/Power Amplifier/Power Amplifier.md",
+    "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.md",
+    "单纯的，知识/BJT/BJT Noise/BJT Noise Model.md",
+    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
+    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Programmable Shifter.md",
+    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Pasted image 20241021204201.png",
+    "单纯的，知识/Digital Circuits/Shifters/Arithmetic Shift/Arithmetic Shift.md",
+    "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter/Logarithmic Shifter.md",
+    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Hard-Wired Shifter.md",
+    "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter/Barrel Shifter.md",
+    "单纯的，知识/Digital Circuits/Shifters/Arithmetic Shift/Pasted image 20241021204108.png",
+    "单纯的，知识/Heterostructures/Lattice-Matched Heterostructures.md",
+    "单纯的，知识/Heterostructures/Lattice-Mismatched Heterostructures.md",
+    "单纯的，知识/PN Junction/Thermal Voltage.md",
     "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
     "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
-    "单纯的，知识/Digital Circuits/Adders/Untitled.md",
-    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
-    "单纯的，知识/MOSFET/MOSFET Basis/Diffusion Capacitance.md",
     "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
-    "单纯的，知识/Digital Circuits/Untitled.md",
+    "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.png",
+    "EE6341/Power Amplifier/Power Amplifier Fig1.png",
+    "单纯的，知识/Noise/Shot Noise.md",
+    "单纯的，知识/PN Junction/PN Junction I-V Relation.md",
+    "单纯的，知识/PN Junction/PN Junction Noise Model.md",
+    "单纯的，知识/PN Junction/PN Junction Small Signal Model",
+    "单纯的，知识/PN Junction/未命名.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier Mobility.md",
+    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Pastedimage20241021204314.png",
+    "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter/Pasted image 20241021204249.png",
+    "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Pasted image 20241021204125.png",
+    "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration",
+    "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect",
+    "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base",
+    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter",
+    "单纯的，知识/Digital Circuits/Shifters/Logical Shift",
+    "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter",
+    "Shifters/Logarithmic Shifter",
+    "Shifters",
+    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter",
+    "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Pasted image 20241021201112.png",
     "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge.png",
     "单纯的，知识/MOSFET/MOSFET Basis/MOSFET Linear Region.png",
-    "单纯的，知识/Semi-Conductor Physics/Pasted image 20241018204645.png",
-    "单纯的，知识/PN Junction/PN Junction Small Signal Model.png",
-    "EE6341/Power Amplifier/Power Amplifier Fig1.png",
-    "单纯的，知识/BJT/BJT Noise/BJT Small Signal Model.png",
-    "单纯的，知识/BJT Power Amplifier/Q Point.png",
-    "单纯的，知识/Power Amplifier/Q-point.png",
     "Untitled.canvas"
   ]
 }
