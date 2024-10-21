@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#TODO  ",
+      "query": "tag:#adder",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.14444581661006,
@@ -25,6 +25,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.334778706650154,
+  "scale": 0.6173285804182618,
   "close": false
 }

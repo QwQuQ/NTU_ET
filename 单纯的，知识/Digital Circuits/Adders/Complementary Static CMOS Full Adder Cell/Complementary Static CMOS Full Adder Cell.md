@@ -3,6 +3,7 @@ aliases:
   - 互补CMOS全加器
 tags:
   - adder
+  - digital_circuits
 ---
 由[[Full Adder|全加器]]改进而来。
 # 表达式

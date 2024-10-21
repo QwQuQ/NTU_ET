@@ -3,6 +3,7 @@ aliases:
   - 全加器
 tags:
   - adder
+  - digital_circuits
 ---
 # 表达式
 $$s=a\oplus b \oplus c_i$$
@@ -30,4 +31,4 @@ $$c_o=ab+bc_i+ac_i$$
 全加器的输入和输出全部反向并不影响性质。
 $$\overline{s}(a,b,c_i)=s(\overline{a},\overline{b},\overline{c_i})$$
 $$\overline{c_o}(a,b,c_i)=c_o(\overline{a},\overline{b},\overline{c_i})$$
-根据这一性质可以设计[[Complementary Static CMOS Full Adder Cell]]
+根据这一性质可以设计[[Complementary Static CMOS Full Adder Cell|互补CMOS全加器]]

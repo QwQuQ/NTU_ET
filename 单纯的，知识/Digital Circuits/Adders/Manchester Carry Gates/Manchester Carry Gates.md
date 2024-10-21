@@ -3,6 +3,7 @@ aliases:
   - 曼彻斯特进位链加法器
 tags:
   - adder
+  - digital_circuits
 ---
 [[Transmission–Gate-Based Adder|传输门型加法器]]中的进位传播电路（进位链）可以通过增加进位产生和进位消除信号来简化。需要添加产生中间信号的电路。
 

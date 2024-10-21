@@ -4,7 +4,10 @@ aliases:
   - 逐位进位加法器
 tags:
   - adder
+  - digital_circuits
 ---
+![[Ripple-Carry Adder.png]]
+
 N位加法器可以把N个1位的[[Full Adder|全加器]]串联起来。进位必须从最低有效位LSB一直波动到最高有效位MSB
 
 - Ripple-Carry Adder is simple but suffer from long delay, specially when n is large.

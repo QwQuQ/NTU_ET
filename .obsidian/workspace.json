@@ -20,63 +20,21 @@
             }
           },
           {
-            "id": "0aedfffcc4614eff",
+            "id": "8bd1666946c461a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder/Bleeder.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bleeder"
-            }
-          },
-          {
-            "id": "dd75f9f4dd645694",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder/Bleeder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bleeder"
-            }
-          },
-          {
-            "id": "4c50aacee0c12e19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Carry-Bypass Adder"
-            }
-          },
-          {
-            "id": "8d95f0151ae73282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "readme.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "readme"
+              "title": "Carry-Look-Ahead Adder"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +53,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -148,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "readme 的反向链接列表"
+              "title": "Carry-Look-Ahead Adder 的反向链接列表"
             }
           },
           {
@@ -216,53 +174,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8d95f0151ae73282",
+  "active": "8bd1666946c461a6",
   "lastOpenFiles": [
-    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
-    "readme.md",
-    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
-    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder/Bleeder.md",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Linear Carry-Select Adder/Linear Carry-Select Adder.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
     "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Implementation of P and G.png",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Pasted image 20241021213808.png",
+    "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Static Manchester Carry Gates.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Manchester Carry Gates.png",
+    "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.png",
+    "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Square-Root Carry-Select Adder",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder_3.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder_2.png",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder/Linear Carry-Select Adder",
+    "单纯的，知识/Digital Circuits/Adders/Carry-Select Adder",
+    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder/Bleeder.md",
+    "readme.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Saturation Drain Voltage.md",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder Transistor/Bleeder Transistor.md",
-    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder Transistor/Bleeder Transistor.png",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Charge Leakage.md",
-    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Charge Leakage.png",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder Transistor",
-    "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder/Bleeder.png",
     "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter/Programmable Shifter.md",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Dynamic Logic.md",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage/Bleeder",
-    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Pasted image 20241021213808.png",
     "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter/Logarithmic Shifter.md",
     "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter/Hard-Wired Shifter.md",
     "单纯的，知识/Digital Circuits/Shifters/Barrel Shifter/Barrel Shifter.md",
-    "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
-    "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic/Charge Leakage",
     "单纯的，知识/Digital Circuits/Digital Circuits Basis/Dynamic Logic",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Implementation of P and G.png",
-    "Pasted image 20241021214332.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Static Manchester Carry Gates.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Manchester Carry Gates.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213955.png",
     "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Logical Shift.md",
     "EE6341/Power Amplifier/Power Amplifier.md",
-    "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.md",
-    "单纯的，知识/BJT/BJT Noise/BJT Noise Model.md",
-    "单纯的，知识/Digital Circuits/Shifters/Arithmetic Shift/Arithmetic Shift.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model",
     "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration",
     "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect",
-    "单纯的，知识/BJT/BJT Advance/Electric Field Within the Base",
-    "单纯的，知识/Digital Circuits/Shifters/Programmable Shifter",
-    "单纯的，知识/Digital Circuits/Shifters/Logical Shift",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
