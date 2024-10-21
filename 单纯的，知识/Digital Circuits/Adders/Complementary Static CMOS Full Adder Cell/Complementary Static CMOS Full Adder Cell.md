@@ -2,7 +2,7 @@
 aliases:
   - 互补CMOS全加器
 tags:
-  - Adder
+  - adder
 ---
 由[[Full Adder|全加器]]改进而来。
 # 表达式

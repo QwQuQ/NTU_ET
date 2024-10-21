@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "8d82fdfb2b64fa4f",
+            "id": "0aedfffcc4614eff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Adder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -86,7 +86,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,21 +175,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8d82fdfb2b64fa4f",
+  "active": "0aedfffcc4614eff",
   "lastOpenFiles": [
-    "Pasted image 20241021214332.png",
-    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021214522.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021214211.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213955.png",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213949.png",
-    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Pasted image 20241021213808.png",
+    "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Complementary Static CMOS Full Adder Cell.md",
-    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Pasted image 20241021201112.png",
     "单纯的，知识/Digital Circuits/Adders/Carry-Look-Ahead Adder/Carry-Look-Ahead Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
+    "单纯的，知识/Digital Circuits/Dynamic Logic/Dynamic Logic.md",
+    "未命名.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Manchester Carry Gates.md",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Transmission–Gate-Based Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Transmission–Gate-Based Adder/Pasted image 20241021213808.png",
+    "单纯的，知识/Digital Circuits/Dynamic Logic/Charge Leakage/Charge Leakage.md",
+    "单纯的，知识/Digital Circuits/Dynamic Logic/Charge Leakage",
+    "单纯的，知识/Digital Circuits/Dynamic Logic",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Implementation of P and G.png",
+    "Pasted image 20241021214332.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Static Manchester Carry Gates.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Dynamic Manchester Carry Gates.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213955.png",
+    "单纯的，知识/Digital Circuits/Adders/Manchester Carry Gates/Pasted image 20241021213949.png",
+    "单纯的，知识/Digital Circuits/Adders/Complementary Static CMOS Full Adder Cell/Pasted image 20241021201112.png",
     "单纯的，知识/Digital Circuits/Adders/Ripple-Carry Adder/Ripple-Carry Adder.md",
     "单纯的，知识/Digital Circuits/Adders/Square-Root Carry-Select Adder/Square-Root Carry-Select Adder.md",
     "单纯的，知识/Digital Circuits/Shifters/Logical Shift/Logical Shift.md",
@@ -205,12 +214,7 @@
     "单纯的，知识/Heterostructures/Lattice-Matched Heterostructures.md",
     "单纯的，知识/Heterostructures/Lattice-Mismatched Heterostructures.md",
     "单纯的，知识/PN Junction/Thermal Voltage.md",
-    "单纯的，知识/Digital Circuits/Adders/Manchester Carry-Bypass Adder/Manchester Carry-Bypass Adder.md",
-    "单纯的，知识/Digital Circuits/Adders/Linear Carry-Select Adder/Linear Carry-Select Adder.md",
-    "单纯的，知识/PN Junction/PN Junction Small Signal Model/PN Junction Small Signal Model.png",
     "单纯的，知识/Noise/Shot Noise.md",
-    "单纯的，知识/PN Junction/PN Junction I-V Relation.md",
-    "单纯的，知识/PN Junction/PN Junction Noise Model.md",
     "单纯的，知识/PN Junction/PN Junction Small Signal Model",
     "单纯的，知识/BJT/BJT Advance/Non-Uniform Majority Carrier Concentration",
     "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect",
@@ -219,8 +223,6 @@
     "单纯的，知识/Digital Circuits/Shifters/Logical Shift",
     "单纯的，知识/Digital Circuits/Shifters/Logarithmic Shifter",
     "Shifters/Logarithmic Shifter",
-    "Shifters",
-    "单纯的，知识/Digital Circuits/Shifters/Hard-Wired Shifter",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
