@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MOSFET噪声模型
+  - 逻辑移位
 tags:
   - TODO
 ---

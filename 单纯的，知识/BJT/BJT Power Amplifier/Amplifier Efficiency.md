@@ -1,6 +1,8 @@
 ---
 aliases:
   - 放大器效率
+tags:
+  - TODO
 ---
 $$\eta=\frac{\overline{P_L}}{\overline{P_S}}$$
 
