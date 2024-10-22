@@ -109,12 +109,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/未命名/Baugh-Wooley Array Multiplier.md",
+                "file": "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Baugh-Wooley Array Multiplier"
+              "title": "Signed Multiplication"
             }
           }
         ],
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/未命名/Baugh-Wooley Array Multiplier.md",
+                "file": "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Baugh-Wooley Array Multiplier 的反向链接列表"
+              "title": "Signed Multiplication 的反向链接列表"
             }
           },
           {
@@ -260,11 +260,11 @@
   },
   "active": "f3ae591c237c6a25",
   "lastOpenFiles": [
+    "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.md",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
     "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
-    "单纯的，知识/Digital Circuits/Multipliers/未命名/Baugh-Wooley Array Multiplier.md",
     "单纯的，知识/Digital Circuits/Multipliers/未命名/未命名",
-    "单纯的，知识/Digital Circuits/Multipliers/未命名",
+    "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication",
     "单纯的，知识/Digital Circuits/Adders/Half Adder/Half Adder.md",

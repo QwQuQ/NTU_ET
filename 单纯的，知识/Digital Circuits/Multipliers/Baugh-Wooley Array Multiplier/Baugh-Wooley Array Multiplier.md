@@ -23,7 +23,7 @@ P=XY=x_{n-1}2^{n-1}\times y_{n-1}2^{n-1}+\left(\sum_{i=0}^{n-2}\sum_{j=0}^{n-2}x
 
 对$A$、$B$进行操作，由于二者操作相同，所以以$A$为例：
 
-将A补零至2n位，方便在阵列中相加
+将A补零至2n位，方便在阵列中相加，其中$a_i=y_{n-1}\times x_i$
 
 | $2n-1$ | $2n-2$ |  $2n-3$   |  $2n-4$   | $\cdots$ |   $n$   |  $n-1$  | $n-2$ | $n-3$ | $\cdots$ | $0$ |
 | :----: | :----: | :-------: | :-------: | :------: | :-----: | :-----: | :---: | :---: | :------: | :---: |
@@ -39,6 +39,12 @@ P=XY=x_{n-1}2^{n-1}\times y_{n-1}2^{n-1}+\left(\sum_{i=0}^{n-2}\sum_{j=0}^{n-2}x
 
 所以$-(A+B)$的表达式为：
 $$\displaylines{
--(A+B)=2^{2n-1}+2^{2n-2}+2^{n-1}\left(\sum_{i=0}^{n-2}\overline{a_i}\times 2^i\right) \\
-+2^{2n-1}+
+-(A+B)=2^{2n-1}+2^{2n-2}+2^{n-1}\left(\sum_{i=0}^{n-2}\overline{a_i}\times 2^i\right)+2^{n-1} \\
++2^{2n-1}+2^{n-1}+2^{n-1}\left(\sum_{j=0}^{n-2}\overline{b_j}\times 2^j\right)+2^{n-1} \\
+=2^{n-1}\left(\sum_{i=0}^{n-2}\overline{a_i}\times 2^i\right)+2^{n-1}\left(\sum_{j=0}^{n-2}\overline{b_j}\times 2^j\right)-2^{2n-1}+2^n
+}$$
+将$-(A+B)$的结果代入$P=C+D-(A+B)$，得到：
+$$\displaylines{
+P=x_{n-1}y_{n-1}2^{2n-2}+\left(\sum_{i=0}^{n-2}\sum_{j=0}^{n-2}x_iy_j\times 2^{i+j}\right)+2^{n-1}\left(\sum_{i=0}^{n-2}\overline{y_{n-1}x_i}\times 2^i\right) \\
++2^{n-1}\left(\sum_{j=0}^{n-2}\overline{x_{n-1}y_j}\times 2^j\right)-2^{2n-1}+2^n
 }$$
