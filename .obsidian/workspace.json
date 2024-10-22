@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.md",
+                "file": "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Potential/Fermi Potential.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diode Small Signal Model"
+              "title": "Fermi Potential"
             }
           },
           {
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.md",
+                "file": "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Potential/Fermi Potential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Diode Small Signal Model 的反向链接列表"
+              "title": "Fermi Potential 的反向链接列表"
             }
           },
           {
@@ -258,18 +258,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "c4ef5f556f1dbfd6",
   "lastOpenFiles": [
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Level/Fermi Level.md",
+    "单纯的，知识/Semi-Conductor Physics/Current/Current Density Equations/Current Density Equations.md",
+    "单纯的，知识/Semi-Conductor Physics/Current/Diffusion Current Density/Diffusion Current Density.md",
+    "单纯的，知识/BJT/BJT Basis/Collector Current/Collector Current.md",
     "单纯的，知识/BJT/BJT Basis/Base Current/Base Current.md",
     "单纯的，知识/BJT/BJT Basis/Current Density Equation for Electrons in p-type  Base/Current Density Equation for Electrons in p-type Base.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Einstein's Relation/Einstein's Relation.md",
+    "单纯的，知识/Semi-Conductor Physics/Current/Drift Current Density/Drift Current Density.md",
+    "单纯的，知识/BJT/BJT Basis/Current Density Equation for Holes in a n-type Emitter/Current Density Equation for Holes in a n-type  Emitter.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Equilibrium Carrier Concentration/Equilibrium Carrier Concentration.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Effective Density of States/Effective Density of States.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Density of States/Density of States.md",
+    "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.md",
     "单纯的，知识/Semi-Conductor Physics/Quantum Mechanics/Fermi-Dirac Distribution/Fermi-Dirac Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Carrier/Carrier Recombination/Carrier Recombination.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Carrier/Carrier Recombination/Shockley-Hall-Read Recombination/Shockley-Hall-Read Recombination.md",
-    "单纯的，知识/BJT/BJT Basis/Current Density Equation for Holes in a n-type Emitter/Current Density Equation for Holes in a n-type  Emitter.md",
     "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect/Heavy Doping Effect.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Quasi-Fermi Potential/Quasi-Fermi Potential.md",
-    "单纯的，知识/Semi-Conductor Physics/Current/Current Density Equations/Current Density Equations.md",
-    "单纯的，知识/BJT/BJT Basis/Collector Current/Collector Current.md",
     "单纯的，知识/BJT/BJT Basis/Current Density Equation for Holes in a n-type Emitter",
     "单纯的，知识/BJT/BJT Basis/Current Density Equation for Electrons in p-type  Base",
     "单纯的，知识/BJT/BJT Basis/Assumptions.md",
@@ -285,18 +293,10 @@
     "单纯的，知识/BJT/BJT Advance/Shallow Emitters",
     "单纯的，知识/BJT/BJT Basis/Base Current",
     "单纯的，知识/Analog",
-    "单纯的，知识/BJT/BJT Basis/BJT Small Signal Model/BJT Small Signal Model.md",
     "单纯的，知识/BJT/BJT Basis/BJT Small Signal Model/BJT Small Signal Model.png",
     "单纯的，知识/BJT/BJT Basis/BJT Small Signal Model",
-    "单纯的，知识/BJT/BJT Basis/Common Base Current Gain/Common Base Current Gain.md",
     "单纯的，知识/BJT/BJT Basis/Common Base Current Gain",
-    "单纯的，知识/BJT/BJT Basis/Common Emitter Current Gain/Common Emitter Current Gain.md",
     "单纯的，知识/BJT/BJT Basis/Common Emitter Current Gain",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Quasi-Fermi Levels/Quasi-Fermi Levels.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Potential/Fermi Potential.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Level/Fermi Level.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Equilibrium Carrier Concentration/Equilibrium Carrier Concentration.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Einstein's Relation/Einstein's Relation.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge/Channel Charge.png",
     "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.png",
     "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.png",

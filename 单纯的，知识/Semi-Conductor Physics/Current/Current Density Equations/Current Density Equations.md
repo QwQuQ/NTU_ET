@@ -6,3 +6,4 @@ aliases:
 $$J_n=qn\mu_nE+qD_n\frac{\mathrm{d}n}{\mathrm{d}x}$$
 $$J_p=qn\mu_pE-qD_p\frac{\mathrm{d}p}{\mathrm{d}x}$$
 总的电流密度为电子和空穴电流密度的和：$$J=J_n+J_p$$
+使用[[Einstein's Relation|爱因斯坦关系]]与$$
