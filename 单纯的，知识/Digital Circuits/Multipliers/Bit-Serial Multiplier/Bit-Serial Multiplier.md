@@ -7,9 +7,9 @@ tags:
 ---
 ![[Bit-Serial Multiplier.png]]
 
-用竖式模拟[[Binary Multiplication|二进制乘法]]完成计算。
+用竖式模拟二进制乘法完成计算。
 
-需要注意的是与门的输入是
+与门用来产生[[Partial Products|部分积]]：
 ```verilog
 and_out = M & {6{Q[0]}};
 ```
