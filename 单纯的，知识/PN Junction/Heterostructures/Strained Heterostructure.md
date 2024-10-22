@@ -6,8 +6,8 @@ aliases:
 属于[[Lattice-Mismatched Heterostructures|晶格失配异质结构]]的一种
 
 Assume
-- $a_s$ [[lattice constant]] of Si substrate
-- $a_f$ [[lattice constant]] of the SiGe bulk film
+- $a_s$ [[Lattice Constant]] of Si substrate
+- $a_f$ [[Lattice Constant]] of the SiGe bulk film
 
 If the epitaxially grown SiGe is **very thin**, the heterostructure will be **strained**.
 

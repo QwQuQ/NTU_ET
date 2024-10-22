@@ -2,7 +2,7 @@
 aliases:
   - 晶格常数
 ---
-![[Pasted image 20241018204645.png]]
+![[Lattice Constant.png]]
 晶格常数一般由6个参数组成：$a$、$b$、$c$、$\alpha$、$\beta$、$\gamma$
 由于在半导体中一般为立方结构，所以可以只用一个参数表示晶胞的物理尺寸。
 
