@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/BJT/BJT Basis/Base Current/Base Current.md",
+                "file": "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Base Current"
+              "title": "Diode Small Signal Model"
             }
           },
           {
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/BJT/BJT Basis/Base Current/Base Current.md",
+                "file": "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Base Current 的反向链接列表"
+              "title": "Diode Small Signal Model 的反向链接列表"
             }
           },
           {
@@ -258,14 +258,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c4ef5f556f1dbfd6",
+  "active": "7f0b3b1f1ef44f79",
   "lastOpenFiles": [
+    "单纯的，知识/BJT/BJT Basis/Base Current/Base Current.md",
     "单纯的，知识/BJT/BJT Basis/Current Density Equation for Electrons in p-type  Base/Current Density Equation for Electrons in p-type Base.md",
     "单纯的，知识/Semi-Conductor Physics/Quantum Mechanics/Fermi-Dirac Distribution/Fermi-Dirac Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Carrier/Carrier Recombination/Carrier Recombination.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Carrier/Carrier Recombination/Shockley-Hall-Read Recombination/Shockley-Hall-Read Recombination.md",
     "单纯的，知识/BJT/BJT Basis/Current Density Equation for Holes in a n-type Emitter/Current Density Equation for Holes in a n-type  Emitter.md",
-    "单纯的，知识/BJT/BJT Basis/Base Current/Base Current.md",
     "单纯的，知识/BJT/BJT Advance/Heavy Doping Effect/Heavy Doping Effect.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Quasi-Fermi Potential/Quasi-Fermi Potential.md",
     "单纯的，知识/Semi-Conductor Physics/Current/Current Density Equations/Current Density Equations.md",
@@ -298,7 +298,7 @@
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Equilibrium Carrier Concentration/Equilibrium Carrier Concentration.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Einstein's Relation/Einstein's Relation.md",
     "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge/Channel Charge.png",
-    "单纯的，知识/Diode/PN Junction Small Signal Model/Diode Small Signal Model.png",
+    "单纯的，知识/Diode/Diode Small Signal Model/Diode Small Signal Model.png",
     "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.png",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication_2.png",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication_3.png",
