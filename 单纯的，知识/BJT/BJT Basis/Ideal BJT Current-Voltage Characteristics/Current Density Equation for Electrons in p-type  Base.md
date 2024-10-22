@@ -1,1 +1,0 @@
-From [[Current Density Equations]] and [[Einstein's Relation]]: $$J_n\left(x\right)=-qn_p\mu_n\frac{\mathrm{d}\phi_n}{\mathrm{d}x}$$

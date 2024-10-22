@@ -3,7 +3,7 @@ aliases:
 ---
 对于NPN管，基区的多子是空穴，少子是电子。空穴不均匀分布的原因：
 1. non-uniform doping profile during implant or diffusion
-2. high level of minority injection from emitter (upset equilibrium)
+	1. high level of minority injection from emitter (upset equilibrium)
 
 考虑基区空穴的[[Quasi-Fermi Potential|准费米电势]]
 $$\phi_p=\psi_i+\frac{kT}{q}ln\left(\frac{p_p}{n_i}\right)$$
