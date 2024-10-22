@@ -5,7 +5,7 @@ aliases:
   - MOSFET Linear Region
 ---
 
-![[MOSFET Linear Region.png|400]]
+![[MOSFET Linear Mode.png|400]]
 
 # 推导
 假设$V_{GS}$>[[Threshold Voltage|阈值电压]]$V_T$，$V_{DS}\leq V_{GS}-V_T$. 沿沟道的电压为$V(x)$，所以该点栅极到沟道的电压为$V_{GS}-V(x)$，假设这一电压一直大于$V_T$. 

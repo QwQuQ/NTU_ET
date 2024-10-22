@@ -20,161 +20,34 @@
             }
           },
           {
-            "id": "afe04819b8184f6b",
+            "id": "c4ef5f556f1dbfd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Carry-Save Multiplier/Carry-Save Multiplier.md",
+                "file": "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi-Dirac Distribution/Fermi-Dirac Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carry-Save Multiplier"
+              "title": "Fermi-Dirac Distribution"
             }
           },
           {
-            "id": "c6cf7dae4818389e",
+            "id": "cdad3b9f417b809b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Half Adder/Half Adder.md",
+                "file": "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Recombination/Carrier Recombination.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Half Adder"
-            }
-          },
-          {
-            "id": "1856d0b321c50589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Array Multiplier/Array Multiplier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Array Multiplier"
-            }
-          },
-          {
-            "id": "e0a8eb309bdcb740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Wallace CSA Trees/Wallace CSA Trees.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wallace CSA Trees"
-            }
-          },
-          {
-            "id": "7592a514bdd43b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Array Multiplier/Array Multiplier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Array Multiplier"
-            }
-          },
-          {
-            "id": "7f59e447c0a47953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Adders/Half Adder/Half Adder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Half Adder"
-            }
-          },
-          {
-            "id": "f3ae591c237c6a25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Signed Multiplication"
-            }
-          },
-          {
-            "id": "e42dd527625ddda7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Baugh-Wooley Array Multiplier"
-            }
-          },
-          {
-            "id": "66659e9f8423a890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Signed Multiplication"
-            }
-          },
-          {
-            "id": "c547572d9aaa47a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Baugh-Wooley Array Multiplier"
-            }
-          },
-          {
-            "id": "507bd98c2b710909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Vegard’s Law.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vegard’s Law"
+              "title": "Carrier Recombination"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Semi-Conductor Physics/Vegard’s Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Vegard’s Law 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -314,54 +186,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "ccf6498915580140",
   "lastOpenFiles": [
-    "单纯的，知识/Semi-Conductor Physics/Surface Recombination.md",
-    "单纯的，知识/Semi-Conductor Physics/Shockley-Hall-Read Recombination.md",
-    "单纯的，知识/Semi-Conductor Physics/E-k Diagram.md",
-    "单纯的，知识/Semi-Conductor Physics/Thermal Equilibrium.md",
-    "单纯的，知识/Semi-Conductor Physics/Carrier Velocity.md",
-    "单纯的，知识/Semi-Conductor Physics/Fermi-Dirac Distribution.md",
-    "单纯的，知识/Semi-Conductor Physics/Heisenberg Uncertainty Principle.md",
-    "单纯的，知识/Semi-Conductor Physics/Carrier Recombination.md",
-    "单纯的，知识/Semi-Conductor Physics/Vegard’s Law.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Recombination/Carrier Recombination.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi-Dirac Distribution/Fermi-Dirac Distribution.md",
     "单纯的，知识/Semi-Conductor Physics/Lattice Constant/Lattice Constant.md",
-    "单纯的，知识/Semi-Conductor Physics/Lattice Constant",
-    "单纯的，知识/PN Junction/Thermal Voltage.md",
-    "单纯的，知识/Diode/PN Junction Small Signal Model/Diode Small Signal Model.md",
-    "单纯的，知识/Diode/Diode I-V Relation/Diode I-V Relation.md",
-    "单纯的，知识/Diode/Diode Noise Model/Diode Noise Model.md",
-    "单纯的，知识/Diode/Diode Noise Model",
+    "单纯的，知识/Semi-Conductor Physics/Quantum Mechanics",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Boltzmann Distribution/Boltzmann Distribution.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Recombination/Surface Recombination/Surface Recombination.md",
+    "readme.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics",
+    "单纯的，知识/Semi-Conductor Physics/Carrier",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi-Dirac Distribution",
+    "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Velocity/Carrier Velocity.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Velocity",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Pauli Exclusion Principle/Pauli Exclusion Principle.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Pauli Exclusion Principle",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Effective Density of States/Effective Density of States.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Effective Density of States",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Thermal Equilibrium/Thermal Equilibrium.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Thermal Equilibrium",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/E-k Diagram/Effective Mass/Effective Mass.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/E-k Diagram/Effective Mass",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Density of States/Density of States.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Density of States",
+    "单纯的，知识/Semi-Conductor Physics/PN Product/PN Product.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Level/Fermi Level.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Equilibrium Carrier Concentration/Equilibrium Carrier Concentration.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Boltzmann’s Relations/Boltzmann’s Relations.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Fermi Potential/Fermi Potential.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Quasi-Fermi Levels/Quasi-Fermi Levels.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Quasi-Fermi Potential/Quasi-Fermi Potential.md",
+    "单纯的，知识/Semi-Conductor Physics/Carrier/Carrier Mobility/Carrier Mobility.md",
+    "单纯的，知识/Semi-Conductor Physics/Diffusion Current Density/Diffusion Current Density.md",
+    "单纯的，知识/Semi-Conductor Physics/Current Density Equations/Current Density Equations.md",
+    "单纯的，知识/Semi-Conductor Physics/Drift Current Density/Drift Current Density.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Einstein's Relation/Einstein's Relation.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Heisenberg Uncertainty Principle/Heisenberg Uncertainty Principle.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/E-k Diagram/E-k Diagram.md",
+    "单纯的，知识/MOSFET/MOSFET Basis/Channel Charge/Channel Charge.png",
     "单纯的，知识/Diode/PN Junction Small Signal Model/Diode Small Signal Model.png",
-    "单纯的，知识/Diode/Diode I-V Relation",
-    "单纯的，知识/Diode",
-    "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.md",
     "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier/Baugh-Wooley Array Multiplier.png",
-    "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication.md",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication_2.png",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication_3.png",
     "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication/Signed Multiplication_1.png",
-    "单纯的，知识/Digital Circuits/Multipliers/Carry-Save Multiplier/Carry-Save Multiplier.md",
-    "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Binary Multiplication/Binary Multiplication.md",
-    "单纯的，知识/Digital Circuits/Multipliers/Array Multiplier/Array Multiplier.md",
-    "单纯的，知识/Digital Circuits/Multipliers/Partial Products/Partial Products.md",
     "单纯的，知识/Digital Circuits/Multipliers/Partial Products/Partial Products.png",
-    "单纯的，知识/Digital Circuits/Adders/Full Adder/Full Adder.md",
-    "单纯的，知识/Digital Circuits/Multipliers/未命名/未命名",
-    "单纯的，知识/Digital Circuits/Multipliers/Baugh-Wooley Array Multiplier",
-    "单纯的，知识/Digital Circuits/Multipliers/Multiplications",
-    "单纯的，知识/Digital Circuits/Multipliers/Multiplications/Signed Multiplication",
-    "单纯的，知识/Digital Circuits/Adders/Half Adder/Half Adder.md",
-    "单纯的，知识/Digital Circuits/Multipliers/Wallace CSA Trees/Wallace CSA Trees.md",
-    "单纯的，知识/Digital Circuits/Adders/Half Adder",
-    "单纯的，知识/Digital Circuits/Multipliers/Dadda CSA Trees/Dadda CSA Trees.md",
     "单纯的，知识/Digital Circuits/Multipliers/Carry-Save Multiplier/Carry-Save Multiplier_1.png",
     "单纯的，知识/Digital Circuits/Multipliers/Carry-Save Multiplier/Carry-Save Multiplier_2.png",
     "单纯的，知识/Digital Circuits/Multipliers/Wallace CSA Trees/Wallace CSA Trees_3.png",
-    "单纯的，知识/Digital Circuits/Multipliers/Wallace CSA Trees/Wallace CSA Trees_1.png",
-    "单纯的，知识/Digital Circuits/Multipliers/Dadda CSA Trees",
-    "单纯的，知识/Digital Circuits/Adders/Carry-Bypass Adder/Carry-Bypass Adder.md",
-    "单纯的，知识/Digital Circuits/Multipliers/Bit-Serial Multiplier/Bit-Serial Multiplier.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
