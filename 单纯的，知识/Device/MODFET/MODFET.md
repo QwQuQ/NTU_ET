@@ -6,12 +6,14 @@ tags:
 ---
 
 - In a FET there is a gate-controlled channel through which current is allowed to flow.
+  场效应管中有一个受到栅极控制的沟道，电流能够在其中流动
 - The gate must be isolated from the channel current flow. Otherwise, an input signal current, while on its way to the output, would “leak” through the gate, leading to a poor gain for the FET.
   栅极必须与沟道电流隔离。否则，输入信号电流在到达输出时会“泄漏”到栅极，导致FET增益变差。
 
 ## Two types of conventional FETs
 
 ![[MODFET_FIG1.png#pic_center|MOSFET]]
+
 1. Metal Oxide Semiconductor FETs (MOSFETs)
    金属氧化物场效应管
 	- The gate isolation is provided by depositing an oxide between the gate and the active channel.
@@ -20,8 +22,9 @@ tags:
 	  在p型衬底表面的n型沟道在强反型的作用下会发生能带弯曲，受到$V_{GS}$的控制
 	- The electron flow in the channel forms current $I_{DS}$ when $V_{GS}> V_T$ , and $V_{DS}>0$.
 	  当$V_{GS}>V_T$、$V_{DS}>0$时，电子流过沟道形成$I_{DS}$
-	  
+  
 ![[MODFET_FIG2.png#pic_center|MESFET]]
+
 2. Metal Semiconductor FETs (MESFETs)
    金属半导体场效应管
 	- In a Metal Semiconductor FET (**no oxide**), the metal gate forms a [[Schottky Barrier]] with the semiconductor.
@@ -53,6 +56,7 @@ tags:
 
 The energy band profile shows band bending leading to a triangular quantum well at the $\mathrm{GaAs/AlGaAs}$ interface.
 这个能带图展示了能带弯曲，导致了界面上有一个三角形的量子阱
+
 ![[MODFET_FIG4.png#pic_center|]]
 
 # Modulation Doping
@@ -99,26 +103,32 @@ The energy band profile shows band bending leading to a triangular quantum well 
   当宽带隙层比较薄的时候，MODFET是一个常开器件。
   
 ![[Pasted image 20241102014640.png]]
+
 - Energy band diagrams of a normally-off MODFET at
   常开MODFET的能带图，条件：
 	- (a) [[Thermal Equilibrium]]
 	  热平衡下
 	- (b) The onset of threshold ($V_T>0$)
 	  达到阈值电压
-	  
 - $d_1$ and $d_0$ are the thicknesses of the doped and undoped regions of the wide bandgap semiconductor, respectively
   $d_1$和$d_0$分别是是掺杂和没掺杂的宽带隙层的厚度
 - $\Delta E_C$ is the conduction bandgap offset
   $\Delta E_C$是导带带隙的偏移
 
 - For small AlGaAs thickness, the gate [[Schottky Barrier]] can completely deplete the electrons in the AlGaAs as well as the 2DEG even at zero gate bias, thus leading to enhancement-mode type or normally off devices.
-  AlGaAs厚度较小的情况下，即使没有栅极偏置，栅极的肖特基势垒也可以完全耗尽AlGaAs和二位电子气中的电子，从而获得了增强型或者常闭型器件。![[MODFET_FIG9.png#pic_center|Depletion Width of Schottky Contact]]
+  AlGaAs厚度较小的情况下，即使没有栅极偏置，栅极的肖特基势垒也可以完全耗尽AlGaAs和二位电子气中的电子，从而获得了增强型或者常闭型器件。
+  
+  ![[MODFET_FIG9.png#pic_center|Depletion Width of Schottky Contact]]
+  
   The depletion width of the Schottky contact $W$ is greater than $d_1+d_0$. No channel is formed at the narrow bandgap GaAs surface.
   肖特基接触的耗尽层宽度$W>d_1+d_0$，在窄带隙的GaAs表面未形成沟道
 - A **positive gate** voltage (greater than the threshold voltage $V_T$) is required to turn the device on. When $V_G=V_T$ , the depletion width $W=d_1+d_0$
   大于阈值电压$V_T$的正栅极电压可以开启器件，当$V_G=V_T$时，$W=d_1+d_0$
-  ![[Pasted image 20241102024935.png#pic_center]] The threshold voltage can be adjusted by control of AlGaAs thickness and doping.
-  阈值电压可以通过调整AlGaAs的厚度和掺杂实现$$V_T=\phi_{Bn}-\frac{\Delta E_C}{q}-V_p$$ Where ^9de4ef
+  
+  ![[Pasted image 20241102024935.png#pic_center|]]
+
+The threshold voltage can be adjusted by control of AlGaAs thickness and doping.
+阈值电压可以通过调整AlGaAs的厚度和掺杂实现$$V_T=\phi_{Bn}-\frac{\Delta E_C}{q}-V_p$$ Where ^9de4ef
 	- $\phi_{Bn}$ is the barrier height
 	  势垒高度
 	- $V_p$ is a pinch-off voltage of the n-type AlGaAs 
@@ -127,19 +137,21 @@ The energy band profile shows band bending leading to a triangular quantum well 
 		  AlGaAs的介电常数
 		- $N_D$ is the doping concentration
 		  掺杂浓度
-		  
+	
 - When the gate voltage is larger than $V_T$, a charge sheet will be capacitively induced by the gate at the heterojunction interface.
-  当栅极电压大于阈值时，受到山脊的影响，异质结的界面上将出现一个电容性的电荷层
-    ![[Pasted image 20241102025701.png#pic_center|]] The sheet carrier concentration (**number of the carriers per unit area**) is defined as
-    电荷层的载流子浓度被定义为：$$n_s(y)=\frac{C_g\left(V_G-V_T-V(y)\right)}{q}$$ Where
-	- $y$ is zero at the source and $L$ at the drain
-	  $y$在源极为0，在漏极为$L$（沟道的长度）
-	- $V(y)$ is the voltage at position $y$ due to drain voltage
-	  沿着$y$方向的漏极电压
-	- $C_g$ is the deleption capacitance per unit area
-	  单位面积的耗尽电容$$C_g=\frac{\epsilon_s}{d_1+d_0+\Delta d}$$ Where
-		- $\Delta d$ is a correction factor (some authors take $\Delta d$ as the thickness of channel or inversion layer)
-		  $\Delta d$是一个矫正系数（一些作者把这个定义为沟道或反型层的厚度）$$\Delta d=\frac{\epsilon_s\cdot a}{q}\approx8\mathrm{nm}$$
+  当栅极电压大于阈值时，受到栅极的影响，异质结的界面上将出现一个电容性的电荷层
+    ![[Pasted image 20241102025701.png#pic_center|]]
+
+The sheet carrier concentration (**number of the carriers per unit area**) is defined as
+电荷层的载流子浓度被定义为：$$n_s(y)=\frac{C_g\left(V_G-V_T-V(y)\right)}{q}$$Where
+- $y$ is zero at the source and $L$ at the drain
+$y$在源极为0，在漏极为$L$（沟道的长度）
+- $V(y)$ is the voltage at position $y$ due to drain voltage
+沿着$y$方向的漏极电压
+- $C_g$ is the deleption capacitance per unit area
+单位面积的耗尽电容$$C_g=\frac{\epsilon_s}{d_1+d_0+\Delta d}$$ Where
+- $\Delta d$ is a correction factor (some authors take $\Delta d$ as the thickness of channel or inversion layer)
+$\Delta d$是一个矫正系数（一些作者把这个定义为沟道或反型层的厚度）$$\Delta d=\frac{\epsilon_s\cdot a}{q}\approx8\mathrm{nm}$$
 
 ## Normally-on or Depletion-mode MODFETs
 
@@ -152,6 +164,7 @@ The energy band profile shows band bending leading to a triangular quantum well 
 
 - A negative gate voltage is required to deplete the electron gas and pinch the device off. ($V_T<0$)
   负的栅极电压用来耗尽二维电子气以将设备关闭
+
   ![[Pasted image 20241102030724.png#pic_center]]
 
 ## Example
@@ -188,6 +201,7 @@ Consider an AlGaAs/GaAs heterojunction with n-AlGaAs doped to $2\times 10^{18} c
 	  $$I_{Dsat}=\frac{W\mu_nC_g}{2L}\left(V_G-V_T\right)^2=\frac{W\mu_n\epsilon_s}{2L(d_1+d_0+\Delta d)}(V_G-V_T)^2$$
 	- For high-speed operations, the longitudinal field along the channel is sufficiently high to cause carrier drift velocity saturation ($v_{ds}$). The current (maximum) in the velocity-saturation region is
 	  对于高速应用，沿着沟道的电场非常大，导致载流子达到速度饱和。此时的最大电流为：$$I_{Dmax}=qn_sv_{ds}W=C_g(V_G-V_T)v_{ds}W$$
+
 # Important Parameters
 
 ## Channel Conductance
@@ -218,6 +232,7 @@ For $L=1\mu\mathrm{m}$ and $v_{ds}=2\times 10^7\mathrm{cm\cdot s^{-1}}$, the tra
 
 MODFETs have very small transit time that enables them to be used as high-speed devices.
 MODFET有非常小的传输时间，适用于高速设备
+
 # Cutoff Frequency
 
 - The speed of a MODFET is measured by the cutoff frequency

@@ -20,21 +20,55 @@
             }
           },
           {
-            "id": "24b908baf4921bae",
+            "id": "9d3c3b3e6b5b800d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md",
+                "file": "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/Heterojunction Photonic (Optoelectronic) Devices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heterojunction Electronic Devices"
+              "title": "Heterojunction Photonic (Optoelectronic) Devices"
+            }
+          },
+          {
+            "id": "5edb76e01c968bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Carrier and Optical Confinements"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "907ee869798a50b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9228d700ec3637b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Heterojunction Photonic (Optoelectronic) Devices"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5086555480957
+    "width": 285.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "00d0b37aa6946ce2",
@@ -106,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md",
+                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +151,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Heterojunction Electronic Devices 的反向链接列表"
+              "title": "Carrier and Optical Confinements 的反向链接列表"
             }
           },
           {
@@ -125,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md",
+                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Heterojunction Electronic Devices 的出链列表"
+              "title": "Carrier and Optical Confinements 的出链列表"
             }
           },
           {
@@ -152,10 +187,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md"
+                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md"
               },
               "icon": "lucide-list",
-              "title": "Heterojunction Electronic Devices 的大纲"
+              "title": "Carrier and Optical Confinements 的大纲"
             }
           }
         ],
@@ -176,13 +211,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "24b908baf4921bae",
+  "active": "5edb76e01c968bb6",
   "lastOpenFiles": [
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Vegard’s Law/Vegard’s Law.md",
+    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/Heterojunction Photonic (Optoelectronic) Devices.md",
+    "单纯的，知识/Device/Laser/Conditions/Population Inversion/Population Inversion.md",
+    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.md",
     "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md",
-    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Heterojunction/Heterojunction.md",
     "单纯的，知识/Device/MODFET/MODFET.md",
+    "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.md",
     "单纯的，知识/Device/HBT/HBT.md",
+    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Critical Thickness/Critical Thickness.md",
+    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Lattice-Mismatched Heterostructures/Stained Heterostructure/Strained Heterostructure.md",
+    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Lattice-Mismatched Heterostructures/Unstrained Heterostructure/Unstrained Heterostructure.md",
+    "单纯的，知识/Semi-Conductor Physics/Lattice Constant/Lattice Constant.md",
+    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Vegard’s Law/Vegard’s Law.md",
+    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Heterojunction/Heterojunction.md",
     "单纯的，知识/Device/BJT/BJT Advance/Base Transport Factor/Base Transport Factor.md",
     "单纯的，知识/Device/BJT/BJT Advance/Emitter Injection Efficiency/Emitter Injection Efficiency.md",
     "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Thermionic Emission/Thermionic Emission.md",
@@ -200,15 +243,7 @@
     "单纯的，知识/Device/MOSFET/MOSFET Basis/Gain Factor/Gain Factor.md",
     "单纯的，知识/Device/MOSFET/MOSFET Basis/Gate Capacitance/Gate Capacitance.md",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241108180258.png",
-    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/Heterojunction Photonic (Optoelectronic) Devices.md",
     "课件/EE6306/CC/CC Lecture Slides.md",
-    "单纯的，知识/Digital/EDA Tools/Testing/Testing.md",
-    "单纯的，知识/Device/Laser/Double-Heterojunction (DH) Laser/Double-Heterojunction (DH) Laser.md",
-    "单纯的，知识/Device/Laser/Quantum Well Lasers/Quantum-Well Lasers.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Adder/Adder.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Adder/Full Adder/Full Adder.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Adder/Manchester Carry Gates/Manchester Carry Gates.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Bypass Adder/Carry-Bypass Adder.md",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105213354.png",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105220105.png",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105214700.png",

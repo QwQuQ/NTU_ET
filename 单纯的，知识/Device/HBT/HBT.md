@@ -45,6 +45,7 @@ The heterostructures formed by alloy semiconductors, therefore, have immense app
 	  集电极掺杂需要非常高，但是基极的掺杂相对非常低
 	- The base should be very narrow.
 	  基极需要非常窄
+
 ### Limitations
 
 - Too narrow and lightly doped base will result in
@@ -89,7 +90,7 @@ Thereffore, with a simple n-p homojunction for the emitter-base, the performance
 ### Common Emitter Current Gain of HBTs
 
 - From the definition, $$\beta_0\approx\frac{n_{B0}D_B L_E}{p_{E0}D_E W_{bn}}$$ and from [[PN Product#Law of Mass Action|Law of Mass Action]], $np=n_i^2$, the minority carrier concentration in the emitter $p_{E0}$, is
-  发射极中的少数载流子浓度可以表示为：$$p_{E0}=\frac{n_o^2(\mathrm{emitter})}{N_E(\mathrm{emitter})}=\frac{N_CN_V exp(-\frac{E_{gE}}{kT})}{N_E}$$ where,
+  发射极中的少数载流子浓度可以表示为（使用掺杂浓度代替多子浓度）：$$p_{E0}=\frac{n_o^2(\mathrm{emitter})}{N_E(\mathrm{emitter})}=\frac{N_CN_V exp(-\frac{E_{gE}}{kT})}{N_E}$$ where,
 	- $N_C$: [[Effective Density of States]] in the conduction band
 	  导带有效态密度
 	- $N_V$: Effective Density of States in the valence band
@@ -105,7 +106,8 @@ Thereffore, with a simple n-p homojunction for the emitter-base, the performance
 
 Hence $$\displaylines{\beta_0=\frac{n_{B0}D_B L_E}{p_{E0} D_E W_{bn}}\approx \frac{N_E D_B L_E}{N_B D_E W_{bn}}exp(\frac{E_{gE}-E_{gB}}{kT})\\=\frac{N_E D_B L_E}{N_B D_E W_{bn}}exp(\frac{\Delta E_g}{kT})}$$
 
-![[HBT_FIG4.png#pic_center]]
+![[HBT_FIG4.png#pic_center|]]
+
 - Note that even if the base is heavily doped, the barrier for hole injection will be very high due to the large $\Delta E_V$ of E-B junction.
   注意，如果基极是重掺杂的，空穴注入的势垒由于E-B的$\Delta E_V$变大将会变得非常高
 	- This means that one can dope the base heavily and achieve low base resistance.
@@ -187,15 +189,17 @@ The $\mathrm{Si/SiGe}$ HBT has a higher current gain than homojunction $\mathrm{
 
 The conduction band discontinuity $\Delta E_C$ between the emitter and base is not desirable, since it will make the electrons to transport by means of [[Thermionic Emission]] across a barrier or by tunneling through it.
 导带的不连续性是不被希望的，因为它会导致电子在运输过程中以热激发的方式运输或者隧穿过势垒。
-![[HBT_FIG10.png#pic_center]]
-Therefore, the emitter efficiency and the collector current will suffer.
-如此，发射极效率和集电极电流将遭罪
-The problem can be alleviated by using improved structures such as using an emitter with a graded-layer near the E-B junction.
-这一问题可以通过使用一个在E-B结附近渐变的发射极改善。
-The figure shows an energy band diagram in which the $\Delta E_C$ is eliminated by a graded layer placed between the emitter and base heterojunction. The thickness of the graded layer is $W_g$.
-这一张图展示了有渐变层情况下E-B结的$\Delta E_C$被尽可能减小，渐变层的厚度为$W_g$
-![[HBT_FIG11.png#pic_center|The dashed line shows the energy bandgap of the graded layer.]]
 
+![[HBT_FIG10.png#pic_center|]]
+
+- Therefore, the emitter efficiency and the collector current will suffer.
+  如此，发射极效率和集电极电流将遭罪
+- The problem can be alleviated by using improved structures such as using an emitter with a graded-layer near the E-B junction.
+  这一问题可以通过使用一个在E-B结附近渐变的发射极改善。
+- The figure shows an energy band diagram in which the $\Delta E_C$ is eliminated by a graded layer placed between the emitter and base heterojunction. The thickness of the graded layer is $W_g$.
+  这一张图展示了有渐变层情况下E-B结的$\Delta E_C$被尽可能减小，渐变层的厚度为$W_g$
+
+![[HBT_FIG11.png#pic_center|The dashed line shows the energy bandgap of the graded layer.]]
 
 ### Base Region
 
@@ -222,7 +226,9 @@ The figure shows an energy band diagram in which the $\Delta E_C$ is eliminated 
   降低电场强度但增加速度可以通过在集电极以特定掺杂方式实现
 	- One way is to use $p^−$ or $i$ collectors with a $p^+$ pulse-doped layer near the subcollector for an n-p-n HBT.
 	  一种方法是在npn HBT中使用$p^-$或者本征集电极和子集电极附近的一个$p^+$脉冲掺杂层
-![[HBT_FIG12.png#pic_center]]
+	
+![[HBT_FIG12.png#pic_center|]]
+
 Electrons entering the collector layer can maintain their higher mobility during most of the collector transit time due to the **slightly doped** $p^-$ collector (less impurity scattering). Such a device is called a **ballistic collector transistor (BCT)**.
 电子在进入集电极时，在大部分集电极传输时间内，由于轻掺杂的$p^-$集电极（更少的杂质散射）能够维持它们的高迁移率。这种器件被称为弹道集电极晶体管（BCT，什么怪名字）
 

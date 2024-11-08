@@ -33,12 +33,12 @@ tags:
 
 #### Lattice Constant Variation as a Function of [[Vegard’s Law#^648b21|Mole Fraction]]
 
-![[Lattice Constant Variation as a Function of Mole Fraction.png#pic_center]]
+![[Lattice Constant Variation as a Function of Mole Fraction.png#pic_center|]]
 
 ### Energy Bandgap
 
 - The bandgaps of the [[Vegard’s Law#Ternary Compound|Ternary Compound]] and [[Vegard’s Law#Quaternary Compound|Quaternary Compound]] semiconductors only approximately follow Vegard’s Law.
-  三元和四元化合物的带隙只大致复合维加德定律$$E_g(A_xB_{1-x}C)=xE_g(AC)+(1-x)E_g(BC)$$
+  三元和四元化合物的带隙只大致符合维加德定律$$E_g(A_xB_{1-x}C)=xE_g(AC)+(1-x)E_g(BC)$$
 - In most alloys, there is a **bowing effect** arising from the increasing disorder due to alloying of different elements. The energy bandgap of alloy semiconductors can bebetter described by the following expression:
   对于大部分合金来说，化合不同元素增加的无序性会导致一种弯曲效应。合金半导体的带隙使用下式能够更好地表示$$E_g(\mathrm{alloy})=a+bx+cx^2$$
 
