@@ -83,7 +83,7 @@ Thereffore, with a simple n-p homojunction for the emitter-base, the performance
 - The main advantage of HBT is the high emitter efficiency
   HBT主要的优势是发射极高效率
 - HBTs also have high speed and high frequency capability in circuit operation
-  HBT也有高速和高截止频率的电路工作特性
+  HBT也有高速和高截止频率的工作特性
 
 ![[HBT_FIG3.png|A HBT with an n-AlGaAs emitter and a p-GaAs base transistor (a) Device structure, (b) Band diagram at thermal equilibrium]]
 
@@ -96,7 +96,7 @@ Thereffore, with a simple n-p homojunction for the emitter-base, the performance
 	- $N_V$: Effective Density of States in the valence band
 	  价带有效态密度
 	- $E_{gE}$ is the bandgap of the emitter
-	  发射机的带隙
+	  发射级的带隙
 - The minority carrier concentration in the base $n_{B0}$ is
   基极的少数载流子浓度为：$$n_{B0}=\frac{n_i^2(\mathrm{base})}{N_B(\mathrm{base})}=\frac{N_C^\prime N_V^\prime exp(-\frac{E_{gB}}{kT})}{N_B}$$ where, 
 	- $N_C^\prime$ and $N_V^\prime$: [[Effective Density of States]] in conduction band and valence band respectively
