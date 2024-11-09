@@ -52,7 +52,7 @@ The radiation from stimualted emission if **coherent** because all photons emitt
 - Three conditions for laser operation:
 	- Population Inversion
 	  粒子数分布反转
-	- Carrier and Optical Confinemen]]
+	- Carrier and Optical Confinemen
 	  载流子和光学限制
 	- Optical Cavity
 	  光学谐振腔
@@ -199,7 +199,7 @@ A double heterojunction laser diode is connected in a closed circuit with a seri
 
 代入超过阈值的电流公式求带隙：$$I=\frac{V_A-E_g/q}{R_S}\implies E_g=1.38e\mathrm{V}$$（这里的单位选择电子伏特会比较好算）
 
-算波长$$\lambda=\frac{ch}{E_g}=900\mathrm{nm}$$
+算波长$$\lambda=\frac{ch}{E_g}=898.4\mathrm{nm}$$
 上式中：
 - $c$为光速
 - $h$为普朗克常数
