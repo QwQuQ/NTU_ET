@@ -143,3 +143,4 @@ $i_2$对应的管子是$M_{A2}$，所以$V_{GS}=3-1.5=1.5V$，$V_{SB}=1.5V$，$V
 $$V_{Tn}=V_{TO}+\gamma\left(\sqrt{2\phi_F+V_{SB}}-\sqrt{2\phi_F}\right)=1.03727V\approx1.04V$$
 代入饱和区电流公式$$i_{2}=\frac{1}{2}K_n^\prime\frac{W}{L}\left(V_{GS}-V_{Tn}\right)^2=5.29\mu A$$
 怪常规的。
+
