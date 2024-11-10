@@ -8,7 +8,7 @@ tags:
 ---
 ![[Pasted image 20241021204249.png|Barrel Shifter]]
 
-![[Pasted image 20241104071124.png#pic_center|希望这个图更好理解一点]]
+[[Pasted image 20241104071124.png#pic_center|希望这个图更好理解一点]]
 
 - Built from array of transistors
   由晶体管阵列构成
