@@ -33,10 +33,6 @@ tags:
 - The modular approach used in the synthesis of higher-order active filters simplifies the design without worrying the loading effects.
 （See应该没有丧心病狂到考默写的地步）
 
-## 一阶低通有源滤波器
-
-根据反相放大器的公式（可以用虚短和虚断推出来，并不难），第二级那个电容给系统添加了一个极点。
-
 # Frequency Scaling（频率缩放）
 
 - 一个**线性**的滤波器可以把它的频率归一化到1，它的幅度和相位响应可以通过乘一个因子$\alpha$缩放到目标频率$\omega=\alpha$。这一个过程基本就是复合函数$$T(j\omega)\implies T(j\frac{\omega}{\alpha})$$
@@ -47,4 +43,35 @@ $$\frac{1}{\frac{j\omega}{\alpha}C^\prime}=\frac{1}{j\omega\frac{C}{\alpha}}\imp
 
 ## 缩放后的电感值
 
-反正也和电容差不多：$$$$
+反正也和电容差不多：$$j\omega L^\prime=j\frac{\omega}{\alpha}L\implies L^\prime=\frac{L}{\alpha}$$
+
+看完之后就会发现，往高频缩放时，电容电感变小；往低频缩放时，这俩变大
+
+## Impedance Scaling
+
+滤波器设计完成后要保证各个阻抗元件的值都是比较正常的，所以阻抗也可以缩放。这玩意的核心就是$$R^\prime=\beta R$$
+然后带进去电容和电感的值就可以算出来：$$\beta j\omega L\implies L^\prime=\beta L$$ $$\beta\frac{1}{j\omega C}\implies C^\prime=\frac{C}{\beta}$$
+
+# 一阶低通
+
+$$T(s)=-1\cdot\frac{-(1)(1/s)}{1+1/s}=\frac{1}{1+s}$$
+滤波器在$s=-1$处有一个极点
+
+# 一阶高通
+
+$$T(s)=-1\cdot\frac{\frac{-(1)(1/s)}{1+1/s}}{1/s}=\frac{s}{1+s}$$
+一个零点，一个极点
+
+# 二阶低通
+
+二阶低通基本都带个*Q*值：$$T(s)=\frac{P(s)}{Q(s)}=\frac{1}{s^2+\frac{1}{Q}s+1}$$*Q*值用来控制频率响应中的峰值
+
+这个二阶低通有两个极点：$$s=\frac{1}{2Q}\pm j\frac{\sqrt{4-(1/Q)^2}}{2}$$
+
+# Sallen Key 二阶低通
+
+$$T(s)=\frac{A}{s^2+(3-A)s+1}\implies \frac{1}{Q}=3-A$$
+
+# 二阶高通
+
+$$$$

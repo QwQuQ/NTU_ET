@@ -57,3 +57,5 @@ tags:
 - Exhaustive testing contains substantial amount of redundancy, i.e. a single fault is covered by a number of test patterns
   穷经测试包含大量冗余，这使得一个故障能够被许多测试例覆盖
 - Number of test patterns can be reduced by relaxing the condition that all faults must be detected. e.g. detect the last 1% of possible faults may require much more patterns and hence high cost. The replacement cost may be lower.
+- Typical test only attempts a 95-99% coverage
+
