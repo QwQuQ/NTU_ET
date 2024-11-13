@@ -28,3 +28,24 @@ $$\delta=\frac{1}{\sqrt{\pi f \sigma\mu}}$$
 
 ### 计算导线电感
 
+50Hz时需要考虑导线的自感：$$L=4\times 10^{-7}ln\left(\frac{D-r}{0.7788r}\right)$$
+
+5MHz时不需要考虑线材的自感：$$L=4\times 10^{-7}ln\left(\frac{D-r}{r}\right)$$
+
+# Partial Inductances
+#TODO 
+（粗体表示是矢量）
+一个闭合区域的磁通量：$$\psi=\int_\mathbf{s} \mathbf{B}\cdot \mathrm{d}\mathbf{s}$$
+根据电感的计算公式得出电感为：$$L=\frac{\psi}{I}\mathrm{(H)}$$
+磁感应强度可以对矢量磁位求旋度得来：$$\mathbf{B}=\nabla\times \mathbf{A}$$
+使用高斯环路定理，把面积分转换为环路积分：$$L_{\text{loop}}=\frac{\int_\mathbf{s}\mathbf{B}\cdot\mathrm{d}\mathbf{s}}{I}=\frac{\int_c \mathbf{A}\cdot\mathrm{d}\mathbf{l}}{I}$$
+
+## 自感的Partial Inductance
+
+所以可以使用一个长方形的环路对导线进行积分：
+![[Pasted image 20241113164524.png#pic_center|长方形的环路]]
+将等式展开后，可以得到：$$L_{\text{loop}}=\frac{\int_{c_i} \mathbf{A}\cdot \mathrm{d}\mathbf{l}}{I}$$（其他的三个方向上的积分都是0，只剩下沿着导线方向的值）
+
+## 互感的Partial Inductance
+
+
