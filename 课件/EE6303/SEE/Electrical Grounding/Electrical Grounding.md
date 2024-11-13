@@ -12,6 +12,7 @@ An AC signal source of 5 V is connected to a $100\Omega$ resistive load through 
 ## Solution
 
 ### 计算趋肤深度
+根据[[Skin Effect]]的表达式：
 
 $$\delta=\frac{1}{\sqrt{\pi f \sigma\mu}}$$
 根据给定的数据，可以计算得到：
