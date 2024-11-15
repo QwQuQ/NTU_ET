@@ -22,7 +22,7 @@
 
 # Conducted EMI Through Power Grid
 
-- Practically all consumer electronics use **[[EMI Filter#Switched Mode (SMPS)|SMPS]]** due to its high conversion efficiency.
+- Practically all consumer electronics use **[[EMI Filter (OLD)#Switched Mode (SMPS)|SMPS]]** due to its high conversion efficiency.
 - SMPS is noisy and it poses an EMI threat to other sensitive equipment connected to the same power network.
 - Suppression of conducted EMI from the SMPS is needed to meet EMC regulatory requirement.
 
