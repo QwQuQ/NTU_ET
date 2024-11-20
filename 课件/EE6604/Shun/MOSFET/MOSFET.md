@@ -3,7 +3,15 @@ aliases:
 tags:
   - MOSFET
 ---
-# MOSC
+# MOS Capacitors
+
+## 前置知识
+
+- [[Vacuum Level]]
+- [[Electron Affinity]]
+- [[Work Function]]
+- Ionization energy
+	- energy required to raise an electron from the valence band edge, $E_V$ to Vacuum Level $E_0$
 
 ## p-MOSC的四种情况
 
@@ -320,5 +328,24 @@ $$\frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}=-\frac{qN_a}{\
 - $x_c$是accumulation layer thickness
 - $W$为器件宽度
 
+### Sheet Resistance
+
+这是源-漏扩散区域的电阻，简单表示为：$$R_{\text{sheet}}=\rho_{sd}\frac{S}{W}$$
+$S$是栅极边缘和金属接触边缘之间的间距，$\rho_{sd}$是源-漏电荷片的电阻率。由于$\rho_{sd}$很小，这个电阻经常能够被忽略。
+
+### Contact Resistance
+
+$$R_{\text{contact}}=\frac{\sqrt{\rho_{sd}\rho_c}}{W}\mathrm{coth}\left(l_c\sqrt{\frac{\rho_{sd}}{\rho_c}}\right)$$
+- $l_c$是接触窗口的宽度
+- $\rho_c$是金属和硅之间欧姆接触的界面接触电阻率，单位是$\Omega/cm^2$。
+在欧姆接触中，电流主要由隧穿或场发射主导。因此，$\rho_c$强烈依赖于势垒高度和表面掺杂浓度。
+
 ## Self-aligned Silicide Contacts
 
+在先进的CMOS器件中，通过使用自对准硅化物或硅化物，$R_{\text{contact}}$和$R_{\text{sheet}}$被最小化。
+
+低电阻率的硅化物层（例如$\mathrm{TiSi_2}$）形成在整个源漏扩散区域上。通过介电间隔物将该层与栅极隔离。硅化物有效地分流了来自扩散区域的电流。
+
+$R_{\text{sheet}}$被限制在间隔物下方的非硅区域。
+
+$R_{\text{contact}}$因为接触窗口的宽度减少，$l_c$是硅化物扩散区域的宽度。
