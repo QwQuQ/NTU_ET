@@ -62,36 +62,19 @@ Average Detector(AV)
 
 显示出的最大幅度：PK>QP,RMS
 
-<div align="center">
-<img src="image-2.png" width=70%>
-<br>
-<div><font size=2><B>峰值检波器电路</B></font></div>
-<br>
-</div>
+![[image-2.png#pic_center|峰值检波电路]]
 
 $R_d$ 用来提供极大的放电时间常数
 
 ### 充电特性
 
-<br>
-<div align="center">
-<img src="image-3.png" width=70%>
-<br>
-<div><font size=2><B>输出电压曲线</B></font></div>
-<br>
-</div>
+![[image-3.png#pic_cetner|输出电压曲线]]
 
 对于理想二极管，它没有内阻，所以电容两端的电压会瞬间充电到 $V_{in}$
 
 对于真实的二极管，它有内阻 $r$ ，充电时会有一段上升时间（忽略二极管压降）
 
-<br>
-<div align="center">
-<img src="image-6.png" width=70%>
-<br>
-<div><font size=2><B>真实的电路图</B></font></div>
-<br>
-</div>
+![[image-6.png#pic_center|真实的电路图]]
 
 电容两端的电压（ $0\leq t \leq \tau_{\mathrm{Pulse\ Width}}$ ）：
 

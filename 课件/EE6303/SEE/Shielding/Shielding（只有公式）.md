@@ -16,4 +16,4 @@ tags:
 	- 用波导开洞：
 		- 圆形波导：$$f_c=\frac{1.753\times 10^8}{d}$$ $$SE=32\left(\frac{L}{d}\right)\mathrm{dB}$$
 		- 矩形波导：$$f_c=\frac{1.5\times 10^8}{d}$$ $$SE=27.3\left(\frac{L}{d}\right)\mathrm{dB}$$
-- 谐振：$$f_{mnl}=\frac{c}{2\pi\sqrt{\mu_r \epsilon_r}}\sqrt{\left(\frac{m\pi}{L}\right)^2+\left(\frac{n\pi}{W}\right)^2+\left(\frac{l\pi}{H}\right)^2}\mathrm{Hz}$$ $$150\sqrt{\left(\frac{m\pi}{L}\right)^2+\left(\frac{n\pi}{W}\right)^2+\left(\frac{l\pi}{H}\right)^2}\mathrm{MHz}$$
+- 谐振：$$f_{mnl}=\frac{c}{2\pi\sqrt{\mu_r \epsilon_r}}\sqrt{\left(\frac{m\pi}{L}\right)^2+\left(\frac{n\pi}{W}\right)^2+\left(\frac{l\pi}{H}\right)^2}\mathrm{Hz}$$ $$150\sqrt{\left(\frac{m}{L}\right)^2+\left(\frac{n}{W}\right)^2+\left(\frac{l}{H}\right)^2}\mathrm{MHz}$$

@@ -3,3 +3,260 @@ aliases:
 tags:
   - MOSFET
 ---
+# MOSC
+
+## p-MOSC的四种情况
+
+### Flatband
+
+没有外接电压，$E_{F,\text{metal}}=E_{F,\text{bulk}}$
+
+### Accumulation
+
+栅极电压小于0，$E_{F,\text{metal}}>E_{F,\text{bulk}}$。空穴在氧化物界面累积，栅极下面有空穴，氧化物内有电场。
+
+### Depletion
+
+栅极电压大于0，$E_{F,\text{metal}}<E_{F,\text{bulk}}$，金属中的电子能量相比衬底降低。衬底的能带向价带弯曲，栅极的空穴浓度下降，电子浓度增加。硅衬底的表面多数载流子（空穴）减少，形成厚度为$W_D$的耗尽层。
+
+### Inversion
+
+- 栅极的正电压足够高时，栅极附近的硅衬底的本征费米能级低于费米能级（费米能级更加靠近导带，变成n型半导体了，所以叫反型层）。
+- 由于电子在p型衬底中是少子，所以需要通过**热激发（价带电子被激发到导带）**来形成反型层。
+- 根据[[Boltzmann Distribution|玻尔兹曼分布]]，电子浓度和$E_F$与$E_i$的差成指数关系
+
+- 弱反型：本征费米能级和费米能级相同
+- 强反型：栅极附近的电子浓度等于p衬底的空穴浓度
+	- 强反型下硅中的负电荷包括：
+		- 表面反型层的电子（可以动）
+		- 掺杂的负电荷（不能动）
+	- 由于**electrostatic screening effect**，反型层的最大厚度为$W_{D,\text{max}}$
+
+## Poisson Equation
+
+Used for finding potentials within semiconductor devices. Based on **Gauss's Law**
+
+$$\begin{cases}
+\nabla\cdot\mathbf{D}&=\rho \\
+\mathbf{D}&=\epsilon \mathbf{E} \\
+\mathbf{E}&=\nabla\psi
+\end{cases} \\
+\implies \nabla^2\psi=-\frac{\rho}{\epsilon}$$
+
+将上述方程转换到1维的笛卡尔坐标系。$$\frac{\mathrm{d}^2\psi}{\mathrm{d}x^2}=-\frac{\rho}{\epsilon}$$
+
+### 硅的表面电势
+
+硅的静电势经常被表示为$$\psi_i=-\frac{E_i}{q}$$
+在一维分析中，能带弯曲可以表示为$$\psi(x)=\psi_i(x)-\psi_i(x=\infty)$$
+$\psi(0)$自然是表面电势
+
+- 说了好像没说
+
+### 解Poisson Equation
+
+由于同时有移动的电荷和静止的电荷，所以Poisson Equation需要写成：$$\frac{\mathrm{d}^2\psi}{\mathrm{d}x^2}=-\frac{q}{\epsilon}\left[p(x)-n(x)+N_d^+(x)-N_a^-(x)\right]$$
+使用Law of mass action：$$N_d^+(x)-N_a^-(x)=\frac{n_i^2}{N_a}-N_a$$
+[[Boltzmann Distribution|玻尔兹曼分布]]：$$\begin{cases}p(x)=n_i \text{exp}\left(\frac{q(\psi_f-\psi_i)}{kT}\right)=N_a \text{exp}\left(\frac{-q\psi}{kT}\right)\\n(x)=n_i \text{exp}\left(\frac{q(\psi_i-\psi_f)}{kT}\right)=\frac{n_i^2}{N_a}\text{exp}\left(\frac{q\psi}{kT}\right)\end{cases}$$
+带进去之后式子变成：$$\frac{\mathrm{d}^2\psi}{\mathrm{d}x^2}=\frac{-q}{\epsilon_{\text{Si}}}\left[N_a\left(\text{exp}\left(-\frac{q\psi}{kT}\right)-1\right)-\frac{n_i^2}{N_a}\left(\text{exp}\left(\frac{q\psi}{kT}\right)-1\right)\right]$$
+
+## Silicon Charge
+
+- Flat-band $\psi_s=0$, $Q_s=0$
+- Accumulation, $\psi_s<0$, $exp\left(-\frac{q\psi_s}{kT}\right)$ term dominates and $Q_s$ increases as $exp\left(-\frac{q\psi_s}{2kT}\right)$
+- Depletion, $\psi_s>0$, $\frac{q\psi_s}{kT}$ dominates. $Q_s$
+- $\psi_s$进一步增大，
+
+## Strong Inversion
+
+$$\frac{\mathrm{d}\psi}{\mathrm{d}x}=-\sqrt{\frac{2kTN_a}{\epsilon_{\text{Si}}}\left(\frac{q\psi}{kT}+\frac{n_i^2}{N_a^2}\mathrm{exp}\left(\frac{q\psi}{kT}\right)\right)}$$
+
+### Common criterion for strong inversion
+
+$$\frac{n_i^2}{N_a^2}\mathrm{exp}\left(\frac{q\psi_s}{kT}\right)=1$$
+$$\psi_s(\text{inv})=2\psi_B=2\frac{kT}{q}\mathrm{ln}\left(\frac{N_a}{n_i}\right)$$
+$\psi_B$是体的电势
+
+## MOS Gate Voltage Equation
+
+硅表面的电势$\psi_S$不容易测量，但是栅极电压$V_g$可以测，所以$$V_g=V_{ox}+\psi_s$=\frac{\left|Q_s\right|}{C_{ox}}+\psi_s$$
+$C_{ox}$是栅氧单位面积的电容
+
+## MOS Small Signal Capacitances
+
+定义：$$C=\frac{\mathrm{d}|Q_s|}{\mathrm{d}V_s}$$
+通过对Gate Voltage Equation取微分，可以得到硅的电容表达式$$C_{\text{Si}}=\frac{\mathrm{d}|Q_s|}{\mathrm{d}\psi_s}$$
+$$\frac{\mathrm{d}V_g}{\mathrm{d}|Q_s|}=\frac{\mathrm{d}V_{ox}}{\mathrm{d}|Q_s|}+\frac{\mathrm{d}\psi_s}{\mathrm{d}|Q_s|}$$
+$$\implies \frac{1}{C}=\frac{1}{C_{ox}}+\frac{1}{C_{\text{Si}}}$$
+
+## 测量MOS Capacitance
+
+- Apply a dc ramped bias across the MOS capacitor (step increase).
+- Superpose a small ac signal (<100mV)
+- Sense the out-of-phase (reactive) component current or $C=\frac{\mathrm{Im}(Y)}{2\pi f}$, Y是电导$Y=G+j2\pi fC$
+- Repeating the above across a range of dc bias and/or frequencies will yield a C-V curve.
+
+## Surface States and Interface Trapped Charge
+
+### Surface States（表面态）
+
+- 表面态是指位于**Si-SiO₂界面**处的局部电子态，由于硅晶格在界面处的周期性终止而产生。
+- 这些态的能量位于硅的带隙内，成为电子和空穴的捕获中心。
+- 影响：
+	- 降低导电电流
+	- 降低载流子迁移率
+
+- 控制表面态：
+	- 不同晶向的表面态密度不同，例如：  (100)<(110)<(111)，  **(100)**方向的晶圆优先用于CMOS制造。
+	- 后金属化退火，在**400°C**的氢气（H2H_2H2​）或重氢（D2D_2D2​）环境中退火。氢与硅的悬挂键（dangling bonds）结合，生成稳定的氢化硅（Si-H）键，从而钝化表面态。
+
+## Fixed Oxide Charge
+
+- 由氧化过程中或氧化后退火过程中引入的过量Si生成。
+- 位于Si-SiO2界面附近并停留不动。
+- 固定氧化物电荷的密度也与方向有关，(100) < (110) < (111)。
+
+## Mobile Ionic Charge
+
+- 由于晶圆处理过程中的离子污染（$Na^+$，$K^+$）
+- 在电场和高温下，这些离子能够在二氧化硅中漂移
+- 硅-二氧化硅界面附近的移动离子能够导致漏电流和库仑散射
+- 控制污染对于减少这玩意很重要，所以晶圆处理要超净间
+
+## Oxide Trapped Charge
+
+- 通过带电粒子或高能光子的轰击，可以很容易地在SiO2内部生成局部态（陷阱）。
+- 通过隧道效应或热载流子效应注入SiO2的电子或空穴随后可以被陷阱捕获。
+- 通过热退火可以相对容易地去除陷阱。
+
+上面这些玩意，会导致 MOS 电容器的 C-V 曲线相对于理论（理想）C-V 曲线被拉伸或移动。
+
+# Long channel MOSFET
+
+沟道长度大于10微米，长沟道器件表现出理想的特性
+
+- 用于推导C-V特性的两种近似：
+	- Gradual channel approximation (GCA)
+	  假设沟道电位沿着沟道长度方向的变化是缓慢的。
+	- Charge sheet approximation (CSA)
+	  假设沟道内的电荷分布是沿着沟道方向均匀的，即假设沟道内的电子或空穴形成一个薄薄的电荷片。
+
+
+## Gradual Channel Approximation (GCA)
+
+沿着沟道（y方向）的电场变化远小于垂直于沟道（x方向）的电场变化。
+- Use of GCA will reduce the Poisson’s equation from 2-D to just 1-D and simplifies the analysis.
+- Applicable to most of the channel except the **pinch-off point** and **beyond**.
+
+$$J_n(x,y)=-q\mu_nn(x,y)\frac{\mathrm{d}V(y)}{\mathrm{d}y}$$
+
+沟道中的电子迁移率$\mu_n$比体中的载流子迁移率小很多。$n(x,y)$是在$(x,y)$点的电子浓度。
+$J_n(x,y)$包含了漂移和扩散电流，因为$V(y)$被假设为电子的准费米能级。
+
+整个反型层的高度为$x_i$，所以从$x=0$积分到$x=xi$，定义电流方向是$-y$，可以得到$I_{ds}$电流：$$I_{ds}(y)=W\int_0^{x_i}q\mu_nn(x,y)\frac{\mathrm{d}V(y)}{\mathrm{d}y}\mathrm{d}x$$
+假设沟道中的电子迁移率是恒定的，等效为$\mu_{\text{eff}}$。使用GCA等效，可以认为$\frac{\mathrm{d}V(y)}{\mathrm{d}y}$在x轴是参数，所以也可以提出来。这样可以得到$$I_{ds}(y)=qW\mu_{\text{eff}}\frac{\mathrm{d}V(y)}{\mathrm{d}y}\int_0^{x_i}n(x,y)\mathrm{d}x$$
+令$$Q_i(y)=-q\int_0^{x_i}n(x,y)\mathrm{d}x$$
+这样可以得到$$I_{ds}=-\mu_{\text{eff}}WQ_i(y)\frac{\mathrm{d}V(y)}{\mathrm{d}y}$$
+因为$V$是一个$y$的函数，所以可以写成$$I_{ds}=-\mu_{\text{eff}}WQ_i(V)\frac{\mathrm{d}V(y)}{\mathrm{d}y}$$
+把$\mathrm{d}y$乘到左边，同时积分：$$\int_0^{L}I_{ds}(y)\mathrm{d}y=\int_0^{V_{ds}}-\mu_{\text{eff}}WQ_i(V)\mathrm{d}V$$
+因为沟道中电流处处相等，所以$$\int_0^{L}I_{ds}(y)\mathrm{d}y=LI_{ds}$$
+从而得到$$I_{ds}=\mu_{\text{eff}}\frac{W}{L}\int_0^{V_{ds}}-Q_i(V)\mathrm{d}V$$
+
+## Charge Sheet Approximation
+
+- 反型电荷正好位于硅表面，并形成一个零厚度的电荷片。
+- 反型层上没有电位降。
+- 在电荷片下方是耗尽区。在这一区域，由于强反型的开始，表面电位（或能带弯曲）为 $\psi_s = 2\psi_B + V(y)$。
+
+使用耗尽近似，体的耗尽层电荷密度为：$$Q_{\text{depletion}}=-qN_aW_{dm}=-\sqrt{2\epsilon_{\text{Si}}qN_a(2\psi_B+V)}$$
+硅中的总电荷为：$$Q_{\text{Si}}=-C_{ox}(V_g-V_{fb}-2\psi_B-V)$$
+对他们做差可以得出反型层的电荷：$$Q_i=\sqrt{2\epsilon_{\text{Si}}qN_a(2\psi_B+V)}-C_{ox}(V_g-V_{fb}-2\psi_B-V)$$
+最终得到的电流表达式为：$$I_{ds}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\left[\left(V_g-V_{fb}-2\psi_B-\frac{V_{ds}}{2}\right)-\frac{2\sqrt{2\epsilon_{\text{Si}}qN_a}}{3C_{ox}}\left[(2\psi_B+V_{ds})^2-(2\psi_B)^{3/2}\right]\right]$$
+
+## Linear Region
+
+$$V_{ds}<V_g-V_t$$
+对那个很复杂的$I_{ds}$式子级数展开，只保留线性项，可以得到：$$I_{ds}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\left(V_g-V_{fb}-2\psi_B-\frac{\sqrt{4\epsilon_{\text{Si}}N_a\psi_B}}{C_{ox}}\right)V_{ds}$$
+定义阈值电压为：$$V_t=V_{fb}+2\psi_B+\frac{\sqrt{4\epsilon_{\text{Si}}N_a\psi_B}}{C_{ox}}$$
+所以$I_{ds}$可以写为：$$I_{ds}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\left(V_g-V_t\right)V_{ds}$$
+此时的MOS管像一个电阻，电阻率受到$V_g$控制：$$\rho_{\text{sheet}}=\frac{1}{\mu_{\text{eff}}C_{ox}(V_g-V_t)}$$
+### 通过实验确定MOS管阈值电压的办法
+
+
+
+## Saturation Region
+
+$$V_{ds}>V_g-V_t=V_{\text{d,sat}}$$
+但$V_{ds}$足够大的时候，二阶项不能忽略，所以表达式为：$$I_{ds}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\left((V_g-V_t)V_{ds}-\frac{m}{2}V_{ds}^2\right)$$
+上式中的$m$为体效应参数。
+
+当$V_{ds}=V_{\text{d,sat}}=\frac{V_g-V_t}{m}$时，$I_{ds}$达到最大：$$I_{ds}=I_{sat}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\frac{(V_g-V_t)^2}{2m}$$
+当晶圆掺杂浓度很低时，$m=1$，式子变成了熟悉的形式：$$I_{sat}=\mu_{\text{eff}}C_{ox}\frac{W}{L}\frac{(V_g-V_t)^2}{2}$$
+
+## Pinch off and Current Saturation
+
+沟道夹断和电流饱和
+
+反型层的电荷约为：$$Q_i\sim C_{ox}(V_g-V_t-mV(y))$$
+当$V_g=V_{\text{d,sat}}$时，$Q_i=0$，所以当饱和时，漏极附近的反型层电荷开始消失。
+这种情况叫做沟道夹断。当$V_{ds}>V_{\text{d,sat}}$时，夹断点轻微向源极移动，并且夹断点的电压维持在$V_{\text{d,sat}}$
+
+## Charge Transport in Saturation Region
+
+- **对于小**$V_{ds}$，$V(y)$ 随$y$平滑增加。
+- 随着$V_{ds}$增加，漏极附近的反型层电荷减少，为了维持电流连续性，$\frac{\mathrm{d}V}{\mathrm{d}y}$必须加大，所以$V_(y)$的曲线向上弯曲。
+- 在$V_{\text{d,sat}}$时$V(y)$在$y=L$处有一个奇点（$\frac{\mathrm{d}V}{\mathrm{d}y}=\infty$）
+- y方向场的变化无法忽略，所以GCA近似失效
+- 在pinch-off点后，必须解2D的泊松方程
+- 在pinch-off点后，载流子不再局限于表面的沟道
+- 载流子从夹断点注入耗尽层
+
+## Subthreshold Characteristics
+
+- 栅极电压略低于阈值电压时，$I_{ds}$并不为0，这为亚阈值电流，因为硅上方的弱反型层仍然存在。
+- 亚阈值电流对于数字CMOS（互补金属氧化物半导体）应用极为重要。在CMOS逻辑门电路中，无论输出状态如何，一半的MOSFET是导通的，而另一半则关闭。亚阈值导电性限制了这些关闭的MOSFET的关断行为，并增加了**待机功耗**，这是一个主要问题。
+
+- 亚阈值区的电流不仅包括扩散电流，还包括漂移电流，而在饱和区中主要是漂移电流。这使得亚阈值电流的分析变得更加复杂，因此该分析通常集中在低漏极偏压（low drain bias）情况下。$$I_{ds}=\mu_{\text{eff}}C_{ox}\frac{W}{L}(m-1)\left(\frac{kT}{q}\right)^2e^{q(V_g-V_t)/mkT}(1-e^{-qV_{ds}/kT})$$
+- 亚阈值电流取决$于V_g$、 $V_{ds}$和体效应系数。
+- 如果$V_{ds}$大于几个kT，亚阈值电流主要由$V_g$控制
+
+### Subthreshold Slope
+
+$$S=2.3\frac{mkT}{q}=\left(\frac{\mathrm{d}\mathrm{lg}I_{ds}}{\mathrm{d}V_g}\right)^{-1}$$
+$$S = 70\sim 100mV/\text{decade}$$
+在VLSI应用中，S需要小以适应高速开关。但不是很容易达到，因为S主要由温度T决定。衬底掺杂浓度$N_a$和栅氧厚度能够通过调整体效应参数的方式有限地调整S
+
+### Importance of the Subthreshold Slope
+
+- 亚阈值斜率在**低功耗微电子学**中非常重要。通常，电源电压会降低以节省待机和开关功率。
+- 由于S的有限值和有限的下降幅度，电源电压不能随意降低。
+- 降低$V_{CC}$将会在逻辑0时导致巨大的漏电流，因为此时低电平与阈值电压非常接近
+
+# Submicron MOSFETs
+
+- 到目前为止所概述的理论只能准确描述早期MOSFET的行为。
+- 随着光刻技术的进步和MOSFET的沟道长度减少到1微米以下，可以很容易地观察到与长沟道行为的显著偏差。
+- 这些偏差通常对电路应用是不利的。需要仔细的器件设计和越来越复杂的工艺集成来减轻这些影响。
+
+## Origin of Secondary Effects in Submicron MOSFETs
+
+- 一维模型的假设不再适用，开始使用二维模型
+- 缩小MOS器件的规则并没有很好地遵守
+
+## Short Channel Effect
+
+- 沟道长度减小导致MOSFET的阈值电压$V_t$减小
+- 施加$V_{ds}$能够加剧短沟道效应
+- SCE的结果：
+	- 漏电流和电源消耗增加
+	- 需要对最小尺寸的器件进行优化以抵消SCE
+
+### Physical Origin of Short Channel Effect
+长沟道器件的仿真图
+![[Pasted image 20241120213629.png#pic_center|simulation]]
+等电位线基本沿着y轴，y轴的变化很小，电场只在x轴变化。
+
+短沟道器件的仿真图
+![[Pasted image 20241120213854.png#pic_center|]]
+在相同的$V_{ds}$和$V_g$下，等电位线更加弯曲，电场是2维的。硅表面的能带更加弯曲，耗尽层更宽，器件的阈值电压更低。
+

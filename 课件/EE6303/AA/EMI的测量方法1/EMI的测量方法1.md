@@ -69,12 +69,7 @@ $$\mathrm{Insertion\ Loss}=20log\frac{V_1}{V_2}$$
 
 #### 电阻匹配网络的电阻计算
 
-<div align="center">
-<img src="电阻匹配网络.bmp" width=40%>
-<br>
-<div>电阻匹配网络</div>
-<br>
-</div>
+![[电阻匹配网络.bmp#pic_center|电阻匹配网络]]
 
 针对这种类型的电阻匹配网络，只需要保证
 

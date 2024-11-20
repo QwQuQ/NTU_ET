@@ -4,7 +4,7 @@ tags:
   - 这个ppt做得真棒大赏
   - emi
 ---
-- 集总电路条件：$$l\leq\lambda/10$$
+- 集总电路条件：$$l\leq\lambda/10$$ $$f_{\text{max}}=\frac{c}{\lambda\sqrt{\epsilon_r \mu_r}}$$
 - 电容：$$\frac{V_{NE}}{V_G}=\frac{V_{FE}}{V_G}=\frac{j\omega C_{12}R}{4-\omega^2R^2C^2\left(1+\frac{2C_{12}}{C}\right)+j4\omega R\left(C_{12}+C\right)}$$
 	- 频率：$$\omega_1=\frac{1}{R(C_{12}+C)}$$ $$\omega_2=\frac{4(C_{12}+C)}{RC(2C_{12}+C)}$$
 	- 低频率（能量大）：$$\frac{V_{NE}}{V_G}=\frac{V_{FE}}{V_G}\approx \frac{j\omega C_{12} R}{4}$$
