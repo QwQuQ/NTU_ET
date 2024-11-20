@@ -260,3 +260,65 @@ $$S = 70\sim 100mV/\text{decade}$$
 ![[Pasted image 20241120213854.png#pic_center|]]
 在相同的$V_{ds}$和$V_g$下，等电位线更加弯曲，电场是2维的。硅表面的能带更加弯曲，耗尽层更宽，器件的阈值电压更低。
 
+- 由于漏极和源极非常接近，所以会产生二维的电场
+- 两侧都形成了一个pn结并且和耗尽层相关
+- 对于长沟道器件，这两个耗尽层离得足够远，所以不会影响到器件里的电场
+- 对于短沟道器件，源极和漏极的距离相比耗尽层宽度并不大，所以电场的形状受到漏源电压的强烈影响。
+
+### Threshold Voltage Lowering by SCE
+
+- Charge Sharing Model
+- Drain induced barrier lowering (DIBL)
+
+#### Drain Induced Barrier Lowering
+
+![[Pasted image 20241120214428.png]]
+- 该图显示了表面电势（电子）与归一化距离$y/L$的函数关系。
+- 在源极（$y/L=0$）处，当器件关闭时，表面势垒防止电子进入沟道区。
+- 对于长通道情况（曲线A），势垒在大部分通道上是平坦均匀的。对于短通道情况（曲线B、C），势垒更低，更圆。
+- 如果漏极偏压增加，势垒会进一步降低（DIBL）。降低的势垒增加了电子进入沟道的可能性，并导致阈值电压降低。
+
+## 2-D Poisson’s Equation and Lateral Field Penetration
+
+$$\frac{\partial E_x}{\partial x}+\frac{\partial E_y}{\partial y}=-\frac{qN_a}{\epsilon_{\text{Si}}}$$
+
+带x的可以视为由栅极控制的场，带y的可以视为由$V_{ds}$控制的场
+
+![[Pasted image 20241120220219.png#pic_center|Simulated lateral field vs distance y]]
+
+- 横向电场随着距离增大呈指数型减小
+- 这种指数衰减的特征长度不随通道长度而变化
+- 所以短沟道器件中心的横向电场比长沟道器件大
+- 施加漏极偏压会使零场点向源极移动。场的零点对应于DIBL中的电位最大点
+
+## Source Drain Extensions
+
+- 在源极、漏极与沟道之间插入浅结
+- 自对准离子注入形成S-D延伸（低剂量）
+- 沉积上间隔电介质（SiN），然后进行一次高剂量自对准注入
+- 让源极和漏极对比沟道是凹陷的，代价是源极漏极的串联寄生电阻增加
+## Source-Drain Series Resistance
+
+- 寄生电阻与源极和漏极区域的有限薄层的电阻率和欧姆接触有关。
+- 这种外在效应在长沟道器件中并不重要，因为沟道电阻很大，可以忽略不计。
+- 然而，在亚微米器件中，沟道电阻与源极-漏极电阻相当。因此，这种外在效应现在很重要。
+
+## Source-Drain Resistance
+
+源极的电阻非常不理想，因为会降低gate的驱动能力
+
+### Accumulation layer resistance
+
+- 栅极边缘通常与源极和漏极重叠。在栅极-源极（或漏极）重叠区域，载流子被限制在一个累积层内，该累积层具有电阻$R_{ac}$
+
+### Spreading resistance
+
+这是与注入电流从薄的累积层扩展到源极或漏极相关的电阻分量。对于均匀掺杂的源-漏极$$R_{sp}=\frac{\rho_j}{\pi W}\mathrm{ln}\left(\frac{3x_j}{4x_c}\right)$$
+其中：
+- $\rho_j$是电阻率
+- $x_j$是结的深度
+- $x_c$是accumulation layer thickness
+- $W$为器件宽度
+
+## Self-aligned Silicide Contacts
+
