@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c7047aaf50123f69",
+        "id": "b43437d185942183",
         "type": "tabs",
         "children": [
           {
-            "id": "9462680d71401476",
+            "id": "e1418a918fee16f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6604/Shun/MOSFET/MOSFET.md",
+                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter(New).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOSFET"
-            }
-          },
-          {
-            "id": "95f3744d366da1a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/EE6604/Shun/BJT/BJT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BJT"
+              "title": "EMI Filter(New)"
             }
           }
         ]
@@ -66,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diode",
+                "query": "beta_0",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5086555480957,
-    "collapsed": true
+    "width": 285.5086555480957
   },
   "right": {
     "id": "00d0b37aa6946ce2",
@@ -108,17 +93,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
+                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter(New).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Carrier and Optical Confinements 的反向链接列表"
+              "title": "EMI Filter(New) 的反向链接列表"
             }
           },
           {
@@ -127,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
+                "file": "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Multiplier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Carrier and Optical Confinements 的出链列表"
+              "title": "Multiplier 的出链列表"
             }
           },
           {
@@ -154,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6604/Shun/MOSFET/MOSFET.md"
+                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter(New).md"
               },
               "icon": "lucide-list",
-              "title": "MOSFET 的大纲"
+              "title": "EMI Filter(New) 的大纲"
             }
           }
         ],
@@ -177,54 +162,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9462680d71401476",
+  "active": "e1418a918fee16f8",
   "lastOpenFiles": [
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Work Function/Work Function.md",
-    "课件/EE6604/Shun/MOSFET/MOSFET.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Electron Affinity/Electron Affinity.md",
-    "单纯的，知识/Semi-Conductor Physics/Solid State Physics/Vacuum Level/Vacuum Level.md",
-    "课件/EE6604/Shun/MOSFET/Pasted image 20241120220219.png",
-    "课件/EE6604/Shun/MOSFET/Pasted image 20241120214428.png",
-    "课件/EE6604/Shun/MOSFET/Pasted image 20241120213854.png",
-    "课件/EE6604/Shun/MOSFET/Pasted image 20241120213629.png",
-    "课件/EE6604/Shun/BJT/BJT.md",
-    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
-    "单纯的，知识/Device/MODFET/MODFET.md",
-    "课件/EE6604/ZQ/Heterojunction Electronic Devices/Heterojunction Electronic Devices.md",
-    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Lattice-Mismatched Heterostructures/Lattice-Mismatched Heterostructures.md",
-    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Lattice-Matched Heterostructures/Lattice-Matched Heterostructures.md",
-    "单纯的，知识/Semi-Conductor Physics/PN Junction/Heterojunction/Heterojunction/Heterojunction.md",
-    "单纯的，知识/Semi-Conductor Physics/Quantum Mechanics/Boltzmann Distribution/Boltzmann Distribution.md",
-    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
-    "课件/EE6604/絶望を知るがいい！/2021-2022/2021-2022.md",
+    "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",
+    "课件/EE6303/SEE/EMI Filter/EMI Filter(New).md",
+    "课件/EE6303/SEE/EMI Filter/未命名",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Multiplier.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/CSA Tree/Wallace CSA Trees/Wallace CSA Trees.md",
+    "课件/EE6306/CC/CC Lecture Slides.md",
+    "单纯的，知识/Digital/EDA Tools/Testing/Testing.md",
+    "单纯的，知识/Digital/EDA Tools/Implementation/Implementation.md",
+    "单纯的，知识/Digital/EDA Tools/Design Synthesis/Design Synthesis.md",
+    "单纯的，知识/Digital/EDA Tools/Verification/Verification.md",
+    "课件/EE6306/CC/背书.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Analysis.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Static Timing Analysis/Static Timing Analysis.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Switch Level Simulation/Switch Level Simulation.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Timing Simulation/Timing Simulation.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Circuit Simulation/Circuit Simulation.md",
+    "单纯的，知识/Digital/EDA Tools/Design Entry Tool/Design Entry Tool.md",
+    "单纯的，知识/Digital/Power/Low Power/Power-down Mode/Power-down Mode.md",
+    "单纯的，知识/Digital/Power/Low Power/Dynamic Voltage and Frequency Scaling/Dynamic Voltage and Frequency Scaling.md",
+    "单纯的，知识/Digital/Power/Low Power/Multiple Supply Voltages/Multiple Supply Voltages.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/CSA Tree/Dadda CSA Trees/Dadda CSA Trees.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/CSA Tree/Comparisons of Wallace Tree and Dadda Tree/Comparisons of Wallace Tree and Dadda Tree.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Carry-Save Multiplier/Carry-Save Multiplier.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Array Multiplier/Array Multiplier.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Bit-Serial Multiplier/Bit-Serial Multiplier.md",
+    "单纯的，知识/Digital/Memory/Memory.md",
+    "单纯的，知识/Digital/Input Output/Input Output.md",
+    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.pdf",
+    "单纯的，知识/Device/MOS Capacitors/pic/Pasted image 20241121003113.png",
+    "单纯的，知识/Device/MOS Capacitors/pic/Pasted image 20241121003149.png",
+    "单纯的，知识/Device/MOS Capacitors/pic/Pasted image 20241121003133.png",
+    "单纯的，知识/Device/MOS Capacitors/pic",
+    "单纯的，知识/Device/MOS Capacitors",
+    "课件/EE6306/Goh/pic",
+    "课件/EE6306/Goh",
+    "课件/EE6604/Shun/MOSFET/pic/Pasted image 20241120213629.png",
+    "课件/EE6604/Shun/MOSFET/pic",
+    "课件/EE6604/Shun/MOSFET/pic/Pasted image 20241120220219.png",
+    "课件/EE6604/Shun/MOSFET/pic/Pasted image 20241120214428.png",
+    "课件/EE6604/Shun/MOSFET/pic/Pasted image 20241120213854.png",
     "课件/EE6604/絶望を知るがいい！/2021-2022",
     "课件/EE6604/絶望を知るがいい！",
-    "单纯的，知识/Device/Diode/Diode I-V Relation/Diode I-V Relation.md",
-    "单纯的，知识/Device/MOSFET/MOSFET Basis/Gain Factor/Gain Factor.md",
-    "单纯的，知识/Device/MOSFET/MOSFET Basis/Process Transconductance Parameter/Process Transconductance Parameter.md",
-    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
-    "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
-    "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",
-    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding （只有公式）.md",
-    "课件/EE6303/SEE/Nonideal Components/Nonideal Components.md",
-    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (OLD).md",
-    "单纯的，知识/Device/Laser/Conditions/Carrier and Optical Confinements/Carrier and Optical Confinements.md",
-    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/Heterojunction Photonic (Optoelectronic) Devices.md",
-    "单纯的，知识/Device/Laser/Conditions/Population Inversion/Population Inversion.md",
     "课件/EE6604/ZQ/Semiconductor Memories/开卷考特供/Semiconductor Memories.pdf",
-    "课件/EE6604/ZQ/Semiconductor Memories/开卷考特供",
-    "单纯的，知识/Device/MOSFET/MOSFET Basis/Body effect coefficient",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241108180024.png",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241108180258.png",
     "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105213354.png",
-    "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105220105.png",
-    "课件/EE6604/ZQ/Semiconductor Memories/pic/Pasted image 20241105214700.png",
-    "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.pdf",
-    "课件/EE6604/ZQ/Semiconductor Memories/Pasted image 20241105212205.png",
-    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.pdf",
-    "单纯的，知识/Device/Memories/Random Access Memory (RAM)",
-    "单纯的，知识/Device/Memories",
-    "单纯的，知识/Digital/EDA Tools/Testing",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

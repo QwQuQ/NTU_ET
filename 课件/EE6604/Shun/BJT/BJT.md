@@ -3,7 +3,6 @@ aliases:
 tags:
   - BJT
 ---
-
 # n-p-n Bipolar Transistors
 
 - Device regions
