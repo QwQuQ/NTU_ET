@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5086555480957
+    "width": 285.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "00d0b37aa6946ce2",
@@ -145,11 +146,13 @@
               "title": "ESD 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 311.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,6 +166,10 @@
   },
   "active": "e1418a918fee16f8",
   "lastOpenFiles": [
+    "课件/EE6303/AA/ESD/Pasted image 20241125161003.png",
+    "课件/EE6303/AA/ESD/Pasted image 20241125160320.png",
+    "课件/EE6303/AA/ESD/Pasted image 20241125153830.png",
+    "课件/EE6303/AA/ESD/Pasted image 20241125153547.png",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md",
     "课件/EE6303/AA/ESD/ESD.md",
     "课件/EE6303/AA/ESD",
@@ -185,9 +192,6 @@
     "课件/EE6303/AA/信号链IM/硬件.jpg",
     "课件/EE6303/AA/信号链IM/pic/发射机频谱1.png",
     "课件/EE6303/AA/信号链IM/pic/发射频谱.png",
-    "课件/EE6303/AA/信号链IM/pic/接收机灵敏度.png",
-    "课件/EE6303/AA/信号链IM/pic/两个Spurious.png",
-    "课件/EE6303/AA/信号链IM/pic/信号链路.png",
     "课件/EE6303/AA/天线/天线.md",
     "课件/EE6303/AA/信号链IM/pic",
     "课件/EE6303/AA/波的传导/波的传导.md",
@@ -204,7 +208,6 @@
     "课件/EE6306/CC/背书.md",
     "单纯的，知识/Digital/EDA Tools/Analysis/Analysis.md",
     "单纯的，知识/Digital/EDA Tools/Analysis/Static Timing Analysis/Static Timing Analysis.md",
-    "单纯的，知识/Digital/EDA Tools/Analysis/Switch Level Simulation/Switch Level Simulation.md",
     "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.pdf",
     "单纯的，知识/Device/MOS Capacitors/pic",
     "单纯的，知识/Device/MOS Capacitors",
