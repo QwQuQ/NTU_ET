@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md",
+                "file": "课件/EE6303/AA/ESD/ESD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EMI Filter (New)"
+              "title": "ESD"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md",
+                "file": "课件/EE6303/AA/ESD/ESD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EMI Filter (New) 的反向链接列表"
+              "title": "ESD 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Multiplier.md",
+                "file": "课件/EE6303/AA/ESD/ESD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Multiplier 的出链列表"
+              "title": "ESD 的出链列表"
             }
           },
           {
@@ -139,14 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md"
+                "file": "课件/EE6303/AA/ESD/ESD.md"
               },
               "icon": "lucide-list",
-              "title": "EMI Filter (New) 的大纲"
+              "title": "ESD 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,17 +163,35 @@
   },
   "active": "e1418a918fee16f8",
   "lastOpenFiles": [
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125045016.png",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125142206.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125141945.png",
-    "课件/EE6303/SEE/EMI Filter/Pasted image 20241125142041.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125141843.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125141817.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125141716.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125142107.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125041622.png",
-    "课件/EE6303/SEE/EMI Filter/pic/Pasted image 20241125041205.png",
+    "课件/EE6303/AA/ESD/ESD.md",
+    "课件/EE6303/AA/ESD",
+    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
+    "课件/EE6303/SEE/Nonideal Components/Non-ideal Components (只有公式).md",
+    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (OLD).md",
+    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding （只有公式）.md",
+    "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
+    "课件/EE6303/AA/使用时谐Maxwell方程组推导趋肤效应.md",
+    "课件/EE6303/AA/同轴电缆的自感推导.md",
+    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+    "课件/EE6303/AA/EMI的测量方法2/pic/image.png",
+    "课件/EE6303/AA/EMI的测量方法2/pic",
+    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6303/AA/EMI的测量方法1/pic/GTEMCELL.png",
+    "课件/EE6303/AA/EMI的测量方法1/pic/absorber.png",
+    "课件/EE6303/AA/EMI的测量方法1/pic",
+    "课件/EE6303/AA/信号链IM/pic/example3_fig1.png",
+    "课件/EE6303/AA/信号链IM/信号链IM.md",
+    "课件/EE6303/AA/信号链IM/硬件.jpg",
+    "课件/EE6303/AA/信号链IM/pic/发射机频谱1.png",
+    "课件/EE6303/AA/信号链IM/pic/发射频谱.png",
+    "课件/EE6303/AA/信号链IM/pic/接收机灵敏度.png",
+    "课件/EE6303/AA/信号链IM/pic/两个Spurious.png",
+    "课件/EE6303/AA/信号链IM/pic/信号链路.png",
+    "课件/EE6303/AA/天线/天线.md",
+    "课件/EE6303/AA/信号链IM/pic",
+    "课件/EE6303/AA/波的传导/波的传导.md",
+    "课件/EE6303/AA/波的传导/pic",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",
     "课件/EE6303/SEE/EMI Filter/未命名",
     "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Multiplier.md",
@@ -188,27 +205,10 @@
     "单纯的，知识/Digital/EDA Tools/Analysis/Analysis.md",
     "单纯的，知识/Digital/EDA Tools/Analysis/Static Timing Analysis/Static Timing Analysis.md",
     "单纯的，知识/Digital/EDA Tools/Analysis/Switch Level Simulation/Switch Level Simulation.md",
-    "单纯的，知识/Digital/EDA Tools/Analysis/Timing Simulation/Timing Simulation.md",
-    "单纯的，知识/Digital/EDA Tools/Analysis/Circuit Simulation/Circuit Simulation.md",
-    "单纯的，知识/Digital/EDA Tools/Design Entry Tool/Design Entry Tool.md",
-    "单纯的，知识/Digital/Power/Low Power/Power-down Mode/Power-down Mode.md",
-    "单纯的，知识/Digital/Power/Low Power/Dynamic Voltage and Frequency Scaling/Dynamic Voltage and Frequency Scaling.md",
-    "单纯的，知识/Digital/Power/Low Power/Multiple Supply Voltages/Multiple Supply Voltages.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/CSA Tree/Dadda CSA Trees/Dadda CSA Trees.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/CSA Tree/Comparisons of Wallace Tree and Dadda Tree/Comparisons of Wallace Tree and Dadda Tree.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Carry-Save Multiplier/Carry-Save Multiplier.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Array Multiplier/Array Multiplier.md",
-    "单纯的，知识/Digital/Arithmetic Modules/Multiplier/Bit-Serial Multiplier/Bit-Serial Multiplier.md",
-    "单纯的，知识/Digital/Memory/Memory.md",
     "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.pdf",
     "单纯的，知识/Device/MOS Capacitors/pic",
     "单纯的，知识/Device/MOS Capacitors",
     "课件/EE6306/Goh/pic",
-    "课件/EE6306/Goh",
-    "课件/EE6604/Shun/MOSFET/pic",
-    "课件/EE6604/絶望を知るがいい！/2021-2022",
-    "课件/EE6604/絶望を知るがいい！",
-    "课件/EE6604/ZQ/Semiconductor Memories/开卷考特供/Semiconductor Memories.pdf",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

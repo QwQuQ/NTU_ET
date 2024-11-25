@@ -8,29 +8,17 @@
 
 首先来看一个最简化的发射与接收的信号链路。根据Friss Transfer Function的顺序进行分析
 
-<div align=center>
-<img src="信号链路.png">
-<br>
-<div>信号链路图</div>
-<br>
-</div>
+![[信号链路.png|信号链路图]]
 
 ### 发射端发射功率 $P_t$
 
 发射端经过本振上变频至射频后经过选频滤波器（滤除天线工作范围以外的频率分量，本振出来会有谐波分量），随后送进功放提高功率送天线进行发射。这就是发射端信号走过的路径。以Example3中HF天线的特性我们来分析一下发射机的特性（暂时不考虑收和发一体的模型，那玩意还有双工器，太烦了）。
 
-<div align=center>
-<img src="example3_fig1.png">
-</div>
+![[example3_fig1.png]]
 
 首先是2-30MHz，这意味着射频部分的工作带宽。本振能够在2-30MHz调整，滤波器、功放、天线的通带是2-30MHz，其他频率需要抑制掉。与这个频率范围对应的是下面的Bandwidth=25kHz，这一带宽是发射机的实时带宽，与基带带宽有关。也就是说，虽然载波频率能够在2-30MHz范围内调整，但同一时刻的频谱宽度只有25kHz.
 
-<div align=center>
-<img src="发射机频谱1.png" width=60%>
-<br>
-<div>发射机频谱</div>
-<br>
-</div>
+![[发射机频谱1.png#pic_center|发射机频谱]]
 
 ##### 概念：一大堆 $dB$
 
@@ -40,21 +28,11 @@
 
 按照老印的思路，发射与接收的Spurious Level其实是要分开看的（反正不是对收发机完整的建模就是了）。这一块我觉得他是把发射时的噪声底和接收时下变频后的低通滤波器带外抑制（下变频时会产生低频和高频分量，需要滤除高频分量保留低频）混在一起讲了，在做题的时候需要发射与接收分开考虑。因为他在计算的时候发射时的Spurious Level并不会衰减谐波分量，然而在接收时会衰减。
 
-<div align=center>
-<img src="两个Spurious.png" width=100%>
-<br>
-<div>发射与接收的Spurious不同之处（我的理解）</div>
-<br>
-</div>
+![[两个Spurious.png|发射与接收的Spurious不同之处（我的理解）]]
 
 那么在发射端我们就能根据载波发射功率5W进行建模。算一下能知道5W代表 $37dBm$ 。那么就能够根据谐波和杂散两个值画出发射端不含天线增益的频谱。老印对于谐波的建模是所有谐波分量功率均相等，实际上这是不对的。总之按照他的来就对了。
 
-<div align=center>
-<img src="发射频谱.png" width=60%>
-<br>
-<div>发射机没有算上天线增益的完整频谱</div>
-<br>
-</div>
+![[发射频谱.png#pic_center|发射机没有算上天线增益的完整频谱]]
 
 对于 $-52dBc$ 和 $-32dBc$ ，我的看法是不要过度纠结于他们的符号，有时候你会看到他们前面并没有负号，但这并不影响我们画出频谱图，因为谐波和噪声底的值肯定是小于载波分量的，我们只需要知道这个大小然后做加减法就可以了。
 
@@ -108,12 +86,7 @@ $$PL(dB)=10log_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)=20log_{1
 
 带内的灵敏度很好理解，就是接收机工作频率内的灵敏度。带外抑制，按照前文提到的接收机Spurious Level代表下变频低通滤波器的特性，可以对接收机的灵敏度建模。如果一个频率的信号功率大于接收机灵敏度就会被接收机识别到。对于非预期的带外信号，需要功率大于 $-33dBm$ 带内信号则需要大于 $-113dBm$
 
-<div align=center>
-<img src="接收机灵敏度.png" width=60%>
-<br>
-<div>接收机灵敏度建模</div>
-<br>
-</div>
+![[接收机灵敏度.png#pic_center|接收机灵敏度建模]]
 
 ### IM(Interference Margin)
 
@@ -227,14 +200,11 @@ $${P_r}_{40MHz}\left(\mathrm{dBm}\right)=-35.7\left(\mathrm{dBm}\right)$$
 
 A rotating navigation radar is being placed on a mast at $11m$ above the ship deck. A $Ku$ band VSAT antenna placed on the deck, $5m$ away from the navigation radar mast is pointing towards a satellite in the aft direction making an elevation angle of $85\degree$ with respect to the horizon. The center of the VSAT antenna is elevated at $1m$ above hthe deck. The navigation radar operates at $9.4GHz$ while the VAST transmits at $14.0GHz$ and received at $11.8GHz$. Compute the RFI among the two systems.
 
-<div align=center>
-<img src="example4_fig1.png">
-</div>
+![[example4_fig1.png|]]
 
 把这个该死的图画出来：
-<div align=center>
-<img src="example4_fig2.png" width=80%>
-</div>
+
+![[example4_fig2.png]]
 
 解三角形发现两个天线连线角度位于雷达的远旁瓣，VAST的旁瓣处
 
@@ -322,9 +292,7 @@ $$G_{r_{37.6GHz}}\left(\mathrm{dBi}\right)=42.07\left(\mathrm{dBi}\right)$$
 
 不想算啊不想算啊
 
-<div align=center>
-<img src="example4_fig3.png" width=80%>
-</div>
+![[example4_fig3.png]]
 
 ### VAST接收机的灵敏度
 

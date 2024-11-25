@@ -4,19 +4,9 @@ EMI接收机用于测量EUT的辐射
 
 检波器：QP、PK、RMS、AV
 
-<div align="center">
-<img src="image.png" width=70%>
-<br>
-<div>CISPR 16-1-1提供了关于EMI接收机的数据</div>
-<br>
-</div>
+![[image.png#pic_75center|CISPR 16-1-1提供了关于EMI接收机的数据]]
 
-<div align="center">
-<img src="image-1.png" width=70%>
-<br>    
-<div>EMI接收机的框图</div>
-<br>
-</div>
+![[image-1.png#pic_75center|EMI接收机的框图]]
 
 根据EMI接收机的框图可以看出，这是一台二次变频类型的接收机
 
@@ -68,7 +58,7 @@ $R_d$ 用来提供极大的放电时间常数
 
 ### 充电特性
 
-![[image-3.png#pic_cetner|输出电压曲线]]
+![[image-3.png#pic_75center|输出电压曲线]]
 
 对于理想二极管，它没有内阻，所以电容两端的电压会瞬间充电到 $V_{in}$
 
@@ -107,13 +97,8 @@ $$
 $$\frac{\tau_D}{\tau_C}\approx\frac{RC}{rC}=\frac{R}{r}$$
 
 对于 CISPR 16-1-1标准
-<br>
-<div align="center">
-<img src="image-9.png" width=70%>
-<br>
-<div><font size=2><B>比值</B></font></div>
-<br>
-</div>
+
+![[image-9.png#pic_75center|比值]]
 
 ## Quasi Peak Detector/准峰值检波器
 
@@ -122,38 +107,17 @@ $$\frac{\tau_D}{\tau_C}\approx\frac{RC}{rC}=\frac{R}{r}$$
 充电速度快和相对长的放电时间常数
 
 读数受到脉冲重复频率的影响
+![[image-4.png#pic_75center|峰值检波器电路]]
 
-<br>
-<div align="center">
-<img src="image-4.png" width=70%>
-<br>
-<div><font size=2><B>峰值检波器电路</B></font></div>
-<br>
-</div>
+![[image-5.png#pic_75center|输出电压的时域特征]]
 
-<br>
-<div align="center">
-<img src="image-5.png" width=70%>
-<br>
-<div><font size=2><B>输出电压的时域特征</B></font></div>
-<br>
-</div>
+其中$$\mathrm{Pulse\ Repetition\ Frequency}=\frac{1}{\tau_{PRI}}$$
 
-其中 
-
-$$\mathrm{Pulse\ Repetition\ Frequency}=\frac{1}{\tau_{PRI}}$$
-
-（I大概是Interval的意思？）
+（PRI大概是Interval的意思？）
 
 输出电压的方程（与峰值检波器类似，只是充电电阻相比非常大）：
 
-<br>
-<div align="center">
-<img src="image-7.png" width=70%>
-<br>
-<div><font size=2><B>电路图</B></font></div>
-<br>
-</div>
+![[image-7.png#pic_center|电路图]]
 
 以脉冲开始为原点算充电特性： $0 \leq t \leq \tau_{PW}$
 
@@ -181,12 +145,7 @@ QP检波器的输出受到脉冲宽度和脉冲间隔的影响（PPT上的图还
 
 ### Envelope detector/包络检波器
 
-<div align="center">
-<img src="image-10.png" width=90%>
-<br>
-<div><font size=2><B>包络检波器输出信号的包络</B></font></div>
-<br>
-</div>
+![[image-10.png#pic_75center|包络检波器输出信号的包络]]
 
 极小的充电和放电时间常数，跟随信号的包络。
 
@@ -501,4 +460,3 @@ $$E_{3m}=E_{1m}\left(\mathrm{dB}V/m\right)-20log_{10}(3m)+20log_{10}(1m)=20.4369
 $$
 
 $$V_L=E_{3m}\left(\mathrm{dB}V/m\right)-AF\left(\mathrm{dB}/m\right)=20.436975-23=-2.5630\left(\mathrm{dB}V\right)=0.74V$$
-

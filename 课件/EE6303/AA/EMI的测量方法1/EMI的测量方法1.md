@@ -2,12 +2,7 @@
 
 ## 平行板传输线
 
-<div align=center>
-<img src="平行板.bmp" width=70%>
-<br>
-<div>平行板传输线</div>
-<br>
-</div>
+![[平行板.bmp#pic_75center|]]
 
 平行板传输线中电磁波传播的模式是TEM波，与远场中电磁波的传输模式相同。
 
@@ -33,12 +28,7 @@ $$v_p=\frac{1}{\sqrt{C_l L_l}}=\frac{1}{\sqrt{\epsilon_r \epsilon_0 \mu_r \mu_0}
 
 对于平行板传输线：
 
-<div align=center>
-<img src="parallel.bmp" width=20%>
-<br>
-<div>平行板传输线</div>
-<br>
-</div>  
+![[parallel.bmp#pic_center|平行板传输线]]
 
 $$\eta=\sqrt{\frac{\mu_r \mu_0}{\epsilon_r \epsilon_0}}$$
 
@@ -48,12 +38,7 @@ $$Z_0=\eta_0\frac{h}{w}\left(\Omega\right)$$
 
 对于带状线（我怎么觉得这玩意应该叫microstrip微带线呢）：
 
-<div align=center>
-<img src="stripline.bmp" width=30%>
-<br>
-<div>带状线</div>
-<br>
-</div>  
+![[stripline.bmp#pic_center|带状线]]
 
 $$Z_0 \approx \frac{\eta_0}{\frac{w}{h}+2}$$
 
@@ -151,21 +136,11 @@ $$
 
 这玩意长得像个放大版的同轴线，然后把待测物体放到这个同轴线里面。内部是个平行板，外部被屏蔽壳包裹，平行板与外壳用介电系数尽可能接近于1的电介质隔开。电磁波传播模式也是TEM模。
 
-<div align=center>
-<img src="TEMCELL.png" width=70%>
-<br>
-<div>TEM CELL</div>
-<br>
-</div>
+![[TEMCELL.png#pic_75center|TEM CELL]]
 
 ### TEM CELL相关公式
 
-<div align=center>
-<img src="TEMCELL2.png" width=70%>
-<br>
-<div>TEM CELL的横截面</div>
-<br>
-</div>
+![[TEMCELL2.png#pic_75center|TEM CELL的横截面]]
 
 #### 特征阻抗
 
@@ -237,12 +212,7 @@ $$Z_0 \approx \frac{\eta_0}{4\left(\frac{a}{b}-\frac{2}{\pi}ln\left[sinh\left(\f
 
 解得 $g=0.058m$ , 得到 $w=0.634m$ 大于 $W=0.5m$ 所以这个方案可行。
 
-<div align=center>
-<img src="IMG_20240906_013831.jpg" width=50%>
-<br>
-<div>使用SOLVER求解</div>
-<br>
-</div>
+![[IMG_20240906_013831.jpg#pic_center|使用SOLVER求解]]
 
 计算 $f_c$ ：
 
@@ -273,12 +243,7 @@ $$g=0.029069m$$
 
 这玩意是G赫兹TEM小室的简称，图长这样。隔板末端也是有50欧的负载，并且还需要贴有吸波材料防止反射。能够支持 $1\mathrm{GHz}$ 以上的频率。
 
-<div align=center>
-<img src="GTEMCELL.png" width=80%>
-<br>
-<div>GTEM CELL</div>
-<br>
-</div>
+![[GTEMCELL.png#pic_75center|GTEM CELL]]
 
 ### GTEM CELL的优缺点
 
@@ -296,12 +261,7 @@ $$g=0.029069m$$
 
 # OATS (Open Area Test Site)
 
-<div align=center>
-<img src="OATS.png" width=80%>
-<br>
-<div>OATS</div>
-<br>
-</div>
+![[OATS.png#pic_75center|OATS]]
 
 ## 测试的注意事项
 
@@ -455,12 +415,7 @@ $$R \approx -20(10?)log_{10}\left(\frac{4\sqrt{\frac{2\pi f \mu}{\sigma}}}{2\pi 
 
 吸波材料的反射率是入射角、反射角的函数（我前面在计算反射损耗的时候着重强调了**垂直入射**，就是因为这个）
 
-<div align="center">
-<img src="absorber.png">
-<br>
-<div>吸波材料的反射特性</div>
-<br>
-</div>
+![[absorber.png#pic_center|吸波材料的反射特性]]
 
 $$
 \begin{cases}
