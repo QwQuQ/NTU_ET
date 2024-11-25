@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6303/SEE/PCB Design/PCB Design.md",
+                "file": "课件/EE6303/AA/ESD/ESD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCB Design"
+              "title": "ESD"
             }
           }
         ]
@@ -165,8 +165,15 @@
   },
   "active": "e1418a918fee16f8",
   "lastOpenFiles": [
-    "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125174530.png",
+    "课件/EE6303/AA/ESD/Pasted image 20241126004910.png",
+    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6303/AA/信号链IM/信号链IM.md",
+    "课件/EE6303/AA/天线/天线.md",
+    "课件/EE6303/AA/天线/球坐标_赫兹偶极子.bmp",
+    "课件/EE6303/AA/波的传导/波的传导.md",
     "课件/EE6303/SEE/PCB Design/PCB Design.md",
+    "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125174530.png",
     "课件/EE6303/SEE/PCB Design/pic",
     "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125182138.png",
     "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125181948.png",
@@ -180,7 +187,6 @@
     "课件/EE6303/AA/ESD/pic",
     "课件/EE6303/AA/ESD/pic/Pasted image 20241125161003.png",
     "课件/EE6303/AA/ESD/pic/Pasted image 20241125160320.png",
-    "课件/EE6303/AA/ESD/pic/Pasted image 20241125153830.png",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (New).md",
     "课件/EE6303/AA/ESD",
     "课件/EE6303/SEE/Nonideal Components/Non-ideal Components (只有公式).md",
@@ -189,14 +195,9 @@
     "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
     "课件/EE6303/AA/使用时谐Maxwell方程组推导趋肤效应.md",
     "课件/EE6303/AA/同轴电缆的自感推导.md",
-    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/EMI的测量方法2/pic",
-    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
     "课件/EE6303/AA/EMI的测量方法1/pic",
-    "课件/EE6303/AA/信号链IM/信号链IM.md",
-    "课件/EE6303/AA/天线/天线.md",
     "课件/EE6303/AA/信号链IM/pic",
-    "课件/EE6303/AA/波的传导/波的传导.md",
     "课件/EE6303/AA/波的传导/pic",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",
     "课件/EE6303/SEE/EMI Filter/未命名",

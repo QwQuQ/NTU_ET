@@ -1,4 +1,4 @@
-	这好像很多都是概念，不知道怎么考，可能会考概念，以PPT原文为准
+	这好像很多都是概念，不知道怎么考，以PPT原文为准
 
 # 电势，电容与电荷
 
@@ -33,6 +33,9 @@ $$I=\frac{\mathrm{d}Q}{\mathrm{d}t}=C\frac{\mathrm{d}V}{\mathrm{d}t}$$
 - 感应到的电压：$$V=\frac{\mathrm{d}\phi}{\mathrm{d}t}=\frac{\mathrm{d}}{\mathrm{d}t}\left(BA\right)$$
   上式中：
 	  - $B$是磁感应强度，$A$是被磁感线穿过的面积，共同构成磁通量$\phi$
+
+![[Pasted image 20241126004910.png#pic_center|]]
+一般在这个图中，电流的上升沿可以用直线来拟合，$$\frac{\mathrm{d}I}{\mathrm{d}t}=\frac{0.8I_0}{\tau_r}$$
 
 # ESD Testing
 
