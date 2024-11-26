@@ -48,6 +48,9 @@ $$E_{\text{DM,max}}=2.632\times10^{-14}\left(\frac{f^2AI_{\text{DM}}}{r}\right)\
 需要注意的是这是电场的包络，实际的电场由于存在$\text{sin}$函数的关系会非常复杂。
 
 ## 共模电流
+
+**需要注意的是，共模电流是L线与N线二者共模电流之和（2021年）。但如果题目说明了使用的是clamp on电流探头的话，由于是直接测量L+N两根线的，所以不需要乘2。**
+
 $$E_{\text{CM,max}}1.26\times10^{-6}\left(\frac{fI_{\text{CM}}l}{r}\right)\mathrm{V/m}$$
 # Board Resonances
 
