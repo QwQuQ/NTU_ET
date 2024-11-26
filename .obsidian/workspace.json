@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
+                "file": "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "使用时谐Maxwell方程组推导趋肤效应"
+              "title": "信号链IM"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md"
+                "file": "课件/EE6303/AA/RFI/信号链IM/信号链IM.md"
               },
               "icon": "lucide-list",
-              "title": "使用时谐Maxwell方程组推导趋肤效应 的大纲"
+              "title": "信号链IM 的大纲"
             }
           }
         ],
@@ -176,9 +176,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "e1418a918fee16f8",
   "lastOpenFiles": [
     "课件/EE6303/AA/RFI/天线/天线.md",
+    "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
+    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+    "课件/EE6303/AA/EMI的测量方法1/pic/Pasted image 20241126200016.png",
+    "课件/EE6303/AA/EMI的测量方法1/pic/Pasted image 20241126195947.png",
+    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
     "课件/EE6303/AA/RFI",
     "单纯的，知识/EM Field/自由空间电磁波阻抗/自由空间电磁波阻抗.md",
     "单纯的，知识/EM Field/自由空间电磁波阻抗",
@@ -191,14 +197,11 @@
     "课件/EE6303/SEE/Nonideal Components/Non-ideal Components (只有公式).md",
     "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
     "课件/EE6341/Active Filter/Active Filter.md",
-    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/2021/2021.md",
-    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
     "课件/EE6303/AA/ESD/ESD.md",
     "课件/EE6303/AA/ESD/Pasted image 20241126004910.png",
     "课件/EE6303/2021/pic",
     "课件/EE6303/2021",
-    "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
     "课件/EE6303/AA/RFI/天线/球坐标_赫兹偶极子.bmp",
     "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125174530.png",
     "课件/EE6303/SEE/PCB Design/pic",
@@ -209,11 +212,8 @@
     "课件/EE6303/SEE/PCB Design/pic/Pasted image 20241125180932.png",
     "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
     "课件/EE6303/SEE/PCB Design",
-    "课件/EE6303/AA/ESD/pic/Pasted image 20241125153547.png",
     "课件/EE6303/AA/ESD/pic",
-    "课件/EE6303/AA/ESD/pic/Pasted image 20241125161003.png",
     "课件/EE6303/AA/ESD",
-    "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
     "课件/EE6303/AA/同轴电缆的自感推导.md",
     "课件/EE6303/AA/EMI的测量方法2/pic",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",
