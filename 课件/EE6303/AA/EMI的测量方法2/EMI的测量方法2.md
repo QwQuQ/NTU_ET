@@ -182,70 +182,30 @@ $$V_{rms} \geq V_{Ave}$$
 
 ## 接收机到底测试的是什么？（先只考虑PK和QP吧，其他的检波器已经内置积分了）
 
-接收机会对检波器输出的信号进行积分，积分时长为 $T_{dwell}$ 输出为：
+接收机会对检波器输出的信号进行积分，积分时长为$T_{\text{dwell}}$（在这一频点的停留时间），输出为：
 
-$$V_{Det}=\frac{1}{\sqrt{2}T_{dwell}}\int_0^{T_{dwell}}v_D\left(t\right)\mathrm{d}t$$
+$$V_{Det}=\frac{1}{\sqrt{2}T_{\text{dwell}}}\int_0^{T_{dwell}}v_D\left(t\right)\mathrm{d}t$$
 
 由于峰值或者准峰值检波输出的是信号的峰值或准峰值，所以如果要获得信号的RMS值，需要除 $\sqrt{2}$ .
 
-为了达到稳定的输出，需要 $T_{dwell} > PRI$ ，所以积分时长包含数个充放电过程。
-
-$$V_{Det}=\frac{1}{\sqrt{2}T_{dwell}}\left(\int_0^{\tau_{PW}}v_{C1}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D1}\mathrm{d}t+\int_0^{\tau_{PW}}v_{C2}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D2}\mathrm{d}t+\cdots\right)$$
-
+为了达到稳定的输出，需要 $T_{dwell} > PRI$ ，所以积分时长包含数个充放电过程：$$V_{\mathrm{Det}}=\frac{1}{\sqrt{2}T_{\mathrm{dwell}}}\left(\int_0^{\tau_{\mathrm{PW}}}v_{C1}\mathrm{d}t+\int_0^{\tau_{\mathrm{PRI}}-\tau_{\mathrm{PW}}}v_{D1}\mathrm{d}t+\int_0^{\tau_{\mathrm{PW}}}v_{C2}\mathrm{d}t+\int_0^{\tau_{\mathrm{PRI}}-\tau_{\mathrm{PW}}}v_{D2}\mathrm{d}t+\cdots\right)$$
 对于PK，得到的将是脉冲的RMS电压值。
 
-## Detector Example 1
+对第1次充电过程进行积分：$$\int_0^{\tau_{\mathrm{PW}}}V_{\text{in}}\left(1-e^{-\frac{t}{\tau_{\text{C}}}}\right)\mathrm{d}t=V_{\text{in}}\left(\tau_{\text{PW}}-\tau_{\text{C}}\left(1-e^{-\frac{\tau_{\text{PW}}}{\tau_{\text{C}}}}\right)\right)$$由于$\tau_{\text{PW}}\gg \tau_{\text{C}}$，所以$e^{-\frac{\tau_{\text{PW}}}{\tau_{\text{C}}}}\to 0$，可以近似为（或者认为泰勒展开取1项）：$$\int_0^{\tau_{\text{PW}}}V_{\text{in}}\left(1-e^{-\frac{t}{\tau_{\text{C}}}}\right)\mathrm{d}t\approx V_{\text{in}}\left(\tau_{\text{PW}}-\tau_{\text{C}}\right)$$
 
-这么这么这么长一串，只是为了告诉你，PK的输出约等于信号的峰值
+对第1次放电过程进行积分：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t=V_{\text{in}}\tau_{\text{D}}\left(1-e^{-\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}}\right)$$使用泰勒展开$e^{-x}=1-x+\cdots$近似：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t\approx V_{\text{in}}\tau_{\text{D}}\left(1-1+\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}\right)=V_{\text{in}}\left(\tau_{\text{PRI}}-\tau_{\text{PW}}\right)$$
+
+由于在第一次充电完成后，PK的输出电压已经可以近似为$V_{\text{in}}$，所以第二次充电的积分为：$$\int_0^{\tau_{\text{PW}}}V_{\text{in}}\mathrm{d}t=V_{\text{in}}\tau_{\text{PW}}$$
+第二次放电时期的积分，由于输出近似为$V_{\text{in}}$不变，所以积分为：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}\mathrm{d}t=V_{\text{in}}\left(\tau_{\text{PRI}}-\tau_{\text{PW}}\right)$$
+所以PK的输出电压积分为：$$\displaylines{V_{\text{in}}\left(\tau_{\text{PW}}-\tau_{\text{C}}+\tau_{\text{PRI}}-\tau_{\text{PW}}+\tau_{\text{PW}}+\tau_{\text{PRI}}-\tau_{\text{PW}}+\cdots\right)\\=V_{\text{in}}\left(-\tau_{\text{C}}+\tau_{\text{PRI}}+\tau_{\text{PRI}}+\cdots\right)\\=V_{\text{in}}\left(T_{\text{dwell}}-\tau_{\text{C}}\right)}$$由于$\tau_{\text{C}}\ll \tau_{\text{PRI}}$，所以可以近似为：$$V_{\text{Det}}\approx\frac{1}{\sqrt{2}T_{\text{dwell}}}V_{\text{in}}\cdot T_{\text{dwell}}=\frac{V_{\text{in}}}{\sqrt{2}}$$
+
+## Detector Example 1
 
 根据CISPR标准计算 $\tau_C$ 和 $\tau_D$
 
 $$\tau_C\approx rC,\tau_D\approx RC, \frac{\tau_D}{\tau_C}=1.67\times10^7$$
 
 $$\tau_D\approx 17.8s,\tau_C\approx 1.07\mu s$$
-
-首先考虑PK的输出电压特性：
-
-$$v_C\left(t\right)=V^\prime\left(1-e^{-\frac{t}{\tau_C}}\right)=\left(V_{in}-V_{D_{end}}\right)\left(1-e^{-\frac{t}{\tau_C}}\right)$$
-
-在第一个脉冲来临时 $V^\prime\approx V_{in}$ ，代入 $\tau_C$ 和 $t=\tau_{PW}$ 可得充电结束电压 $V^{\prime\prime}$为：
-
-$$V^{\prime\prime}=V_{in}\left(1-e^{-\frac{50\mu s}{1.07\mu s}}\right)\approx V_{in}$$
-
-继续计算放电结束电压 $V_{D_{end}}$ 代入 $t=\tau_{PRI}-\tau_{PW}$：
-
-$$V_{D_{end}}=V^{\prime\prime}e^{-\frac{t}{\tau_D}}\approx V_{in}e^{-\frac{2450\mu s}{17.5s}}\approx V_{in}$$
-
-归纳可以得到：
-
-$$v_{C2}=v_{C3}=v_{Cn}=V_{in}$$
-
-$$v_{D2}=v_{D3}=v_{Dn}=V_{in}$$
-
-所以可以得到，对于Peak Detector，其输出电压为：
-
-$$v_D=V_{in}$$
-<br>
-
-继续这么长一串，告诉你接收机接收到的电压是 $\frac{V_{in}}{\sqrt{2}}$
-
-考虑接收机的积分过程（PPT上写的很乱，我重新整理一下）：
-
-$$V_{Det}=\frac{1}{\sqrt{2}T}\left(\int_0^{\tau_{PW}}v_{C1}\left(t\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D1}\left(t\right)\mathrm{d}t+\int_0^{\tau_{PW}}v_{C2}\left(t\right)\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}v_{D2}\left(t\right)\mathrm{d}t+\cdots\right)$$
-
-由于 $v_{C2}=v_{C3}=v_{Cn}=V_{in}$ 、 $v_{D2}=v_{D3}=v_{Dn}=V_{in}$ 所以有
-
-$$V_{Det}=\frac{1}{\sqrt{2}T}\left(\int_0^{\tau_{PW}}V_{in}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}V_{in}\mathrm{d}t+\int_0^{\tau_{PW}}V_{in}\mathrm{d}t+\int_0^{\tau_{PRI}-\tau_{PW}}V_{in}\mathrm{d}t+\cdots\right) \\
-=\frac{1}{\sqrt{2}T}V_{in}\left(\tau_{PW}+\tau_{PRI}-\tau_{PW}+\tau_{PW}+\tau_{PRI}-\tau_{PW}+\cdots\right)$$
-
-在积分时间 $T_{dwell}$ 相比脉冲周期 $\tau_{PRI}$ 很大的情况下，可以做如下近似：
-
-$$V_{Det}\approx\frac{1}{\sqrt{2}T}\cdot v_{in}\cdot T\\
-\implies V_{Det}=\frac{V_{in}}{\sqrt{2}}$$
-
-这也就是Peak Detector在接收机的输出了，为
-
-$$V_{Det}=\frac{V_{in}}{\sqrt{2}}$$
 
 ## Detector Example 2
 
