@@ -374,6 +374,7 @@ $${\Gamma_L}=\frac{\mathbf{E_{\text{反射波}}}}{\mathbf{E_{\text{入射波}}}}
 - 反射波的功率：$$P_{\text{refl}}=|\Gamma_L|^2\times P_{\text{inc}}=\mathrm{RL}\times P_{\text{inc}}$$
 - 透射（损耗？）：$$\mathrm{TL}=1-|\Gamma_L|^2$$
 - 透射波的功率：$$P_{\text{tx}}=(1-|\Gamma_L|^2)P_{\text{inc}}=(1-\mathrm{RL})P_{\text{inc}}=\mathrm{TL}\times P_{\text{inc}}$$
+  $$\mathrm{TL}(\mathrm{dB})=10\mathrm{log}(1-\mathrm{TL})$$
 
 ## VSWR
 
