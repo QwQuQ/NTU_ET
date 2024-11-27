@@ -6,13 +6,13 @@
 
 首先来看一个最简化的发射与接收的信号链路。根据Friss Transfer Function的顺序进行分析
 
-![[信号链路.png|信号链路图]]
+![[信号链路.png#pic_75center|信号链路图]]
 
 ### 发射端发射功率 $P_t$
 
 发射端经过本振上变频至射频后经过选频滤波器（滤除天线工作范围以外的频率分量，本振出来会有谐波分量），随后送进功放提高功率送天线进行发射。这就是发射端信号走过的路径。以Example3中HF天线的特性我们来分析一下发射机的特性（暂时不考虑收和发一体的模型，那玩意还有双工器，太烦了）。
 
-![[example3_fig1.png]]
+![[example3_fig1.png|]]
 
 首先是2-30MHz，这意味着射频部分的工作带宽。本振能够在2-30MHz调整，滤波器、功放、天线的通带是2-30MHz，其他频率需要抑制掉。与这个频率范围对应的是下面的Bandwidth=25kHz，这一带宽是发射机的实时带宽，与基带带宽有关。也就是说，虽然载波频率能够在2-30MHz范围内调整，但同一时刻的频谱宽度只有25kHz.
 
@@ -63,13 +63,13 @@ dipole天线可以用公式计算，但是老印给的公式有点问题，他�
 
 判断天线极化类型
 - 极化类型相同就用$$\text{PML}\left(\mathrm{dB}\right)=-20\mathrm{log}_{10}\left(\mathrm{cos}\theta\right)$$
-- 极化类型不同额外加上$3dB$极化损失$$\text{PML}\left(\mathrm{dB}\right)=3-20\mathrm{log}_{10}\left(cos\theta\right)$$
+- 极化类型不同额外加上$3dB$极化损失$$\text{PML}\left(\mathrm{dB}\right)=3-20\mathrm{log}_{10}\left(\mathrm{cos}\theta\right)$$
 
 ### 接收端灵敏度
 
 这个时候就涉及到了接收机灵敏度。主要关心两个参数，带内的灵敏度和带外抑制，也就是Rx sensitivity和Spurious Level.
 
-带内的灵敏度很好理解，就是接收机工作频率内的灵敏度。带外抑制，按照前文提到的接收机Spurious Level代表下变频低通滤波器的特性，可以对接收机的灵敏度建模。如果一个频率的信号功率大于接收机灵敏度就会被接收机识别到。对于非预期的带外信号，需要功率大于 $-33dBm$ 带内信号则需要大于 $-113dBm$
+带内的灵敏度很好理解，就是接收机工作频率内的灵敏度。带外抑制，按照前文提到的接收机Spurious Level代表下变频低通滤波器的特性，可以对接收机的灵敏度建模。如果一个频率的信号功率大于接收机灵敏度就会被接收机识别到。对于非预期的带外信号，需要功率大于$-33\mathrm{dBm}$带内信号则需要大于 $-113\mathrm{dBm}$
 
 ![[接收机灵敏度.png#pic_center|接收机灵敏度建模]]
 
@@ -110,7 +110,8 @@ $$G_t\left(\mathrm{dBi}\right)=1.8\mathrm{dBi}$$
 
 $$\text{PL}\left(\mathrm{dB}\right)=10\mathrm{log}_{10}\left(\frac{\lambda^2}{\left(4\pi r\right)^2}\right)$$
 
-带入不同的频率算得：$$\text{PL}_{10\mathrm{MHz}}\left(\mathrm{dB}\right)=-32.44\left(\mathrm{dB}\right)$$
+带入不同的频率算得：
+$$\text{PL}_{10\mathrm{MHz}}\left(\mathrm{dB}\right)=-32.44\left(\mathrm{dB}\right)$$
 $$\text{PL}_{20\mathrm{MHz}}\left(\mathrm{dB}\right)=-38.46\left(\mathrm{dB}\right)$$
 $$\text{PL}_{30\mathrm{MHz}}\left(\mathrm{dB}\right)=-41.98\left(\mathrm{dB}\right)$$
 $$\text{PL}_{35\mathrm{MHz}}\left(\mathrm{dB}\right)=-43.32\left(\mathrm{dB}\right)$$

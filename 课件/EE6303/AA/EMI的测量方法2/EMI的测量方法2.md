@@ -359,3 +359,27 @@ $$
 $$E_{3m}=E_{1m}\left(\mathrm{dB}V/m\right)-20log_{10}(3m)+20log_{10}(1m)=20.436975\left(\mathrm{dB}V/m\right)
 $$
 $$V_L=E_{3m}\left(\mathrm{dB}V/m\right)-AF\left(\mathrm{dB}/m\right)=20.436975-23=-2.5630\left(\mathrm{dB}V\right)=0.74V$$
+
+# 反射
+
+## 反射系数
+
+反射系数是反射波的电场强度与入射波的电场强度的比，当然也可以用源与负载的阻抗值来计算。
+$${\Gamma_L}=\frac{\mathbf{E_{\text{反射波}}}}{\mathbf{E_{\text{入射波}}}}=\frac{Z_L-Z_0}{Z_L+Z_0}$$
+- 当电路完全匹配，没有反射时$\Gamma_L=0$
+- 负载开路$Z_L=\infty$：$\Gamma_L=1$
+- 负载短路$Z_L=0$：$\Gamma_L=-1$
+
+- 反射损耗：$$\mathrm{RL}=|\Gamma_L|^2$$很好理解，反射损耗是反射波的能量与入射波的能量的比，由于$\Gamma_L$表示的是电场，所以要平方。
+- 反射波的功率：$$P_{\text{refl}}=|\Gamma_L|^2\times P_{\text{inc}}=\mathrm{RL}\times P_{\text{inc}}$$
+- 透射（损耗？）：$$\mathrm{TL}=1-|\Gamma_L|^2$$
+- 透射波的功率：$$P_{\text{tx}}=(1-|\Gamma_L|^2)P_{\text{inc}}=(1-\mathrm{RL})P_{\text{inc}}=\mathrm{TL}\times P_{\text{inc}}$$
+
+## VSWR
+
+$$\mathrm{VSWR}=\frac{V_{\text{max}}}{V_{\text{min}}}=\frac{1+|\Gamma_L|}{1-|\Gamma_L|}$$
+- 开路时，$\Gamma_L=1,\mathrm{VSWR}=\infty$
+- 短路时，$\Gamma_L=-1,\mathrm{VSWR}=\infty$
+- 匹配时，$\Gamma_L=0,\mathrm{VSWR}=1$
+
+- 与反射系数的关系：$$|\Gamma_L|=\frac{\mathrm{VSWR}-1}{\mathrm{VSWR}+1}$$

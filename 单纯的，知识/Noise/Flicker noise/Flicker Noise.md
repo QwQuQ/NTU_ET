@@ -3,6 +3,7 @@ aliases:
   - 粉红噪声
   - 1/f噪声
 ---
+![[Pasted image 20241127023210.png#pic_center|]]
 
 $$\overline{i^2}=k_1\left(\frac{I^a}{f}\right)\left(\mathrm{A^2/Hz}\right)$$
 
