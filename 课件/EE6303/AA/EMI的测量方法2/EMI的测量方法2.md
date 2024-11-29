@@ -26,7 +26,7 @@
 # 检波器
 
 - 接收机的检波器一般用来测量目标信号的功率或者电压
-- 对于没有调制的信号（CW连续波），所有检波器必须输出相同的RMS值。RMS值得定义如下，其与峰值得关系是：$$V_{RMS}=\sqrt{\frac{1}{T}\int_{0}^T A^2 cos^2\left(\omega t\right)\mathrm{d}t}=\frac{A}{\sqrt{2}}$$
+- 对于没有调制的信号（CW连续波），所有检波器必须输出相同的RMS值。RMS值的定义如下，其与峰值得关系是：$$V_{RMS}=\sqrt{\frac{1}{T}\int_{0}^T A^2 cos^2\left(\omega t\right)\mathrm{d}t}=\frac{A}{\sqrt{2}}$$
 
 ## Peak Detector/峰值检波器 
 
@@ -127,40 +127,27 @@ QP检波器的输出受到脉冲宽度和脉冲间隔的影响（PPT上的图还
 
 ### RMS Detector/均方根检波器
 
-测量信号包络的均方根值。
+- 测量信号包络的均方根值。
+- 适用于会被热效应影响的设备。
 
-适用于会被热效应影响的设备。
-
-输出为：
-
-$$V_{RMS}=\sqrt{\frac{1}{2T_{dwell}}\int_0^{T_{dwell}}v^2_{env}\left(t\right)\mathrm{d}t} \approx \sqrt{\frac{1}{2T}\int_0^\tau v^2_{env}\left(t\right)\mathrm{d}t}$$
+输出为：$$V_{\mathrm{RMS}}=\sqrt{\frac{1}{2T_{\mathrm{dwell}}}\int_0^{T_{\mathrm{dwell}}}v^2_{\mathrm{env}}\left(t\right)\mathrm{d}t} \approx \sqrt{\frac{1}{2T}\int_0^\tau v^2_{\mathrm{env}}\left(t\right)\mathrm{d}t}$$
 
 如何理解这一个式子：常见的RMS值并不会出现分子中的2，这边绕了两个弯，还需要区分瞬时RMS值和等效直流RMS值（我的理解，感觉很邪乎）。
 
 1、RMS检波器输入的信号上是**信号的包络**，它并不能直接测量到信号的RMS值。
 
-2、而**信号包络**的来源是**包络检波器**，包络检波器输出的是信号的**局部峰值（这个词是我造的，不知道好不好理解）**，为了将这个局部峰值转换为瞬时RMS值，需要乘 $\sqrt{\frac{1}{2}}$ ，这样造就了检波器输出值中分子里的2. 数学表达如下：
-
-$$\frac{V_{env}\left(t\right)}{\sqrt{2}}=V_{rms}\left(t\right)$$
+2、而**信号包络**的来源是**包络检波器**，包络检波器输出的是信号的**局部峰值（这个词是我造的，不知道好不好理解）**，为了将这个局部峰值转换为瞬时RMS值，需要乘 $\sqrt{\frac{1}{2}}$ ，这样造就了检波器输出值中分子里的2. 数学表达如下：$$\frac{V_{\mathrm{env}}\left(t\right)}{\sqrt{2}}=V_{\mathrm{rms}}\left(t\right)$$
 
 3、随后RMS检波器对**瞬时RMS值**，继续取RMS值，获得**等效的直流RMS值**。这意味着这个直流RMS值产生的热效应与瞬时RMS值产生的热效应相同。
 
-推导涉及到初中物理知识（雾）：
+推导涉及到初中物理知识（雾）：$$\displaylines{\int_0^T\frac{v_{\mathrm{RMS}}^2\left(t\right)}{R}\mathrm{d}t=W_{\mathrm{heat}}=\frac{V_{\mathrm{DCRMS}}^2}{R}\times T \\
+\implies \frac{1}{T}\int_0^T v_{\mathrm{RMS}}^2\left(t\right)\mathrm{d}t=V_{\mathrm{DCRMS}}^2\\
+\implies \sqrt{\frac{1}{T}\int_0^T v_{\mathrm{RMS}}^2\left(t\right)\mathrm{d}t}=V_{\mathrm{DCRMS}}\\
+}$$
 
-$$\int_0^T\frac{v_{RMS}^2\left(t\right)}{R}\mathrm{d}t=W_{Heat}=\frac{V_{DCRMS}^2}{R}\times T \\
-\implies \frac{1}{T}\int_0^T v_{RMS}^2\left(t\right)\mathrm{d}t=V_{DCRMS}^2\\
-\implies \sqrt{\frac{1}{T}\int_0^T v_{RMS}^2\left(t\right)\mathrm{d}t}=V_{DCRMS}\\
-$$
+代入$\frac{v_{\mathrm{env}}\left(t\right)}{\sqrt{2}}=v_{\mathrm{RMS}}\left(t\right)$，得到：$$V_{\mathrm{DC,RMS}}=\sqrt{\frac{1}{2T}\int_0^T v_{\mathrm{env}}^2\left(t\right)\mathrm{d}t}$$
 
-代入 $\frac{v_{env}\left(t\right)}{\sqrt{2}}=v_{RMS}\left(t\right)$
-
-得到：
-
-$$V_{DCrms}=\sqrt{\frac{1}{2T}\int_0^T v_{env}^2\left(t\right)\mathrm{d}t}$$
-
-对于矩形脉冲串：
-
-$$V_{RMS}\approx \frac{A}{\sqrt{2}}\frac{\tau}{T}$$
+对于矩形脉冲串：$$V_{\mathrm{RMS}}\approx \frac{A}{\sqrt{2}}\cdot\frac{\tau}{T}$$
 
 ### Average Detector/平均值检波器
 
@@ -193,7 +180,7 @@ $$V_{Det}=\frac{1}{\sqrt{2}T_{\text{dwell}}}\int_0^{T_{dwell}}v_D\left(t\right)\
 
 对第1次充电过程进行积分：$$\int_0^{\tau_{\mathrm{PW}}}V_{\text{in}}\left(1-e^{-\frac{t}{\tau_{\text{C}}}}\right)\mathrm{d}t=V_{\text{in}}\left(\tau_{\text{PW}}-\tau_{\text{C}}\left(1-e^{-\frac{\tau_{\text{PW}}}{\tau_{\text{C}}}}\right)\right)$$由于$\tau_{\text{PW}}\gg \tau_{\text{C}}$，所以$e^{-\frac{\tau_{\text{PW}}}{\tau_{\text{C}}}}\to 0$，可以近似为（或者认为泰勒展开取1项）：$$\int_0^{\tau_{\text{PW}}}V_{\text{in}}\left(1-e^{-\frac{t}{\tau_{\text{C}}}}\right)\mathrm{d}t\approx V_{\text{in}}\left(\tau_{\text{PW}}-\tau_{\text{C}}\right)$$
 
-对第1次放电过程进行积分：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t=V_{\text{in}}\tau_{\text{D}}\left(1-e^{-\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}}\right)$$使用泰勒展开$e^{-x}=1-x+\cdots$近似：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t\approx V_{\text{in}}\tau_{\text{D}}\left(1-1+\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}\right)=V_{\text{in}}\left(\tau_{\text{PRI}}-\tau_{\text{PW}}\right)$$
+对第1次放电过程进行积分：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t=V_{\text{in}}\tau_{\text{D}}\left(1-e^{-\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}}\right)$$使用泰勒展开$e^{-x}=1-x+\cdots$，取前2项近似：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}e^{-\frac{t}{\tau_{\text{D}}}}\mathrm{d}t\approx V_{\text{in}}\tau_{\text{D}}\left(1-1+\frac{\tau_{\text{PRI}}-\tau_{\text{PW}}}{\tau_{\text{D}}}\right)=V_{\text{in}}\left(\tau_{\text{PRI}}-\tau_{\text{PW}}\right)$$
 
 由于在第一次充电完成后，PK的输出电压已经可以近似为$V_{\text{in}}$，所以第二次充电的积分为：$$\int_0^{\tau_{\text{PW}}}V_{\text{in}}\mathrm{d}t=V_{\text{in}}\tau_{\text{PW}}$$
 第二次放电时期的积分，由于输出近似为$V_{\text{in}}$不变，所以积分为：$$\int_0^{\tau_{\text{PRI}}-\tau_{\text{PW}}}V_{\text{in}}\mathrm{d}t=V_{\text{in}}\left(\tau_{\text{PRI}}-\tau_{\text{PW}}\right)$$
