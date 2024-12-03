@@ -26,7 +26,7 @@
 # 检波器
 
 - 接收机的检波器一般用来测量目标信号的功率或者电压
-- 对于没有调制的信号（CW连续波），所有检波器必须输出相同的RMS值。RMS值的定义如下，其与峰值得关系是：$$V_{RMS}=\sqrt{\frac{1}{T}\int_{0}^T A^2 cos^2\left(\omega t\right)\mathrm{d}t}=\frac{A}{\sqrt{2}}$$
+- 对于没有调制的信号（CW连续波），所有检波器必须输出相同的RMS值。RMS值的定义如下，其与峰值得关系是：$$V_{\mathrm{RMS}}=\sqrt{\frac{1}{T}\int_{0}^T A^2 \mathrm{cos}^2\left(\omega t\right)\mathrm{d}t}=\frac{A}{\sqrt{2}}$$
 
 ## Peak Detector/峰值检波器 
 
@@ -78,16 +78,15 @@ $$\frac{\tau_D}{\tau_C}\approx\frac{RC}{rC}=\frac{R}{r}$$
 
 ## Quasi Peak Detector/准峰值检波器
 
-准峰值检波器一般用于 $1GHz$ 以上的频率
+- 准峰值检波器一般用于 $1GHz$ 以上的频率
+- 充电速度快和相对长的放电时间常数
+- 读数受到脉冲重复频率的影响
 
-充电速度快和相对长的放电时间常数
-
-读数受到脉冲重复频率的影响
 ![[image-4.png#pic_75center|峰值检波器电路]]
 
 ![[image-5.png#pic_75center|输出电压的时域特征]]
 
-其中$$\mathrm{Pulse\ Repetition\ Frequency}=\frac{1}{\tau_{PRI}}$$
+其中：$$\mathrm{Pulse\ Repetition\ Frequency}=\frac{1}{\tau_{PRI}}$$
 
 （PRI大概是Interval的意思？）
 
@@ -123,7 +122,7 @@ QP检波器的输出受到脉冲宽度和脉冲间隔的影响（PPT上的图还
 
 ![[image-10.png#pic_75center|包络检波器输出信号的包络]]
 
-极小的充电和放电时间常数，跟随信号的包络。
+- 极小的充电和放电时间常数，跟随信号的包络。
 
 ### RMS Detector/均方根检波器
 

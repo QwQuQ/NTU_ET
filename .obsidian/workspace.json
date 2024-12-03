@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+                "file": "课件/EE6303/AA/RFI/波的传导/波的传导.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EMI的测量方法2"
+              "title": "波的传导"
             }
           },
           {
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md"
+                "file": "课件/EE6303/AA/RFI/波的传导/波的传导.md"
               },
               "icon": "lucide-list",
-              "title": "EMI的测量方法2 的大纲"
+              "title": "波的传导 的大纲"
             }
           }
         ],
@@ -207,9 +207,10 @@
   },
   "active": "332f5c5e3319a2fc",
   "lastOpenFiles": [
-    "课件/EE6303/AA/RFI/天线/天线.md",
     "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6303/AA/ESD/ESD.md",
+    "课件/EE6303/AA/RFI/天线/天线.md",
     "单纯的，知识/Noise/Burst Noise/Burst Noise.md",
     "单纯的，知识/Noise/Excess Noise",
     "单纯的，知识/Noise/Burst Noise/Pasted image 20241127023729.png",
@@ -246,8 +247,7 @@
     "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
     "课件/EE6341/Active Filter/Active Filter.md",
     "课件/EE6303/2021/2021.md",
-    "课件/EE6303/AA/ESD/ESD.md",
-    "课件/EE6303/AA/ESD/Pasted image 20241126004910.png",
+    "课件/EE6303/AA/ESD/pic/Pasted image 20241126004910.png",
     "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
     "课件/EE6303/AA/同轴电缆的自感推导.md",
     "课件/EE6303/SEE/EMI Filter/EMI Filter (OLD).md",

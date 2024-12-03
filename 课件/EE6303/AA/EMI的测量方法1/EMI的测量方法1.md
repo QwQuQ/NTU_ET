@@ -38,7 +38,7 @@ $$Z_0 \approx \frac{\eta_0}{\frac{w}{h}+2}$$
 
 插入损耗可以用匹配网络前后的电压值计算。
 
-$$\mathrm{Insertion\ Loss}=20log\frac{V_1}{V_2}$$
+$$\text{Insertion Loss}=20log\frac{V_1}{V_2}$$
 
 如果使用电阻分压网络，只需要计算前后电阻的分压值即可获得插入损耗。（其实就是前后功率的损耗）
 
