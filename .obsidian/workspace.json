@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7e0de50235f2878",
+            "id": "c2d66eedadaab0ff",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "课件/EE6601/Lithography Technology/pic/Pasted image 20250203171709.png"
+                "file": "课件/EE6601/Lithography Technology/Lithography Technology.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250203171709"
+              "icon": "lucide-file",
+              "title": "Lithography Technology"
             }
           }
         ]
@@ -38,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -137,10 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6601/Lithography Technology/pic/Pasted image 20250203171709.png"
+                "file": "课件/EE6601/Lithography Technology/Lithography Technology.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250203171709 的大纲"
+              "title": "Lithography Technology 的大纲"
             }
           }
         ],
@@ -162,51 +168,51 @@
   },
   "active": "7f0b3b1f1ef44f79",
   "lastOpenFiles": [
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211004807.png",
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211001745.png",
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211003824.png",
     "课件/EE6601/Lithography Technology/Lithography Technology.md",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203171709.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203170107.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203162108.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203161539.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203161449.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203152435.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203145109.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203145046.png",
-    "课件/EE6601/Lithography Technology/pic",
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210233638.png",
+    "课件/EE6601/Lithography Technology/pic/345678.png",
+    "课件/EE6601/Lithography Technology/Pasted image 20250211003806.png",
+    "课件/EE6601/Lithography Technology/pic/1274608581.png",
+    "课件/EE6601/Lithography Technology/pic/1t6437851415.png",
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210234357.png",
+    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210234036.png",
+    "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure/Alignment and Exposure.md",
+    "单纯的，知识/Lithography/Lithography Steps",
+    "单纯的，知识/Lithography/Lithography Steps/Dehydration Bake/Dehydration Bake.md",
+    "单纯的，知识/Lithography/Lithography Steps/Develop Inspect/Develop Inspect.md",
+    "单纯的，知识/Lithography/Lithography Steps/Developing/Developing.md",
+    "单纯的，知识/Lithography/Lithography Steps/Hard Bake/Hard Bake.md",
+    "单纯的，知识/Lithography/Lithography Steps/Post-Exposure Bake/Post-Exposure Bake.md",
+    "单纯的，知识/Lithography/Lithography Steps/Soft Bake/Soft Bake.md",
+    "单纯的，知识/Lithography/Lithography Steps/Spin Coat/Spin Coat.md",
+    "单纯的，知识/Lithography/Lithography Steps/Vapour Prime/Vapour Prime.md",
+    "单纯的，知识/Lithography/Lithography Steps/Develop Inspect",
+    "单纯的，知识/Lithography/Hard Bake/pic",
+    "单纯的，知识/Lithography/Lithography Steps/Hard Bake",
+    "单纯的，知识/Lithography/Lithography Steps/Developing/pic",
+    "单纯的，知识/Lithography/Lithography Steps/Developing",
+    "单纯的，知识/Lithography/Lithography Steps/Post-Exposure Bake",
+    "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure",
+    "单纯的，知识/Lithography/Lithography Steps/Soft Bake/pic",
+    "单纯的，知识/Lithography/Lithography Steps/Soft Bake",
+    "单纯的，知识/Lithography/Optical Source/Optical Source.md",
     "课件/EE6341/Zheng Yuanjin/Low Noise Circuit Design/Low Noise Circuit Design.md",
     "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.md",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250203144059.png",
-    "单纯的，知识/Lithography/Optical Source/Optical Source.md",
-    "单纯的，知识/Lithography/Optical Source",
-    "单纯的，知识/Lithography",
     "单纯的，知识/EM Field/自由空间电磁波阻抗/自由空间电磁波阻抗.md",
     "课件/EE6303/AA/RFI/波的传导/波的传导.md",
-    "课件/EE6601/Lithography Technology",
-    "课件/EE6102",
-    "课件/EE6128",
-    "课件/EE6309",
-    "课件/EE6601",
-    "课件/EE6307",
     "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
     "课件/EE6303/AA/ESD/ESD.md",
     "课件/EE6303/AA/RFI/天线/天线.md",
     "单纯的，知识/Noise/Burst Noise/Burst Noise.md",
-    "单纯的，知识/Noise/Excess Noise",
-    "单纯的，知识/Noise/Burst Noise/Pasted image 20241127023729.png",
     "单纯的，知识/Noise/Flicker noise/Flicker Noise.md",
     "单纯的，知识/Noise/Shot Noise/Shot Noise.md",
     "单纯的，知识/Noise/Thermal Noise/Thermal Noise.md",
     "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
     "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
-    "课件/EE6303/SEE/EMI Filter/EMI Filter.md",
-    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (New).md",
-    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (OLD).md",
-    "课件/EE6303/SEE/PCB Design/PCB Design.md",
-    "课件/EE6303/SEE/Nonideal Components/Non-ideal Components (只有公式).md",
-    "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
-    "课件/EE6341/Active Filter/Active Filter.md",
-    "课件/EE6303/2021/2021.md",
-    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

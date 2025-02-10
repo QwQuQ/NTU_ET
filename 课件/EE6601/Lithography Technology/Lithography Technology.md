@@ -95,80 +95,76 @@ $$\lambda=\frac{c}{f}$$
 
 # Eight Basic Steps of the Lithography Process
 
-## 0. Vapour Prime Pre-Step – Dehydration Bake
+0. Vapour Prime Pre-Step-[[Dehydration Bake]]
+1. [[Vapour Prime]]
+2. [[Spin Coat]]
+3. [[Soft Bake]]
+4. [[Alignment and Exposure]]
+5. [[Post-Exposure Bake]]
+6. [[Developing]]
+7. [[Hard Bake]]
+8. [[Develop Inspect]]
 
-- 去除晶圆表面的水分子
-- 保证晶圆表面干净又干燥
+# Lithography Equipment
 
-- 清洁样品非常重要，以确保其没有灰尘、污垢或残留的光刻胶。脱水烘烤将确保样品上的任何 H₂O 都被蒸发掉。对于那些容易氧化的样品（例如硅）这一步尤为重要。氧化物随后会与空气中的水蒸气结合。当光刻胶涂覆到样品上时，光刻胶会附着在 H₂O 上而非晶圆表面。
+## Aligners
 
-![[Pasted image 20250203152435.png#pic_center|在晶圆表面存在的水会由于表面污染和水分层的存在，导致光刻胶粘附不良和光刻胶脱落]]
+- Single Exposure:
+	- Contact Aligner
+	- Proximity Aligner
 
-## 1. Vapour Prime – Cleaning and Dehydration Bake
+![[Pasted image 20250211001745.png|Contact / Proximity Aligner]]
 
-- 光刻的第一步
-- 在这一步骤中经常集成Wafer Dehydration Bake
-- 使用HMDS对晶圆进行处理
-- 促进光刻胶和晶圆良好粘接
+- Multiple Exposure
+	- Step-and-Repeat Aligner (Stepper)
 
-![[Pasted image 20250203161449.png#pic_center|由于表面污染和水分层的存在，导致光刻胶粘附不良和光刻胶脱落]]
+![[345678.png|Step-and-Repeat Projection Aligner]]
 
-### HMDS处理中的变化：
+## UV Exposure / Printing
 
-- HMDS将硅的表面由亲水性变为疏水性以让光刻胶良好粘接
-- $\text{Si-dioxide}+\mathrm{H_2O}+\text{HMDS}\rightarrow \text{Hexamethyldisiloxane}+\text{Ammonia}$
-![[Pasted image 20250203170107.png#pic_center|]]
-- 脱水烘烤这些氧化样品之后，用HMDS底漆进行旋涂非常重要。HMDS底漆将与氧化物基团结合以隔绝水分
-- $\mathrm{Si(CH_3)_3}$基团与光刻胶兼容，能够在样品和光刻胶之间建立粘附力
+- UV exposure is sometimes known as “printing” because it “prints” the desired pattern onto the substrate using UV source.
+- Single Exposure:
+	- Contact Printing: mask and wafer in direct contact, high resolution of the order of 1µm, the problem with dust particles.
+	- Proximity Printing: mask and wafer in close proximity (a small gap of $10-50\mathrm{\mu m}$ between mask and wafer), less damage by dust particles, the low resolution of the order of $2-5\mathrm{\mu m}$ due to the fringe.
+![[Pasted image 20250210233638.png#pic_center|Contact Printing]]
+![[Pasted image 20250210234036.png#pic_25center|Proximity Printing]]
+- Multiple Exposures:
+	- Projection Printing: 
+		- **Reticle**: May contain the pattern of one or more die.
+		- **Projection Lens**: Reduces the size of reticle field to be printed onto the wafer surface
+		- **Single Field Exposure**: Includes focus, align, expose, step, and repeat process
+		- Wafer stage controls the position of the wafer in $\mathrm{X}$, $\mathrm{Y}$, $\mathrm{Z}$, and $\mathrm{\theta}$
+![[1t6437851415.png#pic_75center|Projection Printing]]
 
-### Typical Process Sequence
+# Resolution and its Critical Parameters
 
-- Dehydration bake (200°C to 250°C)
-- Vapour priming
-- Priming Techniques
-	- Puddle spray dispense and spin
+## Minimum Linewidth / Resolution for Proximity Aligner
 
-![[Pasted image 20250203161539.png|HMDS (Liquid) Dispense and Spin]]
+![[1274608581.png#pic_center|Proximity Aligner]]
 
-### Process Summary
+- Resolution is the minimum linewidth achievable by the lithography equipment.
+- Minimum linewidth (Resolution) for the proximity printer: $$W_{\text{min}}\approx \sqrt{k_1\lambda g}$$ 其中：
+	- $k_1$是一个常数，没有明确的物理学定义，为一个实验参数。其大小取决于光学系统和光刻胶的性质，一般是1
+	- $\lambda$是曝光光源的波长
+	- $g$是mask到wafer表面的间距，单位为$\mathrm{\mu m}$
 
-![[Pasted image 20250203162108.png#pic_center|Enclosed Chamber with Exhaust]]
+## Minimum Linewidth / Resolution for Projection Aligner
 
-- Dehydration bake in an enclosed chamber with exhaust
-  在封闭带有排气的腔室中脱水烘烤
-- Hexamethyldisilazane (HMDS) prime
-  使用HMDS预处理
-- 排气
-- Clean and dry wafer surface (hydrophobic)
-  清洁并干燥晶圆表面（变成疏水性了）
-- Temperature ~ 200°C to 250°C
-- Time ~ 60 seconds
+![[Pasted image 20250211004807.png#pic_75center|Projection Printing]]
+- In projection aligner (also called step-and-repeat aligners), the gap between mask and wafer is very large (in the range of cm).
+- Minimum linewidth (resolution) for the projection printer can be calculated using: $$W_{\text{min}}\approx k_1\frac{\lambda}{NA}$$
+	- 其中$NA$为numerical aperture
 
-## 2. Spin Coat
+### Numerical Aperture
 
-![[Pasted image 20250203171709.png#pic_center|]]
+![[Pasted image 20250211004807.png#pic_75center|Projection Printing]]
 
-### Process Summary
+- The numerical aperture (NA) of an optical system is a measure of the ability to collect light, which is a measure of the light gathering power.
+- Numerical Aperture, (NA) can be defined as: $$NA=n\mathrm{sin}\theta$$其中：
+	- $n$为系统所浸没的介质的折射率，如果是空气的话$n=1$
+	- $\theta$为物镜的接受角的一半
+- 当$n=1$的时候，$NA$可以被定义为：$$NA=\mathrm{sin}\theta\approx\mathrm{tan}\theta=\frac{d/2}{f}=\frac{d}{2f}$$
+	- 当$\theta < 12\degree$时$\mathrm{tan}\theta\approx\mathrm{sin}\theta$
+	- 所以投影物镜的数值孔径也是孔径和焦距之间的几何比。
 
-- The wafer is held onto the vacuum chuck
-  晶圆被固定在真空吸盘上
-- Dispense $\sim 5\mathrm{ml}$ of the resist at static or slow spread speed of $\omega_1 \sim 500\mathrm{rpm}$
-  在静止或者500rpm的低转速下加入5ml光刻胶
-- Ramp up to $\omega_2 \sim 3000 \text{ to } 5000 \mathrm{rpm}$
-  加速到$\omega_2 \sim 3000 \text{ to } 5000 \mathrm{rpm}$
-- Quality measures:
-	- Time
-	- Speed
-	- Thickness
-	- Uniformity
-	- Particles and Defects
-- 
-  
-
-## 3. Soft Bake
-
-## 4. Alignment and Exposure
-
-## 5. Post-Exposure Bake
-
-
+# Mask and Reticle
