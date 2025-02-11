@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6601/Lithography Technology/Lithography Technology.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lithography Technology"
+              "title": "Data Coding"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6601/Lithography Technology/Lithography Technology.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lithography Technology 的大纲"
+              "title": "Data Coding 的大纲"
             }
           }
         ],
@@ -166,12 +166,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "c2d66eedadaab0ff",
   "lastOpenFiles": [
+    "课件/EE6309/Data Coding/Pasted image 20250211155002.png",
+    "课件/EE6309/Noise Consideration/Noise Consideration.md",
+    "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6601/Lithography Technology/Lithography Technology.md",
+    "课件/EE6309/Noise Consideration",
+    "课件/EE6309/Data Coding",
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250211004807.png",
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250211001745.png",
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250211003824.png",
-    "课件/EE6601/Lithography Technology/Lithography Technology.md",
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250210233638.png",
     "课件/EE6601/Lithography Technology/pic/345678.png",
     "课件/EE6601/Lithography Technology/Pasted image 20250211003806.png",
@@ -196,8 +201,6 @@
     "单纯的，知识/Lithography/Lithography Steps/Developing",
     "单纯的，知识/Lithography/Lithography Steps/Post-Exposure Bake",
     "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure",
-    "单纯的，知识/Lithography/Lithography Steps/Soft Bake/pic",
-    "单纯的，知识/Lithography/Lithography Steps/Soft Bake",
     "单纯的，知识/Lithography/Optical Source/Optical Source.md",
     "课件/EE6341/Zheng Yuanjin/Low Noise Circuit Design/Low Noise Circuit Design.md",
     "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.md",
@@ -211,8 +214,6 @@
     "单纯的，知识/Noise/Flicker noise/Flicker Noise.md",
     "单纯的，知识/Noise/Shot Noise/Shot Noise.md",
     "单纯的，知识/Noise/Thermal Noise/Thermal Noise.md",
-    "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
-    "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

@@ -160,11 +160,17 @@ $$\lambda=\frac{c}{f}$$
 ![[Pasted image 20250211004807.png#pic_75center|Projection Printing]]
 
 - The numerical aperture (NA) of an optical system is a measure of the ability to collect light, which is a measure of the light gathering power.
+- 从PPT上的图可以看出，$NA$越大，衍射效应对于光学系统的影响越小，光学系统的分辨率越高
 - Numerical Aperture, (NA) can be defined as: $$NA=n\mathrm{sin}\theta$$其中：
 	- $n$为系统所浸没的介质的折射率，如果是空气的话$n=1$
 	- $\theta$为物镜的接受角的一半
 - 当$n=1$的时候，$NA$可以被定义为：$$NA=\mathrm{sin}\theta\approx\mathrm{tan}\theta=\frac{d/2}{f}=\frac{d}{2f}$$
 	- 当$\theta < 12\degree$时$\mathrm{tan}\theta\approx\mathrm{sin}\theta$
-	- 所以投影物镜的数值孔径也是孔径和焦距之间的几何比。
+	- 所以投影物镜的数值孔径也是孔径和焦距之间的几何比
+	- Step-and-Repeat的$NA$典型值为$0.60-0.68$
+
+## Lithography on Uneven Surface
+
+- **Depth of focus**: Range of focus error that a process can tolerate $$\sigma=\pm\frac{W_{\text{min}}/2}{\mathrm{tan}\theta}\cong$$
 
 # Mask and Reticle
