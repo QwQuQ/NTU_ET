@@ -11,12 +11,14 @@
             "id": "c2d66eedadaab0ff",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png"
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250211155002"
+              "icon": "lucide-file",
+              "title": "Data Coding"
             }
           }
         ]
@@ -138,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250211155002 的大纲"
+              "title": "Data Coding 的大纲"
             }
           }
         ],
@@ -166,23 +168,23 @@
   },
   "active": "c2d66eedadaab0ff",
   "lastOpenFiles": [
+    "课件/EE6309/Data Coding/DADKKWPOGJKA.png",
     "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6309/Data Coding/Pasted image 20250212023739.png",
+    "课件/EE6309/Data Coding/Pasted image 20250212022706.png",
+    "课件/EE6309/Data Coding/Pasted image 20250212020148.png",
+    "课件/EE6309/Data Coding/Pasted image 20250212014607.png",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png",
     "课件/EE6309/Data Coding/pic",
     "课件/EE6309/Data Coding/pic/Pasted image 20250211181853.png",
     "课件/EE6309/Data Coding/pic/Pasted image 20250211181319.png",
     "课件/EE6309/Data Coding/pic/Pasted image 20250211175818.png",
     "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
     "课件/EE6309/Data Coding/pic/Pasted image 20250211173917.png",
-    "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png",
     "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6601/Lithography Technology/Lithography Technology.md",
     "课件/EE6309/Noise Consideration",
     "课件/EE6309/Data Coding",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211004807.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211001745.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250211003824.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210233638.png",
-    "课件/EE6601/Lithography Technology/pic/345678.png",
     "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure/Alignment and Exposure.md",
     "单纯的，知识/Lithography/Lithography Steps",
     "单纯的，知识/Lithography/Lithography Steps/Dehydration Bake/Dehydration Bake.md",

@@ -231,5 +231,27 @@ $T(x)=b_{k-1}b_{k-2}\cdots b_1b_0r_{r-1}r_{r-2}\cdots r_1r_0$，由k bit的数�
 
 略
 
-# Cyclic Code Generation
+## Cyclic Code Generation
 
+### Polynomial Divisor Circuit
+
+![[Pasted image 20250212014607.png#pic_75center|]]
+如图，用这样的环形移位寄存器能够实现Modulo-2算法下的除法操作。
+
+---
+
+以$G(x)=x^4+x^3+1$为例，可以知道$g_0=1$，$g_1=0$，$g_2=0$，$g_3=1$，$g_4=1$，所以环形寄存器长这样：![[Pasted image 20250212020148.png#pic_75center|]]
+对于$T(x)=11000001010=x^{10} + x^9 + x^3 + x$，除法过程为：![[DADKKWPOGJKA.png#pic_center|]]
+$x^2+1$与$0101b$一样，所以这一切工作良好
+
+####  Reducing the Number of Shifting Cycles
+
+通过重新调整输入的位置，可以得到更加简化的形式。
+![[Pasted image 20250212022706.png#pic_75center|]]
+- The incoming bit string (MSB first) will be available at the output when the shifting starts, which is useful when working as a CRC encoding circuit.
+- The above circuit works provided: $g_0=1$ and $g_r=1$
+
+## CRC Encoding: Using (n-k) Stage Shift Register
+
+至此，已经有用环形寄存器生成余数的例子。对于一个完整的CRC输出，需要有$k$ bit的数据位和$n-k$ bit的校验位，所以完整的结构很容易想到：![[Pasted image 20250212023739.png]]
+在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。（我觉得PPT上的例子错了，应该是1011110）
