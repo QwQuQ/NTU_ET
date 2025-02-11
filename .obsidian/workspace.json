@@ -11,14 +11,12 @@
             "id": "c2d66eedadaab0ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "课件/EE6309/Data Coding/Data Coding.md",
-                "mode": "source",
-                "source": false
+                "file": "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png"
               },
-              "icon": "lucide-file",
-              "title": "Data Coding"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250211155002"
             }
           }
         ]
@@ -140,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Data Coding/Data Coding.md",
+                "file": "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Data Coding 的大纲"
+              "title": "Pasted image 20250211155002 的大纲"
             }
           }
         ],
@@ -168,9 +166,15 @@
   },
   "active": "c2d66eedadaab0ff",
   "lastOpenFiles": [
-    "课件/EE6309/Data Coding/Pasted image 20250211155002.png",
-    "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6309/Data Coding/pic",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211181853.png",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211181319.png",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211175818.png",
+    "课件/EE6303/SEE/使用时谐Maxwell方程组推导趋肤效应.md",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211173917.png",
+    "课件/EE6309/Data Coding/pic/Pasted image 20250211155002.png",
+    "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6601/Lithography Technology/Lithography Technology.md",
     "课件/EE6309/Noise Consideration",
     "课件/EE6309/Data Coding",
@@ -179,11 +183,6 @@
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250211003824.png",
     "课件/EE6601/Lithography Technology/pic/Pasted image 20250210233638.png",
     "课件/EE6601/Lithography Technology/pic/345678.png",
-    "课件/EE6601/Lithography Technology/Pasted image 20250211003806.png",
-    "课件/EE6601/Lithography Technology/pic/1274608581.png",
-    "课件/EE6601/Lithography Technology/pic/1t6437851415.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210234357.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250210234036.png",
     "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure/Alignment and Exposure.md",
     "单纯的，知识/Lithography/Lithography Steps",
     "单纯的，知识/Lithography/Lithography Steps/Dehydration Bake/Dehydration Bake.md",
@@ -200,7 +199,6 @@
     "单纯的，知识/Lithography/Lithography Steps/Developing/pic",
     "单纯的，知识/Lithography/Lithography Steps/Developing",
     "单纯的，知识/Lithography/Lithography Steps/Post-Exposure Bake",
-    "单纯的，知识/Lithography/Lithography Steps/Alignment and Exposure",
     "单纯的，知识/Lithography/Optical Source/Optical Source.md",
     "课件/EE6341/Zheng Yuanjin/Low Noise Circuit Design/Low Noise Circuit Design.md",
     "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.md",
@@ -213,7 +211,6 @@
     "单纯的，知识/Noise/Burst Noise/Burst Noise.md",
     "单纯的，知识/Noise/Flicker noise/Flicker Noise.md",
     "单纯的，知识/Noise/Shot Noise/Shot Noise.md",
-    "单纯的，知识/Noise/Thermal Noise/Thermal Noise.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
