@@ -8,5 +8,5 @@
   .image-embed[alt]:not([alt$=".png"], [alt$=".jpg"], [alt$=".jpeg"], [alt$=".tiff"], [alt$=".webp"], [alt$=".bmp"])::after {
     content: attr(alt);
     font-size: 80%;
-    color: gray;
+    color: #778899;
   }

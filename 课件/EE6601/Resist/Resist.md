@@ -49,25 +49,33 @@
 
 #### Photochemical Reaction in Positive Resist
 
-![[Pasted image 20250219033440.png#pic_25center|老师给的Diazoquinone化学式]]![[Pasted image 20250219033629.png#pic_25center|Diazoquinone在wiki上的化学式]]
+![[Pasted image 20250219033440.png#pic_25inline|老师给的Diazoquinone化学式]]![[Pasted image 20250219033629.png#pic_25inline|Diazoquinone在wiki上的化学式]]
 - Photo Active Compound(PAC)受到光照射后，不稳定的化合物通过Wolff重排反应形成烯酮。**老师的化学式与wiki给的并不一样，我不知道谁对谁错，将就着看吧**
 
-![[Pasted image 20250219024852.png#pic_25center|老师给的图]]![[Pasted image 20250219032040.png#pic_25center|我自己推的图，可能有错]]
+![[Pasted image 20250219024852.png#pic_25inline|老师给的图]]![[Pasted image 20250219032040.png#pic_25inline|我自己推的图，可能有错]]
 - 碳原子从苯环上脱离使化合物稳定，氧原子与碳原子形成共价键，此时形成Ketene（烯酮）。**根据wiki的前后关系我推出来了一张图，这张图上有烯酮标志性的两个碳碳双键，并且由于Wolff重排形成了5元环**
 
-![[Pasted image 20250219022042.png#pic_25center|老师给的图]]![[Pasted image 20250219033718.png#pic_25center|wiki给的图]]
-- $-\text{OH}$基连接到这个化合物，从而形成羧基（酮基变羧基），能够溶于碱性显影液（氢氧化钾）。**老师的图和wiki的图又开始不一样了，感觉老师的多了一个碳原子，wiki是比较正常的五元环**
+![[Pasted image 20250219022042.png#pic_25inline|老师给的图]]![[Pasted image 20250219033718.png#pic_25inline|wiki给的图]]
+- 烯酮的化学性质很活泼。与水反应形成羧基（其中一个碳碳双键断开成为碳碳单键，并连接上氢氧基和氢原子），能够溶于碱性显影液（氢氧化钾）。**老师的图和wiki的图又开始不一样了，感觉老师的多了一个碳原子，wiki是比较正常的五元环**
 
 ### Negative Resist
 
 - Exposed Region: Formed polymer cross-linking
-曝光区域：形成聚合物交联
+	曝光区域：形成聚合物交联
 - Unexposed Region: Soluble in **Organic Solvent(Organic Developer)**
-未曝光区域：能够溶于有机溶剂（有机显影液）
+	未曝光区域：能够溶于有机溶剂（有机显影液）
 
 # Chemically Amplified (CA) DUV Resist
 
-- Conventional DNQ (DQN) resist has large absorption problem below 365 nm wavelength and not suitable for DUV technology. Why?
+![[Pasted image 20250219040123.png#pic_75center|Absorbance vs Wavelength]]
+
+- Conventional DNQ resist has large absorption problem below 365 nm wavelength and not suitable for DUV technology.
+	传统的二氮萘醌 (DNQ) 抗蚀剂在波长低于 365 纳米时存在较大的吸收问题，不适用于深紫外 (DUV) 技术。
+- Conventional resists cannot be used in deep UV lithography processes because these resists have high absorption and require high dose to be exposed in deep UV. This raises the concern of damage to stepper lens, lower exposure speed and reduced throughput.
+	传统的抗蚀剂不能用于深紫外光刻工艺，因为这些抗蚀剂在深紫外光下具有高吸收率，需要高剂量才能曝光。这引发了对步进镜头损坏、曝光速度降低和产量减少的担忧。
+- 人话：在短波长下，光刻胶不怎么能够对光作出反应，它们仅仅吸收光然后发热。
+
+
 
 # Metrics of Resist
 
