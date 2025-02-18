@@ -1,5 +1,5 @@
 .image-embed[alt] {
-    padding: var(--size-4-1) 0;
+  padding: var(--size-4-1) 0;
   }
   .image-embed[alt]::after {
     display: block;
@@ -7,6 +7,6 @@
   }
   .image-embed[alt]:not([alt$=".png"], [alt$=".jpg"], [alt$=".jpeg"], [alt$=".tiff"], [alt$=".webp"], [alt$=".bmp"])::after {
     content: attr(alt);
-    font-size: var(--font-smaller);
-    color: var(--text-black);
+    font-size: 80%;
+    color: gray;
   }

@@ -18,6 +18,13 @@
     width: 50%;
 }
 
+.markdown-preview-view .image-embed[src*="#pic_50center"] {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 50%;
+}
+
 .markdown-preview-view .image-embed[src*="#pic_75center"] {  
     display: block;  
     margin-left: auto;  
@@ -38,9 +45,23 @@
     margin-right: auto;  
     width: 10%;
 }
+
+.markdown-preview-view .image-embed[src*="#pic_33center"] {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 33%;
+}
   
 /*实时编辑模式，如果图片的链接中包含 #pic_center 的，图片居中显示*/  
 .markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_center"] {  
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+}
+  
+.markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_50center"] {  
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -66,4 +87,11 @@
     margin-left: auto !important;
     margin-right: auto !important;
     width: 10%; 
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="#pic_33center"] {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 33%; 
 }

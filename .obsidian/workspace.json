@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2d66eedadaab0ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projection Printing"
-            }
-          },
-          {
-            "id": "f8da2d6b151cbabc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projection Printing"
-            }
-          },
-          {
-            "id": "119216f456409f83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/EE6601/Lithography Technology/Lithography Technology.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lithography Technology"
-            }
-          },
-          {
-            "id": "b63f86aad329808a",
+            "id": "ad163d874217f193",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Resist"
             }
-          },
-          {
-            "id": "c309735c622b8d1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projection Printing"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:printing",
+                "query": "\"![[Pasted image 20250219023514.png#pic_33right|来自wiki的化学式]]\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+                "file": "课件/EE6601/Resist/Resist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EMI的测量方法2 的反向链接列表"
+              "title": "Resist 的反向链接列表"
             }
           },
           {
@@ -170,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6303/SEE/PCB Design/PCB Design.md",
+                "file": "课件/EE6601/Resist/Resist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "PCB Design 的出链列表"
+              "title": "Resist 的出链列表"
             }
           },
           {
@@ -206,8 +149,7 @@
               "title": "Resist 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,10 +165,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "ad163d874217f193",
   "lastOpenFiles": [
+    "课件/EE6601/Resist/Pasted image 20250219033718.png",
+    "课件/EE6601/Resist/Pasted image 20250219033629.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219024852.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219031202.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219022042.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250218175333.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250218175020.png",
+    "课件/EE6601/Resist/Resist.md",
+    "课件/EE6601/Resist/pic/Pasted image 20250219033440.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219025946.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219032040.png",
+    "课件/EE6601/Resist/pic/Pasted image 20250219032859.png",
+    "课件/EE6601/Resist/Pasted.md",
+    "单纯的，知识/Lithography/Resist/Wolff Rearrangement/Wolff Rearrangement.md",
+    "单纯的，知识/Lithography/Resist/Wolff Rearrangement",
     "课件/EE6601/Advanced Lithography",
-    "单纯的，知识/Lithography/Resist/Negtive Resist",
+    "单纯的，知识/Lithography/Resist/Negative Resist",
     "单纯的，知识/Lithography/Resist/Positive Resist",
     "课件/EE6601/Lithography Technology/Lithography Technology.md",
     "单纯的，知识/Lithography/Lithography Process/Lithography Process.md",
@@ -236,28 +193,15 @@
     "单纯的，知识/Lithography/Printing/Proximity Printing/Proximity Printing.md",
     "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
     "单纯的，知识/Physics",
-    "课件/EE6601/Resist/Resist.md",
     "课件/EE6601/Resist/pic",
     "课件/EE6601/Resist",
     "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
     "单纯的，知识/Lithography/Resist",
     "单纯的，知识/Wafer.md",
     "单纯的，知识/Lithography/Printing/Projection Printing/pic",
-    "单纯的，知识/Lithography/Printing/Proximity Printing/pic",
-    "单纯的，知识/Lithography/Printing/Contact Printing/pic/Pasted image 20250211001745.png",
-    "单纯的，知识/Lithography/Printing/Contact Printing/pic/Pasted image 20250218154325.png",
-    "单纯的，知识/Lithography/Printing/Contact Printing/pic",
     "单纯的，知识/Lithography/Fresnel Diffraction/Fresnel Diffraction.md",
     "单纯的，知识/Lithography/Fraunhofer Diffraction/Fraunhofer Diffraction.md",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218153835.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218161642.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218161515.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218155956.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218155332.png",
-    "课件/EE6601/Lithography Technology/pic/Pasted image 20250218155034.png",
-    "单纯的，知识/Lithography/Printing/Proximity Printing/pic/Pasted image 20250218154537.png",
     "单纯的，知识/Device/MOSFET/MOSFET Basis/Channel Charge/Channel Charge.md",
-    "单纯的，知识/Device/MOSFET/MOSFET Basis/Channel Charge/Channel Charge.png",
     "单纯的，知识/Device/MOSFET/MOSFET Basis/Body effect coefficient/Body Effect Coefficient.md",
     "课件/EE6307/我也不知道怎么起名，总之是1号牢师/我也不知道怎么起名，总之是1号牢师.md",
     "课件/EE6309/Data Coding/Data Coding.md",
@@ -269,8 +213,6 @@
     "单纯的，知识/Lithography/Lithography Process/Hard Bake/Hard Bake.md",
     "单纯的，知识/Lithography/Lithography Process/Post-Exposure Bake/Post-Exposure Bake.md",
     "单纯的，知识/Lithography/Lithography Process/Soft Bake/Soft Bake.md",
-    "单纯的，知识/Lithography/Lithography Process/Spin Coat/Spin Coat.md",
-    "单纯的，知识/Lithography/Lithography Process/Vapour Prime/Vapour Prime.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
