@@ -1,6 +1,6 @@
 # UV Light Spectrum and Resolution
 
-## 大概是前置知识
+## 大概是前置知识（废话们）
 
 ### 波长和频率的关系（高中物理）
 
@@ -25,15 +25,11 @@ $$\lambda=\frac{c}{f}$$
 - 最小的Feature Size是Critical Dimension (CD)
 - Resolution is important for critical dimension
 
-（怎么感觉都是废话）
-
 ### Light Intensity
 
 - Higher intensity = Shorter exposure time
 - Lower intensity = Longer exposure time
 - KrF laser is preferred over Hg lamp DUV. 看图，KrF激光的Light Intensity在DUV上对比水银灯更强
-
-（又都是废话）
 
 ## Excimer Laser （准分子激光）
 
@@ -44,7 +40,7 @@ $$\lambda=\frac{c}{f}$$
 - ArF（氟化氩）: $\lambda=193\mathrm{nm}$, (CD: $\leq 0.18\mathrm{\mu m}$)
 - $F_2$ （氟）： $\lambda=157\mathrm{nm}$, (CD: $\leq0.15\mathrm{\mu m}$)
 
-## Mercury Arc Lamp（汞弧灯；水银灯！）
+## Mercury Arc Lamp（汞弧灯；水银灯）
 
 - 汞蒸气灯：玻璃灯中有汞的等离子体
 - 产生许多不同波长的光
@@ -95,82 +91,84 @@ $$\lambda=\frac{c}{f}$$
 
 # Eight Basic Steps of the Lithography Process
 
-0. Vapour Prime Pre-Step-[[Dehydration Bake]]
-1. [[Vapour Prime]]
-2. [[Spin Coat]]
-3. [[Soft Bake]]
-4. [[Alignment and Exposure]]
-5. [[Post-Exposure Bake]]
-6. [[Developing]]
-7. [[Hard Bake]]
-8. [[Develop Inspect]]
+[[Lithography Process]]
 
 # Lithography Equipment
 
 ## Aligners
 
 - Single Exposure:
-	- Contact Aligner
-	- Proximity Aligner
-
-![[Pasted image 20250211001745.png|Contact / Proximity Aligner]]
+	- [[Contact Printing#Contact Aligner|Contact Aligner]]
+	- [[Proximity Printing#Proximity Aligner|Proximity Aligner]]
 
 - Multiple Exposure
-	- Step-and-Repeat Aligner (Stepper)
-
-![[345678.png|Step-and-Repeat Projection Aligner]]
+	- [[Projection Printing#Step-and-Repeat Aligner (Stepper)|Step-and-Repeat Aligner (Stepper)]]
 
 ## UV Exposure / Printing
 
 - UV exposure is sometimes known as “printing” because it “prints” the desired pattern onto the substrate using UV source.
 - Single Exposure:
-	- Contact Printing: mask and wafer in direct contact, high resolution of the order of 1µm, the problem with dust particles.
-	- Proximity Printing: mask and wafer in close proximity (a small gap of $10-50\mathrm{\mu m}$ between mask and wafer), less damage by dust particles, the low resolution of the order of $2-5\mathrm{\mu m}$ due to the fringe.
-![[Pasted image 20250210233638.png#pic_center|Contact Printing]]
-![[Pasted image 20250210234036.png#pic_25center|Proximity Printing]]
+	- [[Contact Printing]]
+	- [[Proximity Printing]]
+
 - Multiple Exposures:
-	- Projection Printing: 
-		- **Reticle**: May contain the pattern of one or more die.
-		- **Projection Lens**: Reduces the size of reticle field to be printed onto the wafer surface
-		- **Single Field Exposure**: Includes focus, align, expose, step, and repeat process
-		- Wafer stage controls the position of the wafer in $\mathrm{X}$, $\mathrm{Y}$, $\mathrm{Z}$, and $\mathrm{\theta}$
-![[1t6437851415.png#pic_75center|Projection Printing]]
+	- [[Projection Printing]]
 
 # Resolution and its Critical Parameters
 
-## Minimum Linewidth / Resolution for Proximity Aligner
+- [[Proximity Printing#^b617ab|Resulution for Proximity Aligner]]
+- [[Projection Printing#^d1580e|Resolution for Projection Aligner]]
 
-![[1274608581.png#pic_center|Proximity Aligner]]
+# Lithography on Uneven Surface
 
-- Resolution is the minimum linewidth achievable by the lithography equipment.
-- Minimum linewidth (Resolution) for the proximity printer: $$W_{\text{min}}\approx \sqrt{k_1\lambda g}$$ 其中：
-	- $k_1$是一个常数，没有明确的物理学定义，为一个实验参数。其大小取决于光学系统和光刻胶的性质，一般是1
-	- $\lambda$是曝光光源的波长
-	- $g$是mask到wafer表面的间距，单位为$\mathrm{\mu m}$
-
-## Minimum Linewidth / Resolution for Projection Aligner
-
-![[Pasted image 20250211004807.png#pic_75center|Projection Printing]]
-- In projection aligner (also called step-and-repeat aligners), the gap between mask and wafer is very large (in the range of cm).
-- Minimum linewidth (resolution) for the projection printer can be calculated using: $$W_{\text{min}}\approx k_1\frac{\lambda}{NA}$$
-	- 其中$NA$为numerical aperture
-
-### Numerical Aperture
-
-![[Pasted image 20250211004807.png#pic_75center|Projection Printing]]
-
-- The numerical aperture (NA) of an optical system is a measure of the ability to collect light, which is a measure of the light gathering power.
-- 从PPT上的图可以看出，$NA$越大，衍射效应对于光学系统的影响越小，光学系统的分辨率越高
-- Numerical Aperture, (NA) can be defined as: $$NA=n\mathrm{sin}\theta$$其中：
-	- $n$为系统所浸没的介质的折射率，如果是空气的话$n=1$
-	- $\theta$为物镜的接受角的一半
-- 当$n=1$的时候，$NA$可以被定义为：$$NA=\mathrm{sin}\theta\approx\mathrm{tan}\theta=\frac{d/2}{f}=\frac{d}{2f}$$
-	- 当$\theta < 12\degree$时$\mathrm{tan}\theta\approx\mathrm{sin}\theta$
-	- 所以投影物镜的数值孔径也是孔径和焦距之间的几何比
-	- Step-and-Repeat的$NA$典型值为$0.60-0.68$
-
-## Lithography on Uneven Surface
-
-- **Depth of focus**: Range of focus error that a process can tolerate $$\sigma=\pm\frac{W_{\text{min}}/2}{\mathrm{tan}\theta}\cong$$
+[[Projection Printing#Depth of Focus|Depth of Focus]]
 
 # Mask and Reticle
+
+- Mask
+	- 单次曝光，1:1的图案
+	- 覆盖整一个wafer
+- Reticle
+	- 多次曝光
+	- 一般比例是4:1，
+	- 只覆盖wafer的一部分
+	- 能够获得更高的精度
+- Mask和Reticle的需求
+	- Flat, highly polished
+	- 玻璃的表面镀有不透光的铬
+
+# Diffraction in Optical Lithography
+
+- Diffraction occurs when light passes through a narrow opening or past a sharp edge.
+当光穿过狭窄的开口或经过锐利的边缘时，会发生衍射。
+- Diffraction is the spread of light radiation light propagates in waves.
+衍射是光辐射在波动中传播的扩散现象
+- Modern lithography tools are limited by the spreading of light (and not their optical elements)
+现代光刻工具受限于光的扩散（而不是其光学元件）
+- Aperture will create a diffraction pattern that will divert some of the light from its desired path, thereby decreasing the quality of the image
+孔会产生衍射图样，使部分光线偏离其预定路径，从而降低图像质量。
+- Interference patterns occur along the edge of the opening, causing a fuzzy image rather than the expected sharp edge that occurs between light and shadow.
+干涉图样沿着边缘的开口出现，导致图像出现模糊，并不会产生预期中光与影之间的锐利边缘。
+- Diffraction patterns rob exposure energy and scatters it, leading to exposure of unwanted areas of the resist
+衍射图案损耗并散射曝光的能量，导致在光刻胶的非预期位置曝光
+- Light diffraction is a concern in photolithography because of the extremely small patterns of sharp edges and narrow spaces on reticles.
+在光刻中，光的衍射是一个问题，因为掩模上的极小图样包含锐利边缘和狭窄间隙。
+
+- Limited cases
+	- [[Fresnel Diffraction|Near Field]]
+	- [[Fraunhofer Diffraction|Far Field]]
+
+![[Pasted image 20250218153835.png#pic_75center|衍射的三种形式]]
+
+- Type of spreading depends on mask wafer separation:
+	- Hard contact: (Almost) no diffraction
+	- Proximity: [[Fresnel Diffraction|菲涅耳衍射]]
+	- Projection:[[Fraunhofer Diffraction|夫琅和费衍射]]
+
+- [[Contact Printing#Diffraction in Contact Printing|Diffraction in Contact Printing]]
+- [[Proximity Printing#Diffraction in Proximity Printing|Diffraction in Proximity Printing]]
+- [[Projection Printing#Rayleigh Criterion for Resolution|Diffraction in Projection Pringing]]
+
+# Modulation Transfer Function (MTF) of the system
+
+[[Projection Printing#Modulation Transfer Function (MTF)|Modulation Transfer Function]]

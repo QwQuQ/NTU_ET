@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "lithography  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,37 +8,30 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#digital ",
+      "query": "tag:#lithography_printing  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "file:Heterojunction Photonic (Optoelectronic)  Devices",
+      "query": "tag:#lithography_basic_steps  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
-      }
-    },
-    {
-      "query": "file:Heterojunction Electronic Devices",
-      "color": {
-        "a": 1,
-        "rgb": 15662848
+        "rgb": 14069084
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -1.6,
-  "nodeSizeMultiplier": 1.04762581043532,
-  "lineSizeMultiplier": 2.88720592775548,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.314539055096792,
-  "repelStrength": 13.7417084066603,
-  "linkStrength": 0.98376041988268,
-  "linkDistance": 30,
-  "scale": 0.2297818968708989,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.246529316239071,
   "close": false
 }
