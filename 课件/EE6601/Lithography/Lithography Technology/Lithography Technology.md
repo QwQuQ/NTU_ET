@@ -171,4 +171,4 @@ $$\lambda=\frac{c}{f}$$
 
 # Modulation Transfer Function (MTF) of the system
 
-[[Projection Printing#Modulation Transfer Function (MTF)|Modulation Transfer Function]]
+[[Modulation Transfer Function|MTF]]

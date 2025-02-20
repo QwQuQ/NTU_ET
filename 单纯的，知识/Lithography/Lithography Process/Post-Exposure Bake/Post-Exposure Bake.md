@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - PEB
 tags:
   - lithography
   - wafer
