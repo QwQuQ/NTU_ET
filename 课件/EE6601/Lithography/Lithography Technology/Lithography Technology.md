@@ -158,7 +158,7 @@ $$\lambda=\frac{c}{f}$$
 	- [[Fresnel Diffraction|Near Field]]
 	- [[Fraunhofer Diffraction|Far Field]]
 
-![[Pasted image 20250218153835.png#pic_75center|衍射的三种形式]]
+![[Pasted image 20250218153835.png#pic_75center|衍射的形式]]![[Pasted image 20250221042019.png#pic_75center|衍射的形式]]
 
 - Type of spreading depends on mask wafer separation:
 	- Hard contact: (Almost) no diffraction

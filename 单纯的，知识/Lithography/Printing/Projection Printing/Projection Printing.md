@@ -43,7 +43,8 @@ tags:
 
 - The Rayleigh’s criterion for resolution of the images occurs when the center of one “Airy” pattern is at the first minimum of the other “Airy” pattern
 瑞利判据用于图像分辨率的情况是，当一个“艾里斑”的中心位于另一个“艾里斑”的第一个极小值处时。
-- Resolution (minimum distance between the two sources) is given by$$W_{\text{min}}=k_1\frac{\lambda}{NA}$$ ^d1580e
+- Resolution (minimum distance between the two sources) is given by$$W_{\text{min}}=k_1\frac{\lambda}{NA}$$$k_1$ factor has no well-defined physical meaning. It is an experimental parameter, depends on the lithography system and resist properties. Typical values are close to 1.
+   $k_1$因子没有明确的物理意义。它是一个实验参数，取决于光刻系统和光刻胶的特性。典型值接近1。 ^d1580e
 
 ## Depth of Focus (DOF)
 
