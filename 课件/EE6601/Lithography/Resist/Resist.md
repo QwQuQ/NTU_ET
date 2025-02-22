@@ -70,9 +70,9 @@
 ![[Pasted image 20250219040123.png#pic_75center|Absorbance vs Wavelength]]
 
 - Conventional DNQ resist has large absorption problem below 365 nm wavelength and not suitable for DUV technology.
-  传统的二氮萘醌 (DNQ) 抗蚀剂在波长低于 365 纳米时存在较大的吸收问题，不适用于深紫外 (DUV) 技术。
+  传统的二氮萘醌 (DNQ) 光刻胶在波长低于 365 纳米时存在较大的吸收问题，不适用于深紫外 (DUV) 技术。
 - Conventional resists cannot be used in deep UV lithography processes because these resists have high absorption and require high dose to be exposed in deep UV. This raises the concern of damage to stepper lens, lower exposure speed and reduced throughput.
-  传统的抗蚀剂不能用于深紫外光刻工艺，因为这些抗蚀剂在深紫外光下具有高吸收率，需要高剂量才能曝光。这引发了对步进镜头损坏、曝光速度降低和产量减少的担忧。
+  传统的光刻胶不能用于深紫外光刻工艺，因为这些光刻胶在深紫外光下具有高吸收率，需要高剂量才能曝光。这引发了对步进镜头损坏、曝光速度降低和产量减少的担忧。
 - 人话：在短波长下，光刻胶不怎么能够对光作出反应，它们仅仅吸收光然后发热。
 
 ## Components
@@ -82,7 +82,7 @@
 | **Solvent**     | Propylene Glycol Methyl Ether Acetate (PGMEA)                                                                                                           | gives resist its flow characteristics<br>赋予光刻胶流动特性                                                                                                                            | Compatible to other components<br>与其他组分兼容                                                                                                                                                           |
 | **Resin**       | - tertiary-butoxycarbonyl parahydroxystyrene (tBOC-PHS) (248nm) <br>- phenolic copolymer <br>- cyclic olefin / maleic anhydride (COMA) polymers (193nm) | tertiary-butoxycarbonyl (tBOC) dissolution inhibitor protection group for 248CAresist; gives resist mechanical and chemical properties<br>tBOC是248CA光刻胶的溶解抑制保护基团；赋予光刻胶机械和化学性能 | Resin is a phenolic copolymer with a protecting group that makes it insoluble in developer. Transparent to 193nm DUV Etch resistance to plasma<br>树脂是一种含有保护基团的苯酚共聚物，不溶解于显影剂。对193nm深紫外光透明，具有等离子刻蚀抗性。 |
 | **Sensitizers** | triphenylsulfonium salt                                                                                                                                 | Photo-Acid-Generator, PAG photosensitive component of the resist material<br>光致酸生成剂，PAG是光刻胶的光敏组分                                                                              | PAG acts as $\mathrm{H}^+$ catalyst for the de-protection of dissolution inhibitor of resin<br>PAG作为$\mathrm{H}^+$催化剂，用于使树脂的溶解抑制剂停止保护                                                               |
-| **Additives**   | Low MW additives to increase contrast, Surfactants, adhesion promoter, dyes                                                                             | chemicals that control specific aspects of resist material<br>控制光刻胶材料特定方面的化学品                                                                                                 | dyes can also be added into the photoresist composition to reduce scattered light from the reflection in the resist/substrate interface.<br>染料也可以添加到光刻胶成分中，以减少在抗蚀剂/基板界面反射的散射光                       |
+| **Additives**   | Low MW additives to increase contrast, Surfactants, adhesion promoter, dyes                                                                             | chemicals that control specific aspects of resist material<br>控制光刻胶材料特定方面的化学品                                                                                                 | dyes can also be added into the photoresist composition to reduce scattered light from the reflection in the resist/substrate interface.<br>染料也可以添加到光刻胶成分中，以减少在光刻胶/基板界面反射的散射光                       |
 
 ## Chemical reaction of CA DUV resists
 

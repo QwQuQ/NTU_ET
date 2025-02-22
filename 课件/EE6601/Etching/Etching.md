@@ -57,6 +57,8 @@ $$\text{Etch Rate}=\frac{\Delta T}{t}$$
 
 - Selectivity is the ratio of the etch rates between the different materials, especially the material that needs to be etched as compared to the material that we do not want to remove.
   选择性是不同材料之间的蚀刻速率之比，特别是需要蚀刻的材料与我们不想去除的材料相比。
+- The smaller the feature size of the process, the higher selectivity is needed
+  特征尺寸越小的工艺，所需的选择性越高
 
 - 影响因素：
 	- Impurity type and/or concentration
@@ -70,4 +72,3 @@ $$\text{Etch Rate}=\frac{\Delta T}{t}$$
 	  材料
 		- In $\mathrm{GaAs/AlGaAs}$ compound, the etch selectivity in removing $\mathrm{GaAs}$ is 95.
 		- 可以用于$\mathrm{GaAs}$工艺
-- 
