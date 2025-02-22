@@ -11,14 +11,12 @@
             "id": "277f66d4ecee4e11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "课件/EE6601/Interconnect/Interconnect.md",
-                "mode": "source",
-                "source": false
+                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png"
               },
-              "icon": "lucide-file",
-              "title": "Interconnect"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250223004613"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6601/Interconnect/Interconnect.md",
+                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Interconnect 的反向链接列表"
+              "title": "Pasted image 20250223004613 的反向链接列表"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6601/Interconnect/Interconnect.md",
+                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Interconnect 的出链列表"
+              "title": "Pasted image 20250223004613 的出链列表"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6601/Interconnect/Interconnect.md",
+                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Interconnect 的大纲"
+              "title": "Pasted image 20250223004613 的大纲"
             }
           }
         ],
@@ -168,20 +166,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "277f66d4ecee4e11",
+  "active": "7f0b3b1f1ef44f79",
   "lastOpenFiles": [
-    "课件/EE6601/Interconnect/Pasted image 20250223020105.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223015819.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223014956.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223014006.png",
     "课件/EE6601/Interconnect/Interconnect.md",
-    "课件/EE6601/Interconnect/Pasted image 20250223013754.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223013325.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223010912.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223005338.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223004726.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223004705.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223004649.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223020105.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223015819.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223014956.png",
+    "课件/EE6601/Interconnect/Pasted image 20250223014006.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223013754.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223013325.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223010912.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223005338.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223004726.png",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223004705.png",
     "readme.md",
     "单纯的，知识/Electromigration/Electromigration.md",
     "单纯的，知识/Electromigration/pic",
