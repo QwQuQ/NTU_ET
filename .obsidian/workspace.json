@@ -11,12 +11,14 @@
             "id": "277f66d4ecee4e11",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png"
+                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250223004613"
+              "icon": "lucide-file",
+              "title": "Projection Printing"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
+                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250223004613 的大纲"
+              "title": "Projection Printing 的大纲"
             }
           }
         ],
@@ -166,9 +168,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "277f66d4ecee4e11",
   "lastOpenFiles": [
+    "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
+    "课件/EE6601/Lithography/Advanced Lithography/Advanced Lithography.md",
     "课件/EE6601/Interconnect/Interconnect.md",
+    "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
+    "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6601/Interconnect/pic/Pasted image 20250223020105.png",
     "课件/EE6601/Interconnect/pic/Pasted image 20250223015819.png",
     "课件/EE6601/Interconnect/pic/Pasted image 20250223014956.png",
@@ -178,7 +185,6 @@
     "课件/EE6601/Interconnect/pic/Pasted image 20250223010912.png",
     "课件/EE6601/Interconnect/pic/Pasted image 20250223005338.png",
     "课件/EE6601/Interconnect/pic/Pasted image 20250223004726.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223004705.png",
     "readme.md",
     "单纯的，知识/Electromigration/Electromigration.md",
     "单纯的，知识/Electromigration/pic",
@@ -195,8 +201,6 @@
     "课件/EE6601/Etching/Dry Etching/pic",
     "课件/EE6601/Etching/Wet Etching/pic",
     "课件/EE6601/Etching/pic",
-    "课件/EE6601/Lithography/Advanced Lithography/Advanced Lithography.md",
-    "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
     "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
     "课件/EE6601/Lithography/Advanced Lithography/pic",
     "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
@@ -211,8 +215,6 @@
     "单纯的，知识/Lithography/Modulation Transfer Function/Modulation Transfer Function.md",
     "单纯的，知识/Lithography/Printing/Proximity Printing/Proximity Printing.md",
     "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
-    "单纯的，知识/Wafer.md",
-    "单纯的，知识/Lithography/Fresnel Diffraction/Fresnel Diffraction.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
