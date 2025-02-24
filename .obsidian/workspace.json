@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "92ab008a7b1a35ca",
+        "id": "289c1fbadaa937f2",
         "type": "tabs",
         "children": [
           {
-            "id": "277f66d4ecee4e11",
+            "id": "701ca734fa895114",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "课件/EE6601/Lithography/Resist/Resist.md",
-                "mode": "source",
-                "source": false
+                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png"
               },
-              "icon": "lucide-file",
-              "title": "Resist"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250225024211"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "浅",
+                "query": "透射",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6601/Lithography/Resist/Resist.md",
+                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Resist 的反向链接列表"
+              "title": "Pasted image 20250225024211 的反向链接列表"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6601/Lithography/Resist/Resist.md",
+                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Resist 的出链列表"
+              "title": "Pasted image 20250225024211 的出链列表"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6601/Lithography/Resist/Resist.md",
+                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Resist 的大纲"
+              "title": "Pasted image 20250225024211 的大纲"
             }
           }
         ]
@@ -167,25 +165,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "277f66d4ecee4e11",
+  "active": "7f0b3b1f1ef44f79",
   "lastOpenFiles": [
-    "课件/EE6601/Lithography/Resist/pic/Pasted image 20250221040632.png",
+    "课件/EE6309/Noise Consideration/Noise Consideration.md",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225030759.png",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025509.png",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025408.png",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
+    "课件/EE6309/Noise Consideration/Pasted image 20250225024606.png",
+    "课件/EE6309/Noise Consideration/Pasted image 20250225024604.png",
+    "课件/EE6309/Noise Consideration/Pasted image 20250225025232.png",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225021516.png",
+    "课件/EE6309/Noise Consideration/Pasted image 20250225024124.png",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024018.png",
+    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6309/Noise Consideration/pic",
+    "单纯的，知识/EMI/Skin Effect/Skin Effect.md",
+    "单纯的，知识/EMI/Paramistric Capacitance/Para-Capacitance.md",
+    "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6601/Lithography/Resist/Resist.md",
     "课件/EE6601/Interconnect/Interconnect.md",
     "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
     "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
     "课件/EE6601/Lithography/Advanced Lithography/Advanced Lithography.md",
-    "课件/EE6309/Data Coding/Data Coding.md",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223004613.png",
-    "课件/EE6309/Noise Consideration/Noise Consideration.md",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223020105.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223015819.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223014956.png",
-    "课件/EE6601/Interconnect/Pasted image 20250223014006.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223013754.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223013325.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223010912.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223005338.png",
-    "课件/EE6601/Interconnect/pic/Pasted image 20250223004726.png",
     "readme.md",
     "单纯的，知识/Electromigration/Electromigration.md",
     "单纯的，知识/Electromigration/pic",
@@ -197,7 +200,6 @@
     "课件/EE6601/Etching/Dry Etching/Dry Etching.md",
     "课件/EE6601/Etching/Etching.md",
     "课件/EE6601/Etching/Wet Etching/Wet Etching.md",
-    "课件/EE6601/Lithography/Resist/Resist.md",
     "单纯的，知识/Lithography/Lithography Process/Soft Bake/Soft Bake.md",
     "课件/EE6601/Etching/Dry Etching/pic",
     "课件/EE6601/Etching/Wet Etching/pic",
@@ -207,14 +209,9 @@
     "单纯的，知识/Lithography/Lithography Process/Post-Exposure Bake/Post-Exposure Bake.md",
     "课件/EE6601/Lithography",
     "课件/EE6601/Etching",
-    "课件/EE6601/Dry Etching/未命名",
     "单纯的，知识/Lithography/MTF/Modulation Transfer Function.md",
     "单纯的，知识/Lithography/Resist/Wolff Rearrangement/Wolff Rearrangement.md",
     "课件/EE6601/Resist/Pasted.md",
-    "单纯的，知识/Lithography/Lithography Process/Lithography Process.md",
-    "单纯的，知识/Lithography/Modulation Transfer Function/Modulation Transfer Function.md",
-    "单纯的，知识/Lithography/Printing/Proximity Printing/Proximity Printing.md",
-    "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
