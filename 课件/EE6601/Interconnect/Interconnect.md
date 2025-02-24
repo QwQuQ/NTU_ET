@@ -136,9 +136,9 @@
 	- Conventional metal deposition technique: Widely used for $\mathrm{Al}$ interconnects
 	  传统的金属沉积技术：广泛用于铝（$\mathrm{Al}$）互连。
 	- Produce $\mathrm{Cu}$ films with **strong (111)**
-	  生产具有**强（111）**晶向的铜（$\mathrm{Cu}$）薄膜。
+	  生产具有**强（111）** 晶向的铜（$\mathrm{Cu}$）薄膜。
 	- Poor step coverage: not tolerable for filling high-aspect ratio features: result **Pinching**
-	  >在物理气相沉积（PVD）过程中，**pinching**（夹点）现象是指当沉积薄膜在填充高宽比特征（如深沟槽或高纵横比孔洞）时，由于覆盖不均匀而导致的薄膜断裂或狭窄。这个现象发生在薄膜在特征表面上沉积时，特别是在侧壁和底部的覆盖效果不佳，使得薄膜在这些区域形成空隙或狭窄部分
+	  >在物理气相沉积（PVD）过程中，**pinching**（夹点）现象是指当沉积薄膜在填充高宽比特征（如深沟槽或高纵横比孔洞）时，由于覆盖不均匀而导致的薄膜断裂或狭窄现象。这个现象发生在薄膜在特征表面上沉积时，特别是在侧壁和底部的覆盖效果不佳，使得薄膜在这些区域形成空隙或狭窄部分
 
 ![[Pasted image 20250223004649.png#pic_75center|]]
 
