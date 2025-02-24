@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
+                "file": "课件/EE6601/Interconnect/Interconnect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Projection Printing"
+              "title": "Interconnect"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
+                "file": "课件/EE6601/Interconnect/Interconnect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Projection Printing 的大纲"
+              "title": "Interconnect 的大纲"
             }
           }
         ],
@@ -170,6 +170,7 @@
   },
   "active": "277f66d4ecee4e11",
   "lastOpenFiles": [
+    "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
     "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
     "课件/EE6601/Lithography/Advanced Lithography/Advanced Lithography.md",
     "课件/EE6601/Interconnect/Interconnect.md",
@@ -201,7 +202,6 @@
     "课件/EE6601/Etching/Dry Etching/pic",
     "课件/EE6601/Etching/Wet Etching/pic",
     "课件/EE6601/Etching/pic",
-    "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
     "课件/EE6601/Lithography/Advanced Lithography/pic",
     "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
     "单纯的，知识/Lithography/Lithography Process/Post-Exposure Bake/Post-Exposure Bake.md",

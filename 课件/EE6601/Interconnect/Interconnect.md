@@ -112,7 +112,8 @@
 ## Materials for Barriers / Liners
 
 - **Transition Metals**: ($\mathrm{Pd}$, $\mathrm{Cr}$, $\mathrm{Ti}$, $\mathrm{Co}$, $\mathrm{Ni}$, $\mathrm{Pt}$) generally poor barriers, due to high reactivities to $\mathrm{Cu}$ $<450\degree C$, Exception: $\mathrm{Ta}$, $\mathrm{Mo}$, $\mathrm{W}$ etc. More thermally stable, but fail due to $\mathrm{Cu}$ diffusion through grain boundaries (polycrystalline films)
-  过渡金属（$\mathrm{Pd}$、$\mathrm{Cr}$、$\mathrm{Ti}$、$\mathrm{Co}$、$\mathrm{Ni}$、$\mathrm{Pt}$）通常是较差的屏障，因为它们在低于 $450\degree \mathrm{C}$ 时与铜（$\mathrm{Cu}$）的反应性较高。例外情况：$\mathrm{Ta}$、$\mathrm{Mo}$、$\mathrm{W}$ 等，这些金属具有更高的热稳定性，但由于铜通过晶界（多晶薄膜）扩散，它们最终也会失效
+  过渡金属（$\mathrm{Pd}$、$\mathrm{Cr}$、$\mathrm{Ti}$、$\mathrm{Co}$、$\mathrm{Ni}$、$\mathrm{Pt}$）通常是较差的隔离
+- ，因为它们在低于 $450\degree \mathrm{C}$ 时与铜（$\mathrm{Cu}$）的反应性较高。例外情况：$\mathrm{Ta}$、$\mathrm{Mo}$、$\mathrm{W}$ 等，这些金属具有更高的热稳定性，但由于铜通过晶界（多晶薄膜）扩散，它们最终也会失效
 - **Transition Metal Alloys**: e.g., $\mathrm{TiW}$. Can be deposited as amorphous films (stable up to $500\degree C$)
   过渡金属合金：例如 $\mathrm{TiW}$。可以作为非晶薄膜沉积（稳定至 $500\degree \mathrm{C}$）
 - **Transition Metal - Compounds**: Extensively used, e.g., $\mathrm{TiN}$, $\mathrm{TaN}$, $\mathrm{WN}$
