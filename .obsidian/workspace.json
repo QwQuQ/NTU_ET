@@ -151,7 +151,8 @@
               "title": "Noise Consideration 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,7 +168,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "10e72a54231502c5",
+  "active": "da52561cfa7db0fb",
   "lastOpenFiles": [
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/Noise Consideration.md",

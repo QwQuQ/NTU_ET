@@ -19,7 +19,7 @@
 	- 这种等效无论传输线有多长均成立，甚至无限长也是成立的。
 - 在稳态直流时，理想的无损耗传输线就是导线
 
-# 参数的的推导
+# 传输线参数的的推导
 
 ![[Pasted image 20250224234352.png#pic_33center|传输线的单位长度集总参数模型]]
 - 对于单位长度的传输线，我们几乎总能够将其建模为一个集总参数模型。上图中的$R$、$L$、$C$、$G$都是单位长度下的参数，例如电阻$R$的单位就应该为$\mathrm{\Omega\cdot m^{-1}}$
@@ -42,8 +42,8 @@
 
 - 反射的电压信号会让传输的数据收到先前数据的影响
 	- 超过噪声容限（Noise Margin）造成错误
-- 对于反射，使用反射系数$\Gamma$进行描述。它表示入射波与反射波电场强度的比值（是复数）。
-- 在这个课件中，电场强度就是电压值，$\Gamma$的符号表示反射电压是与入射电压**相加**还是**相减**
+- 对于反射，使用反射系数$\Gamma$（Tony用了$\rho$）进行描述。它表示入射波与反射波电场强度的比值（是复数）。
+- 在这个课件中，电场强度就是电压值，$\Gamma$（Tony用了$\rho$）的符号表示反射电压是与入射电压**相加**还是**相减**
 
 ## 反射系数的推导
 
@@ -96,7 +96,6 @@
 	- 源的电压和源的串联等效阻抗
 	- 负载的阻抗
 - Lattice最下面的箭头代表最初发射的波前，想象一下一条很长的贪吃蛇盘踞在这短短的传输线里。要计算源与负载的电压只需要把每一段的电压加起来就可以了
-- 首先计算源端与负载端的反射系数
 
 ## 例子
 
@@ -125,14 +124,30 @@
 ### Series Matching
 
 *串电阻*
+- To increase the output impedance artificially in order to match the line characteristic impedance
+- To prevent negative overshoot ( ‘1’→‘0’ transition )
+- Using external resistor in series with typical values of $\approx 47\Omega$
 
 ![[Pasted image 20250225022046.png#pic_50center|没什么好说的]]
+
+- All reflections propagate back and are damped at the transmitter.
+- Received voltage > transmitted voltage
+- Slower rise time
+- Smaller residual reflections than end terminators
+- At low-pulse repetition rates, source terminators dissipate little power
+- The same peak drive power as an end-terminated line
 
 #### 功率消耗
 
 - 源端电阻在一次上升下降周期中的能量消耗，*我觉得得具体问题具体分析*：$$E=2t_{\text{propagation delay}}\frac{\left(\Delta V/2\right)^2}{R}$$
 
 ### Line Termination
+
+- All reflections are damped at the receiver
+- Received voltage = transmitted voltage
+- Faster rise time
+- Larger power dissipation
+- The same peak drive power as an source-terminated line
 
 ![[Pasted image 20250225022328.png#pic_50center|]]
 
@@ -182,8 +197,8 @@
 - 首先将电路图画成传输线的形式：
   ![[Pasted image 20250225024211.png#pic_50center|]]
   ![[Pasted image 20250225025509.png#pic_50center|等效电路图]]
-  要注意的是，如蓝色箭头指示两边的电流只有一个波前（单向的），这也就是等效电路中不将上部的传输线等效为并联$Z_0$的原因
-  再一次强调$Z_m$是一个假想的电阻，接入电路不会产生反射，耦合波与入射波同时产生，所以老师说$Z_m$等效接入电路中点和$V_2$是电路中点的电压都是有问题的。$V_2$真正的位置是与入射波的波前平行的位置（很绕，可以不用管）
+  要注意的是，如蓝色箭头指示两边的电流各只有一个波前（单向的），这也就是等效电路中不将上部的传输线等效为并联两个$Z_0$的原因
+  再一次强调$Z_m$是一个假想的电阻，接入电路不会产生反射，耦合波与入射波同时产生，所以老师说$Z_m$等效接入电路中点和$V_2$是电路中点的电压都是有点问题的。$V_2$真正的位置是与入射波的波前平行的位置（很绕，可以不用管）
 - 将$V_x$左侧的传输线等效为电压为$V_1$的电压源（无耗传输线没有压降）与$Z_0$阻抗串联，$V_x$右侧等效为对地电阻$Z_0$，$V_2$左侧等效为对地电阻$Z_0$. 我们就得到了等效电路图：
   ![[Pasted image 20250225025408.png#pic_50center|]]
   直接应用基尔霍夫定律就能够求得：$$V_2=\frac{Z_m}{3\cdot Z_0+2\cdot Z_m}V_1$$$V_1$很好求，直接应用一下等效就能求得$$V_1=\frac{Z_0}{Z_0+Z_S}$$
@@ -194,7 +209,7 @@
 # 去耦电容
 
 ![[Pasted image 20250225030759.png#pic_75center|]]
-- 看这个图，在输出跳变时会产生尖峰电流，去耦电容就是为了及时提供这个尖峰电流。
+- 看这个图，在输出跳变时会产生额外的电流（Total Supply），去耦电容就是为了及时提供这个电流。
 - 电容的电流表达式为：$$i=C\frac{\mathrm{d}v}{\mathrm{d}t}$$移项：$$C=i\frac{\mathrm{d}t}{\mathrm{d}v}\approx i\frac{\Delta t}{\Delta v}$$其中：
 	- $\Delta t$是需要提供大电流的时间（e.g., $20\mathrm{nS}$）
 	- $\Delta v$是电源允许的波动值（e.g., $0.1\mathrm{V}$）
