@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "289c1fbadaa937f2",
+        "id": "6c3c4954f0897718",
         "type": "tabs",
         "children": [
           {
-            "id": "701ca734fa895114",
+            "id": "10e72a54231502c5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png"
+                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250225024211"
+              "icon": "lucide-file",
+              "title": "Noise Consideration"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
+                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Pasted image 20250225024211 的反向链接列表"
+              "title": "Noise Consideration 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
+                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20250225024211 的出链列表"
+              "title": "Noise Consideration 的出链列表"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
+                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250225024211 的大纲"
+              "title": "Noise Consideration 的大纲"
             }
           }
         ]
@@ -165,13 +167,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "10e72a54231502c5",
   "lastOpenFiles": [
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225030759.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025509.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025408.png",
-    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/Pasted image 20250225024606.png",
     "课件/EE6309/Noise Consideration/Pasted image 20250225024604.png",
     "课件/EE6309/Noise Consideration/Pasted image 20250225025232.png",
