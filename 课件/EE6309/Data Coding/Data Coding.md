@@ -88,6 +88,10 @@ The smallest number of bit(s) in which any two words differ in a code
 - For $k\text{-bit}$ error detection, $\text{minimum distance}\geq k+1$. Without error correction capability
 - For $k\text{-bit}$ error correction, $\text{minimum distance} \geq 2k+1$
 
+---
+
+- 对于这个课件（例如Hamming Code）：Correction能力是$\frac{d-1}{2}$位，Detection能力是$\frac{d}{2}$位
+- 如果放弃纠错能力，使用别的编码能够将Detection能力提升到$d-1$位
 # Hamming Code
 
 - For an error correction, desirable to detect and locate error(s)
@@ -262,4 +266,4 @@ $x^2+1$与$0101b$一样，所以这一切工作良好
 ## CRC Encoding: Using (n-k) Stage Shift Register
 
 至此，已经有用环形寄存器生成余数的例子。对于一个完整的CRC输出，需要有$k$ bit的数据位和$n-k$ bit的校验位，所以完整的结构很容易想到：![[Pasted image 20250212023739.png]]
-在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。（我觉得PPT上的例子错了，应该是1011110）
+在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。
