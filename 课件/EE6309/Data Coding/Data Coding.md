@@ -300,6 +300,7 @@ $x^2+1$与$0101b$一样，所以这一切工作良好
 - 将数据分成相等的两个部分$A$和$B$
 - Checker的输出：$$\displaylines{Z_1=\Sigma^k_{i=0}T\left(k_A\geq i\right)T\left(k_B\geq k-i\right) \ i\text{是奇数} \\Z_2=\Sigma^k_{i=0}T\left(k_A\geq i\right)T\left(k_B\geq k-i\right) \ i\text{是偶数}}$$
 	- 函数$T\left(k_X\geq i\right)$：当且仅当码字X中1的数量大于等于$i$时，$T=1$
+- 
 
 ### M-out-of-N
 

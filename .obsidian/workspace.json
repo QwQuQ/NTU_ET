@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6309/Data Coding/Data Coding.md",
+                "file": "课件/EE6128/Transmission Line/Transmission Line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Coding"
+              "title": "Transmission Line"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Data Coding/Data Coding.md",
+                "file": "课件/EE6128/Transmission Line/Transmission Line.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Data Coding 的大纲"
+              "title": "Transmission Line 的大纲"
             }
           }
         ],
@@ -170,10 +170,13 @@
   },
   "active": "10e72a54231502c5",
   "lastOpenFiles": [
+    "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6128/Transmission Line/Transmission Line.md",
+    "课件/EE6128/未命名",
+    "课件/EE6128/Transmission Line",
     "课件/EE6309/Data Coding/Pasted image 20250225131716.png",
     "课件/EE6309/Data Coding/Pasted image 20250225131531.png",
     "课件/EE6309/Noise Consideration/Noise Consideration.md",
-    "课件/EE6309/Data Coding/Data Coding.md",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225030759.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025509.png",
@@ -182,7 +185,6 @@
     "课件/EE6309/Noise Consideration/Pasted image 20250225024604.png",
     "课件/EE6309/Noise Consideration/Pasted image 20250225025232.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225021516.png",
-    "课件/EE6309/Noise Consideration/Pasted image 20250225024124.png",
     "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
     "课件/EE6309/Noise Consideration/pic",
@@ -211,8 +213,6 @@
     "课件/EE6601/Lithography/Advanced Lithography/pic",
     "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
     "单纯的，知识/Lithography/Lithography Process/Post-Exposure Bake/Post-Exposure Bake.md",
-    "课件/EE6601/Lithography",
-    "课件/EE6601/Etching",
     "单纯的，知识/Lithography/MTF/Modulation Transfer Function.md",
     "单纯的，知识/Lithography/Resist/Wolff Rearrangement/Wolff Rearrangement.md",
     "课件/EE6601/Resist/Pasted.md",
