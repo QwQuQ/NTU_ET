@@ -57,13 +57,22 @@ $P_{\text{ODD}}=\overline{b_{n-1}\oplus b_{n-2}\oplus \cdots \oplus b_{1} \oplus
 ## 2-D Parity Checks
 
 - Form data in 2-D code-words
+  数据被组合成2维
 - Generate both row and column parity bits (Transmitter)
+  生成行和列的校验位（发送端）
 - Execute both row and column parity checks (Receiver)
+  进行行和列的校验（接收端）
 - Position of a single-bit error can be identified
 	- Single-bit error can be corrected
+	  能够纠正1bit错误
 - Position of multi-bit errors cannot be identified
 	- Position of multi-bit errors cannot be identified
+	  多bit的位置不能被定位（纠错就是定位！）
 - Assembling and disassembling of data block is required
+  需要搭建和拆解这个代码块（废话）
+
+![[Pasted image 20250225131531.png#pic_75center|1bit错误可以被定位（纠正）]]
+![[Pasted image 20250225131716.png#pic_75center|多bit只能检测而不能定位]]
 
 # Distance
 
@@ -92,6 +101,7 @@ The smallest number of bit(s) in which any two words differ in a code
 
 - 对于这个课件（例如Hamming Code）：Correction能力是$\frac{d-1}{2}$位，Detection能力是$\frac{d}{2}$位
 - 如果放弃纠错能力，使用别的编码能够将Detection能力提升到$d-1$位
+
 # Hamming Code
 
 - For an error correction, desirable to detect and locate error(s)
@@ -261,9 +271,37 @@ $x^2+1$与$0101b$一样，所以这一切工作良好
 通过重新调整输入的位置，可以得到更加简化的形式。
 ![[Pasted image 20250212022706.png#pic_75center|]]
 - The incoming bit string (MSB first) will be available at the output when the shifting starts, which is useful when working as a CRC encoding circuit.
+  一旦移位开始，输入的比特串（MSB优先）就会在输出端输出，这在作为CRC编码电路时非常有用
 - The above circuit works provided: $g_0=1$ and $g_r=1$
 
 ## CRC Encoding: Using (n-k) Stage Shift Register
 
 至此，已经有用环形寄存器生成余数的例子。对于一个完整的CRC输出，需要有$k$ bit的数据位和$n-k$ bit的校验位，所以完整的结构很容易想到：![[Pasted image 20250212023739.png]]
 在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。
+
+# M-out-of-N Code
+
+- An m-out-of-n code: with a code word length of n bits, each valid code word contains exactly (m)1s and (n-m)0s
+  n中取m码（定比码）：长度为n的码字中会有m个1和n-m个0
+- 1 bit错误会让n中取m码产生m+1个1或者m-1个1
+
+## 3-out-of-6 Code
+
+- 在屁股上补1，直到有m个1，然后补0补足n位
+
+## Checker
+
+- For valid M-out-of-N code inputs, the checker’s output is 01 or 10
+- If the number of 1s at the input is greater or less than m (invalid code inputs), the output is 11 or 00
+- Code words contain the same numbers of 1s and 0s, i.e. n=2m. Code of this type are known as k-out-of-2k codes
+
+### k-out-of-2k
+
+- 将数据分成相等的两个部分$A$和$B$
+- Checker的输出：$$\displaylines{Z_1=\Sigma^k_{i=0}T\left(k_A\geq i\right)T\left(k_B\geq k-i\right) \ i\text{是奇数} \\Z_2=\Sigma^k_{i=0}T\left(k_A\geq i\right)T\left(k_B\geq k-i\right) \ i\text{是偶数}}$$
+	- 函数$T\left(k_X\geq i\right)$：当且仅当码字X中1的数量大于等于$i$时，$T=1$
+
+### M-out-of-N
+
+- A general m-out-of-n checker, where n≠2m, can be realized by translating the given code to a 1-out-of-$C^n_m$ code, which is converted to a k-out-of-2k code via a totally self-checking translator
+  m-out-of-n的排列方法一共有$C^n_m$种，所以能够直接转成1-out-of-$C^n_m$码（一一对应的关系），随后将1-out-of-$C^n_m$转换成k-out-of-2k码（确保$C^{2k}_k>C^n_m$，也是一一对应关系），然后再检查
