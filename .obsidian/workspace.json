@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Noise Consideration"
+              "title": "Data Coding"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Noise Consideration 的反向链接列表"
+              "title": "Data Coding 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Noise Consideration 的出链列表"
+              "title": "Data Coding 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Noise Consideration/Noise Consideration.md",
+                "file": "课件/EE6309/Data Coding/Data Coding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Noise Consideration 的大纲"
+              "title": "Data Coding 的大纲"
             }
           }
         ],
@@ -168,10 +168,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da52561cfa7db0fb",
+  "active": "10e72a54231502c5",
   "lastOpenFiles": [
-    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/Noise Consideration.md",
+    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225030759.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025509.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025408.png",
