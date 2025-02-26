@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6128/Transmission Line/Transmission Line.md",
+                "file": "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transmission Line"
+              "title": "EMI的测量方法1"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6128/Transmission Line/Transmission Line.md",
+                "file": "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Transmission Line 的大纲"
+              "title": "EMI的测量方法1 的大纲"
             }
           }
         ],
@@ -170,9 +170,13 @@
   },
   "active": "10e72a54231502c5",
   "lastOpenFiles": [
-    "课件/EE6309/Data Coding/Data Coding.md",
+    "单纯的，知识/RF/Microstrip Line/Microstrip Line.md",
     "课件/EE6128/Transmission Line/Transmission Line.md",
-    "课件/EE6128/未命名",
+    "单纯的，知识/RF/Microstrip Line",
+    "单纯的，知识/RF",
+    "课件/EE6128/Network Parameters/Network  Parameters.md",
+    "课件/EE6309/Data Coding/Data Coding.md",
+    "课件/EE6128/Network Parameters",
     "课件/EE6128/Transmission Line",
     "课件/EE6309/Data Coding/Pasted image 20250225131716.png",
     "课件/EE6309/Data Coding/Pasted image 20250225131531.png",
@@ -209,13 +213,9 @@
     "单纯的，知识/Lithography/Lithography Process/Soft Bake/Soft Bake.md",
     "课件/EE6601/Etching/Dry Etching/pic",
     "课件/EE6601/Etching/Wet Etching/pic",
-    "课件/EE6601/Etching/pic",
-    "课件/EE6601/Lithography/Advanced Lithography/pic",
     "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
     "单纯的，知识/Lithography/Lithography Process/Post-Exposure Bake/Post-Exposure Bake.md",
     "单纯的，知识/Lithography/MTF/Modulation Transfer Function.md",
-    "单纯的，知识/Lithography/Resist/Wolff Rearrangement/Wolff Rearrangement.md",
-    "课件/EE6601/Resist/Pasted.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
