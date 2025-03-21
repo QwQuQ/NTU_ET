@@ -44,7 +44,6 @@ If $\mathrm{base\ width \gg minority\ carrier\ diffusion\ length}$, device is ju
 
 [[Density of States]]
 
-
 ## Fermi and Quasi-Fermi Levels
 
 ## Drift and Diffusion Current Density
