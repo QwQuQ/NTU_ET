@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
+                "file": "单纯的，知识/信号与系统/z变换.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EMI的测量方法2"
-            }
-          },
-          {
-            "id": "1179696be8cc5bd5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "z变换"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "透射",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "单纯的，知识/信号与系统/z变换.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "z变换 的大纲"
             }
           }
         ],
@@ -180,8 +168,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "10e72a54231502c5",
   "lastOpenFiles": [
+    "单纯的，知识/Cyber Security/Social Engineering Attack/Social Engineering Attack.md",
+    "单纯的，知识/信号与系统/z变换.md",
+    "单纯的，知识/信号与系统",
+    "单纯的，知识/未命名.md",
+    "单纯的，知识/Cyber Security/Social Engineering Attack/Pasted image 20250325170902.png",
+    "单纯的，知识/Cyber Security/Social Engineering Attack/Pasted image 20250325165335.png",
+    "单纯的，知识/Cyber Security/Malware Attack/Malware Attack.md",
+    "单纯的，知识/Cyber Security/Social Engineering Attack",
+    "单纯的，知识/Cyber Security/Malware Attack",
+    "单纯的，知识/Cyber Security/Malware Attack/Pasted image 20250325164909.png",
+    "单纯的，知识/Cyber Security/Malware Attack/Pasted image 20250325161235.png",
+    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
+    "课件/EE6102/Lec 1/Lec 1.md",
+    "单纯的，知识/Analog/BJT Power Amplifier/Amplifier Efficiency.md",
+    "单纯的，知识/Cyber Security",
+    "课件/EE6303/AA/RFI/波的传导/波的传导.md",
+    "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
+    "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
+    "课件/EE6306/CC/CC Lecture Slides.md",
+    "单纯的，知识/Lithography/MTF/Modulation Transfer Function.md",
+    "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
+    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
+    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
+    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (New).md",
+    "课件/EE6102/Lec 1",
+    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/ESD/ESD.md",
     "课件/EE6604/Shun/BJT/BJT.md",
     "课件/EE6307/JJ/环路.md",
@@ -190,44 +204,18 @@
     "课件/EE6307/JJ/反馈网络.md",
     "单纯的，知识/EM Field/Effective Permittivity/Effective Permittivity.md",
     "课件/EE6307/JJ/JJ.md",
-    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
     "单纯的，知识/EM Field/Effective Permittivity",
     "单纯的，知识/RF/Microstrip Line/Microstrip Line.md",
     "课件/EE6128/Transmission Line/Transmission Line.md",
     "单纯的，知识/RF/Microstrip Line",
     "单纯的，知识/RF",
-    "课件/EE6128/Network Parameters/Network  Parameters.md",
-    "课件/EE6309/Data Coding/Data Coding.md",
     "课件/EE6128/Network Parameters",
-    "课件/EE6128/Transmission Line",
     "课件/EE6309/Data Coding/Pasted image 20250225131716.png",
     "课件/EE6309/Data Coding/Pasted image 20250225131531.png",
-    "课件/EE6309/Noise Consideration/Noise Consideration.md",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225024211.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225030759.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025509.png",
     "课件/EE6309/Noise Consideration/pic/Pasted image 20250225025408.png",
-    "课件/EE6309/Noise Consideration/Pasted image 20250225024606.png",
-    "课件/EE6309/Noise Consideration/Pasted image 20250225024604.png",
-    "课件/EE6309/Noise Consideration/Pasted image 20250225025232.png",
-    "课件/EE6309/Noise Consideration/pic/Pasted image 20250225021516.png",
-    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
-    "课件/EE6309/Noise Consideration/pic",
-    "单纯的，知识/EMI/Skin Effect/Skin Effect.md",
-    "单纯的，知识/EMI/Paramistric Capacitance/Para-Capacitance.md",
-    "课件/EE6601/Lithography/Resist/Resist.md",
-    "课件/EE6601/Interconnect/Interconnect.md",
-    "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
-    "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
-    "课件/EE6601/Lithography/Advanced Lithography/Advanced Lithography.md",
-    "readme.md",
-    "单纯的，知识/Electromigration/Electromigration.md",
-    "单纯的，知识/Electromigration/pic",
-    "单纯的，知识/Electromigration",
-    "单纯的，知识/Device/BJT/BJT Advance/Shallow Emitters/Shallow Emitters.md",
-    "单纯的，知识/Device/BJT/BJT Advance/Shallow Emitters/Base Current of Shallow Emitters/Base Current of Shallow Emitters.md",
-    "课件/EE6604/Shun/MOSFET/MOSFET.md",
-    "课件/EE6601/Interconnect/pic",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
