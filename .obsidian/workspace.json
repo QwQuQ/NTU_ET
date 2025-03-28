@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6307/JC/开关电容网络的奇偶相分析.md",
+                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
                 "mode": "source",
                 "source": false
               },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6307/JC/开关电容网络的奇偶相分析.md",
+                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6307/JC/开关电容网络的奇偶相分析.md",
+                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6307/JC/开关电容网络的奇偶相分析.md",
+                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,10 +185,14 @@
   },
   "active": "71d48bd04e6adfca",
   "lastOpenFiles": [
-    "课件/EE6307/JC/Pasted image 20250327235500.png",
-    "课件/EE6307/JC/Pasted image 20250327223347.png",
-    "课件/EE6307/JC/Pasted image 20250327225621.png",
-    "课件/EE6307/JC/开关电容网络的奇偶相分析.md",
+    "单纯的，知识/前向欧拉法.md",
+    "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
+    "课件/EE6307/JC/双线性变换",
+    "课件/EE6307/JC/开关电容",
+    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327223347.png",
+    "课件/EE6307/JC/开关电容/pic",
+    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327235500.png",
+    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327225621.png",
     "课件/EE6307/JC/Pasted image 20250327173817.png",
     "课件/EE6307/JC/Pasted image 20250327181001.png",
     "课件/EE6307/JC/Pasted image 20250327175628.png",
@@ -200,7 +204,6 @@
     "课件/EE6307/JJ/反馈网络.md",
     "课件/EE6307/JJ/Fake Label分析.md",
     "课件/EE6102/Lec 1/Lec 1.md",
-    "单纯的，知识/前向欧拉法.md",
     "readme.md",
     "单纯的，知识/信号与系统/z变换.md",
     "单纯的，知识/Cyber Security/Social Engineering Attack/Social Engineering Attack.md",
@@ -227,9 +230,6 @@
     "课件/EE6303/AA/ESD/ESD.md",
     "课件/EE6604/Shun/BJT/BJT.md",
     "课件/EE6307/JJ/未命名",
-    "单纯的，知识/EM Field/Effective Permittivity",
-    "单纯的，知识/RF/Microstrip Line",
-    "单纯的，知识/RF",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
