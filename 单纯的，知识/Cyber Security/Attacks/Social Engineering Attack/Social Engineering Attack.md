@@ -1,3 +1,9 @@
+---
+aliases: 
+tags:
+  - cyber_security
+---
+
 
 ![[Pasted image 20250325165335.png#pic_75center|]]
 - It is the art of manipulating people so that they end up giving their confidential information.
@@ -40,3 +46,29 @@
 
 - In late 2015 FACC, an. aerospace company specializing in aircraft components and systems, lost $47 million after a successful ‘whaling’ attack. In this case, the hackers impersonated the CEO of FACC to get an employee to send money.
   2015年末，FACC（一家专注于飞机部件和系统的航空航天公司）遭遇了一次成功的“鲸鱼式”攻击，导致损失了4700万美元。在此次事件中，黑客假冒FACC首席执行官，诱骗一名员工转移资金。
+
+## Phishing Attack
+
+- In late 2015 FACC, an. aerospace company specializing in aircraft components and systems, lost $47 million after a successful ‘whaling’ attack. In this case, the hackers impersonated the CEO of FACC to get an employee to send money.
+  FACC是一家专注于航空部件和系统的航空航天公司，2015年底，因成功的“whaling”网络攻击损失了4700万美元。在此事件中，黑客伪装成FACC的首席执行官，诱导一名员工转账汇款。
+
+- Smishing: Cyber criminals send text messages posing as a company or charity. These messages work much the same way as email phishing.
+  短信诈骗（Smishing）：网络犯罪分子发送冒充公司或慈善机构的短信。这些短信的运作方式与电子邮件钓鱼类似。
+- Vishing: Cyber criminals call their targets and attempt to get them to give information, such as account credentials or credit card details, over the phone.
+  电话诈骗（Vishing）：网络犯罪分子通过打电话联系目标，试图让他们通过电话提供信息，例如账户凭证或信用卡详细信息。
+- Angler phishing: Cyber criminals use social media to get information, to get targets to visit a fake website or download malware.
+  社交媒体钓鱼（Angler phishing）：网络犯罪分子利用社交媒体获取信息，诱导目标访问虚假网站或下载恶意软件。
+
+- A 3.4 billion phishing emails are sent daily, and the annual number goes way beyond one trillion.
+- 1.5 million new phishing websites are made monthly. (Swiss Cyber Institute)
+- Up to 90% of cyber-attacks are phishing attacks according to CISCO’s 2021 Cybersecurity Threat Trends report. Out of those, 65% is spear phishing, which is the most common type of attack.
+
+# How to Prevent Phishing Attacks
+
+- Phishing attacks can be prevented by following the below-mentioned steps:
+	- Scrutinize the emails you receive. Most phishing emails have significant errors like spelling mistakes and format changes from that of legitimate sources.
+	  仔细检查（Scrutinize）您收到的电子邮件。大多数网络钓鱼邮件存在显著错误，例如拼写错误以及与正规来源格式不一致的情况。
+	- Make use of an anti-phishing toolbar.
+	- Update your passwords regularly and use MFT.
+	- Conduct regular employee training.
+	- Stay up-to-date with security patches and updates.

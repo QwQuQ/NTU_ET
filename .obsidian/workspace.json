@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/Lec 1/Lec 1.md",
+                "file": "课件/EE6102/SLD 5/SLD 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 1"
-            }
-          },
-          {
-            "id": "71d48bd04e6adfca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "开关电容网络的奇偶相分析"
+              "title": "SLD 5"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
+                "file": "课件/EE6102/SLD 5/SLD 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "开关电容网络的奇偶相分析 的大纲"
+              "title": "SLD 5 的大纲"
             }
           }
         ],
@@ -183,53 +168,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "71d48bd04e6adfca",
+  "active": "7f0b3b1f1ef44f79",
   "lastOpenFiles": [
-    "单纯的，知识/前向欧拉法.md",
+    "课件/EE6102/SLD 5/pic",
+    "课件/EE6102/SLD 4/pic",
+    "课件/EE6102/SLD 4/SLD 4.md",
+    "课件/EE6102/SLD 5/SLD 5.md",
+    "课件/EE6102/SLD 3/SLD 3.md",
+    "课件/EE6102/SLD 5",
+    "课件/EE6102/SLD 4",
+    "课件/EE6102/SLD 3/pic",
+    "课件/EE6102/SLD 1/SLD 1.md",
+    "课件/EE6102/SLD 3",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401193309.png",
+    "课件/EE6102/SLD 2/SLD 2.md",
+    "课件/EE6102/SLD 2/pic",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401233801.png",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401233418.png",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401233234.png",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401233127.png",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401232953.png",
+    "课件/EE6102/SLD 2/pic/Pasted image 20250401232752.png",
+    "单纯的，知识/信号与系统/双线性变换.md",
+    "单纯的，知识/信号与系统/z Transform.md",
+    "单纯的，知识/信号与系统/未命名",
+    "课件/EE6102/SLD 2",
+    "课件/EE6102/SLD 1/pic/Pasted image 20250401175634.png",
+    "课件/EE6102/SLD 1/pic",
+    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/SQL Injection Attack/SQL Injection Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/Password Attack/Password Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/Man in the Middle Attack/Man-in-the-Middle Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
+    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic/Pasted image 20250401170009.png",
+    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic/Pasted image 20250401175039.png",
+    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic",
+    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
     "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
-    "课件/EE6307/JC/双线性变换",
-    "课件/EE6307/JC/开关电容",
-    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327223347.png",
-    "课件/EE6307/JC/开关电容/pic",
-    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327235500.png",
-    "课件/EE6307/JC/开关电容/pic/Pasted image 20250327225621.png",
-    "课件/EE6307/JC/Pasted image 20250327173817.png",
-    "课件/EE6307/JC/Pasted image 20250327181001.png",
-    "课件/EE6307/JC/Pasted image 20250327175628.png",
-    "课件/EE6307/JC/Pasted image 20250327174722.png",
-    "课件/EE6307/JC/DADKKWPOGJKA#1.png",
-    "课件/EE6307/JC/Pasted image 20250327174205.png",
+    "单纯的，知识/前向欧拉法.md",
     "课件/EE6307/JJ/环路.md",
-    "课件/EE6307/JC",
     "课件/EE6307/JJ/反馈网络.md",
     "课件/EE6307/JJ/Fake Label分析.md",
-    "课件/EE6102/Lec 1/Lec 1.md",
     "readme.md",
-    "单纯的，知识/信号与系统/z变换.md",
-    "单纯的，知识/Cyber Security/Social Engineering Attack/Social Engineering Attack.md",
-    "单纯的，知识/信号与系统",
     "单纯的，知识/未命名.md",
-    "单纯的，知识/Cyber Security/Social Engineering Attack/Pasted image 20250325170902.png",
-    "单纯的，知识/Cyber Security/Malware Attack/Malware Attack.md",
-    "单纯的，知识/Cyber Security/Social Engineering Attack",
-    "单纯的，知识/Cyber Security/Malware Attack",
-    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
     "单纯的，知识/Analog/BJT Power Amplifier/Amplifier Efficiency.md",
-    "单纯的，知识/Cyber Security",
     "课件/EE6303/AA/RFI/波的传导/波的传导.md",
     "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
     "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
-    "课件/EE6306/CC/CC Lecture Slides.md",
-    "单纯的，知识/Lithography/MTF/Modulation Transfer Function.md",
-    "课件/EE6601/Lithography/Lithography Technology/Lithography Technology.md",
-    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
-    "课件/EE6303/AA/EMI的测量方法1/EMI的测量方法1.md",
-    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (New).md",
-    "课件/EE6102/Lec 1",
-    "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
-    "课件/EE6303/AA/ESD/ESD.md",
-    "课件/EE6604/Shun/BJT/BJT.md",
-    "课件/EE6307/JJ/未命名",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
