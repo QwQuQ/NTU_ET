@@ -1,6 +1,8 @@
 ---
 aliases:
   - "Symmetric \rEncryption"
+  - 私钥加密
+  - 对称加密
 tags:
   - cyber_security
 ---

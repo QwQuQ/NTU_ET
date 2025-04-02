@@ -1,3 +1,8 @@
+---
+tags:
+  - cyber_security
+---
+
 # Forms of Authentication
 
 - Proof that you are you because of:

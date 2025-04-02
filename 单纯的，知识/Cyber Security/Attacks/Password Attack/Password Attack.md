@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - 密码攻击
 tags:
   - cyber_security
 ---

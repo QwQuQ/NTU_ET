@@ -1,4 +1,12 @@
-# Cryptography #TODO 
+---
+aliases:
+  - 密码学
+tags:
+  - cyber_security
+  - TODO
+  - 奇葩PPT大赏
+---
+*由于PPT在这里太抽象了先按照原始顺序放着*
 
 ![[Pasted image 20250402030137.png#pic_75center|]]
 
@@ -169,7 +177,3 @@
 # Public Key Cryptography
 
 **[[Public Key Cryptography]]**
-
-# Digital Signatures
-
-**[[Digital Signatures]]**

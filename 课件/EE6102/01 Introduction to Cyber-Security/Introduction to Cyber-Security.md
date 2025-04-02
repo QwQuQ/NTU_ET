@@ -1,3 +1,9 @@
+---
+tags:
+  - cyber_security
+---
+
+
 # Cyber Security Concept
 
 [[Cyber Security Concept|CIA]]

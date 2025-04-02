@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - 社会学攻击
 tags:
   - cyber_security
 ---

@@ -1,3 +1,7 @@
+---
+tags:
+  - cyber_security
+---
 
 # Cyber Security Plan
 

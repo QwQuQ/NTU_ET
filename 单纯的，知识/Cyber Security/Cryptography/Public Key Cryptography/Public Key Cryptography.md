@@ -1,6 +1,10 @@
 ---
 aliases:
   - "Asymmetric \rEncryption"
+  - 公钥加密
+  - 不对称加密
+tags:
+  - cyber_security
 ---
 
 ![[Pasted image 20250402163506.png#pic_75center|]]

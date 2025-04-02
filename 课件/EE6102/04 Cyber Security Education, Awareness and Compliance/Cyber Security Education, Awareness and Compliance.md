@@ -1,3 +1,8 @@
+---
+tags:
+  - cyber_security
+---
+
 # Human Factors in Cyber Security
 
 - Employee behavior is a critical concern in ensuring the security of computer systems and information assets.

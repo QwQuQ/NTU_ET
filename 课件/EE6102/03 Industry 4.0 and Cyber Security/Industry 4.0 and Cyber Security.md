@@ -1,6 +1,9 @@
-# Industry 4.0 and Cyber Security
+---
+tags:
+  - cyber_security
+---
 
-## Introduction to Industry Evolution
+# Introduction to Industry Evolution
 
 ## I4.0 Development
 
@@ -15,9 +18,9 @@
 - KPMG predicts enterprises will spend $232 billion i4.0 by 2024.
   毕马威预测，到2024年，各企业将在工业4.0领域投入2320亿美元。
 
-## Trends and Driving Forces for I4.0
+# Trends and Driving Forces for I4.0
 
-### IIoT
+### Industrial IoT (IIoT)
 
 ![[Pasted image 20250401232752.png#pic_75center|The Nnumber of Internet of Things (IoT) Devices Worldwide]]
 
