@@ -1,7 +1,8 @@
 {
   "enabledCssSnippets": [
     "pic",
-    "fig_caption"
+    "fig_caption",
+    "table"
   ],
   "baseFontSize": 14,
   "nativeMenus": false,

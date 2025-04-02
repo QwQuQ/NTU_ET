@@ -8,21 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47d03d19e986af05",
+            "id": "292a5c9fd874109a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "readme"
+              "title": "Cryptography, Digital  Signature and Digital  Certificates"
             }
           },
           {
-            "id": "ef1597d4ddb7997a",
+            "id": "164aee6f5485da30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptography, Digital  Signature and Digital  Certificates"
+            }
+          },
+          {
+            "id": "a3cd98f880c6a058",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptography, Digital  Signature and Digital  Certificates"
+            }
+          },
+          {
+            "id": "3ddffa16bc732f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptography, Digital  Signature and Digital  Certificates"
+            }
+          },
+          {
+            "id": "75bf8cffa6ef3f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +77,8 @@
               "title": "Cryptography, Digital  Signature and Digital  Certificates"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "readme 的反向链接列表"
+              "title": "Cryptography, Digital  Signature and Digital  Certificates 的反向链接列表"
             }
           },
           {
@@ -127,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "readme 的出链列表"
+              "title": "Cryptography, Digital  Signature and Digital  Certificates 的出链列表"
             }
           },
           {
@@ -156,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "readme 的大纲"
+              "title": "Cryptography, Digital  Signature and Digital  Certificates 的大纲"
             }
           }
         ],
@@ -182,27 +225,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "47d03d19e986af05",
+  "active": "75bf8cffa6ef3f77",
   "lastOpenFiles": [
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
-    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
-    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic/Pasted image 20250402150954.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145952 1.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145541.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145952.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145355.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402144714.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402144347.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402125900.png",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Pasted image 20250402144254.png",
     "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
+    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+    "单纯的，知识/Cyber Security/Digital Signatures/Digital Signatures.md",
+    "单纯的，知识/Cyber Security/SSL/SSL.md",
+    "单纯的，知识/Cyber Security/SSL",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic/Pasted image 20250402190747.png",
+    "单纯的，知识/Cyber Security/Digital Signatures",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic/Pasted image 20250402171847.png",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic/Pasted image 20250402164710.png",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic/Pasted image 20250402163506.png",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic/Pasted image 20250402165122.png",
+    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402155512.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402155314.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402154030.png",
+    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402153853.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402153510.png",
+    "readme.md",
     "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic",
     "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography",
     "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic",
     "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography",
     "单纯的，知识/Cyber Security/Cryptography",
-    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic/Pasted image 20250402125311.png",
-    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
     "单纯的，知识/Cyber Security/Attacks/SQL Injection Attack/SQL Injection Attack.md",
     "单纯的，知识/Cyber Security/Attacks/Password Attack/Password Attack.md",
     "单纯的，知识/Cyber Security/Attacks/Man in the Middle Attack/Man-in-the-Middle Attack.md",
@@ -212,13 +261,10 @@
     "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
     "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
     "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
-    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
     "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
     "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/pic",
     "课件/EE6102/01 Introduction to Cyber-Security/pic",
     "课件/EE6102/01 Introduction to Cyber-Security",
-    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance",
-    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic",
     "单纯的，知识/信号与系统/双线性变换.md",
     "单纯的，知识/信号与系统/z Transform.md",
     "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
@@ -227,8 +273,6 @@
     "课件/EE6307/JJ/环路.md",
     "课件/EE6307/JJ/反馈网络.md",
     "课件/EE6307/JJ/Fake Label分析.md",
-    "readme.md",
-    "单纯的，知识/未命名.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

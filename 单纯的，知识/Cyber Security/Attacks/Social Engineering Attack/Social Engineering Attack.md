@@ -67,7 +67,7 @@ tags:
   **搜索引擎骗局**：你可能会感到惊讶，但谷歌的一些热门搜索结果实际上是网络钓鱼链接。诈骗者同样会投资于搜索引擎优化，并努力将他们的诈骗网站排名提升到搜索结果的顶部。
 - **Social Media Scams:** Social media is full of fake accounts. It could also be a fake account with the same name and photo as one of your real friends that will later try to scam you.
   **社交媒体骗局**：社交媒体上充满了虚假账户。这些账户可能冒用你的真实朋友的姓名和照片，后来试图诈骗你。
-- QR Code Scams: Who thought a QR code could be dangerous? They are everywhere, especially in restaurants. Criminals can place their own sticker over the legitimate one. So that when you scan it, you will be redirected to a fake site.
+- **QR Code Scams**: Who thought a QR code could be dangerous? They are everywhere, especially in restaurants. Criminals can place their own sticker over the legitimate one. So that when you scan it, you will be redirected to a fake site.
   **二维码骗局**：谁会想到二维码会带来危险呢？二维码随处可见，尤其是在餐厅。犯罪分子可能会将自己的贴纸覆盖在合法二维码上。当你扫描时，会被重定向到一个虚假网站。
 
 - A 3.4 billion phishing emails are sent daily, and the annual number goes way beyond one trillion.
