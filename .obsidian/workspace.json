@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6c3c4954f0897718",
+        "id": "80c4f364e85f3226",
         "type": "tabs",
         "children": [
           {
-            "id": "10e72a54231502c5",
+            "id": "47d03d19e986af05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/SLD 5/SLD 5.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SLD 5"
+              "title": "readme"
+            }
+          },
+          {
+            "id": "ef1597d4ddb7997a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptography, Digital  Signature and Digital  Certificates"
             }
           }
         ]
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "开关电容网络的奇偶相分析 的反向链接列表"
+              "title": "readme 的反向链接列表"
             }
           },
           {
@@ -113,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "开关电容网络的奇偶相分析 的出链列表"
+              "title": "readme 的出链列表"
             }
           },
           {
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6102/SLD 5/SLD 5.md",
+                "file": "readme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SLD 5 的大纲"
+              "title": "readme 的大纲"
             }
           }
         ],
@@ -168,43 +182,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0b3b1f1ef44f79",
+  "active": "47d03d19e986af05",
   "lastOpenFiles": [
-    "课件/EE6102/SLD 5/pic",
-    "课件/EE6102/SLD 4/pic",
-    "课件/EE6102/SLD 4/SLD 4.md",
-    "课件/EE6102/SLD 5/SLD 5.md",
-    "课件/EE6102/SLD 3/SLD 3.md",
-    "课件/EE6102/SLD 5",
-    "课件/EE6102/SLD 4",
-    "课件/EE6102/SLD 3/pic",
-    "课件/EE6102/SLD 1/SLD 1.md",
-    "课件/EE6102/SLD 3",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401193309.png",
-    "课件/EE6102/SLD 2/SLD 2.md",
-    "课件/EE6102/SLD 2/pic",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401233801.png",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401233418.png",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401233234.png",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401233127.png",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401232953.png",
-    "课件/EE6102/SLD 2/pic/Pasted image 20250401232752.png",
-    "单纯的，知识/信号与系统/双线性变换.md",
-    "单纯的，知识/信号与系统/z Transform.md",
-    "单纯的，知识/信号与系统/未命名",
-    "课件/EE6102/SLD 2",
-    "课件/EE6102/SLD 1/pic/Pasted image 20250401175634.png",
-    "课件/EE6102/SLD 1/pic",
-    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
+    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/Cryptography, Digital  Signature and Digital  Certificates.md",
+    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic/Pasted image 20250402150954.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145952 1.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145541.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145952.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402145355.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402144714.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402144347.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic/Pasted image 20250402125900.png",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Pasted image 20250402144254.png",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/pic",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/pic",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography",
+    "单纯的，知识/Cyber Security/Cryptography",
+    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic/Pasted image 20250402125311.png",
+    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
     "单纯的，知识/Cyber Security/Attacks/SQL Injection Attack/SQL Injection Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
     "单纯的，知识/Cyber Security/Attacks/Password Attack/Password Attack.md",
     "单纯的，知识/Cyber Security/Attacks/Man in the Middle Attack/Man-in-the-Middle Attack.md",
+    "课件/EE6102/01 Introduction to Cyber-Security/Introduction to Cyber-Security.md",
+    "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
+    "课件/EE6102/05 Cyber Security Planning and Policies/Cyber Security Planning and Policies.md",
+    "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
     "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic/Pasted image 20250401170009.png",
-    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic/Pasted image 20250401175039.png",
-    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/pic",
-    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
+    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
+    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
+    "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
+    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/pic",
+    "课件/EE6102/01 Introduction to Cyber-Security/pic",
+    "课件/EE6102/01 Introduction to Cyber-Security",
+    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance",
+    "课件/EE6102/07 Cryptography, Digital  Signature and Digital  Certificates/pic",
+    "单纯的，知识/信号与系统/双线性变换.md",
+    "单纯的，知识/信号与系统/z Transform.md",
+    "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
     "课件/EE6307/JC/开关电容/开关电容网络的奇偶相分析.md",
     "单纯的，知识/前向欧拉法.md",
     "课件/EE6307/JJ/环路.md",
@@ -212,10 +229,6 @@
     "课件/EE6307/JJ/Fake Label分析.md",
     "readme.md",
     "单纯的，知识/未命名.md",
-    "单纯的，知识/Analog/BJT Power Amplifier/Amplifier Efficiency.md",
-    "课件/EE6303/AA/RFI/波的传导/波的传导.md",
-    "课件/EE6303/AA/RFI/信号链IM/信号链IM.md",
-    "单纯的，知识/Lithography/Lithography Process/Alignment and Exposure/Alignment and Exposure.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

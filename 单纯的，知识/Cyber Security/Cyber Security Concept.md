@@ -1,6 +1,8 @@
 ---
 aliases:
   - CIA
+tags:
+  - cyber_security
 ---
 
 - Confidentiality

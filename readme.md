@@ -7,8 +7,9 @@
 如果不会git的话，download ZIP后把解压的文件夹设置为vault就可以了。
 
 会git的：
+
 ```bash
-git clone --depth 1
+git clone https://github.com/QwQuQ/NTU_ET.git --depth 1
 ```
 
 # 包含的课程？
@@ -31,4 +32,4 @@ git clone --depth 1
 
 6128 RF
 
-乱七八糟的小东西：信号与系统，电磁场与电磁波
+乱七八糟的小东西：信号与系统，电磁场与电磁波什么的

@@ -54,7 +54,7 @@
 
 ![[Pasted image 20250401233234.png#pic_75center|]]
 
-## AI and Big Data
+### AI and Big Data
 
 ![[Pasted image 20250401233418.png#pic_50center|]]
 
@@ -71,7 +71,7 @@
 - Data breaches are a top trend in the cybercrime world that shows no sign of slowing any time soon.
   数据泄露是网络犯罪领域的一大趋势，而且短期内并没有减缓的迹象。
 
-## Digital Twins
+### Digital Twins
 
 ![[Pasted image 20250401233801.png#pic_50center|]]
 
@@ -86,7 +86,7 @@
 - Even though Digital twins give organizations greater insight into the life cycle of these objects, this same level of insight and control can also open doors for malicious cyber attackers.
   尽管数字孪生为组织提供了对这些对象生命周期的更深刻洞察，但同样的洞察和控制水平也可能为恶意网络攻击者打开大门。
 
-## Virtualization
+#### Virtualization
 
 - A virtual copy of the Smart Factory which is created by linking sensor data (from monitoring physical processes) with virtual plant models and simulation models.
   智能工厂的虚拟副本是通过将监测物理过程的传感器数据与虚拟工厂模型和仿真模型连接起来创建的。
@@ -99,18 +99,45 @@
 - Examples of CPS include smart grid, autonomous automobile systems, medical monitoring, robotics systems, and automatic pilot avionics. Ensuring the security of cyber-physical systems, is one of the most complex problems in a wide range of defenses against cyber-attacks.
 - The reason is that these structures can become easy and open targets for cyber threats if the necessary cyber security measures are not taken seriously.
 
-## Smart Factories
+### Smart Factories
+
+![[Pasted image 20250401235347.png#pic_75center|Smart Factories]]
+
+- Manufacturing is becoming increasingly digitized as the industry is adopting automation, to a greater extent than ever before.
+  制造业正变得越来越数字化，因为该行业比以往任何时候都更多地采用了自动化技术。
+- The Industrial Internet of Things (IIoT) is bringing artificial intelligence, cloud computing and robotics into factories.
+  工业物联网（IIoT）正在将人工智能、云计算和机器人技术引入工厂。
+- Smart Factories will help the manufacturing industry considerably, as digital technology can offer greater efficiency in the production stage, better quality products with fewer mistakes, and more flexibility for working processes.
+  智能工厂将极大地帮助制造业，因为数字技术可以在生产阶段提供更高的效率、更少错误的高质量产品以及更灵活的工作流程。
+- According to “swivelsecure” report, large manufacturers are incorporating the Industrial IoT in their operations and the Industrial IoT market in 2023 was estimated to be worth $394 billion.
+  根据“swivelsecure”报告，大型制造商正在将工业物联网整合到其运营中，而2023年工业物联网市场的估值为3940亿美元。
+- Despite the benefits they offer, the connected nature of Smart Factories leaves the manufacturing industry open to a variety of potential cyber threats.
+  尽管智能工厂提供了诸多优势，但其连接性质使制造业容易受到各种潜在的网络威胁。
+- The manufacturing industry is the third most targeted industry for cybercrime, just behind the finance and government sectors.
+  制造业是网络犯罪的第三大目标行业，仅次于金融业和政府部门。
+- The EEF’s (UK) Cybersecurity Report found that while 91% of manufacturers are investing in digital technology, 35% said they are inhibited from fully investing due to cybersecurity concerns.
+  英国工程雇主联合会（EEF）的网络安全报告发现，虽然91%的制造商正在投资于数字技术，但35%的制造商表示因网络安全问题而无法全面投资。
 
 ## Challenge: Susceptibility of IoT and AI Technologies to Cyber Attacks
 
+- IoT and AI technologies are an integral part of smart manufacturing systems.
+  物联网（IoT）和人工智能（AI）技术是智能制造系统的重要组成部分。
+- The concept of Industry 4.0 depends upon connectivity of devices across the whole ecosystem.
+  工业4.0的概念依赖于整个生态系统中设备的互联性。
+- This interconnectivity creates security holes throughout the system, which can mean potentially compromised operations because from a security perspective it cannot be determined where the data is coming from or where it’s going at the other end.
+  这种互联性在整个系统中会产生安全漏洞，从安全角度来看，无法确定数据的来源或去向，这可能导致操作被潜在地破坏。
+- Hence, data visibility is the biggest cybersecurity challenge for smart manufacturing on the factory floor.
+  因此，数据可见性是工厂车间智能制造在网络安全方面面临的最大挑战。
+- There’s a lot to be gained by adopting Industry 4.0 technologies, and as its adoption continues significantly all over the world, the manufacturing industry becomes an increasingly appealing target for cyber attacks.
+  采用工业4.0技术可以带来许多益处，随着其在全球范围内的广泛应用，制造业正成为网络攻击日益吸引的目标。
+
 ## Why Industry 4.0
 
-# Cyber Security Education, Awareness and Compliance
+![[Pasted image 20250402000008.png#pic_75center|]]
 
-# Human Factors in Cyber Security
-
-# Human Factors
-
-# Awareness
-
-# Training
+- While this brings benefits in lower costs and higher efficiency, it also increases the risks.
+  虽然这带来了成本降低和效率提高的益处，但也增加了风险。
+- Industry 4.0 means opportunities and challenges.
+  工业4.0既意味着机遇，也伴随着挑战。
+- It’s a challenge that cyber criminals are exploiting.
+  网络犯罪分子正利用这些挑战。
