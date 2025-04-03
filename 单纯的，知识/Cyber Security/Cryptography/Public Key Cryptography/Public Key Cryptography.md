@@ -196,5 +196,5 @@ tags:
   RSA是一个完整的系统，包括密钥生成、加密和解密
 - RSA is the most commonly used system for web security.
   RSA是用于网络安全的最常用系统
-- Hybrid system is based on combining the both methods and is used for web security as [[SSL]]
-  混合系统基于结合两种方法，用于网络安全，例如[[SSL]]
+- Hybrid system is based on combining the both methods and is used for web security as SSL
+  混合系统基于结合两种方法，用于网络安全，例如SSL
