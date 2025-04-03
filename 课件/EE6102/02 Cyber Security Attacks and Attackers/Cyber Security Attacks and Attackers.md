@@ -2,8 +2,6 @@
 tags:
   - cyber_security
 ---
-
-
 # Factors Aiding Cyber Attacks
 
 - Automation:

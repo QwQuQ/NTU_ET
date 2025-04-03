@@ -2,7 +2,7 @@
 tags:
   - cyber_security
 ---
-
+![[Pasted image 20250404004041.png#pic_75center|Plan-Respond-Protect Cycle]]
 
 # Cyber Security Concept
 
@@ -16,11 +16,16 @@ tags:
 
 - SECURITY:
 	- State of freedom from a danger or risk
+	  远离危险或风险的状态
 - CYBER-SECURITY:
 	- Tasks of guarding information that is in a digital format
+	  保护数字化格式信息的任务
 	- Ensures that protective measures are properly implemented
+	  确保保护措施得以正确实施
 	- Protect information that has value to people and organizations
+	  保护对个人和组织有价值的信息
 		- Value comes from the characteristics of the information
+		  价值源自信息的特性
 
 - Security is achieved through a combination of three entities
 	- Products
@@ -38,6 +43,7 @@ tags:
 # Why Cyber-Security
 
 - Policies, Practices, and Technology that must be in place for an organization to transact business electronically via networks with a reasonable assurance of safety.
+  为了确保在网络上以合理的安全性进行电子交易，组织必须制定和实施相应的政策、实践和技术
 
 - ASSETS AT RISK
 	- Data assets

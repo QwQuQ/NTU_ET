@@ -5,25 +5,35 @@ tags:
 ---
 
 - Web is widely used by business, government and individuals. However, Internet & Web are vulnerable as it uses HTTP (Hyper Text Transfer) protocol.
+  Web 被广泛用于商业、政府和个人。然而，互联网和 Web 存在漏洞，因为它使用的是 HTTP（超文本传输）协议
 
 - HTTP IS NOT A SECURE PROTOCOL
 	- It is a simple and stateless client/server application running over TCP/IP.
+	  它是一种简单且无状态的客户端/服务器应用程序，运行在 TCP/IP 之上
 - WHAT ARE THE THREATS
 	- INTEGRITY
 		- Data modification, insertion
+		  数据修改、插入
 	- CONFIDENTIALITY
 		- Eavesdropping on the net
+		  网络监听
 		- Theft from server machine
+		  从服务器机器上盗取数据
 	- AUTHENTICATION
 		- Impersonation, data forgery
+		  冒充、数据伪造
 	- DENIAL OF SERVICE
 		- Hacked web servers
+		  被入侵的 Web 服务器
 
 # HTTP and HTTPS
 
 - HTTP is an application-layer protocol used for communication between clients (browsers) and web servers.
+  HTTP 是一种应用层协议，用于客户端（浏览器）与 Web 服务器之间的通信
 - It follows a request-response model, where a client sends a request, and the server returns a response.
-- Stateless Protocol: Each request is independent, meaning no session is maintained unless managed separately (e.g., using cookies).
+  它遵循请求-响应模型，客户端发送请求，服务器返回响应
+- **Stateless Protocol**: Each request is independent, meaning no session is maintained unless managed separately (e.g., using cookies).
+  **无状态协议**：每个请求都是独立的，意味着不会维护会话，除非通过其他方式单独管理（如使用 Cookies）
 - HTTP Methods
 	- GET: Retrieve data.
 	- POST: Send data (e.g., form submissions).
@@ -32,10 +42,14 @@ tags:
 	- HEAD: Retrieve headers only.
 - HTTPS (HTTP Secure)
 	- It is an extension of the Hypertext Text Transfer Protocol for secure communication. Encrypted by TLS/SSL
+	  是超文本传输协议的扩展版本，用于安全通信。通过 TLS/SSL 加密
 
 - HTTPS is HTTP + TLS, ensuring data confidentiality, integrity, and authentication.
+  **HTTPS 是 HTTP + TLS**，可确保数据的机密性、完整性和身份验证
 - HTTP protocol uses port number 80 and provides no security as it doesn’t use any encryption.
+  HTTP 协议使用端口号 **80**，不提供任何安全性，因为它不使用加密
 - HTTPS protocol uses port number 443 and is Secure as it uses encryption.
+  HTTPS 协议使用端口号 **443**，更加安全，因为它使用了加密技术
 
 | Feature        | HTTP                            | HTTPS                           |
 | :------------: | :-----------------------------: | :-----------------------------: |
@@ -58,25 +72,37 @@ tags:
 - Congratulations, you’ve used SSL/TLS
 
 - The web and email together are a key part for 99% of successful breaches.
+  网络和电子邮件共同构成了 99% 成功攻击的关键部分
 - ADDED SECURITY MEASURES NEEDED
 	- The SSL (Secure Socket Layer, originated by Netscape) and TLS (Transport Layer Security) was designed for web security. First version of TLS can be viewed as an SSLv3.1
+	  SSL（安全套接字层，由 Netscape 首创）和 TLS（传输层安全）是为 Web 安全而设计的。TLS 的第一个版本可以看作是 SSLv3.1
 - HTTPS
 	- Secure HTTP protocol = HTTP+SSL
+	  安全的 HTTP 协议 = HTTP + SSL
 
 ## Secure Socket Layer (SSL)
 
 - SSL is a cryptographic protocol that secure communication over networks.
+  SSL 是一种用于保护网络通信的加密协议
 - Primary Goals
 	- Confidentiality and Integrity (via encryption)
+	  **机密性和完整性**（通过加密实现）
 	- Authentication (verifies identity)
+	  **身份验证**（验证身份）
 	- Can provide server authentication with digital certificate
+	  可以通过数字证书提供服务器认证
 	- It can authenticate client (rare).
+	  也可以认证客户端（少见）
 - HISTORY
 	- Internal Netscape design, early 1994.
 	- SSLv1 was broken by members of audience while it was being presented.
+	  **SSLv1** 在展示时被观众攻破
 	- SSLv2 was shipped with Navigator 1.0, in November 1994, however it was vulnerable to man-in-the-middle attack.
+	  **SSLv2** 于 1994 年 11 月随 Navigator 1.0 发布，但易受中间人攻击
 	- SSLv3 was designed by Netscape and Paul Kocher (American cryptographer, winner of 2019 Marconi Prize), in November 1996 and was designed with public input/feedback.
+	  **SSLv3** 于 1996 年 11 月由 Netscape 和 Paul Kocher（美国密码学家，2019 年马可尼奖获得者）设计，并基于公众反馈完善
 	- SSL is easy to apply and use because it is built in all major Web browsers (Edge, Opera, Chrome, Firefox, etc.) and servers.
+	  SSL 易于应用和使用，因为它内置于所有主流 Web 浏览器（如 Edge、Opera、Chrome、Firefox 等）和服务器中
 
 ## Transport Layer Security (TLS)
 
@@ -150,15 +176,24 @@ tags:
 ![[Pasted image 20250403020128.png#pic_75center|SSL/TLS Record Protocol]]
 
 - CHANGE CIPHER SPEC PROTOCOL
+  变更密码规范协议（CHANGE CIPHER SPEC PROTOCOL）
 	- It is a very simple protocol that uses the record protocol
+	  这是一种非常简单的协议，使用记录协议（Record Protocol）
 	- It causes pending state to become current hence updating the cipher suite in use.
+	  它使挂起状态变为当前状态，从而更新正在使用的密码套件
 - ALERT PROTOCOL
 	- Send SSL/TLS related alerts to peers
+	  向对端发送与 SSL/TLS 相关的警报
 	- Alert messages are compressed and encrypted
+	  警报消息会被压缩和加密
 	- MESSAGE: Two bytes, one defines fatal/warnings, other defines the code of alert
+	  **消息结构**：两字节组成，一个定义警告或致命错误，另一个定义警报代码
 		- Unexpected message, bad record MAC, decompression failure
+		  意外消息（Unexpected message）、错误的记录 MAC（Bad record MAC）、解压失败（Decompression failure）
 		- Handshake failure (no common ground), illegal parameters (inconsistent or unrecognized parameters)
+		  握手失败（Handshake failure，无共同基础）、非法参数（Illegal parameters，不一致或无法识别的参数）
 		- No certificate, bad certificate, unsupported certificate, certificate revoked, certificate expired, certificate unknown.
+		  无证书（No certificate）、证书错误（Bad certificate）、不支持的证书（Unsupported certificate）、证书被吊销（Certificate revoked）、证书过期（Certificate expired）、证书未知（Certificate unknown）
 
 ### SSL Handshake Protocol
 
@@ -174,22 +209,23 @@ tags:
 		- Client Authentication and Key Exchange
 		- Finish
 
-
-| Sender | Name of Message     | Semantics (Meaning)                                                                                                                                                                                             |
-| ------ | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Client | Client Hello        | Client requests secure connection.<br>Client lists cipher suites it supports                                                                                                                                    |
-| Server | Server Hello        | Server indicates willingness to proceed.<br>Selects a cipher suite to use in the session.                                                                                                                       |
-| Server | Certificate         | Server sends its digital certificate containing its public key                                                                                                                                                  |
-| Server | Server Hello Done   | Server indicates that its part is finished                                                                                                                                                                      |
-| Client | Client Key Exchange | Client generates a random symmetric session key. Encrypts it with the server's public key. It sends this encrypted key to the server. The server decrypts the session key. Both sides now have the session key. |
-| Client | Change Cipher Spec  | Client changes selected cipher suite from pending to active                                                                                                                                                     |
-| Client | Finish              | Client indicates that its part in the initial introduction is finished                                                                                                                                          |
-|        |                     | Ongoing communication stage begins                                                                                                                                                                              |
+| Sender | Name of Message     | Semantics (Meaning)                                                                                                                                                                                                                                                                    |
+| ------ | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Client | Client Hello        | Client requests secure connection.<br>客户端请求安全连接<br>Client lists cipher suites it supports<br>客户端列出其支持的密码套件                                                                                                                                                                             |
+| Server | Server Hello        | Server indicates willingness to proceed.<br>服务器愿意处理<br>Selects a cipher suite to use in the session.<br>选择一个密码套件在会话中使用                                                                                                                                                                 |
+| Server | Certificate         | Server sends its digital certificate containing its public key<br>服务器发送有公钥的电子证书                                                                                                                                                                                                        |
+| Server | Server Hello Done   | Server indicates that its part is finished<br>服务器提示它的部分完成                                                                                                                                                                                                                              |
+| Client | Client Key Exchange | Client generates a random symmetric session key. Encrypts it with the server's public key. It sends this encrypted key to the server. The server decrypts the session key. Both sides now have the session key.<br>客户端生成一个随机对称会话密钥。用服务器的公钥加密该会话密钥。将加密后的密钥发送给服务器。服务器解密会话密钥。双方现在都拥有会话密钥。 |
+| Client | Change Cipher Spec  | Client changes selected cipher suite from pending to active<br>客户端将选择的密码套件从挂起状态更改为激活状态                                                                                                                                                                                                 |
+| Client | Finish              | Client indicates that its part in the initial introduction is finished<br>                                                                                                                                                                                                             |
+|        |                     | Ongoing communication stage begins                                                                                                                                                                                                                                                     |
 
 ### TLS Key Exchange
 
-- TLS is based on “hybrid” cryptosystem.
-- In hybrid cryptosystems, public key cryptography is used to securely exchange the key between both parties, which is then used to encrypt/decrypt the data exchanged.
+- TLS is based on “hybrid” crypto system.
+  TLS使用混合加密系统
+- In hybrid crypto systems, public key cryptography is used to securely exchange the key between both parties, which is then used to encrypt/decrypt the data exchanged.
+  在混合加密系统中，公钥加密用来加密传输双方用来加解密的密钥
 - There are two main ways of doing this with public key cryptography.
 	- RSA Key Exchange
 	- Diffie-Hellman Key Exchange

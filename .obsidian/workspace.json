@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9c1e93ac6349d0f4",
+        "id": "690892a09cd7d994",
         "type": "tabs",
         "children": [
           {
-            "id": "8b708093946b7a11",
+            "id": "09e4be05f4f6fd0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/07 Cryptography/Cryptography.md",
+                "file": "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cryptography"
+              "title": "Cyber Security Attacks and Attackers"
             }
           },
           {
-            "id": "38de76238692b825",
+            "id": "160c788a605480ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+                "file": "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrusion Detection"
+              "title": "Malware Attack"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "worm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+                "file": "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Intrusion Detection 的反向链接列表"
+              "title": "Biometric-Based Security Approaches 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+                "file": "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Intrusion Detection 的出链列表"
+              "title": "Biometric-Based Security Approaches 的出链列表"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+                "file": "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Intrusion Detection 的大纲"
+              "title": "Malware Attack 的大纲"
             }
           }
         ],
@@ -183,35 +183,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "38de76238692b825",
+  "active": "160c788a605480ee",
   "lastOpenFiles": [
-    "课件/EE6102/11 Intrusion Detection/pic/Pasted image 20250403202811.png",
+    "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
+    "课件/EE6102/01 Introduction to Cyber-Security/Introduction to Cyber-Security.md",
+    "课件/EE6102/10 Firewalls/Firewalls.md",
+    "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
     "课件/EE6102/09 Web Security/Web Security.md",
     "课件/EE6102/07 Cryptography/Cryptography.md",
-    "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
-    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
-    "单纯的，知识/Cyber Security/Digital Signatures/Digital Signatures.md",
-    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/SSL.md",
-    "课件/EE6102/11 Intrusion Detection/pic/Pasted image 20250403195322.png",
-    "课件/EE6102/11 Intrusion Detection/pic/Pasted image 20250403200352.png",
-    "课件/EE6102/11 Intrusion Detection/pic/Pasted image 20250403195732.png",
-    "课件/EE6102/11 Intrusion Detection/pic",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403192533.png",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403191428.png",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403190936.png",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403190443.png",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403184221.png",
-    "课件/EE6102/10 Firewalls/pic/Pasted image 20250403184102.png",
-    "课件/EE6102/10 Firewalls/Firewalls.md",
-    "课件/EE6102/10 Firewalls/pic",
-    "课件/EE6102/08 Digital Signature & Certificates/Digital Signature & Certificates.md",
-    "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402125311.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402150954.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402124550.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402123322.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402122639.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402122519.png",
+    "课件/EE6102/07 Cryptography/pic/Pasted image 20250402030137.png",
+    "课件/EE6102/06 Biometric-Based Security Approaches/pic/Pasted image 20250402024855.png",
+    "课件/EE6102/06 Biometric-Based Security Approaches/pic/Pasted image 20250402024731.png",
+    "课件/EE6102/06 Biometric-Based Security Approaches/pic/Pasted image 20250402021851.png",
     "课件/EE6102/05 Cyber Security Planning and Policies/Cyber Security Planning and Policies.md",
     "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
     "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
-    "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
-    "课件/EE6102/01 Introduction to Cyber-Security/Introduction to Cyber-Security.md",
+    "单纯的，知识/Digital/Power/Switching Activity/Switching Activity.md",
+    "单纯的，知识/Lithography/Lithography Process/Spin Coat/Spin Coat.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Shifter/Shifter.md",
+    "课件/EE6604/ZQ/Semiconductor Memories/Semiconductor Memories.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
+    "单纯的，知识/Digital/Power/Dynamic Consumption/Dynamic Consumption.md",
+    "课件/EE6601/Etching/Dry Etching/Dry Etching.md",
+    "单纯的，知识/Digital/EDA Tools/Analysis/Behavioural Simulation/Behavioural Simulation.md",
+    "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+    "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
+    "单纯的，知识/Cyber Security/Digital Signatures/Digital Signatures.md",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/SSL.md",
+    "课件/EE6102/11 Intrusion Detection/pic",
+    "课件/EE6102/10 Firewalls/pic",
+    "课件/EE6102/08 Digital Signature & Certificates/Digital Signature & Certificates.md",
     "readme.md",
     "课件/EE6102/08 Digital Signature & Certificates/pic",
     "课件/EE6102/未命名",
@@ -223,13 +231,6 @@
     "单纯的，知识/Cyber Security/SSL/pic",
     "单纯的，知识/Cyber Security/TLS/pic",
     "单纯的，知识/Cyber Security/TLS",
-    "单纯的，知识/Cyber Security/Cyber Security Concept.md",
-    "单纯的，知识/Cyber Security/Hash/Hash.md",
-    "单纯的，知识/Cyber Security/Attacks/SQL Injection Attack/SQL Injection Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Password Attack/Password Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Man in the Middle Attack/Man-in-the-Middle Attack.md",
-    "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
