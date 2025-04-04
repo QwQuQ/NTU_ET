@@ -158,7 +158,7 @@ tags:
 			- Access control
 			  访问控制
 			- Patch management schedule
-			  布丁管理计划
+			  给管理计划上补丁
 	4. Creating Policies: Form policies regarding these controls or guidelines that IT teams, employees and other stakeholders need to follow. These policies will also be required for any internal or external audits in the future.
 	   **制定政策**：针对这些控制措施制定政策或指南，供IT团队、员工和其他利益相关方遵循。这些政策未来也将作为内部或外部审计的必要文件。
 	5. Monitoring and Quick Response: It's crucial to continuously monitor your compliance program as regulations emerge or existing policies are updated.

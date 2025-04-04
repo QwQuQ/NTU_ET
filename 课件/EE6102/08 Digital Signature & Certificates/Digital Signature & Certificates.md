@@ -86,13 +86,14 @@ tags:
 		  证书授权机构必须是可信的
 	- Digital certificate provides the subject’s (True Party’s) name and public key
 	  数字证书提供了主体（真实方）的姓名和公钥
-# Digital Certificates & Certificate Authoritie
+
+# Digital Certificates & Certificate Authorities
 
 - A digital certificate is an electronic document, similar to a digital signature, attached to a file certifying that this file is from the organization it claims to be and has not been modified from the original format
   **数字证书**是一种电子文档，类似于数字签名，附加在文件上，用于证明该文件来自声称的组织，并且未被修改过其原始格式
 - A Certificate Authority is an agency that manages the issuance of certificates and serves as the electronic notary public to verify their worth and integrity
   证书授权机构（CA）是一个管理证书签发的机构，充当电子公证人以验证证书的价值和完整性
-- For digital signatures to work, a trusted third party known as a Certification Authority (CA) is needed to issue digital certificates that certify the electronic identities of users and orgnizations.
+- For digital signatures to work, a trusted third party known as a Certification Authority (CA) is needed to issue digital certificates that certify the electronic identities of users and organizations.
   为了使数字签名发挥作用，需要一个名为证书授权机构（CA）的可信第三方来颁发数字证书，以认证用户和组织的电子身份
 - Some Trusted CA operating in Singapore
 	- Verisign
