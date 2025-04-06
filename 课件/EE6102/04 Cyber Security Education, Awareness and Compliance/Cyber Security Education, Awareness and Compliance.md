@@ -131,13 +131,13 @@ tags:
 	   **组建合规团队**：组织的IT团队是网络安全合规的主要力量。实施全面的合规计划时，组建一个合规团队是必要的。
 	2. Setting Up a Risk Analysis Process: There are four basic steps in the risk analysis process:
 	   **建立风险分析流程**：风险分析流程包括以下四个基本步骤：
-		- Identify: Any information systems, assets or networks that access data must be identified.
+		- **Identify**: Any information systems, assets or networks that access data must be identified.
 		  **识别**：需要识别任何访问数据的信息系统、资产或网络。
-		- Assess: Review data and assess the risk level of each type.
+		- **Assess**: Review data and assess the risk level of each type.
 		  **评估**：审查数据并评估每种类型的风险级别。
-		- Analyze: Determine risk: Likelihood of Breach × Impact or Cost
+		- **Analyze**: Determine risk: Likelihood of Breach × Impact or Cost
 		  **分析**：确定风险：数据泄露的可能性 × 影响或成本。
-		- Set Tolerance: Decide to mitigate, transfer, refute or accept any determined risks.
+		- **Set Tolerance**: Decide to mitigate, transfer, refute or accept any determined risks.
 		  **设定容忍度**：决定是缓解、转移、拒绝还是接受任何确定的风险。
 	3. Setting Controls: Set up security controls that mitigate or transfer cybersecurity risks.
 	   **设置控制措施**：设置安全控制措施以减轻或转移网络安全风险。
