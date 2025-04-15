@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6309/GWEE/并行计算/应试用.md",
+                "file": "课件/EE6309/GWEE/并行计算/并行计算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "应试用"
+              "title": "并行计算"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/GWEE/并行计算/应试用.md",
+                "file": "课件/EE6309/GWEE/并行计算/并行计算.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "应试用 的大纲"
+              "title": "并行计算 的大纲"
             }
           }
         ],
@@ -199,9 +199,9 @@
   },
   "active": "3cb0b2b7e5846e52",
   "lastOpenFiles": [
+    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
     "课件/EE6309/GWEE/并行计算/并行计算.md",
     "课件/EE6309/GWEE/并行计算/应试用.md",
-    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
     "课件/EE6309/GWEE/并行计算/pic/Pasted image 20250415010131.png",
     "课件/EE6309/GWEE/并行计算/pic/Pasted image 20250415015533.png",
     "课件/EE6309/GWEE/并行计算/pic/Pasted image 20250415014210.png",
