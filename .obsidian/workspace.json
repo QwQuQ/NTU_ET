@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9eda65a7b29df3a",
+        "id": "3e69abdf33c1dcf3",
         "type": "tabs",
         "children": [
           {
-            "id": "af13c85b5aa9bbda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/EE6601/BT/Interconnect/Interconnect.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interconnect"
-            }
-          },
-          {
-            "id": "dcf52c64c5d7613a",
+            "id": "8f3505110b5b9d39",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,51 +20,8 @@
               "icon": "lucide-file",
               "title": "Characterization"
             }
-          },
-          {
-            "id": "5ea6fa25a93807cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Lithography Process/Lithography Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lithography Process"
-            }
-          },
-          {
-            "id": "13b9ef9ee89d15e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Lithography Process/Vapour Prime/Vapour Prime.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vapour Prime"
-            }
-          },
-          {
-            "id": "92baf32f07ca3fde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单纯的，知识/Lithography/Lithography Process/Dehydration Bake/Dehydration Bake.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dehydration Bake"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CMP",
+                "query": "pn结",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,28 +168,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dcf52c64c5d7613a",
+  "active": "8f3505110b5b9d39",
   "lastOpenFiles": [
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425215030.png",
-    "课件/EE6601/WL/02 Polishing/Polishing.md",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425214806.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425214559.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425214322.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425214050.png",
+    "课件/EE6601/WL/03 Characterization/Pasted image 20250427191534.png",
+    "课件/EE6601/WL/03 Characterization/Pasted image 20250427191403.png",
+    "课件/EE6601/WL/03 Characterization/Pasted image 20250427191233.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427175404.png",
+    "课件/EE6601/WL/03 Characterization/Characterization.md",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427190623.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427190133.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427185927.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427185624.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427185113.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427185014.png",
+    "课件/EE6601/WL/03 Characterization/pic/Pasted image 20250427184832.png",
+    "课件/EE6604/ZQ/Heterojunction Photonic (Optoelectronic)  Devices/开卷考特供/Heterojunction Photonic (Optoelectronic) Devices.md",
+    "单纯的，知识/Device/Laser/Double-Heterojunction (DH) Laser/Double-Heterojunction (DH) Laser.md",
+    "单纯的，知识/Device/Diode/Diode I-V Relation/Diode I-V Relation.md",
     "课件/EE6601/WL/04 Dielectrics/Dielectrics.md",
+    "单纯的，知识/Electromigration/Electromigration.md",
+    "课件/EE6601/BT/Interconnect/Interconnect.md",
+    "单纯的，知识/Lithography/Lithography Process/Vapour Prime/Vapour Prime.md",
+    "课件/EE6601/WL/02 Polishing/Polishing.md",
     "课件/EE6601/WL/04 Dielectrics/pic",
     "课件/EE6601/WL/03 Characterization/pic",
-    "课件/EE6601/WL/03 Characterization/Characterization.md",
     "课件/EE6601/WL/04 Dielectrics",
     "课件/EE6601/WL/03 Characterization",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425210153.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425210023.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425205850.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425205746.png",
-    "课件/EE6601/WL/02 Polishing/pic/Pasted image 20250425205532.png",
     "课件/EE6601/WL/01 Cleaning/Cleaning.md",
     "课件/EE6601/BT/Lithography/Advanced Lithography/Advanced Lithography.md",
-    "课件/EE6601/BT/Interconnect/Interconnect.md",
     "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
     "课件/EE6601/WL/02 Polishing/pic",
     "课件/EE6601/WL/02 Polishing",
@@ -256,22 +205,17 @@
     "课件/EE6303/AA/EMI的测量方法2/EMI的测量方法2.md",
     "课件/EE6303/AA/RFI/天线/天线.md",
     "课件/EE6303/AA/RFI/波的传导/波的传导.md",
-    "单纯的，知识/Electromigration/Electromigration.md",
     "课件/EE6601/BT/Etching/Dry Etching/Dry Etching.md",
     "课件/EE6601/BT/Lithography/Resist/Resist.md",
     "课件/EE6601/BT/Lithography/Lithography Technology/Lithography Technology.md",
     "单纯的，知识/Lithography/Lithography Process/Lithography Process.md",
-    "单纯的，知识/Lithography/Lithography Process/Vapour Prime/Vapour Prime.md",
     "单纯的，知识/Lithography/Lithography Process/Dehydration Bake/Dehydration Bake.md",
     "单纯的，知识/Semi-Conductor Physics/PN Junction/Thermal Voltage.md",
     "单纯的，知识/Device/BJT/BJT Basis/BJT Small Signal Model/BJT Small Signal Model.md",
     "课件/EE6601/WL/01 Cleaning/pic",
     "课件/EE6601/WL/01 Cleaning",
-    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
-    "课件/EE6307/CPK/Gm-C Filter.md",
     "课件/EE6601/WL",
     "课件/EE6601/BT",
-    "课件/EE6307/JJ/环路.md",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]
