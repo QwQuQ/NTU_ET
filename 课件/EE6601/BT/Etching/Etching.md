@@ -1,9 +1,13 @@
 - **[[Wet Etching]]**
 	- Wet etching is a process whereby materials are removed by liquid etchants
+	  Wet etching是一种通过液体蚀刻剂去除材料的过程
 	- Wet etching is fast, cheap and simple, but harder to control. Hence, it is not popular in nanofabrication
+	  Wet etching快速、廉价、简单，但更难控制。因此，它在纳米制造中并不流行
 - **[[Dry Etching]]**
 	- Dry etch uses gas phase etchants in plasma
+	  Dry etching使用等离子体中的气相蚀刻剂
 	- In comparison, dry etching is slower, requires sophisticated equipment, but easier to control
+	  相比之下，Dry etching速度较慢，需要复杂的设备，但更容易控制
 	- It works for many dielectric materials and some metals (Al, Ti, Cr, Ta, W, etc.)
 
 # Isotropic Etching
@@ -29,10 +33,9 @@
 ![[Pasted image 20250221194801.png#pic_75center|Increasing Degree of Anisotropic]]
 
 - **Degree of Anisotropy**
-  各向异性程度：
-	- $$A=1-\frac{R_L}{R_V}$$其中：
-		- $R_L$是侧面（lateral）的蚀刻比例
-		- $R_V$是垂直（vertical）的蚀刻比例
+  各向异性程度：$$A=1-\frac{R_L}{R_V}$$其中：
+	- $R_L$是侧面（lateral）的蚀刻比例
+	- $R_V$是垂直（vertical）的蚀刻比例
 
 # Etch Parameters
 

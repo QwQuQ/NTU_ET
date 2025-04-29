@@ -6,8 +6,7 @@ tags:
   - lithography_basic_steps
 ---
 
-![[Pasted image 20250203171709.png#pic_center|]]
-![[Pasted image 20250210164321.png]]
+![[Pasted image 20250203171709.png#pic_75center|]]
 ### Process Summary
 
 - The wafer is held onto the vacuum chuck
@@ -22,7 +21,12 @@ tags:
 	- Thickness
 	- Uniformity
 	- Particles and Defects
-![[Pasted image 20250210163832.png#pic_center|a simple resist spin coat cycle]]
+![[Pasted image 20250210163832.png#pic_center|Pictorial representation of a simple resist spin coat cycle.]]
 - If $\omega_1>0$, the dispense is said to be dynamic
-- Resist layer的厚度与光刻胶的粘稠程度相关，并且与转速的开方成反比：
-	$$\text{Thickness}\propto \frac{1}{\sqrt{\omega}}$$
+
+![[Pasted image 20250429202038.png#pic_50center|]]
+- Resist layer thickness depends on the viscosity of resist and is inversely proportional to the square root of the spin speed, 
+  Resist layer的厚度与光刻胶的粘稠程度相关，并且与转速的平方根成反比：
+	$$\text{Thickness}\propto \frac{1}{\sqrt{\omega_2}}$$
+
+![[Pasted image 20250210164321.png#pic_75center|Resist Dispense Nozzle]]

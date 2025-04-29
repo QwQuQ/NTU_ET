@@ -108,5 +108,4 @@
 ![[Pasted image 20250222015821.png#pic_center|V-groove]]
 ![[Pasted image 20250222015848.png#pic_33center|V-groove]]
 - Since (111) has slow etch rate, it forms a self-stopping V-groove
-- (111) plane makes an angle of $54.7\defree$ with (100) naturally, the width ($W$) of the defined image approximately determines the depth ($d$) following the relation:$$d\approx\frac{W}{2}\mathrm{tan}54.7\degree\approx0.7W$$
-- 
+- (111) plane makes an angle of $54.7\degree$ with (100) naturally, the width ($W$) of the defined image approximately determines the depth ($d$) following the relation:$$d\approx\frac{W}{2}\mathrm{tan}54.7\degree\approx0.7W$$

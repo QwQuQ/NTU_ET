@@ -1,20 +1,25 @@
 # Chemistry of Resist
 
-|                                Positive Resist                                |                                Negative Resist                                 |
-| :---------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
-|                 Exposed region becomes more soluble<br>曝光区域溶解                 |                 Exposed region becomes less soluble<br>曝光区域不溶解                 |
-| Exposed areas are removed and unexposed areas remain after resist development | Exposed areas remains and unexposed areas are removed after resist development |
-|        Patterns formed on the wafer are the same as those of the mask         |         Patterns formed on the wafer are opposite as those of the mask         |
+|                                             Positive Resist                                              |                                              Negative Resist                                              |
+| :------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                              Exposed region becomes more soluble<br>曝光区域溶解                               |                              Exposed region becomes less soluble<br>曝光区域不溶解                               |
+| Exposed areas are removed and unexposed areas remain after resist development<br>曝光区域在光刻胶显影后被去除，未曝光区域则保留 | Exposed areas remains and unexposed areas are removed after resist development<br>曝光区域在光刻胶显影后保留，未曝光区域则被去除 |
+|           Patterns formed on the wafer are the same as those of the mask<br>在晶圆上形成的图案与掩膜的图案相同            |            Patterns formed on the wafer are opposite as those of the mask<br>在晶圆上形成的图案与掩膜的图案相反            |
 
 ## Components of Resist
 
 - **Solvent**:
+  溶剂
 	- Gives resist its flow characteristics
 	  给予光刻胶流动特性
 	- Keeps resist in liquid state
+	  让光刻胶保持液态
 	- Allows spin coating of the resist
+	  让光刻胶能够被旋涂
 	- Solvent content determines viscosity and hence, the **thickness**
+	  溶剂的成分决定了粘性，进而决定厚度
 - **Resin**:
+  树脂
 	- Mix of polymers used as binder; gives resist its mechanical and chemical properties
 	  用于作为粘合剂的聚合物混合物，赋予光刻胶其机械和化学特性
 	- Not opaque at $\lambda$
@@ -22,14 +27,17 @@
 	- Give resist mechanical and chemical properties (reaction to developer, etc.)
 	  赋予光刻胶机械和化学特性（对显影剂的反应等）
 - **Sensitisers**:
+  敏化剂
 	- Photosensitive component of the resist material
 	  光刻胶的光敏组分
 	- Photo active compound/group (PAC/PAG) at $\lambda$
 	  $\lambda$下的光敏组分或光敏基团
 - **Additives**:
+  添加剂
 	- Chemicals that control specific aspects of resist material
 	  控制光刻胶材料特定方面
 	- Capability for further process: Etch resistivity/implant blocking capability
+	  进一步加工的能力：蚀刻抗性/注入隔离能力
 
 |                                                      Positive Resist                                                       |               Negative Resist               |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: |
@@ -38,24 +46,25 @@
 | **Solvent** (Propylene Glycol Methyl Ether Acetate (PGMEA), N-Methyl Pyrrolidine <br>(NMP), N-butyl acetate, xylene, etc.) |       **Solvent** (Aromatic solvent)        |
 |                                     **Developer**: Hydroxides (TMAH, KOH, NaOH, etc.)                                      |      **Developer** (Organic solvents)       |
 - Positive and negative resist have different types of developer due to different photochemical reactions.
+  正性和负性光刻胶需要使用不同的显影剂
 
 ## Chemistry of Positive and Negative Resist
 
 ### Positive Resist
-![[Pasted image 20250218175333.png#pic_center|]]
+![[Pasted image 20250218175333.png#pic_50center|]]
 ![[Pasted image 20250218175020.png#pic_75center|DQN]]
 
 - Diazoquinone（重氮萘醌）受光照射后会产生一个Carboxylic Acid Group（羧基），这使得它能够溶于Base Solution（碱性溶液）
 
 #### Photochemical Reaction in Positive Resist
 
-![[Pasted image 20250219033440.png#pic_25inline|老师给的Diazoquinone化学式]]![[Pasted image 20250219033629.png#pic_25inline|Diazoquinone在wiki上的化学式]]
+![[Pasted image 20250219033440.png#pic_25center|老师给的Diazoquinone化学式]]![[Pasted image 20250219033629.png#pic_25center|Diazoquinone在wiki上的化学式]]
 - Photo Active Compound(PAC)受到光照射后，不稳定的化合物通过Wolff重排反应形成烯酮。**老师的化学式与wiki给的并不一样，我不知道谁对谁错，将就着看吧**
 
-![[Pasted image 20250219024852.png#pic_25inline|老师给的图]]![[Pasted image 20250219032040.png#pic_25inline|我自己推的图，可能有错]]
+![[Pasted image 20250219024852.png#pic_25center|老师给的图]]![[Pasted image 20250219032040.png#pic_25center|我自己推的图，可能有错]]
 - 碳原子从苯环上脱离使化合物稳定，氧原子与碳原子形成共价键，此时形成Ketene（烯酮）。**根据wiki的前后关系我推出来了一张图，这张图上有烯酮标志性的两个碳碳双键，并且由于Wolff重排形成了5元环**
 
-![[Pasted image 20250219022042.png#pic_25inline|老师给的图]]![[Pasted image 20250219033718.png#pic_25inline|wiki给的图]]
+![[Pasted image 20250219022042.png#pic_25center|老师给的图]]![[Pasted image 20250219033718.png#pic_25center|wiki给的图]]
 - 烯酮的化学性质很活泼。与水反应形成羧基（其中一个碳碳双键断开成为碳碳单键，并连接上氢氧基和氢原子），能够溶于碱性显影液（氢氧化钾）。**老师的图和wiki的图又开始不一样了，感觉老师的多了一个碳原子，wiki是比较正常的五元环**
 
 ### Negative Resist
@@ -102,7 +111,7 @@
 # Metrics of Resist
 
 - Adhesion 粘合力
-- Photo activity 
+- Photo activity
 - **Resolution**
 	- How fine a line the resist can reproduce from an aerial image
 	  光刻胶能够从空间像（aerial image）中形成多细的线条
@@ -131,7 +140,7 @@
 
 ## Contrast of a Resist
 
-![[Pasted image 20250219164007.png#pic_33inline|Low Resist Contrast]]![[Pasted image 20250219164128.png#pic_33inline|High Resist Contrast]]
+![[Pasted image 20250219164007.png#pic_25center|Low Resist Contrast]]![[Pasted image 20250219164128.png#pic_25center|High Resist Contrast]]
 - **Low Resist Contrast**
 	- Sloped Walls 
 	- Swelling 膨胀
@@ -195,12 +204,18 @@
 ### Advantage
 
 - Does not suffer from swelling
+  不会膨胀
 - Better resolution
+  分辨率更好
 - Thick resist available (for etching)
+  能够做得更厚
 
 ### Disadvantage
 
-- Requires much larger energy and longer exposure time: Lower throughput
+- Lower throughput
+  产量更低
+- Requires much larger energy and longer exposure time
+  需要更大的能量和更长的曝光时间
 
 # Critical Resist Modulation Transfer Function (CMTF)
 
@@ -271,13 +286,14 @@ $$\text{CMTF}=\frac{D_{100}-D_{0}}{D_{100}+D_{0}}=\frac{10^{1/\gamma}-1}{10^{1/\
 	  为了实现直壁图像，光刻胶的吸收率应低于20%. 需要针对用于DUV（深紫外线）248纳米和193纳米波长的新光刻胶材料。
 	  > 在光刻过程中，直壁图像是指光刻图形的侧壁垂直度很高，这对于高精度的微细图形制备非常重要。光刻胶的吸收率决定了其对光的吸收程度。如果吸收率过高，会导致曝光过程中产生更多的热效应和散射效应，从而影响图形的分辨率和边缘直线度。因此，为了获得高质量的直壁图像，光刻胶的吸收率需要控制在20%以下，特别是在使用248纳米和193纳米深紫外线光源的新光刻胶材料中。这样可以减少光刻胶对光的过多吸收，提高曝光过程中图形的保真度和直线度。
 
-## PEB
+### PEB
 
 ![[Pasted image 20250221035300.png#pic_25inline|Exposure to UV light]]![[Pasted image 20250221035325.png#pic_25inline|Striations in resist]]![[Pasted image 20250221035338.png#pic_25inline|PEB causes PAC diffusion]]![[Pasted image 20250221035357.png#pic_25inline|Result of PEB]]
 ![[Pasted image 20250221035452.png#pic_75center|SEM photographs of resist image of 0.35 µm pattern in 0.98 µm thick i-line resist developed with (right) and without PEB (left)]]
 - [[Post-Exposure Bake|PEB]] also helps by smoothing out the zigzag due to resist thermal reflow
+  PEB也能平滑侧壁，消除因抗热回流而产生的锯齿
 
-## ARC
+### ARC
 
 - Anti-reflective coating (ARC) to reduce reflection wave intensity
   抗反射涂层（ARC）用于减少反射波的强度

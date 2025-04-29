@@ -232,7 +232,7 @@
 
 ### Effect of Cu diffusion Barrier
 
-![[Pasted image 20250223014956.png#pic_25center|]]
+![[Pasted image 20250223014956.png#pic_50center|]]
 - Effect of Cu diffusion Barrier
 	- Barriers have higher resistivity
 	- Barriers can’t be scaled below a minimum thickness

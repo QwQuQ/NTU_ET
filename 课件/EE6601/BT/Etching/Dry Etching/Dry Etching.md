@@ -1,8 +1,11 @@
 - Dry etch creates minimal resist lifting
-  由于干式蚀刻很精确，所以光刻胶的剥离也少
+  由于Dry etch很精确，所以光刻胶的剥离也少
 - Dry etch processes use less chemicals than wet etch processes
+  Dry etch比Wet etch是用更少的化学品
 - Plasma-induced damage is more common in dry etch processes
+  Dry etch更容易遭受等离子体损伤
 - The complexity and cost of dry etch equipment is higher
+  Dry etch的复杂度和费用更高
 
 # Plasma Generation and Processes
 
@@ -70,7 +73,7 @@
 ## $\mathbf{CF_4}$ Gas
 
 - Dissociation:$$\mathrm{CF_4}+e^-\rightarrow \mathrm{CF_3}+e^-$$
-- Ionisation:$$\mathrm{CF_3}+e^-\rightarrow \mathrm{CF_3}^+2e^-$$
+- Ionisation:$$\mathrm{CF_3}+e^-\rightarrow \mathrm{CF_3}^++2e^-$$
 - Dissociative Ionisation:$$\mathrm{CF_4}+e^-\rightarrow \mathrm{CF_3}^++\mathrm{F}+2e^-$$
 - Excitation: $$\mathrm{CF_4}+e^-\rightarrow \mathrm{CF_4}^++e^-$$
 - Recombination: $$\mathrm{CF_3}^++\mathrm{F}+e^-\rightarrow \mathrm{CF_4}$$ $$\mathrm{F}+\mathrm{F}\rightarrow \mathrm{F_2}$$
@@ -153,15 +156,17 @@
 1. Electrons in chamber gained energy by applied RF power.
    腔室内的电子通过施加射频功率获得能量
 2. When the bottom electrode is positive, many highly mobile electrons are accelerated towards the electrode, causing a significant accumulation of negative charge.
-   当底部电极为正极时，许多高度可移动的电子被加速向电极，导致负电荷的显著积累。
+   当底部电极为正极时，许多迁移率高的电子被加速向电极，导致负电荷的显著积累。
 3. When the bottom electrode is negative and heavy, immobile ions accelerate towards it. However, only relatively few of these ions strike the electrode as compared to the number of electrons in the previous cycle. Hence, in a steady state, this electrode is negative biased, and therefore is called a cathode.
-   当底部电极为负且较重时，静止的离子会向其加速。然而，与前一个循环中的电子数量相比，这些离子中只有相对较少的离子撞击电极。因此，在稳定状态下，该电极被负偏压，因此被称为阴极。
+   当底部电极为负时，较重的、迁移率低的离子会向其加速。然而，与前一个循环中的电子数量相比，这些离子中只有相对较少的离子撞击电极。因此，在稳定状态下，该电极被负偏压，因此被称为阴极。
 	1. The impinging of electrons on the powered electrode allow the buildup of a negative DC field in addition to the AC field. This negative potential is the DC self-bias.
 	   电子撞击到供电电极上，除了交流电场外，还可以建立负直流电场。这种负电势是直流自偏压。
 4. A high electric field region is then formed around the cathode. This region is known as the plasma sheath, or the dark space, where ion acceleration takes place before bombarding the electrode
    然后在阴极周围形成高电场区域。这个区域被称为等离子体鞘层或暗空间，在轰击电极之前，离子在这里加速
 5. Ions are accelerated in dark space before bombarding the substrate
    在轰击基板之前，离子在黑暗空间中被加速
+
+> 当电极为负偏压时，电子被排斥，在电极附近形成电子几乎不存在的状态，此区域成为离子鞘层（Ion Sheath）。在此区域内由于电子的密度低，碰撞激发的几率低，几乎看不见光，因此离子鞘层也被称为暗区（Dark Space）。
 
 ### Plasma Potential
 
@@ -298,9 +303,12 @@
 
 ## Plasma Damage
 
-- High ion fluxes of $10^{15} \text{ion}/\mathrm{cm^2}$ are delivered at energies of 300 to 700 $eV$ in plasma etching
+- High ion fluxes of $10^{15} \text{ion}/\mathrm{cm^2}$ are delivered at energies of 300 to 700$\mathrm{eV}$ in plasma etching
+  在等离子刻蚀过程中，高离子通量达到 $10^{15} \text{ion}/\mathrm{cm^2}$，并以 300 至 700$\mathrm{eV}$ 的能量传输
 - The high ion bombardment energy causes damage to the material, and considerable degradation to the electrical and optical properties of devices
+  高离子轰击能量会对材料造成损害，并显著降低器件的电学和光学性能。
 - The degree of damage is highly dependent on the accelerating potential and the mass of the ion species
+  损伤程度高度依赖于加速电位和选用离子类型的质量
 
 ![[Pasted image 20250222215532.png#pic_75center|]]
 
