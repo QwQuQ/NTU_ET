@@ -12,6 +12,8 @@
 git clone https://github.com/QwQuQ/NTU_ET.git --depth 1
 ```
 
+友情链接：[贺佬的笔记](https://homoe-hs.github.io/etnotes/)
+
 # 包含的课程？
 
 6306 数字集成电路

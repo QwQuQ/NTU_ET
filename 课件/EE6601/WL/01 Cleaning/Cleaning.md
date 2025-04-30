@@ -308,7 +308,7 @@ Particle density (number/ml) for ULSI grade chemicals
 ## Solvent Based Cleaning (Post-Etch and BEOL)
 
 - Mainly used for Post-Etch Cleaning to remove phtoresist and etch residues. For BEOL cleaning in the presence of metal layers
-  主要用于蚀刻后清洗，以去除光刻胶和蚀刻残留物。BEOL：金属层布线后清晰
+  主要用于蚀刻后清洗，以去除光刻胶和蚀刻残留物。BEOL：金属层布线后清洗
 	- Resist strippers - proprietary mixtures of organic solvents and active ingredients
 	  光刻胶去除剂——专有混合物，包含有机溶剂和活性成分
 		- The solvents are typically NMP (N-methyl pyrrolidone)
