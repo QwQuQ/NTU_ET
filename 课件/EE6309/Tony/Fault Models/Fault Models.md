@@ -349,6 +349,7 @@
 	- $X$ detect $\alpha$ then $$f(X)\oplus f_{\alpha}(X)=1$$
 - A test set for a class of faults $A$ is a set of tests $T$ such that
   对于一类故障 $A$，其测试集 $T$ 是一组测试，使得$$\forall\alpha\in A,\ \exists t \in T$$and $T$ detects $\alpha$
+  并且$T$能够检测$\alpha$
 	- The test set for a fault $\alpha$ is $T_{\alpha}=f\oplus f_\alpha$ (Boolean Difference)
 
 # Testing & Diagnosis
@@ -366,13 +367,13 @@
 
 ![[Pasted image 20250501005144.png#pic_75center|]]
 - $C_{a/0}$ and $C_{c/0}$ are detected by the test pattern $(1,0)$
-  通过测试模式 $(1,0)$ 可以检测到故障 $C_{a/0}$ 和 $C_{c/0}$
+  通过测试模式 $(1,0)$ 可以检测到故障 ${a/0}$ 和 ${c/0}$
 - If we apply two test patterns: $(1,0)$ & $(0, 1)$
   如果应用两个测试向量 $(1,0)$ 和 $(0,1)$
-	- Two corresponding outputs are faulty→$C_{c/0}$
-	  两个对应的输出均出现故障 → $C_{c/0}$
-	- Only the output with respect to the input $(1,0)$ is faulty→$C_{a/0}$
-	  仅与输入 $(1,0)$ 相关的输出出现故障 → $C_{a/0}$
+	- Two corresponding outputs are faulty→${c/0}$
+	  两个对应的输出均出现故障 → ${c/0}$
+	- Only the output with respect to the input $(1,0)$ is faulty→${a/0}$
+	  仅与输入 $(1,0)$ 相关的输出出现故障 → ${a/0}$
 
 ## 练习
 #TODO
@@ -449,8 +450,22 @@
 
 - Equivalence fault collapsing + dominance fault collapsing
 	- Only $n+1$ faults on any n-input gate need be considered
+	  对于 n 输入门，仅需考虑 n+1 个故障
 - Definition
 	- Test compaction refers to the process of reducing the number of test patterns in a test set without reducing its fault coverage
+	  测试压缩指在不减少故障覆盖率的情况下减少测试集中的测试模式数量。
 	- Equivalence fault collapsing and dominance fault collapsing can be used to aid test compaction
+	  等价故障折叠和支配故障折叠可用于帮助测试压缩。
 - Theorem
 	- In a fanout-free combinational circuit, any test set which detects all stuck faults on primary inputs will detect all stuck at faults
+	  在无扇出组合电路中，任何能检测所有Primary Inputs（PI）上的SA故障的测试集，也能检测所有SA故障
+
+---
+
+![[Pasted image 20250501032708.png#pic_75center|]]
+- The set of all primary inputs and all fanout branches are called checkpoints of the circuit
+  所有主输入和所有扇出分支的集合称为电路的检查点
+- Theorem
+	- In a combinational circuit, any test set which detects all single (multiple) stuck faults on checkpoints will detect all single (multiple) stuck faults.
+	  在组合电路中，任何能够检测所有检查点上的单个（或多个）SA故障的测试集，也能够检测所有单个（或多个）SA故障。
+

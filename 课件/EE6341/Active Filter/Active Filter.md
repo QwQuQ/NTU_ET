@@ -3,7 +3,6 @@ aliases:
   - 有源滤波器
 tags:
   - analog
-  - 这个ppt做得真棒大赏
 ---
 # 传递函数（一点基础）
 

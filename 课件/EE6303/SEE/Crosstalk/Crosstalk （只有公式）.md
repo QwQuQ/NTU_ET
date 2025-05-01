@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - 这个ppt做得真棒大赏
+  - 这个ppt做得真棒
   - emi
 ---
 - 集总电路条件：$$l\leq\lambda/10$$ $$f_{\text{max}}=\frac{c}{\lambda\sqrt{\epsilon_r \mu_r}}$$

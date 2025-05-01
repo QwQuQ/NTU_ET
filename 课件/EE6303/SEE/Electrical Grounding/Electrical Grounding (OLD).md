@@ -3,7 +3,7 @@ aliases:
   - 接地
 tags:
   - emi
-  - 这个ppt做得真棒大赏
+  - 这个ppt做得真棒
   - 弃坑
 ---
 # Exercise 1

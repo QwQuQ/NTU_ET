@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - 这个ppt做得真棒大赏
+  - 这个ppt做得真棒
 ---
 - 吸收：$$A=0.686\left(\frac{t}{\delta}\right)\mathrm{dB}$$
 - 反射：$$R=20lg\Big|\frac{Z_W}{4Z_S}\Big|$$

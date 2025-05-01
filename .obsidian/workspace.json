@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ef3441373258b93e",
+        "id": "f9bc04701a4cc5ba",
         "type": "tabs",
         "children": [
           {
-            "id": "b6c3c17a2743e7ec",
+            "id": "2f0e75910d005274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6309/GWEE/并行计算/并行计算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "readme"
+              "title": "并行计算"
+            }
+          },
+          {
+            "id": "46931d08c8f5c61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课件/EE6309/Tony/BIST/BIST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIST"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Emission",
+                "query": "ATPG",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6309/Tony/BIST/BIST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "readme 的反向链接列表"
+              "title": "BIST 的反向链接列表"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6309/Tony/BIST/BIST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "readme 的出链列表"
+              "title": "BIST 的出链列表"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md",
+                "file": "课件/EE6309/Tony/BIST/BIST.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "readme 的大纲"
+              "title": "BIST 的大纲"
             }
           }
         ],
@@ -168,53 +183,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b6c3c17a2743e7ec",
+  "active": "46931d08c8f5c61d",
   "lastOpenFiles": [
-    "课件/EE6309/Tony/Fault/Fault.md",
-    "课件/EE6309/Tony/Fault/Pasted image 20250501031236.png",
-    "课件/EE6309/Tony/Fault/Pasted image 20250501025131.png",
-    "课件/EE6309/Tony/Fault/Pasted image 20250501025050.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502032620.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502032619.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031949.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031943.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031837.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031757.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031640.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031241.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/Pasted image 20250502031112.png",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031012.png",
+    "课件/EE6309/GWEE/同步/同步.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Adder/Adder.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Select Adder/Carry-Select Adder.md",
+    "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Bypass Adder/Carry-Bypass Adder.md",
+    "课件/EE6303/SEE/Shielding/Shielding（只有公式）.md",
+    "课件/EE6303/SEE/Nonideal Components/Non-ideal Components (只有公式).md",
+    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (OLD).md",
+    "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (New).md",
+    "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
+    "课件/EE6341/Active Filter/Active Filter.md",
+    "课件/EE6309/GWEE/并行计算/并行计算.md",
+    "课件/EE6309/GWEE/并行计算/应试用.md",
+    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+    "课件/EE6309/Tony/Fault Models/Fault Models.md",
+    "课件/EE6309/Tony/Fault Simulation & Test Generation/Fault Simulation & Test Generation.md",
+    "课件/EE6309/Tony/Noise Consideration/Noise Consideration.md",
+    "课件/EE6309/Tony/BIST/BIST.md",
+    "课件/EE6309/Tony/BIST/pic",
+    "课件/EE6309/Tony/BIST",
+    "readme.md",
+    "课件/EE6309/Tony/Fault Simulation & Test Generation/pic",
+    "课件/EE6309/Tony/Fault Simulation & Test Generation",
     "课件/EE6306/Goh/牢Goh的超爽大礼包.md",
     "课件/EE6601/BT/Lithography/Lithography Technology/Lithography Technology.md",
     "课件/EE6306/CC/CC Lecture Slides.md",
     "单纯的，知识/Digital/EDA Tools/Testing/Testing.md",
     "单纯的，知识/Digital/EDA Tools/Implementation/Implementation.md",
     "单纯的，知识/Digital/EDA Tools/Design Synthesis/Architecture Synthesis/Architecture Synthesis.md",
-    "单纯的，知识/Digital/EDA Tools/Design Synthesis/Design Synthesis.md",
-    "单纯的，知识/Digital/EDA Tools/Design Entry Tool/Design Entry Tool.md",
-    "课件/EE6306/CC/pic/Pasted image 20241029055457.png",
-    "课件/EE6306/CC/pic/Pasted image 20241029061001.png",
-    "课件/EE6309/Tony/Fault/pic/Pasted image 20250501022748.png",
-    "课件/EE6309/Tony/Fault/pic/Pasted image 20250501023716.png",
-    "课件/EE6309/Tony/Fault/pic/Pasted image 20250501023620.png",
-    "课件/EE6309/Tony/Fault/pic/Pasted image 20250501023520.png",
-    "课件/EE6309/Tony/DFT/DFT.md",
-    "课件/EE6309/Tony/Fault/Test_Pattern_Gen/Test_Pattern_Gen.c.md",
-    "课件/EE6309/Tony/Fault/Test_Pattern_Gen/Test_Pattern_Gen.c",
-    "课件/EE6309/Tony/Fault/Test_Pattern_Gen",
-    "课件/EE6309/Tony/Fault/pic/Pasted image 20250501003109.png",
-    "课件/EE6309/GWEE/同步/同步.md",
+    "课件/EE6309/Tony/Fault Models/Test_Pattern_Gen/Test_Pattern_Gen.c",
+    "课件/EE6309/Tony/Fault Models/Test_Pattern_Gen",
     "课件/EE6309/GWEE/同步/pic",
-    "课件/EE6309/GWEE/并行计算/并行计算.md",
     "课件/EE6309/GWEE/同步",
-    "课件/EE6309/GWEE/并行计算/应试用.md",
-    "课件/EE6309/Tony/DFT/pic",
-    "课件/EE6309/Tony/DFT",
-    "单纯的，知识/Lithography/Printing/Projection Printing/Projection Printing.md",
-    "课件/EE6309/Tony/Fault/pic",
-    "课件/EE6309/Tony/Fault",
-    "单纯的，知识/Lithography/Printing/Proximity Printing/Proximity Printing.md",
-    "单纯的，知识/Lithography/Printing/Contact Printing/Contact Printing.md",
-    "课件/EE6601/BT/Lithography/Advanced Lithography/Advanced Lithography.md",
-    "课件/EE6601/BT/Etching/Dry Etching/Dry Etching.md",
-    "课件/EE6601/WL/01 Cleaning/Cleaning.md",
-    "课件/EE6601/BT/Lithography/Resist/Resist.md",
-    "课件/EE6601/WL/03 Characterization/Characterization.md",
-    "课件/EE6604/ZQ/Heterojunction Electronic Devices/开卷考特供/Heterojunction Electronic Devices.md",
-    "单纯的，知识/Device/HBT/HBT.md",
-    "课件/EE6601/WL/02 Polishing/Polishing.md",
-    "课件/EE6601/PYP/2024S1",
-    "课件/EE6601/PYP",
+    "课件/EE6309/Tony/Design for Testability (DFT)/pic",
+    "课件/EE6309/Tony/Design for Testability (DFT)",
     "单纯的，知识/Digital Circuits/Adders/Untitled.canvas",
     "Untitled.canvas"
   ]

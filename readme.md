@@ -34,4 +34,4 @@ git clone https://github.com/QwQuQ/NTU_ET.git --depth 1
 
 6128 RF
 
-乱七八糟的小东西：信号与系统，电磁场与电磁波什么的
+其他乱七八糟的小东西
