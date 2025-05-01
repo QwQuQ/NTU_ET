@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6309/Tony/BIST/BIST.md",
+                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIST"
+              "title": "大而快，层次化存储"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6309/Tony/BIST/BIST.md",
+                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "BIST 的反向链接列表"
+              "title": "大而快，层次化存储 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6309/Tony/BIST/BIST.md",
+                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "BIST 的出链列表"
+              "title": "大而快，层次化存储 的出链列表"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/Tony/BIST/BIST.md",
+                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BIST 的大纲"
+              "title": "大而快，层次化存储 的大纲"
             }
           }
         ],
@@ -185,17 +185,25 @@
   },
   "active": "46931d08c8f5c61d",
   "lastOpenFiles": [
+    "课件/EE6309/Tony/Data Coding/Data Coding.md",
+    "课件/EE6309/GWEE/并行计算/并行计算.md",
+    "课件/EE6309/GWEE/并行计算/应试用.md",
+    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+    "课件/EE6309/Tony/BIST/BIST.md",
+    "课件/EE6309/Tony/Fault Simulation & Test Generation/Fault Simulation & Test Generation.md",
+    "课件/EE6309/Tony/Fault Models/Fault Models.md",
+    "课件/EE6309/Tony/Noise Consideration/Noise Consideration.md",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502042003.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502041749.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502041204.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502041007.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502033705.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502035241.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502034538.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502033823.png",
+    "课件/EE6309/Tony/BIST/pic/Pasted image 20250502033738.png",
     "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
     "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502032620.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502032619.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031949.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031943.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031837.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031757.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031640.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031241.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/Pasted image 20250502031112.png",
-    "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502031012.png",
     "课件/EE6309/GWEE/同步/同步.md",
     "单纯的，知识/Digital/Arithmetic Modules/Adder/Adder.md",
     "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Select Adder/Carry-Select Adder.md",
@@ -206,13 +214,6 @@
     "课件/EE6303/SEE/Electrical Grounding/Electrical Grounding (New).md",
     "课件/EE6303/SEE/Crosstalk/Crosstalk （只有公式）.md",
     "课件/EE6341/Active Filter/Active Filter.md",
-    "课件/EE6309/GWEE/并行计算/并行计算.md",
-    "课件/EE6309/GWEE/并行计算/应试用.md",
-    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
-    "课件/EE6309/Tony/Fault Models/Fault Models.md",
-    "课件/EE6309/Tony/Fault Simulation & Test Generation/Fault Simulation & Test Generation.md",
-    "课件/EE6309/Tony/Noise Consideration/Noise Consideration.md",
-    "课件/EE6309/Tony/BIST/BIST.md",
     "课件/EE6309/Tony/BIST/pic",
     "课件/EE6309/Tony/BIST",
     "readme.md",

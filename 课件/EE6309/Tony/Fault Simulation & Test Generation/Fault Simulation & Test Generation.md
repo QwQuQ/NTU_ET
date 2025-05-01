@@ -277,6 +277,7 @@
 
 ## Deductive Fault Simulation
 
+*不改变的那个取补集*
 ![[Pasted image 20250501133316.png#pic_75center|]]
 ![[Pasted image 20250501133324.png#pic_75center|]]
 - Simulating only the behavior of the fault-free logic circuits

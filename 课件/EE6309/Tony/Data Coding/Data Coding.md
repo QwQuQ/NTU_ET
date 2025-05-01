@@ -95,12 +95,14 @@ The smallest number of bit(s) in which any two words differ in a code
 ---
 
 - For $k\text{-bit}$ error detection, $\text{minimum distance}\geq k+1$. Without error correction capability
+  对于$k\text{-bit}$错误检测，$\text{minimum distance}\geq k+1$，无错误校正能力
 - For $k\text{-bit}$ error correction, $\text{minimum distance} \geq 2k+1$
+  对于$k\text{-bit}$错误校正，$\text{minimum distance} \geq 2k+1$
 
 ---
 
 - 对于这个课件（例如Hamming Code）：Correction能力是$\frac{d-1}{2}$位，Detection能力是$\frac{d}{2}$位
-- 如果放弃纠错能力，使用别的编码能够将Detection能力提升到$d-1$位
+- 如果放弃纠错能力，使用别的编码（例如CRC）能够将Detection能力提升到$d-1$位
 
 # Hamming Code
 
