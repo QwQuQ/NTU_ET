@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+                "file": "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大而快，层次化存储"
+              "title": "Design for Testability (DFT)"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+                "file": "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "大而快，层次化存储 的反向链接列表"
+              "title": "Design for Testability (DFT) 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+                "file": "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "大而快，层次化存储 的出链列表"
+              "title": "Design for Testability (DFT) 的出链列表"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+                "file": "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大而快，层次化存储 的大纲"
+              "title": "Design for Testability (DFT) 的大纲"
             }
           }
         ],
@@ -186,10 +186,11 @@
   "active": "46931d08c8f5c61d",
   "lastOpenFiles": [
     "课件/EE6309/Tony/Data Coding/Data Coding.md",
+    "课件/EE6309/Tony/BIST/BIST.md",
+    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
+    "课件/EE6309/GWEE/同步/同步.md",
     "课件/EE6309/GWEE/并行计算/并行计算.md",
     "课件/EE6309/GWEE/并行计算/应试用.md",
-    "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
-    "课件/EE6309/Tony/BIST/BIST.md",
     "课件/EE6309/Tony/Fault Simulation & Test Generation/Fault Simulation & Test Generation.md",
     "课件/EE6309/Tony/Fault Models/Fault Models.md",
     "课件/EE6309/Tony/Noise Consideration/Noise Consideration.md",
@@ -204,7 +205,6 @@
     "课件/EE6309/Tony/BIST/pic/Pasted image 20250502033738.png",
     "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
     "课件/EE6309/Tony/Design for Testability (DFT)/pic/Pasted image 20250502032620.png",
-    "课件/EE6309/GWEE/同步/同步.md",
     "单纯的，知识/Digital/Arithmetic Modules/Adder/Adder.md",
     "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Select Adder/Carry-Select Adder.md",
     "单纯的，知识/Digital/Arithmetic Modules/Adder/Carry-Bypass Adder/Carry-Bypass Adder.md",

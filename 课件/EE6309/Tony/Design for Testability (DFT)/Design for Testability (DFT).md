@@ -385,7 +385,7 @@
 - A realization $C$ of a function $f$ is said to be syndrome-testable if no single stuck-at fault causes the circuit to have the same syndrome as the faultfree circuit
   如果没有单一的“固定故障”（stuck-at fault）会导致电路的特征值与无故障电路的特征值相同，这个实现 $C$ 被称为可测试特征值的
 - Syndrome is a property of function, not of implementation
-  综合征是函数的属性，而不是具体实现的属性
+  特征值是函数的属性，而不是具体实现的属性
 
 - **Unate** Definition
 	- A logic function is unate in a variable $x_i$ if it can be represented as an SOP or POS expression in which the variable $x_i$ appears either only in an uncomplemented form or only in a complemented form
