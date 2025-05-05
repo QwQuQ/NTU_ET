@@ -381,7 +381,7 @@
 1. List the faults of this circuit without the equivalence and dominance collapsing techniques
    $\# \mathrm{PI}=5$, $\# \mathrm{Gate}=5$, $\# \mathrm{Fanout Branches}=2$, 所以总共的Fault Site有12个，总共24种故障（见图）
 2. Derive a test set for detecting S/0 at F.
-   正常的输出布尔表达式为：$$Z=A\cdot B+C+D+\overline{C+D}\cdot E$$存在$F_{S/0}$时的输出表达式为：$$Z_{F/0}=A\cdot B+E$$布尔差分生成测试向量：$$T_{F/0}=Z\oplus Z_{F/0}=$$
+   正常的输出布尔表达式为：$$Z=A\cdot B+C+D+\overline{C+D}\cdot E$$存在$F_{S/0}$时的输出表达式为：$$Z_{F/0}=A\cdot B+E$$用后面的知识生成测试向量：
 
 # Fault Collapsing
 
@@ -468,4 +468,3 @@
 - Theorem
 	- In a combinational circuit, any test set which detects all single (multiple) stuck faults on checkpoints will detect all single (multiple) stuck faults.
 	  在组合电路中，任何能够检测所有检查点上的单个（或多个）SA故障的测试集，也能够检测所有单个（或多个）SA故障。
-
