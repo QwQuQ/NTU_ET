@@ -82,6 +82,15 @@ tags:
 	- Given $g$, $x$, $p$ it is Easy to calculate $y$
 	- Given $y$, $g$, $p$ it is Very Difficult to calculate $x$
 
+- 这是一种公钥算法，仅用于密钥交换，不用于加密或解密消息。
+- 该协议是当今最常用的加密协议之一。
+- 2002 年，发明者马丁·赫尔曼建议将其称为“Diffie–Hellman–Merkle”，因为它基于默克尔提出的概念。
+- **用途**
+    - 安全套接字层（SSL）协议的电子密钥交换方法  
+    - 允许两个未曾联系过的用户共享一个密钥 
+- **安全性基于“离散对数问题”** $$y = f(x) = g^x (\mathrm{mod}\ p)$$
+    - 已知 $g$、$x$、$p$ 时，计算 $y$ 很容易
+    - 已知 $y$、$g$、$p$ 时，计算 $x$ 非常困难
 ---
 
 - STEP 1 : GLOBAL PUBLIC ELEMENTS
@@ -102,6 +111,24 @@ tags:
 - STEP 6: KEY GENERATION BY USER B
 	- $K_B= Y_A^{X_B}\ \mathrm{mod}\ q$
 - 能够发现$K_A=K_B$
+
+- **步骤 1：全局公有元素**
+    - 选择一个质数：$q$
+    - 计算 $q$ 的原根：$a$，满足 $a < q$
+- **步骤 2：用户 A 的密钥生成**
+    - 选择一个随机数作为私钥 $X_A$，满足 $X_A < q$
+    - 计算公钥 $Y_A$，其中 $Y_A = a^{X_A} \mod q$
+- **步骤 3：用户 B 的密钥生成**
+    - 选择一个随机数作为私钥 $X_B$，满足 $X_B < q$
+    - 计算公钥 $Y_B$，其中 $Y_B = a^{X_B} \mod q$
+- **步骤 4：A 与 B 交换公钥**
+    - 用户 A 将其公钥发送给用户 B
+    - 用户 B 将其公钥发送给用户 A
+- **步骤 5：用户 A 计算密钥**
+    - $K_A = Y_B^{X_A} \mod q$
+- **步骤 6：用户 B 计算密钥**
+    - $K_B = Y_A^{X_B} \mod q$
+- 由此可发现 $K_A = K_B$
 
 # RSA Algorithm
 

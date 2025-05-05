@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/15 Blockchain Technology and Business Applications/Blockchain Technology and Business Applications.md",
+                "file": "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blockchain Technology and Business Applications"
+              "title": "Secret Key Cryptography"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RSA",
-                "matchingCase": true,
+                "query": "Diffie",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6102/15 Blockchain Technology and Business Applications/Blockchain Technology and Business Applications.md",
+                "file": "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Blockchain Technology and Business Applications 的大纲"
+              "title": "Secret Key Cryptography 的大纲"
             }
           }
         ],
@@ -170,12 +170,22 @@
   },
   "active": "298d42330b2019e6",
   "lastOpenFiles": [
-    "课件/EE6102/14 Cryptochrrencies/Cryptochrrencies.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Pasted image 20250505132256.png",
+    "课件/EE6102/07 Cryptography/Cryptography.md",
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
+    "课件/EE6102/09 Web Security/Web Security.md",
+    "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
+    "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
+    "课件/EE6102/01 Introduction to Cyber-Security/Introduction to Cyber-Security.md",
+    "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
+    "课件/EE6102/10 Firewalls/Firewalls.md",
+    "课件/EE6102/12 Blockchain/Blockchain.md",
     "课件/EE6102/15 Blockchain Technology and Business Applications/Blockchain Technology and Business Applications.md",
+    "课件/EE6102/14 Cryptochrrencies/Cryptochrrencies.md",
     "课件/EE6102/14 Cryptochrrencies/pic/Pasted image 20250505070342.png",
     "课件/EE6102/15 Blockchain Technology and Business Applications",
     "课件/EE6102/13 E-Payment/E-Payment.md",
-    "课件/EE6102/12 Blockchain/Blockchain.md",
     "课件/EE6102/14 Cryptochrrencies/pic",
     "课件/EE6102/14 Cryptochrrencies",
     "课件/EE6102/13 E-Payment/pic",
@@ -183,8 +193,6 @@
     "课件/EE6102/13 E-Payment",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504190455.png",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504175804.png",
-    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
-    "课件/EE6102/10 Firewalls/Firewalls.md",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504181439.png",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504180250.png",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504175933.png",
@@ -192,13 +200,9 @@
     "课件/EE6102/05 Cyber Security Planning and Policies/Cyber Security Planning and Policies.md",
     "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
     "单纯的，知识/Cyber Security/Attacks/Social Engineering Attack/Social Engineering Attack.md",
-    "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
-    "课件/EE6102/09 Web Security/Web Security.md",
     "课件/EE6102/12 Blockchain/pic/Pasted image 20250504163444.png",
     "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
-    "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
     "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
-    "课件/EE6102/01 Introduction to Cyber-Security/Introduction to Cyber-Security.md",
     "单纯的，知识/Cyber Security/Cyber Security Concept.md",
     "课件/EE6102/12 Blockchain/pic",
     "课件/EE6309/Tony/Data Coding/Data Coding.md",
@@ -208,9 +212,6 @@
     "课件/EE6309/GWEE/同步/同步.md",
     "课件/EE6309/GWEE/大而快，层次化存储/大而快，层次化存储.md",
     "课件/EE6309/Tony/Design for Testability (DFT)/Design for Testability (DFT).md",
-    "课件/EE6309/Tony/Fault Models/Fault Models.md",
-    "课件/EE6309/Tony/Fault Simulation & Test Generation/Fault Simulation & Test Generation.md",
-    "课件/EE6309/Tony/Noise Consideration/Noise Consideration.md",
     "课件/EE6309/Tony/BIST/pic/Pasted image 20250502042003.png",
     "课件/EE6309/Tony/BIST/pic",
     "课件/EE6309/Tony/BIST",

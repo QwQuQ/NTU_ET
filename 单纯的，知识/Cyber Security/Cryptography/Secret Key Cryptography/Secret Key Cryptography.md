@@ -10,15 +10,23 @@ tags:
 ![[Pasted image 20250402125900.png#pic_75center|]]
 
 - Uses a single key to encrypt and decrypt a message.
+  使用单一密钥来加密和解密消息
 - Main problem is getting the sender and receiver to agree on the secret key without anyone else finding out.
+  主要问题是如何让发送方和接收方就密钥达成一致，而不会被他人发现
 - This requires a method by which the two parties can communicate without fear of eavesdropping.
+  这需要一种能够让双方安全沟通、不受窃听威胁的方法
 - ADVANTAGES OF SKC
 	- Speed: Algorithms are computationally efficient, making them suitable for encrypting large amounts of data.
+	  速度：算法计算效率高，适用于加密大量数据
 	- Simplicity: Easier to implement compared to asymmetric cryptography.
+	  简单性：比非对称加密更容易实
 	- Wide Adoption: Used in many real-world applications, such as SSL/TLS, disk encryption, and file encryption.
+	  广泛应用：用于许多现实世界的应用，如 SSL/TLS、磁盘加密和文件加密
 - DISADVANTAGES OF SKC
 	- Key Distribution: Securely sharing the secret key between parties is a major challenge.
+	  密钥分发：如何在各方之间安全地共享密钥是一个重大挑战
 	- Scalability: In a network with many users, managing unique secret keys for each pair becomes impractical.
+	  可扩展性：在拥有众多用户的网络中，为每个用户对维护唯一密钥变得难以实现
 
 # Popular Symmetric Encryption Algorithms
 
@@ -133,7 +141,8 @@ tags:
 	- 3DES was a good interim step before the new encryption standard, AES.
 
 - ISSUES
-	- #TODO 
+
+![[Pasted image 20250505132256.png#pic_75center|]]
 
 # AES (Advanced Encryption Standard)
 
@@ -170,26 +179,43 @@ tags:
 ## Summary
 
 - Advanced Encryption Standard, also known as Rijndael, is a **block cipher** adopted as an encryption standard by the US government
+  高级加密标准（AES），又称 Rijndael，是一种**分组加密算法**，被美国政府采纳为加密标准
 - Result of a public process
+  经过公开评审过程确定
 - Evaluation criteria:
 	- Security
+	  安全性
 	- No licensing
+	  无需授权许可
 	- Computational efficiency
+	  计算效率
 	- Memory requirements
+	  内存需求
 	- Flexibility (key size, block size, time/memory tradeoffs)
+	  灵活性（密钥大小、分组大小、时间/内存权衡）
 	- Hardware and software suitability
+	  软硬件适配性
 	- Simplicity of design
+	  设计简洁性
 - Acts on 128-bit blocks
+  作用于 128 位数据块
 - Key 128, 192 or 256 bits (for 10, 12, 14 rounds)
+  密钥长度可为 128、192 或 256 位（分别对应 10、12、14 轮加密）
 - WHY IS AES SECURE?
 - Considered highly secure and resistant to all known practical attacks when implemented correctly.
+  在正确实施的情况下，被认为是高度安全且能够抵御所有已知的实际攻击
 	- Large Key Space
 		- 128-bit AES has $2^{128}$ possible keys (infeasible to brute-force).
 		- 256-bit AES has $2^{256}$ possible keys (even stronger).
 	- Resistant to Cryptanalysis
 		- No practical attacks exist against full AES.
+		  目前没有已知的针对完整 AES 的有效攻击方法
 		- Resistant to differential, linear, and algebraic attacks.
+		  能有效抵御差分、线性和代数攻击
 - Widespread Adoption
 	- Used by governments (NSA, NIST), banks, and enterprises.
+	  被政府机构（NSA、NIST）、银行和企业采用
 	- TLS, VPNs, disk encryption, and messaging apps rely on AES.
+	  TLS、VPN、磁盘加密和消息应用程序均依赖 AES 进行数据保护
 - AES is the gold standard of encryption, ensuring secure communication and data protection worldwide.
+  AES 被视为加密领域的黄金标准，确保全球范围内的安全通信和数据保护
