@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
+                "file": "课件/EE6102/09 Web Security/Web Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cyber Security Education, Awareness and Compliance"
+              "title": "Web Security"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blockchain",
+                "query": "RSA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
+                "file": "课件/EE6102/09 Web Security/Web Security.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Cyber Security Education, Awareness and Compliance 的大纲"
+              "title": "Web Security 的大纲"
             }
           }
         ],
@@ -170,8 +170,15 @@
   },
   "active": "298d42330b2019e6",
   "lastOpenFiles": [
+    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
+    "课件/EE6102/09 Web Security/Web Security.md",
     "课件/EE6102/12 Blockchain/Blockchain.md",
+    "课件/EE6102/05 Cyber Security Planning and Policies/Cyber Security Planning and Policies.md",
+    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
+    "课件/EE6102/10 Firewalls/Firewalls.md",
     "课件/EE6102/14 Cryptochrrencies/Cryptochrrencies.md",
+    "课件/EE6102/13 E-Payment/E-Payment.md",
+    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
     "单纯的，知识/Cyber Security/Attacks/Malware Attack/Malware Attack.md",
     "单纯的，知识/Cyber Security/Attacks/Denial of Service Attack/Denial of Service Attack.md",
     "课件/EE6102/03 Industry 4.0 and Cyber Security/Industry 4.0 and Cyber Security.md",
@@ -181,22 +188,15 @@
     "单纯的，知识/EM Field/Effective Permittivity/Effective Permittivity.md",
     "单纯的，知识/EM Field/自由空间电磁波阻抗/自由空间电磁波阻抗.md",
     "单纯的，知识/Cyber Security/Attacks/Password Attack/Password Attack.md",
-    "课件/EE6102/05 Cyber Security Planning and Policies/Cyber Security Planning and Policies.md",
-    "课件/EE6102/04 Cyber Security Education, Awareness and Compliance/Cyber Security Education, Awareness and Compliance.md",
     "课件/EE6102/02 Cyber Security Attacks and Attackers/Cyber Security Attacks and Attackers.md",
     "课件/EE6102/06 Biometric-Based Security Approaches/Biometric-Based Security Approaches.md",
     "课件/EE6102/11 Intrusion Detection/Intrusion Detection.md",
-    "课件/EE6102/09 Web Security/Web Security.md",
     "课件/EE6102/08 Digital Signature & Certificates/Digital Signature & Certificates.md",
-    "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Secret Key Cryptography.md",
     "单纯的，知识/Cyber Security/Cryptography/Secret Key Cryptography/Pasted image 20250505132256.png",
     "课件/EE6102/07 Cryptography/Cryptography.md",
-    "单纯的，知识/Cyber Security/Cryptography/Public Key Cryptography/Public Key Cryptography.md",
-    "课件/EE6102/10 Firewalls/Firewalls.md",
     "课件/EE6102/15 Blockchain Technology and Business Applications/Blockchain Technology and Business Applications.md",
     "课件/EE6102/14 Cryptochrrencies/pic/Pasted image 20250505070342.png",
     "课件/EE6102/15 Blockchain Technology and Business Applications",
-    "课件/EE6102/13 E-Payment/E-Payment.md",
     "课件/EE6102/14 Cryptochrrencies/pic",
     "课件/EE6102/14 Cryptochrrencies",
     "课件/EE6102/13 E-Payment/pic",

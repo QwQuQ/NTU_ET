@@ -241,7 +241,7 @@ tags:
 
 ![[Pasted image 20250403024137.png#pic_75center|TLS Key Exchange, RSA]]
 
-- RSA mode has a serious downside: it’s not forward secret.
+- RSA mode has a serious downside: it’s not forward secrecy.
   RSA模式有一个严重的缺点：它不具备前向保密性
 - That means that if someone records the encrypted conversation and then gets a hold of the RSA private key of the server, they can decrypt the conversation.
   这意味着，如果有人记录了加密的会话，然后获得了服务器的RSA私钥，他们就可以解密会话
