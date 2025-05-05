@@ -337,4 +337,3 @@ Assume a block time of 15 seconds and an average block includes 100 transactions
 
 A blockchain network can process 1,000 transactions per second (TPS), and the average transaction size is 250 bytes. Calculate the maximum data throughput in Megabits per second.
 - Bytes/second=TPS × Transaction Size =1000×250 =250000 bytes/second
-

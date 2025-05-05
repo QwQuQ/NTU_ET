@@ -2,7 +2,6 @@
 tags:
   - cyber_security
 ---
-
 # Human Factors in Cyber Security
 
 - Employee behavior is a critical concern in ensuring the security of computer systems and information assets.
@@ -75,7 +74,7 @@ tags:
 # How to use USB Safely
 
 - Avoid public charging stations. They may be compromised.
-  避免使用公共充电站，因为它们可能被破坏
+  避免使用公共充电站，因为它们可能不抗攻击
 - Don’t plug any USB that isn’t yours into your device
   不要将不属于你的USB设备插入你的设备
 - Encrypt the data on the USB device in case you lose it or it gets stolen.
