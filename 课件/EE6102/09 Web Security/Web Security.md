@@ -316,6 +316,7 @@ tags:
 	- Removes outdated cryptographic algorithms (RSA key exchange, SHA-1).
 	- Faster handshake (reduced round trips from 2 to 1).
 	- Perfect Forward Secrecy (PFS): Ensures past communications remain secure even if a key is compromised.
+	  保证了以往的传输仍然安全，即使密钥被泄漏
 	- Stronger encryption (ChaCha20, AES).
 
 #### Common SSL/TLS Attacks & Mitigations
